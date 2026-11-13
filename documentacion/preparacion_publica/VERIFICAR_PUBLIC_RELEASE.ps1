@@ -54,6 +54,7 @@ $allowedParamNpy = [System.Collections.Generic.HashSet[string]]::new([string[]]@
 
 foreach ($full in [System.IO.Directory]::EnumerateFiles($publicRoot, "*", [System.IO.SearchOption]::AllDirectories)) {
     $rel = $full.Substring($publicRoot.Length + 1).Replace('\', '/')
+    if ($rel -like ".git/*") { continue }
     $ext = [System.IO.Path]::GetExtension($full).ToLowerInvariant()
     $name = [System.IO.Path]::GetFileName($full)
     $fileBytes = ([System.IO.FileInfo]::new($full)).Length
@@ -168,7 +169,7 @@ if (Test-Path -LiteralPath $manifestPath) {
     }
     $actualSet = [System.IO.Directory]::EnumerateFiles($publicRoot, "*", [System.IO.SearchOption]::AllDirectories) |
         ForEach-Object { $_.Substring($publicRoot.Length + 1).Replace('\', '/') } |
-        Where-Object { $_ -ne "MANIFEST_PUBLIC_SHA256.txt" }
+        Where-Object { $_ -ne "MANIFEST_PUBLIC_SHA256.txt" -and $_ -notlike ".git/*" }
     foreach ($rel in $actualSet) {
         if (-not $manifestMap.ContainsKey($rel)) {
             $failures.Add("Unlisted file outside manifest: $rel")
@@ -216,7 +217,7 @@ Write-Output ("  max_single_file_MB      = {0:N2} ({1})" -f ($maxFileBytes / 1MB
 Write-Output ("  failures                = $($failures.Count)")
 Write-Output "  -- Top-level public_release folder sizes --"
 $totalPubBytes = 0L
-Get-ChildItem -LiteralPath $publicRoot -Directory | Sort-Object Name | ForEach-Object {
+Get-ChildItem -LiteralPath $publicRoot -Directory | Where-Object { $_.Name -ne ".git" } | Sort-Object Name | ForEach-Object {
     $files = [System.IO.Directory]::GetFiles($_.FullName, "*", [System.IO.SearchOption]::AllDirectories)
     $b = 0L
     foreach ($x in $files) { $b += ([System.IO.FileInfo]::new($x)).Length }

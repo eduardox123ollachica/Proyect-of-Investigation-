@@ -21,7 +21,7 @@ Repositorio público reproducible del proyecto de clasificación de fallas en ro
 - `datos/`: únicamente índices estructurales de partición y ventanas (sin señales `.mat`/`.json`, sin `.npy` y sin `metadata_features*.csv`).
 - `articulo/`: únicamente auditorías de corpus, scripts Python de análisis (`articulo/analisis/`), tablas derivadas CSV/JSON y cierres metodológicos/protocolos de `ampliacion_cwru` (sin manuscritos `.tex`/`.pdf`/`.docx`, sin redacción, literatura ni figuras editoriales).
 - `Nuevas Observaciones/`: scripts y evidencias numéricas de auditoría reproducible (`recalcular_evidencia_fase1.py`, `EVIDENCIA_FASE1_CWRU.json`, `Reproducibilidad/verificar_firmware.py`, `Reproducibilidad/probar_copia_limpia.py`, `Reproducibilidad/INVENTARIO_DATOS.json`; sin documentos Word ni planes editoriales).
-- `documentacion/`: documentación técnica de CWRU (`documentacion/cwru/`), matriz consolidada (`documentacion/consolidacion/matriz_maestra_resultados.csv`), bitácora y guías técnicas ([`TFLM_Y_COMPILACION_STM32.md`](documentacion/preparacion_publica/TFLM_Y_COMPILACION_STM32.md), [`GUIA_SUBIDA_GITHUB_ZENODO.md`](documentacion/preparacion_publica/GUIA_SUBIDA_GITHUB_ZENODO.md), [`BITACORA_PASO_A_PASO.md`](documentacion/preparacion_publica/BITACORA_PASO_A_PASO.md)); sin archivos `.docx`/`.xlsx`, borradores de investigación, ZIPs históricos ni notas internas.
+- `documentacion/`: documentación técnica de CWRU (`documentacion/cwru/`), matriz consolidada (`documentacion/consolidacion/matriz_maestra_resultados.csv`), bitácora y trazabilidad técnica ([`TFLM_Y_COMPILACION_STM32.md`](documentacion/preparacion_publica/TFLM_Y_COMPILACION_STM32.md), [`BITACORA_PASO_A_PASO.md`](documentacion/preparacion_publica/BITACORA_PASO_A_PASO.md)); sin archivos `.docx`/`.xlsx`, borradores de investigación, ZIPs históricos ni notas internas.
 
 ## 3. Verificación rápida (entorno Python 3.12 bloqueado)
 
@@ -43,4 +43,4 @@ Repositorio público reproducible del proyecto de clasificación de fallas en ro
    ```bash
    python -B "Nuevas Observaciones/Reproducibilidad/verificar_firmware.py" --check
    ```
-5. **Publicación, DOI y citación académica:** véase [CITATION.cff](CITATION.cff) y [`GUIA_SUBIDA_GITHUB_ZENODO.md`](documentacion/preparacion_publica/GUIA_SUBIDA_GITHUB_ZENODO.md).
+5. **Publicación, DOI y citación académica:** [CITATION.cff](CITATION.cff) · GitHub (`https://github.com/eduardox123ollachica/Proyect-of-Investigation-`) · Zenodo `v2.0.0` (`https://doi.org/10.5281/zenodo.24207867`) · Concept DOI (`https://doi.org/10.5281/zenodo.24207866`).

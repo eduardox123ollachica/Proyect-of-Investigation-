@@ -167,7 +167,7 @@ Inmediatamente después de guardar esta bitácora se ejecuta la corrida final de
 
 - Se reescribieron los documentos raíz obsoletos [`README.md`](../../README.md) y [`REPRODUCIBILITY.md`](../../REPRODUCIBILITY.md) (eliminando referencias previas a «reimplementación»/«sin licencia» e incorporando el título final del artículo, **Apache-2.0**, `BSD-3-Clause`, `TFLM aab6e2f`, `requirements-lock.txt` y distinción raíz vs `public_release/`).
 - Se actualizó [`THIRD_PARTY_LICENSES.md`](../../THIRD_PARTY_LICENSES.md) con el listado exacto de dependencias Python bloqueadas y validadas.
-- Se creó [`documentacion/preparacion_publica/GUIA_SUBIDA_GITHUB_ZENODO.md`](GUIA_SUBIDA_GITHUB_ZENODO.md) con instrucciones exactas para subir `public_release/` a GitHub (`< 15 MiB` máx. por archivo individual frente al límite de `100 MiB`), acuñar el DOI `v2.0.0` en Zenodo y actualizar posteriormente `CITATION.cff` y el manuscrito LaTeX en un entorno con `pdflatex` / Overleaf (ausente en este equipo).
+- Se creó el tutorial temporal `GUIA_SUBIDA_GITHUB_ZENODO.md` (eliminado posteriormente en el Frente 5 tras completar la publicación) con instrucciones exactas para subir `public_release/` a GitHub (`< 15 MiB` máx. por archivo individual frente al límite de `100 MiB`), acuñar el DOI `v2.0.0` en Zenodo y actualizar posteriormente `CITATION.cff` y el manuscrito LaTeX en un entorno con `pdflatex` / Overleaf (ausente en este equipo).
 - Se actualizaron [`CONSTRUIR_PUBLIC_RELEASE.ps1`](CONSTRUIR_PUBLIC_RELEASE.ps1) (incluyendo `requirements-lock.txt`, `.tmp_*.json` en `.gitignore` público, `README.md` y `REPRODUCIBILITY.md` actualizados) y [`VERIFICAR_PUBLIC_RELEASE.ps1`](VERIFICAR_PUBLIC_RELEASE.ps1) (obligatoriedad de `requirements-lock.txt` y guardia automática `< 100 MiB` por archivo único).
 
 La ejecución final tras registrar esta bitácora regenera y verifica `public_release/`, revalida todas las comprobaciones Python en `venv_repro` sobre ambos árboles y confirma la integridad intacta de `Revision_2026-11-09/`.
@@ -185,4 +185,20 @@ La ejecución final tras registrar esta bitácora regenera y verifica `public_re
   - En `Nuevas Observaciones/`: conservados únicamente `recalcular_evidencia_fase1.py`, `EVIDENCIA_FASE1_CWRU.json` y `Reproducibilidad/**` (sin `.docx`, `PLAN_REVISION_08-11-2026.md` ni `__pycache__/`).
   - Guardias adicionales de copia en `codigo/`, `modelos/`, `resultados/` y `despliegue_stm32/` contra `__pycache__/`, `.py[co]`, `.pdf`, `.docx`, `.xlsx`, `.tex`, `.pptx` y `.zip`, y `.gitignore` público actualizado.
 - **Guardia automática en [`VERIFICAR_PUBLIC_RELEASE.ps1`](VERIFICAR_PUBLIC_RELEASE.ps1):** falla si detecta `__pycache__/`, extensiones `.mat`, `.chm`, `.pdf`, `.docx`, `.xlsx`, `.tex`, `.bib`, `.pptx`, `.zip`, `.pyc`, `.pyo`, `.svg`, o cualquiera de las rutas editoriales/internas anteriores dentro de `public_release/`.
-- **Documentación sincronizada:** actualizados [`README.md`](../../README.md), [`REPRODUCIBILITY.md`](../../REPRODUCIBILITY.md), [`GUIA_SUBIDA_GITHUB_ZENODO.md`](GUIA_SUBIDA_GITHUB_ZENODO.md) (aclarando en el Paso C que la actualización LaTeX/PDF posterior al DOI corresponde al espacio privado / Overleaf y que en GitHub se republica únicamente `CITATION.cff` actualizado) y los documentos generados en `public_release/`.
+- **Documentación sincronizada:** actualizados [`README.md`](../../README.md), [`REPRODUCIBILITY.md`](../../REPRODUCIBILITY.md), la guía temporal de publicación (retirada tras acuñar el DOI) y los documentos generados en `public_release/`.
+
+---
+
+## Frente 5 — Sincronización post-publicación (GitHub, Zenodo DOI, manifiesto y fuentes LaTeX)
+
+**Fecha de ejecución:** 2026-11-13  
+**Objetivo:** Sincronizar los metadatos locales, el manifiesto SHA-256 de `public_release/` y las fuentes LaTeX del manuscrito tras la publicación del *release* `v2.0.0` en GitHub y el archivo permanente en Zenodo, y retirar el tutorial temporal de vinculación.
+
+- **Publicación validada en línea:**
+  - Repositorio público en GitHub: `https://github.com/eduardox123ollachica/Proyect-of-Investigation-` (rama `main`, licencia `Apache-2.0`, *release* `v2.0.0`).
+  - Registro publicado en Zenodo: DOI de versión `10.5281/zenodo.24207867` (`https://doi.org/10.5281/zenodo.24207867`, registro `24207867`, archivo `Proyect-of-Investigation--v2.0.0.zip`) y Concept DOI `10.5281/zenodo.24207866`.
+- **Sincronización y limpieza:**
+  - Eliminado [`GUIA_SUBIDA_GITHUB_ZENODO.md`](GUIA_SUBIDA_GITHUB_ZENODO.md) y actualizadas sus referencias en [`README.md`](../../README.md), [`REPRODUCIBILITY.md`](../../REPRODUCIBILITY.md) y [`CONSTRUIR_PUBLIC_RELEASE.ps1`](CONSTRUIR_PUBLIC_RELEASE.ps1).
+  - Actualizado [`CITATION.cff`](../../CITATION.cff) raíz con `repository-code` y `doi: "10.5281/zenodo.24207867"`.
+  - Actualizados [`CONSTRUIR_PUBLIC_RELEASE.ps1`](CONSTRUIR_PUBLIC_RELEASE.ps1) y [`VERIFICAR_PUBLIC_RELEASE.ps1`](VERIFICAR_PUBLIC_RELEASE.ps1) para preservar `.git/` dentro de `public_release/` durante reconstrucciones y excluir `.git/*` del inventario `MANIFEST_PUBLIC_SHA256.txt` y del recuento de verificación.
+  - Actualizada la disponibilidad de código, licencias (`Apache-2.0` / `BSD-3-Clause`), commit upstream de TFLM (`aab6e2f`), URL pública y DOI de Zenodo en [`articulo/manuscrito/articulo_ieee_borrador.tex`](../../articulo/manuscrito/articulo_ieee_borrador.tex) y en los anexos suplementarios [`indice_reproducibilidad_cwru.tex`](../../articulo/manuscrito/suplemento/indice_reproducibilidad_cwru.tex) y [`antecedente_y_datos_historicos.tex`](../../articulo/manuscrito/suplemento/antecedente_y_datos_historicos.tex) (fuentes listas para recompilar en Overleaf o entorno con `pdflatex`).

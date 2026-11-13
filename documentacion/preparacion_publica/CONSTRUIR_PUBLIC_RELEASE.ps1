@@ -9,10 +9,11 @@ Write-Output "Workspace root: $workspaceRoot"
 Write-Output "Public release: $publicRoot"
 
 if (Test-Path -LiteralPath $publicRoot) {
-    Write-Output "Removing previous public_release/ staging directory..."
-    Remove-Item -LiteralPath $publicRoot -Recurse -Force
+    Write-Output "Cleaning previous public_release/ staging directory (preserving .git)..."
+    Get-ChildItem -LiteralPath $publicRoot -Force | Where-Object { $_.Name -ne ".git" } | Remove-Item -Recurse -Force
+} else {
+    [System.IO.Directory]::CreateDirectory($publicRoot) | Out-Null
 }
-[System.IO.Directory]::CreateDirectory($publicRoot) | Out-Null
 
 $auditRows = [System.Collections.Generic.List[object]]::new()
 $sanitizedCount = 0
@@ -163,7 +164,7 @@ Repositorio público reproducible del proyecto de clasificación de fallas en ro
 - `datos/`: únicamente índices estructurales de partición y ventanas (sin señales `.mat`/`.json`, sin `.npy` y sin `metadata_features*.csv`).
 - `articulo/`: únicamente auditorías de corpus, scripts Python de análisis (`articulo/analisis/`), tablas derivadas CSV/JSON y cierres metodológicos/protocolos de `ampliacion_cwru` (sin manuscritos `.tex`/`.pdf`/`.docx`, sin redacción, literatura ni figuras editoriales).
 - `Nuevas Observaciones/`: scripts y evidencias numéricas de auditoría reproducible (`recalcular_evidencia_fase1.py`, `EVIDENCIA_FASE1_CWRU.json`, `Reproducibilidad/verificar_firmware.py`, `Reproducibilidad/probar_copia_limpia.py`, `Reproducibilidad/INVENTARIO_DATOS.json`; sin documentos Word ni planes editoriales).
-- `documentacion/`: documentación técnica de CWRU (`documentacion/cwru/`), matriz consolidada (`documentacion/consolidacion/matriz_maestra_resultados.csv`), bitácora y guías técnicas ([`TFLM_Y_COMPILACION_STM32.md`](documentacion/preparacion_publica/TFLM_Y_COMPILACION_STM32.md), [`GUIA_SUBIDA_GITHUB_ZENODO.md`](documentacion/preparacion_publica/GUIA_SUBIDA_GITHUB_ZENODO.md), [`BITACORA_PASO_A_PASO.md`](documentacion/preparacion_publica/BITACORA_PASO_A_PASO.md)); sin archivos `.docx`/`.xlsx`, borradores de investigación, ZIPs históricos ni notas internas.
+- `documentacion/`: documentación técnica de CWRU (`documentacion/cwru/`), matriz consolidada (`documentacion/consolidacion/matriz_maestra_resultados.csv`), bitácora y trazabilidad técnica ([`TFLM_Y_COMPILACION_STM32.md`](documentacion/preparacion_publica/TFLM_Y_COMPILACION_STM32.md), [`BITACORA_PASO_A_PASO.md`](documentacion/preparacion_publica/BITACORA_PASO_A_PASO.md)); sin archivos `.docx`/`.xlsx`, borradores de investigación, ZIPs históricos ni notas internas.
 
 ## 3. Verificación rápida (entorno Python 3.12 bloqueado)
 
@@ -185,7 +186,7 @@ Repositorio público reproducible del proyecto de clasificación de fallas en ro
    ```bash
    python -B "Nuevas Observaciones/Reproducibilidad/verificar_firmware.py" --check
    ```
-5. **Publicación, DOI y citación académica:** véase [CITATION.cff](CITATION.cff) y [`GUIA_SUBIDA_GITHUB_ZENODO.md`](documentacion/preparacion_publica/GUIA_SUBIDA_GITHUB_ZENODO.md).
+5. **Publicación, DOI y citación académica:** [CITATION.cff](CITATION.cff) · GitHub (`https://github.com/eduardox123ollachica/Proyect-of-Investigation-`) · Zenodo `v2.0.0` (`https://doi.org/10.5281/zenodo.24207867`) · Concept DOI (`https://doi.org/10.5281/zenodo.24207866`).
 '@
 [System.IO.File]::WriteAllText((Join-Path $publicRoot "README.md"), ($publicReadme -replace "`r`n", "`n"), [System.Text.UTF8Encoding]::new($false))
 
@@ -241,7 +242,7 @@ python -B "Nuevas Observaciones/Reproducibilidad/verificar_firmware.py" --check
 - Los scripts de verificación, preprocesamiento, entrenamiento y análisis (`codigo/`, `Nuevas Observaciones/`, `articulo/analisis/`) resuelven rutas relativas al repositorio vía `Path(__file__)`.
 - Los orquestadores históricos de campaña IDE/hardware bajo `codigo/cwru/ampliacion_v2/{stm32,canonicos_stm32,canonicos_validacion,costo_total}/` referencian rutas de banco locales de la estación original (`D:/STM32IDE`, `D:/STM32CubeIDE_2.2.0`, `STM32_Programmer_CLI.exe`, UART físico) y requieren adaptar sus constantes si se ejecutan en otro equipo con placa física.
 
-Para detalles históricos adicionales del protocolo y límites, consulte `Nuevas Observaciones/Reproducibilidad/README.md`, [`GUIA_SUBIDA_GITHUB_ZENODO.md`](documentacion/preparacion_publica/GUIA_SUBIDA_GITHUB_ZENODO.md) y [PUBLIC_EXCLUSIONS_AND_SANITIZATION.csv](PUBLIC_EXCLUSIONS_AND_SANITIZATION.csv).
+Para detalles históricos adicionales del protocolo y límites, consulte `Nuevas Observaciones/Reproducibilidad/README.md`, [DATA_POLICY.md](DATA_POLICY.md) y [PUBLIC_EXCLUSIONS_AND_SANITIZATION.csv](PUBLIC_EXCLUSIONS_AND_SANITIZATION.csv).
 '@
 [System.IO.File]::WriteAllText((Join-Path $publicRoot "REPRODUCIBILITY.md"), ($publicRepro -replace "`r`n", "`n"), [System.Text.UTF8Encoding]::new($false))
 
@@ -456,7 +457,7 @@ $sha = [System.Security.Cryptography.SHA256]::Create()
 $lines = [System.Collections.Generic.List[string]]::new()
 $allPublicFiles = [System.IO.Directory]::EnumerateFiles($publicRoot, "*", [System.IO.SearchOption]::AllDirectories) |
     ForEach-Object { $_.Substring($publicRoot.Length + 1).Replace('\', '/') } |
-    Where-Object { $_ -ne "MANIFEST_PUBLIC_SHA256.txt" } |
+    Where-Object { $_ -ne "MANIFEST_PUBLIC_SHA256.txt" -and $_ -notlike ".git/*" } |
     Sort-Object
 
 $totalPublicBytes = 0L
