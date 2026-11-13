@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "job_id": "outer2_T6_e32_s77",
+  "family": "DNN",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 11.531000000002678,
+  "timeout_seconds": 300,
+  "automatic_retry": false
+}

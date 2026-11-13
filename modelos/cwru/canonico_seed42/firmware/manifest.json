@@ -1,0 +1,61 @@
+{
+  "status": "firmware_resources_exported_from_frozen_artifacts",
+  "target": "STM32F446RE_ARM_Cortex_M4F",
+  "model_bytes": 4064,
+  "window_samples": 4096,
+  "hop_samples": 2048,
+  "sample_rate_hz": 12000,
+  "channels": [
+    "DE",
+    "FE"
+  ],
+  "generated_files": {
+    "cwru_dnn_scaler.cpp": {
+      "bytes": 1035,
+      "sha256": "24275e363e29573e7a158d44b00099d2224be9a783ac87654f2e1575fc86f1a5"
+    },
+    "cwru_dnn_scaler.h": {
+      "bytes": 458,
+      "sha256": "4763d0818b182f952ca179d3c0b0ac73634be196cb0d79e3daf49fc34d48c2d1"
+    },
+    "cwru_model_data.cpp": {
+      "bytes": 26213,
+      "sha256": "a21381c3d1a09e07b6f44a5a79006cffb730f0d3a3b799aacf2269b064052dbb"
+    },
+    "cwru_model_data.h": {
+      "bytes": 180,
+      "sha256": "c60aa5ac558c8ffae7fa72a9fa335c940029437b3f10977bb710693c72069745"
+    },
+    "cwru_normality_params.cpp": {
+      "bytes": 1393,
+      "sha256": "d04f04476227f48b6dc489088de5793cdb4235aa6965adbb126e6ca020493808"
+    },
+    "cwru_normality_params.h": {
+      "bytes": 604,
+      "sha256": "74eadedc64e9b6dc209f9361d8b2ea24122b117e9308beb49bc650c24e96a594"
+    },
+    "cwru_pipeline_config.h": {
+      "bytes": 452,
+      "sha256": "1881fda2ac23cb11428fc9fad8b2dea9b590436616fbb397979caf5071485bf9"
+    }
+  },
+  "implementation_files": {
+    "cmd_cwru_feat.c": {
+      "bytes": 6694,
+      "sha256": "5ade2bb4bf63a63e7b60edbefc218a9d9acb13f8734fd86df94983d7baaa77a7"
+    },
+    "cwru_feature_extraction.c": {
+      "bytes": 7247,
+      "sha256": "7f9eed5bdafbbc122f163d558a0f1995ef5c26a4019a957b3ecbb5dd058e29b5"
+    },
+    "cwru_feature_extraction.h": {
+      "bytes": 2003,
+      "sha256": "3faf59197199c69cd4cbe339d6fb0863813feef064279b84e41e1c7f05bba32b"
+    }
+  },
+  "source_hashes": {
+    "tflite_int8": "cabc6e967b91691287c0cd8b899958d6784f0712b9bc956f68565273c9652596",
+    "dnn_scaler": "e2b1cf9675853f94778f42d992a08b428e49a54fe9d0e2cc604f5a42a35fb08c",
+    "normality_detector": "5aa9fd59fae5ed3c42fa3d8b51c4ef6b1123894fcd6c1145c9040cc9ae7d22ca"
+  }
+}

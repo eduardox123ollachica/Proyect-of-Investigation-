@@ -1,0 +1,81 @@
+PREPROCESAMIENTO DATASET ARCINIEGAS
+======================================================================
+
+
+CLASES
+----------------------------------------------------------------------
+0: DETENIDO
+1: VELOCIDAD MEDIA
+2: VELOCIDAD ALTA
+
+DATOS CRUDOS
+----------------------------------------------------------------------
+Cada JSON contiene aceleracion triaxial: ax, ay, az.
+Frecuencia de muestreo esperada: 100.0 Hz.
+interval_ms esperado: 10 ms.
+Las capturas auditadas tienen 300 muestras, equivalentes a 3 s.
+
+SEGMENTACION
+----------------------------------------------------------------------
+Tamano de ventana / FFT: 16 muestras.
+Overlap: 50%.
+Hop: 8 muestras.
+Para un archivo de 300 muestras se generan 36 ventanas.
+No se mezclan archivos entre training y testing: cada ventana conserva el split de su JSON de origen.
+
+FEATURES EXTRAIDAS
+----------------------------------------------------------------------
+Se extraen 7 caracteristicas por cada eje (X, Y y Z), para un total de 21 features por ventana:
+- RMS
+- Skewness
+- Kurtosis
+- Energia espectral
+- Frecuencia dominante
+- Amplitud dominante
+- Entropia espectral
+
+Antes de la FFT se resta la media de cada ventana para reducir la componente DC, especialmente la gravedad en az. El RMS se calcula sobre la senal original de la ventana.
+
+FFT
+----------------------------------------------------------------------
+Se utiliza np.fft.rfft con N=16 y fs=100 Hz.
+La resolucion espectral es fs/N = 6.25 Hz por bin.
+La frecuencia dominante se obtiene ignorando el bin DC.
+
+NORMALIZACION
+----------------------------------------------------------------------
+En esta etapa NO se normalizan/estandarizan las features. Se guardan valores crudos para mantener trazabilidad. Si posteriormente se usa StandardScaler, debe ajustarse solo con training y aplicarse despues a testing.
+
+RESULTADOS DEL PREPROCESAMIENTO
+----------------------------------------------------------------------
+Capturas training: 198
+  DETENIDO: 52 archivos, 					1872 ventanas
+  VELOCIDAD MEDIA: 32 archivos,					1152 ventanas
+  VELOCIDAD ALTA: 114 archivos, 				4104 ventanas
+
+Capturas testing: 37
+  DETENIDO: 15 archivos, 					540 ventanas
+  VELOCIDAD MEDIA: 10 archivos, 				360 ventanas
+  VELOCIDAD ALTA: 12 archivos, 					432 ventanas
+
+X_train shape: (7128, 21)
+y_train shape: (7128,)
+X_test shape: (1332, 21)
+y_test shape: (1332,)
+
+ARCHIVOS GENERADOS
+----------------------------------------------------------------------
+X_train.npy
+y_train.npy
+X_test.npy
+y_test.npy
+metadata_features.csv
+feature_names.txt
+preprocesamiento_info.txt
+
+NOTA METODOLOGICA
+----------------------------------------------------------------------
+El articulo no especifica con suficiente detalle el vector exacto de features que Edge Impulse entrego a la DNN y presenta una inconsistencia al describir una entrada de 3 neuronas mientras tambien afirma utilizar features espectrales. Por ello, este preprocesamiento constituye una replica reproducible inspirada directamente en las caracteristicas mencionadas en el articulo, no una reconstruccion exacta del pipeline interno de Edge Impulse.
+
+Entonces nosotros implementamos una réplica metodológica basada en los parámetros explícitamente reportados por Arciniegas et al., conservando la frecuencia de muestreo, segmentación FFT, solapamiento, arquitectura de capas ocultas e hiperparámetros de entrenamiento. Debido a que el artículo no detalla completamente el vector de características generado por Edge Impulse, la etapa de extracción de características fue reconstruida en Python a partir de las características temporales y espectrales descritas por los autores.
+

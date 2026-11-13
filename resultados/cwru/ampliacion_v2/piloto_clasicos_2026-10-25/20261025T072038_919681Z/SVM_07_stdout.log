@@ -1,0 +1,5 @@
+{"stage": "worker_started", "elapsed_seconds": 0.08159889999660663, "family": "SVM"}
+{"stage": "imports_complete", "elapsed_seconds": 2.712644100000034, "sklearn": "1.9.1"}
+{"stage": "data_ready", "elapsed_seconds": 2.793711999998777, "train": 799, "validation": 175, "load3_arrays_opened": false}
+{"stage": "fit_complete", "elapsed_seconds": 2.798904399998719}
+{"stage": "PASS", "elapsed_seconds": 2.803714800000307}

@@ -1,0 +1,11 @@
+{
+  "checked_date_local":"2026-10-25",
+  "scope":"Primary methodological sources; engineering margins are project design choices, not prescribed thresholds or exhaustive novelty search.",
+  "sources":[
+    {"title":"On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation","authors":"Gavin C. Cawley; Nicola L. C. Talbot","year":2010,"venue":"JMLR 11:2079-2107","url":"https://jmlr.org/papers/v11/cawley10a.html","supports":"Separating selection from performance evaluation; does not establish physical independence of CWRU."},
+    {"title":"Nested versus non-nested cross-validation","provider":"scikit-learn official documentation","url":"https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html","supports":"Inner selection and outer evaluation; local grouping and retrospective limits are separate project decisions."},
+    {"title":"Tuning the decision threshold for class prediction","provider":"scikit-learn official documentation","url":"https://scikit-learn.org/stable/modules/classification_threshold.html","supports":"Separate estimator fit from threshold tuning/evaluation; not a prescription for this P95 or engineering margins."},
+    {"title":"Post-training integer quantization","provider":"Google AI Edge official documentation","url":"https://developers.google.com/edge/litert/conversion/tensorflow/quantization/post_training_integer_quant","supports":"Representative dataset and full integer conversion; train-only calibration is the project's evaluation rule."},
+    {"title":"The Greedy Miser: Learning under Test-time Budgets","authors":"Zhixiang Xu; Kilian Weinberger; Olivier Chapelle","year":2012,"venue":"ICML","url":"https://icml.cc/2012/papers/592.pdf","author_version":"https://arxiv.org/abs/1206.6451","supports":"Feature acquisition/extraction and predictor execution both contribute to inference cost; selection by cost has prior work. No assertion that this project is the first cost-aware method."}
+  ]
+}

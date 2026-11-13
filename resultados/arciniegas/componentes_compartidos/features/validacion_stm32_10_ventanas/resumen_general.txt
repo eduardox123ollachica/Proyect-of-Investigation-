@@ -1,0 +1,62 @@
+VALIDACIÓN DEL PREPROCESAMIENTO PC vs STM32
+================================================================================
+
+Ventanas analizadas: 10
+Features por ventana: 21
+Comparaciones totales: 210
+
+DISTRIBUCIÓN DE CLASES
+--------------------------------------------------------------------------------
+DETENIDO: 4
+VELOCIDAD MEDIA: 2
+VELOCIDAD ALTA: 4
+
+RESULTADOS GLOBALES
+--------------------------------------------------------------------------------
+Error absoluto medio global: 0.000001584312
+Error absoluto máximo global: 0.000058173736
+Error relativo medio global: 0.00019773%
+Error relativo máximo global: 0.00775532%
+
+VALIDACIÓN DE FRECUENCIA DOMINANTE
+--------------------------------------------------------------------------------
+Comparaciones realizadas: 30
+Coincidencias exactas: 30
+Diferencias: 0
+Porcentaje de coincidencia: 100.00%
+
+MAYOR ERROR ABSOLUTO
+--------------------------------------------------------------------------------
+Feature: az_kurtosis
+Error máximo: 0.000058173736
+
+MAYOR ERROR RELATIVO
+--------------------------------------------------------------------------------
+Feature: az_skewness
+Error máximo: 0.00775532%
+
+ERROR POR FEATURE
+--------------------------------------------------------------------------------
+Feature                            Abs medio      Abs máximo     Rel medio %    Rel máximo %
+--------------------------------------------------------------------------------------------
+ax_rms                          0.0000000093    0.0000000600      0.00000299      0.00001051
+ax_skewness                     0.0000003360    0.0000016388      0.00009451      0.00044696
+ax_kurtosis                     0.0000005201    0.0000019070      0.00035997      0.00235365
+ax_spectral_energy              0.0000003831    0.0000038144      0.00000125      0.00000611
+ax_dominant_frequency           0.0000000000    0.0000000000      0.00000000      0.00000000
+ax_dominant_amplitude           0.0000000047    0.0000000302      0.00000172      0.00000942
+ax_spectral_entropy             0.0000000298    0.0000000600      0.00000577      0.00001428
+ay_rms                          0.0000000096    0.0000000300      0.00000522      0.00001297
+ay_skewness                     0.0000000708    0.0000001784      0.00002476      0.00008355
+ay_kurtosis                     0.0000002146    0.0000006852      0.00004240      0.00015146
+ay_spectral_energy              0.0000002668    0.0000019078      0.00000634      0.00001264
+ay_dominant_frequency           0.0000000000    0.0000000000      0.00000000      0.00000000
+ay_dominant_amplitude           0.0000000419    0.0000002384      0.00000454      0.00001259
+ay_spectral_entropy             0.0000000299    0.0000000600      0.00000477      0.00001451
+az_rms                          0.0000001910    0.0000009541      0.00000192      0.00000980
+az_skewness                     0.0000117598    0.0000312923      0.00210116      0.00775532
+az_kurtosis                     0.0000121564    0.0000581737      0.00120594      0.00365118
+az_spectral_energy              0.0000059890    0.0000305173      0.00007592      0.00052096
+az_dominant_frequency           0.0000000000    0.0000000000      0.00000000      0.00000000
+az_dominant_amplitude           0.0000008285    0.0000019078      0.00015026      0.00065837
+az_spectral_entropy             0.0000004291    0.0000014904      0.00006284      0.00019842

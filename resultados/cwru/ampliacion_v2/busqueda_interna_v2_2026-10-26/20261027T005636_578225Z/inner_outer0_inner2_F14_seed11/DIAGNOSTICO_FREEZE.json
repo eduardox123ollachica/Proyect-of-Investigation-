@@ -1,0 +1,11 @@
+{
+  "comparison_batch_size": 1,
+  "rtol": 1e-06,
+  "atol": 1e-07,
+  "model_weights_sha256": "78726ed7c28c6f6748b512b81c1676c2ac21fed90b4df71b1565b8dd1b326090",
+  "maximum_absolute_error": 0.0,
+  "class_changes": 0,
+  "weights_unchanged": true,
+  "resource_variable_ops_remaining": 0,
+  "tensorflow_internal_API_version": "2.21.0"
+}

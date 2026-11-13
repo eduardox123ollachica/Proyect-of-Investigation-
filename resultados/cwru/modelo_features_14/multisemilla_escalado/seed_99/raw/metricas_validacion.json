@@ -1,0 +1,11 @@
+{
+  "variant": "raw",
+  "seed": 99,
+  "epochs_executed": 50,
+  "best_epoch_by_val_loss": 45,
+  "best_val_loss": 1.1127761602401733,
+  "accuracy": 0.42857142857142855,
+  "macro_precision": 0.14285714285714285,
+  "macro_recall": 0.3333333333333333,
+  "macro_f1": 0.19999999999999998
+}

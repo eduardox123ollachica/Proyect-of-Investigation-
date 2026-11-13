@@ -1,0 +1,34 @@
+{
+  "status": "generated_not_normalized_not_trained",
+  "source_dataset": "CWRU 48 kHz drive-end bearing fault collection",
+  "partition_manifest": "datos\\cwru\\particiones\\principal_por_carga\\manifest_particion.csv",
+  "input_sampling_rate_hz": 48000,
+  "output_sampling_rate_hz": 12000,
+  "decimation_factor": 4,
+  "channel_order": [
+    "DE",
+    "FE"
+  ],
+  "window_size_samples": 4096,
+  "window_duration_ms": 341.3333333333333,
+  "overlap_fraction": 0.5,
+  "hop_size_samples": 2048,
+  "hop_duration_ms": 170.66666666666666,
+  "fft_bin_spacing_hz_if_nfft_equals_window": 2.9296875,
+  "normalization": "none",
+  "filter_coefficients_sha256": "f4e6d23b976a6f448674496182853f706e88b604fed47a3fa2b01218047befbb",
+  "filter_num_taps": 177,
+  "invalid_edge_samples_each_side_at_12khz": 22,
+  "split_window_counts": {
+    "train": 568,
+    "validation": 406,
+    "test": 406
+  },
+  "array_layout": "windows, samples, channels",
+  "array_dtype": "float32",
+  "labels": {
+    "N": 0,
+    "IR": 1,
+    "OR": 2
+  }
+}

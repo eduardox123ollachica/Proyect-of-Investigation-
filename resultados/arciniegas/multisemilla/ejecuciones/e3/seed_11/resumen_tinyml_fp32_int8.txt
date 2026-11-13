@@ -1,0 +1,45 @@
+
+ANALISIS TINYML - MODELO CON CLASS WEIGHT
+==========================================
+
+Parametros:
+683
+
+Keras:
+33.3262 KiB
+
+TFLite FP32:
+5.1836 KiB
+
+TFLite INT8:
+4.3750 KiB
+
+Reduccion FP32 -> INT8:
+15.60 %
+
+Accuracy Keras:
+96.3964 %
+
+Accuracy TFLite FP32:
+96.3964 %
+
+Accuracy TFLite INT8:
+96.5465 %
+
+Cambio INT8:
++0.1502 pp
+
+Predicciones distintas:
+4
+
+Memoria estimada FP32:
+2960 bytes
+2.8906 KiB
+
+Memoria estimada INT8:
+839 bytes
+0.8193 KiB
+
+NOTA:
+La memoria estimada de tensores no equivale
+todavia a la RAM real del Tensor Arena en MCU.

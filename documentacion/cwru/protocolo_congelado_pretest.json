@@ -1,0 +1,31 @@
+{
+  "status": "frozen_before_first_predictive_test_evaluation",
+  "test_condition": "load_3_hp",
+  "test_windows": 406,
+  "dnn": {
+    "architecture": [14, 20, 10, 3],
+    "seed": 42,
+    "input_representation": "14_features_DE7_FE7",
+    "scaling": "StandardScaler_fit_on_training_loads_0_1_only",
+    "class_weights": "balanced_training_only",
+    "tflite_int8_sha256": "cabc6e967b91691287c0cd8b899958d6784f0712b9bc956f68565273c9652596",
+    "scaler_npz_sha256": "e2b1cf9675853f94778f42d992a08b428e49a54fe9d0e2cc604f5a42a35fb08c"
+  },
+  "normality_detector": {
+    "interpretation": "corroborative_departure_from_healthy_not_fault_type",
+    "fit_classes": ["N"],
+    "development_loads_hp": [0, 1, 2],
+    "selected_k": 1,
+    "threshold": 309.9235534667969,
+    "threshold_source": "P95_leave_one_load_out_normal_scores",
+    "feature_indices_from_dnn_vector": [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13],
+    "excluded_features": ["de_dominant_frequency", "fe_dominant_frequency"],
+    "model_npz_sha256": "5aa9fd59fae5ed3c42fa3d8b51c4ef6b1123894fcd6c1145c9040cc9ae7d22ca"
+  },
+  "test_artifacts": {
+    "X_features_test_sha256": "3ad9da211d986483d0d2c55c88fe600d9d942b21e0e66ef501852494cdc99853",
+    "y_test_sha256": "e1088b720732f0058f0825ce17dea45f1b71a3a3b6808636f4cffb1061a0b8f5",
+    "metadata_test_sha256": "e433e561eb46d4eb74f85d3806f39dd0708c7a6bae816584c34036d89f5858c7"
+  },
+  "post_test_rule": "No model, scaler, feature subset, K or threshold may be changed in response to the test result; any later variant must be labeled a new exploratory experiment."
+}

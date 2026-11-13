@@ -1,0 +1,9 @@
+{"stage": "start", "elapsed_seconds": 0.00048600000445730984, "job_id": "synthetic_DNN", "family": "DNN", "fixed_epochs": 2}
+{"stage": "imports_complete", "elapsed_seconds": 50.3882006000058, "versions": {"python": "3.12.10", "numpy": "2.4.4", "sklearn": "1.9.1", "tensorflow": "2.21.0", "keras": "3.15.0"}}
+{"stage": "data_ready", "elapsed_seconds": 50.42046090000076, "training": 42, "validation": 0, "external_rows": 0}
+{"stage": "epoch", "elapsed_seconds": 51.398783299999195, "epoch": 1, "loss": 1.1038744449615479, "optimizer_updates": 2}
+{"stage": "epoch", "elapsed_seconds": 51.41090480001003, "epoch": 2, "loss": 0.9964357018470764, "optimizer_updates": 4}
+{"stage": "fixed_epochs_complete", "elapsed_seconds": 51.44276020000689, "final_epoch": 2}
+{"stage": "FP32_exported", "elapsed_seconds": 51.94486030000553, "bytes": 4064}
+{"stage": "INT8_exported", "elapsed_seconds": 52.16108180000447, "bytes": 3648, "calibration_rows": 42}
+{"stage": "PASS", "elapsed_seconds": 52.21999070000311, "epochs": 2, "outer_evaluation_executed": false}

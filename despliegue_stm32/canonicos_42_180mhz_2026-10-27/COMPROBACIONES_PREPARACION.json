@@ -1,0 +1,32 @@
+{
+  "status": "PREPARATION_CHECKS_PASS_NOT_FULL_BUILD_OR_ARM_VALIDATED",
+  "checks": {
+    "catalog_tests": {
+      "passed": 14
+    },
+    "project_tests": {
+      "unique_passed": 13,
+      "base_suite_passed": 12,
+      "targeted_build_suite_after_fix_passed": 5
+    },
+    "POST_static_tests": {
+      "passed": 6,
+      "executes_C": false
+    },
+    "bank_tests": {
+      "passed": 9
+    },
+    "real_ARM_syntax": {
+      "passed": 5,
+      "report": "VERIFICACION_SINTAXIS_ARM.json"
+    },
+    "static_model_domain": {
+      "models": 8,
+      "FC_channels": 264
+    }
+  },
+  "unique_unit_tests": 42,
+  "unit_tests_may_have_separate_invocations": true,
+  "full_firmware_build_executed": false,
+  "hardware_validation_executed": false
+}

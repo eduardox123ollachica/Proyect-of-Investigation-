@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "job_id": "inner_outer0_inner3_S8_seed22",
+  "fit_signature": "9046632395f25827f47897c695b495a13eb812ed1e73c5cfd22cf1e1cf8ea81e",
+  "semantic_signature": "5b94f8f4f6bee22ed41b262d442da3325a0343571c9dce1f788ce0948efe8043",
+  "candidate": "S8",
+  "outer_load_hp": 0,
+  "inner_validation_load_hp": 3,
+  "seed": 22,
+  "purpose": "fixed_inner_DNN_search_only",
+  "roles": {
+    "outer_load_hp": 0,
+    "inner_validation_load_hp": 3,
+    "development_loads": [
+      1,
+      2,
+      3
+    ],
+    "training_loads": [
+      1,
+      2
+    ],
+    "dnn_fit_loads": [
+      1,
+      2
+    ],
+    "int8_calibration_loads": [
+      1,
+      2
+    ],
+    "detector_fit_normal_loads": [
+      1
+    ],
+    "detector_calibration_normal_loads": [
+      2
+    ],
+    "evaluation_loads": [
+      3
+    ],
+    "outer_excluded_loads": [
+      0
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "training_windows": 799,
+  "validation_windows": 406,
+  "best_epoch": 4,
+  "epochs_executed": 14,
+  "optimizer_updates": 350,
+  "weights_restored": true,
+  "architecture": [
+    8,
+    20,
+    10,
+    3
+  ],
+  "parameters": 423,
+  "representative_calibration_rows": 799,
+  "freeze": {
+    "comparison_batch_size": 1,
+    "rtol": 1e-06,
+    "atol": 1e-07,
+    "model_weights_sha256": "043eafa3fd8528f9171496bfa6f5e5f2516cecaa28793c8004f5574740a7cef2",
+    "maximum_absolute_error": 0.0,
+    "class_changes": 0,
+    "weights_unchanged": true,
+    "resource_variable_ops_remaining": 0,
+    "tensorflow_internal_API_version": "2.21.0"
+  },
+  "model_sha256": {
+    "FP32": "849e8e3de9cc4eb09e0f60b8086cf86818cbdf04d8393c09cbcd3c75c0b07497",
+    "INT8": "65ce0711ac20ec4a7f7ab74facb248db1419a5f17c4be73d79e277b00f0fe138"
+  },
+  "model_bytes": {
+    "FP32": 3584,
+    "INT8": 3528
+  },
+  "metrics": {
+    "FP32": {
+      "accuracy": 0.812807881773399,
+      "macro_f1": 0.8238912039857005,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          18,
+          149,
+          7
+        ],
+        [
+          0,
+          51,
+          123
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 0.7631578947368421,
+          "recall": 1.0,
+          "f1": 0.8656716417910447,
+          "support": 58
+        },
+        {
+          "label": 1,
+          "precision": 0.745,
+          "recall": 0.8563218390804598,
+          "f1": 0.7967914438502673,
+          "support": 174
+        },
+        {
+          "label": 2,
+          "precision": 0.9461538461538461,
+          "recall": 0.7068965517241379,
+          "f1": 0.8092105263157895,
+          "support": 174
+        }
+      ]
+    },
+    "INT8": {
+      "accuracy": 0.8152709359605911,
+      "macro_f1": 0.8259046699434748,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          18,
+          149,
+          7
+        ],
+        [
+          0,
+          50,
+          124
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 0.7631578947368421,
+          "recall": 1.0,
+          "f1": 0.8656716417910447,
+          "support": 58
+        },
+        {
+          "label": 1,
+          "precision": 0.7487437185929648,
+          "recall": 0.8563218390804598,
+          "f1": 0.7989276139410187,
+          "support": 174
+        },
+        {
+          "label": 2,
+          "precision": 0.9465648854961832,
+          "recall": 0.7126436781609196,
+          "f1": 0.8131147540983606,
+          "support": 174
+        }
+      ]
+    }
+  },
+  "FP32_INT8_class_changes": 3,
+  "keras_batch1_FP32_class_changes": 0,
+  "fp32_details": {
+    "input_dtype": "float32",
+    "output_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_quantization": [
+      0.0,
+      0
+    ],
+    "tensor_dtypes": [
+      "float32"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "int8_details": {
+    "input_dtype": "int8",
+    "output_dtype": "int8",
+    "input_quantization": [
+      0.022836478427052498,
+      10
+    ],
+    "output_quantization": [
+      0.00390625,
+      -128
+    ],
+    "tensor_dtypes": [
+      "int32",
+      "int8"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "training_saturated_input_values": 0,
+  "detector_fit_executed": false,
+  "outer_evaluation_executed": false,
+  "predictive_selection_executed": false,
+  "STM32_cost_measured": false,
+  "retrospective_evaluation": true,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "original_training_core_source_sha256": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719",
+  "preparation_manifest_sha256": "011cffef5862a3cbd5277a96dfc0ea2c696762ddd53b90fed7fad718d7488295",
+  "timings_seconds": {
+    "imports": 4.561161699999502,
+    "data_and_scaler": 0.264992299998994,
+    "fit_including_checkpoint_IO": 0.8427521999983583,
+    "FP32_conversion": 0.6336403999994218,
+    "INT8_conversion": 0.08497460000216961,
+    "validation_inference_and_IO": 0.027752400001190836
+  },
+  "elapsed_worker_seconds": 7.57440719999795
+}

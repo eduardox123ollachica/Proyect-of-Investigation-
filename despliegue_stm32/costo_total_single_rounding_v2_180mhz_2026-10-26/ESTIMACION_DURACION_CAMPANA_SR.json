@@ -1,0 +1,81 @@
+{
+  "status": "RUNTIME_PLANNING_ESTIMATE_NOT_MEASURED_FULL_CAMPAIGN",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "purpose": "Personal execution budget only; not a measured cost table or selection criterion",
+  "source_gate": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T143621_946818Z",
+  "sources_sha256": {
+    "TRAZA_UART.jsonl": "ce597115016cc3a7fe8396bf756a77c1d118a48d627ceb8467c6e95975bc7a2d",
+    "RESULTADO_TOTAL.json": "3df499f58b5e487e1c6f0691dfc2dafad883a4f700ef06de39689ec6b84e42ce",
+    "PLAN_EJECUTADO.json": "2abd81a97e4260fef4f0fdecf32c4d05d38dc3376ab356fec37993225e3dff5d"
+  },
+  "client_sha256": "631303e144b432a7144054150ed6466d8a8b10d1f179484329bc2e2b666d91fb",
+  "script_sha256": "95e1eb81054761187d28a068a01a7d132efa4b94b6165990ad7ae020045d6dd2",
+  "baud_assumption": 115200,
+  "wire_bits_per_ASCII_byte": 10,
+  "observed_gate": {
+    "wall_seconds": 27.92200000002049,
+    "serial_trace_seconds": 22.436624,
+    "startup_plus_post_trace_closure_seconds": 5.485376000020491,
+    "complete_RAW_transfers": 2,
+    "RAW_frames": 342,
+    "RAW_wire_seconds": 20.020399305555557,
+    "RAW_exchange_seconds": 20.617032,
+    "extra_seconds_per_frame": 0.0017445400422352079,
+    "F14_primary_RUN_mean_exchange_seconds": 0.09398033333333333,
+    "DE7_primary_RUN_mean_exchange_seconds": 0.05235466666666667,
+    "F14_PROFILE_exchange_seconds": 0.095623,
+    "F14_three_page_mean_exchange_seconds": 0.0680695,
+    "SELECT_mean_initial_model_exchange_seconds": 0.009999000000000001,
+    "startup_note": "Wall minus UART span includes startup and closure; not isolated TensorFlow profiling"
+  },
+  "full_plan": {
+    "unique_RAW_windows": 42,
+    "RAW_frames": 7182,
+    "RAW_wire_bytes_including_ACK": 4701921,
+    "model_window_pairs": 896,
+    "main_RUN": 2688,
+    "diagnostic_PROFILE": 896,
+    "pages": 10752,
+    "MODEL_queries": 32,
+    "main_SELECT": 896,
+    "BASE": 42,
+    "negative_rejections": 17,
+    "planned_PC_TFLite_invocations": 7168
+  },
+  "forecast_seconds": {
+    "startup_proxy": 5.485376000020491,
+    "RAW_transfers_using_actual_42_ASCII_payload_lengths": 420.6821511666666,
+    "all_RUN_PROFILE_pages_if_all_cases_had_gate_F14_exchange_times": 582.2584320000001,
+    "SELECT_MODEL_BASE_BEGIN_CHECK": 14.186322,
+    "client_and_negative_suite_allowance": 10,
+    "planning_reference_total": 1032.6122811666871,
+    "planning_reference_minutes": 17.210204686111453
+  },
+  "formulas": {
+    "raw": "bytes_full*10/115200 + frames_full*observed_extra_seconds_per_frame",
+    "pipeline_and_pages": "896*(3*mean_F14_RUN_exchange + F14_PROFILE_exchange + 4*mean_F14_three_pages_exchange)",
+    "total": "startup_proxy + RAW + pipeline_and_pages + ancillary_commands + 10s_allowance"
+  },
+  "recommended_user_expectation_minutes": [
+    15,
+    25
+  ],
+  "recommended_max_seconds": 1800,
+  "recommended_limit_minutes": 30,
+  "qualifications": [
+    "Uses two physical gate cases, not measured complete-campaign duration.",
+    "The all-F14 projection is a planning proxy; it is not an upper bound, WCET or confidence interval.",
+    "DE7 was faster in this gate, but its one window does not establish all candidate costs.",
+    "Wire time assumes the same 115200 baud,8N1 setup; USB,OS and PC load can add delays.",
+    "The 1800s budget is checked around UART waits and does not preempt Python imports or external blocking calls.",
+    "Startup and closure are not isolated from each other; client-PC overhead is represented approximately."
+  ],
+  "selector_costs_enabled": false,
+  "new_physical_RUN": 0,
+  "TFLite_invocations": 0,
+  "new_training_fits": 0,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "seconds": 1.9311076999874786
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 7,
+  "errors": 0,
+  "failures": 0,
+  "output": "test_all_models_use_supported_path_and_shift_ranges (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_all_models_use_supported_path_and_shift_ranges) ... ok\ntest_archive_member_defines_only_the_overridden_global (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_archive_member_defines_only_the_overridden_global) ... ok\ntest_closed_diagnosis_has_expected_manifest_and_causal_checks (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_closed_diagnosis_has_expected_manifest_and_causal_checks) ... ok\ntest_malformed_archive_cannot_be_used (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_malformed_archive_cannot_be_used) ... ok\ntest_preserves_sixteen_configurations_and_processing_instruction (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_preserves_sixteen_configurations_and_processing_instruction) ... ok\ntest_rejects_unexpected_original_configuration_count (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_rejects_unexpected_original_configuration_count) ... ok\ntest_two_compilers_receive_single_macros_and_only_one_source_entry (test_preparar_total_single_rounding_v2.SingleRoundingPreparationTests.test_two_compilers_receive_single_macros_and_only_one_source_entry) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.237s\n\nOK\n",
+  "preparer_sha256": "ccb694ad316e201605be2f6f553499d08a2c7f87dcaf8bfaff27d776e25e8b77",
+  "test_source_sha256": "0cd22e67a7987d8bcdea9ccba7bb6f04ec78d31b2589c8ce68f902085b9605b2",
+  "command": "python -B -m unittest discover -s codigo/cwru/ampliacion_v2/stm32 -p test_preparar_total_single_rounding_v2.py -v",
+  "D_files_modified": false,
+  "builds_executed": 0,
+  "hardware_flashed": false,
+  "serial_port_opened": false,
+  "scope": "Read-only final tests; no prepare or copy executed"
+}

@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "detector_id": "detector_o3_i0_CONTROL12",
+  "representation": "CONTROL12",
+  "inner": 0,
+  "outer_load_hp": 3,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13
+  ],
+  "data_job_id": "supp_o3_i0_F14_P0_s11",
+  "metrics": {
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "fault_sensitivity": 1.0,
+    "balanced_accuracy": 0.5,
+    "BA": 0.5,
+    "per_record": [
+      {
+        "record_id": "109",
+        "label": 1,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "135",
+        "label": 2,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "174",
+        "label": 1,
+        "windows": 6,
+        "rejected_windows": 6,
+        "rate": 1.0
+      },
+      {
+        "record_id": "201",
+        "label": 2,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "213",
+        "label": 1,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "238",
+        "label": 2,
+        "windows": 29,
+        "rejected_windows": 29,
+        "rate": 1.0
+      },
+      {
+        "record_id": "97",
+        "label": 0,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 0.0
+      }
+    ]
+  },
+  "descriptive_guards": {
+    "minimum_each_rate": 0.95,
+    "checks": {
+      "normal_spec": false,
+      "ir_recall": true,
+      "or_recall": true
+    },
+    "passed": false,
+    "scope": "one_internal_validation_load_descriptive_engineering_only",
+    "statistical_guarantee": false,
+    "automatic_detector_selection": false
+  },
+  "reference_link": {
+    "imported_from_reference": true,
+    "original_job_id": "cost_outer3_inner0_F14_seed11",
+    "original_fit_signature": "11d9e7747ee9a266256ba84d879009ad524b269d628657b803676d793977a79c",
+    "original_job_manifest_sha256": "4681c6d39e9526407cdccc6a1502152798e339c188815c806e774d9647bdbe16",
+    "original_parameters_path": "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_F14_seed11/detector_parametros.npz",
+    "original_parameters_sha256": "7209e8fe8d0986c7cdf0cd574fe4796f2e322e756116fcfdb04ada0d6780cf18",
+    "numeric_source_sha256": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "original_signature_rewritten": false,
+    "new_fit_calls": 0
+  },
+  "imported_from_reference": true,
+  "new_fit_calls": 0,
+  "fit_windows": 58,
+  "calibration_windows": 58,
+  "validation_windows": 175,
+  "threshold": 337.6969299316406,
+  "selected_as_primary": false,
+  "source_parameters_sha256": "7209e8fe8d0986c7cdf0cd574fe4796f2e322e756116fcfdb04ada0d6780cf18",
+  "outer_predictive_evaluation_executed": false,
+  "refit_after_calibration": false
+}

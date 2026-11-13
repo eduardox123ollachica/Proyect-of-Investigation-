@@ -1,0 +1,11 @@
+{
+  "job_ids": [
+    "supp_o3_i0_F14_P1_s11"
+  ],
+  "completed_before": [],
+  "imported_references": [
+    "supp_o3_i0_F14_P0_s11",
+    "supp_o3_i0_NF12_P0_s11"
+  ],
+  "previous_process_seconds": 0.0
+}

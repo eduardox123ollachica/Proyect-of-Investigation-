@@ -1,0 +1,27 @@
+
+VALIDACION K-MEANS PC vs STM32
+========================================
+
+Modo:
+UNA
+
+Ventanas procesadas:
+1
+
+Clusters iguales:
+1/1
+
+Flags anomaly iguales:
+1/1
+
+Anomalias PC:
+0
+
+Anomalias STM32:
+0
+
+MAE score:
+1.456608219e-04
+
+Max error score:
+1.456608219e-04

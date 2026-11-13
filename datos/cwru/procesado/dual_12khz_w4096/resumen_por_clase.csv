@@ -1,0 +1,10 @@
+split,class,windows,files
+train,IR,223,6
+train,N,86,2
+train,OR,259,6
+validation,IR,174,3
+validation,N,58,1
+validation,OR,174,3
+test,IR,174,3
+test,N,58,1
+test,OR,174,3

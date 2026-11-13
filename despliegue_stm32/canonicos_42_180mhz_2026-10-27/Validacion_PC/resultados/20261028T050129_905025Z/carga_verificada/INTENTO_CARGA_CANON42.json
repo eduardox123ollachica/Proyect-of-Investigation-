@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "evidence_path": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\programacion_flash\\20261028T045829_691392Z",
+  "offline_check": {
+    "status": "CANON42_OFFLINE_CHECK_PASS_NOT_PROGRAMMED",
+    "manifest_sha256": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+    "audit_sha256": "18b30cfdfa9b53179080a6f824b2c3827faa4e715338437c776fb5a8ae5d09ec",
+    "ELF_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+    "ELF_path": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\copia_aislada\\Prueba_2_CWRU_Extraccion\\Release_180MHz_Canon42_SR\\Prueba_2_CWRU_Extraccion.elf",
+    "CLI_path": "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304\\tools\\bin\\STM32_Programmer_CLI.exe",
+    "CLI_sha256": "269db404ed3f2cdd7cfcccc257ab0a907f2364c3d44e39edab6b007cb5f668ed",
+    "fixed_STLINK_serial": "0672FF505487525067162526",
+    "expected_device_id": "0x421",
+    "expected_device": "STM32F446xx",
+    "expected_board": "NUCLEO-F446RE",
+    "hardware_budget_seconds": 120,
+    "connection_mode": "SWD Under Reset / hardware reset",
+    "automatic_retry": false,
+    "COM_opened": false,
+    "hardware_contacted": false,
+    "hardware_flashed": false,
+    "D_files_modified": false
+  },
+  "hardware_budget_seconds": 120,
+  "automatic_retry": false,
+  "execution_owner": "user_CLI"
+}

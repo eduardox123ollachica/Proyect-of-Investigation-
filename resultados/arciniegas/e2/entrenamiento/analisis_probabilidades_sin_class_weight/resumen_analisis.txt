@@ -1,0 +1,24 @@
+ANALISIS DE PROBABILIDADES SOFTMAX
+======================================================================
+
+Version: sin_class_weight
+CSV analizado: C:\Users\LENOVO\Desktop\Proyecto Investigación\resultados_replica_arciniegas\probabilidades_test.csv
+
+Numero de ventanas: 1332
+Accuracy: 94.37%
+P verdadera promedio: 0.9434
+Confianza maxima promedio: 0.9864
+Margen promedio: 0.9308
+Correctas con confianza >= 0.90: 92.57%
+Correctas con confianza >= 0.95: 91.97%
+Predicciones incorrectas: 75
+
+VELOCIDAD MEDIA
+----------------------------------------------------------------------
+Muestras: 360
+Correctas: 285
+Incorrectas: 75
+P_MEDIA promedio: 0.7930
+P_ALTA promedio: 0.2020
+P_DETENIDO promedio: 0.0050
+Margen promedio: 0.7483

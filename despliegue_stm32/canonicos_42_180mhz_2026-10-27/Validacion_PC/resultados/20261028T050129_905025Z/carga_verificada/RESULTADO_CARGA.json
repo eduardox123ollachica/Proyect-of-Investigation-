@@ -1,0 +1,110 @@
+{
+  "status": "PASS_CANON42_PROGRAMMED_VERIFIED_RESET_PENDING_UART_GATE",
+  "attempt": 1,
+  "reason": null,
+  "evidence_path": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\programacion_flash\\20261028T045829_691392Z",
+  "ELF_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "CLI_sha256": "269db404ed3f2cdd7cfcccc257ab0a907f2364c3d44e39edab6b007cb5f668ed",
+  "manifest_sha256": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+  "request_marker_sha256": "08d57c6a8168a3cff9e05cb62e35727693a2bf82f9e7b9cf628537ffb45aaa83",
+  "seconds": 6.82799999999952,
+  "hardware_budget_seconds": 120,
+  "phases": [
+    {
+      "command": [
+        "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304\\tools\\bin\\STM32_Programmer_CLI.exe",
+        "-c",
+        "port=SWD",
+        "sn=0672FF505487525067162526",
+        "mode=UR",
+        "reset=HWrst",
+        "-log",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\programacion_flash\\20261028T045829_691392Z\\programmer_identidad.log"
+      ],
+      "process_created": true,
+      "returncode": 0,
+      "timed_out": false,
+      "error": null,
+      "cleanup_error": null,
+      "seconds": 0.5,
+      "text": "      -------------------------------------------------------------------\r\n                       STM32CubeProgrammer v2.23.0                  \r\n      -------------------------------------------------------------------\r\n\r\n\r\n\r\nLog output file:   C:\\Users\\LENOVO\\Desktop\\Proyecto Investigaci�n\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\programacion_flash\\20261028T045829_691392Z\\programmer_identidad.log\r\nST-LINK SN  : 0672FF505487525067162526\r\nST-LINK FW  : V2J48M35\r\nBoard       : NUCLEO-F446RE\r\nVoltage     : 3.25V\r\nSWD freq    : 4000 KHz\r\nConnect mode: Under Reset\r\nReset mode  : Hardware reset\r\nDevice ID   : 0x421\r\nRevision ID : Rev A\r\nDevice name : STM32F446xx\r\nNVM size    : 512 KBytes\r\nDevice type : MCU\r\nDevice CPU  : Cortex-M4\r\nBL Version  : 0x90\r\n\r\n",
+      "identity": {
+        "approved": true,
+        "STLINK_serials": [
+          "0672FF505487525067162526"
+        ],
+        "device_ids": [
+          "0x421"
+        ],
+        "device_names": [
+          "STM32F446xx"
+        ],
+        "board_names": [
+          "NUCLEO-F446RE"
+        ],
+        "capacity_KiB": [
+          512
+        ],
+        "board_name_explicitly_reported": true,
+        "capacity_explicitly_reported": true
+      }
+    },
+    {
+      "command": [
+        "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304\\tools\\bin\\STM32_Programmer_CLI.exe",
+        "-c",
+        "port=SWD",
+        "sn=0672FF505487525067162526",
+        "mode=UR",
+        "reset=HWrst",
+        "-d",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\copia_aislada\\Prueba_2_CWRU_Extraccion\\Release_180MHz_Canon42_SR\\Prueba_2_CWRU_Extraccion.elf",
+        "-v",
+        "-rst",
+        "-log",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\programacion_flash\\20261028T045829_691392Z\\programmer_carga.log"
+      ],
+      "process_created": true,
+      "returncode": 0,
+      "timed_out": false,
+      "error": null,
+      "cleanup_error": null,
+      "seconds": 5.875,
+      "text": "      -------------------------------------------------------------------\r\n                       STM32CubeProgrammer v2.23.0                  \r\n      -------------------------------------------------------------------\r\n\r\n\r\n\r\nLog output file:   C:\\Users\\LENOVO\\Desktop\\Proyecto Investigaci�n\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\programacion_flash\\20261028T045829_691392Z\\programmer_carga.log\r\nST-LINK SN  : 0672FF505487525067162526\r\nST-LINK FW  : V2J48M35\r\nBoard       : NUCLEO-F446RE\r\nVoltage     : 3.25V\r\nSWD freq    : 4000 KHz\r\nConnect mode: Under Reset\r\nReset mode  : Hardware reset\r\nDevice ID   : 0x421\r\nRevision ID : Rev A\r\nDevice name : STM32F446xx\r\nNVM size    : 512 KBytes\r\nDevice type : MCU\r\nDevice CPU  : Cortex-M4\r\nBL Version  : 0x90\r\n\r\n\r\n\r\nOpening and parsing file: Prueba_2_CWRU_Extraccion.elf\r\n\r\n\r\nMemory Programming ...\r\n  File          : Prueba_2_CWRU_Extraccion.elf\r\n  Size          : 181.06 KB \r\n  Address       : 0x08000000\r\n\r\n\r\nErasing memory corresponding to segment 0:\r\nErasing internal memory sectors [0 5]\r\nDownload in Progress:\r\n�������������������������������������������������� 0%\r���������������������������������� 68%���������������� 100%\r\n\r\nFile download complete\r\nTime elapsed during download operation: 00:00:04.065\r\n\r\n\r\n\r\nVerifying...\r\n\r\n\r\nRead progress:\r\n�������������������������������������������������� 50%\r�������������������������������������������������� 100%\r\n\r\nTime elapsed during verifying operation: 00:00:01.417\r\n\r\n\r\nDownload verified successfully\r\n\r\n\r\n\r\nMCU Reset\r\n\r\nSoftware reset is performed\r\n"
+    }
+  ],
+  "program_identity": {
+    "approved": true,
+    "STLINK_serials": [
+      "0672FF505487525067162526"
+    ],
+    "device_ids": [
+      "0x421"
+    ],
+    "device_names": [
+      "STM32F446xx"
+    ],
+    "board_names": [
+      "NUCLEO-F446RE"
+    ],
+    "capacity_KiB": [
+      512
+    ],
+    "board_name_explicitly_reported": true,
+    "capacity_explicitly_reported": true
+  },
+  "download_verification_marker": true,
+  "programming_command_started": true,
+  "flash_state": "VERIFIED_PROGRAMMED",
+  "hardware_flashed": true,
+  "reset_requested": true,
+  "reset_command_succeeded": true,
+  "reset_text_reported": true,
+  "runtime_boot_confirmed": false,
+  "UART_gate_pending": true,
+  "integrity_after_program": true,
+  "automatic_retry": false,
+  "COM_opened": false,
+  "D_files_modified": false,
+  "full_build_executed": false
+}

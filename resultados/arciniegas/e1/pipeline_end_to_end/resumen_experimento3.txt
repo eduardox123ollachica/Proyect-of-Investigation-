@@ -1,0 +1,90 @@
+
+================================================================================
+EXPERIMENTO 3 - PIPELINE END-TO-END PC vs STM32
+================================================================================
+
+Configuración:
+
+Modelo:
+C:\Users\LENOVO\Desktop\Proyecto Investigación\Modelos INT8\modelo_arciniegas_int8.tflite
+
+Puerto:
+COM4
+
+Baudrate:
+115200
+
+Ventanas procesadas:
+1332
+
+Pipeline STM32:
+ventana cruda 16x3
+-> FeatureExtraction_Extract()
+-> CMSIS-DSP FFT
+-> 21 features
+-> cuantización INT8
+-> TFLM / CMSIS-NN
+-> clase y probabilidades
+
+
+================================================================================
+RESULTADOS
+================================================================================
+
+Coincidencia PC vs STM32:
+1332/1332
+100.0000 %
+
+Accuracy INT8 PC:
+1304/1332
+97.8979 %
+
+Accuracy STM32 end-to-end:
+1304/1332
+97.8979 %
+
+Predicciones diferentes PC vs STM32:
+0
+
+Error absoluto medio de probabilidades:
+0.000060702265
+
+Error absoluto máximo de probabilidades:
+0.062500250000
+
+
+================================================================================
+TIEMPO DEL EXPERIMENTO
+================================================================================
+
+Tiempo total:
+107.665 s
+
+Tiempo medio PC+UART por ventana:
+0.080830 s
+
+NOTA:
+Este tiempo incluye procesamiento en PC, comunicación UART,
+esperas y ejecución STM32. No representa la latencia interna
+del microcontrolador. La latencia embebida se medirá
+posteriormente mediante DWT->CYCCNT.
+
+
+================================================================================
+MATRIZ DE CONFUSIÓN STM32
+================================================================================
+
+                      PRED_DETENIDO  PRED_VELOCIDAD MEDIA  PRED_VELOCIDAD ALTA
+REAL_DETENIDO                   540                     0                    0
+REAL_VELOCIDAD MEDIA             28                   332                    0
+REAL_VELOCIDAD ALTA               0                     0                  432
+
+
+================================================================================
+MATRIZ DE CONFUSIÓN PC
+================================================================================
+
+                      PRED_DETENIDO  PRED_VELOCIDAD MEDIA  PRED_VELOCIDAD ALTA
+REAL_DETENIDO                   540                     0                    0
+REAL_VELOCIDAD MEDIA             28                   332                    0
+REAL_VELOCIDAD ALTA               0                     0                  432

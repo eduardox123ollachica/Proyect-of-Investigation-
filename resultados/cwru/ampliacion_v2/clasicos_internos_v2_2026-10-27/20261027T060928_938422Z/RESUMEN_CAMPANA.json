@@ -1,0 +1,21 @@
+{
+  "status": "CLASSICAL_INNER_COMPLETED",
+  "completed_fits": 384,
+  "planned_fits": 384,
+  "remaining_fits": 0,
+  "RF_completed": 288,
+  "SVM_completed": 96,
+  "campaign_execution_verification_seconds": 2535.8299999999945,
+  "limits": {
+    "RF_worker_seconds": 60,
+    "SVM_worker_seconds": 30,
+    "campaign_execution_verification_seconds": 3600,
+    "maximum_new_fits": 384,
+    "concurrent_workers": 1,
+    "automatic_retry": false
+  },
+  "automatic_retry": false,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "DNN_or_detector_fits": false
+}

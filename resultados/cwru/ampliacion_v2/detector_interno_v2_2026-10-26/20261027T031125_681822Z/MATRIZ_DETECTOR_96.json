@@ -1,0 +1,7010 @@
+[
+  {
+    "row_id": "detr_outer0_inner1_F14",
+    "candidate": "F14",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_33a36caae57dcbbbfbda",
+    "eval_id": "dete_89540118a26a6391cfa2",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_T6",
+    "candidate": "T6",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_6c263af0d5605eabf60d",
+    "eval_id": "dete_6cc9422f4af85dc20c8e",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_S8",
+    "candidate": "S8",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_3a7f24441758691c75cf",
+    "eval_id": "dete_45014a07ca644fcc6a85",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_33a36caae57dcbbbfbda",
+    "eval_id": "dete_89540118a26a6391cfa2",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_a1db4c36b08c16473b07",
+    "eval_id": "dete_1bd012af4e5afcb6ff24",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_8b9f480b7a093b19db81",
+    "eval_id": "dete_8c5742a755b0a592f1ae",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_19e4994cbce53adfddeb",
+    "eval_id": "dete_e65d3abbfcdcfcb3e3ff",
+    "normal_spec": 0.4482758620689655,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.7241379310344828,
+    "metrics": {
+      "normal_spec": 0.4482758620689655,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.7241379310344828,
+      "BA": 0.7241379310344828,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 32,
+          "rate": 0.4482758620689655
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner1_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 0,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_10779a94509303128a73",
+    "eval_id": "dete_7dce298a8b5344a6fc21",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer0_inner2_F14",
+    "candidate": "F14",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_ef864a49c6c07af925be",
+    "eval_id": "dete_cd783cf6391a395db85f",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_T6",
+    "candidate": "T6",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_acac78c3fee6f7e411a0",
+    "eval_id": "dete_da2c4415e3554d592499",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_S8",
+    "candidate": "S8",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_07dec4054612848f48e1",
+    "eval_id": "dete_a5be6e401db9ed4525b8",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_ef864a49c6c07af925be",
+    "eval_id": "dete_cd783cf6391a395db85f",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_b63c7bc14882fd4a9c93",
+    "eval_id": "dete_72560965075586e45b1c",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_3ce42394be7bd23082d0",
+    "eval_id": "dete_adf1de539425dc4d9c35",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_64b7cec8948a7197090d",
+    "eval_id": "dete_c73454d0ec8338968a87",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner2_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 0,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_d11209462df6a3062d49",
+    "eval_id": "dete_550de0db008b30771a4e",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_F14",
+    "candidate": "F14",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_8b678742a8a6a12946a3",
+    "eval_id": "dete_14b94e607539d074bfd9",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_T6",
+    "candidate": "T6",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_1811ea439818d882467f",
+    "eval_id": "dete_56d326341cd11e008881",
+    "normal_spec": 0.3103448275862069,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.6551724137931034,
+    "metrics": {
+      "normal_spec": 0.3103448275862069,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.6551724137931034,
+      "BA": 0.6551724137931034,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 40,
+          "rate": 0.3103448275862069
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_S8",
+    "candidate": "S8",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_db4d260afbd06123f3fa",
+    "eval_id": "dete_696e39254aa39892fb8a",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_8b678742a8a6a12946a3",
+    "eval_id": "dete_14b94e607539d074bfd9",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_2b6c73826c5abd21a1ca",
+    "eval_id": "dete_8049e5e9160911565ba7",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_994b5755883a146bb18b",
+    "eval_id": "dete_f5963faf82f5e4dde6bd",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_731564800d688f20b269",
+    "eval_id": "dete_09f200e0ae0b1ae9a398",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer0_inner3_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 0,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_bf5d5b14ed57df132af0",
+    "eval_id": "dete_a60ed6c91e3a2abb7986",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner0_F14",
+    "candidate": "F14",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_33a36caae57dcbbbfbda",
+    "eval_id": "dete_b635ddfdc15c2859ff3f",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_T6",
+    "candidate": "T6",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_6c263af0d5605eabf60d",
+    "eval_id": "dete_44801fe3fa112e92c63f",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_S8",
+    "candidate": "S8",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_3a7f24441758691c75cf",
+    "eval_id": "dete_4e466f4aaf776c183193",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_33a36caae57dcbbbfbda",
+    "eval_id": "dete_b635ddfdc15c2859ff3f",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_a1db4c36b08c16473b07",
+    "eval_id": "dete_b6f7b3e26e7ee269e38a",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_8b9f480b7a093b19db81",
+    "eval_id": "dete_7a46e359678254ec77f9",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_19e4994cbce53adfddeb",
+    "eval_id": "dete_59578bac11896b38ddc9",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner0_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 1,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_10779a94509303128a73",
+    "eval_id": "dete_67b064031d13c5c2e7c4",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer1_inner2_F14",
+    "candidate": "F14",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_258c27f0d2ea46b8e82c",
+    "eval_id": "dete_dff16b94a3e5574c9e49",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_T6",
+    "candidate": "T6",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_52a0409d94336be4f046",
+    "eval_id": "dete_8315ab6ca59717721e42",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_S8",
+    "candidate": "S8",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_1686e7dffa2c37c3323b",
+    "eval_id": "dete_2ac26625af65c2250df7",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_258c27f0d2ea46b8e82c",
+    "eval_id": "dete_dff16b94a3e5574c9e49",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_6513ef79d642f5dd951e",
+    "eval_id": "dete_d25958a8fb274d1ca6d7",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_a40b4d6cf3865f5ee6bf",
+    "eval_id": "dete_285b5c95f32fd8cf6866",
+    "normal_spec": 0.20689655172413793,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.603448275862069,
+    "metrics": {
+      "normal_spec": 0.20689655172413793,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.603448275862069,
+      "BA": 0.603448275862069,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 46,
+          "rate": 0.20689655172413793
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_e63239f292f128ba57a7",
+    "eval_id": "dete_3830bf4f858496f3be41",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner2_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 1,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_8b3cd1554b2e64754ab3",
+    "eval_id": "dete_6ad8e2a2f162b0495962",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 0.9425287356321839,
+    "balanced_accuracy": 0.985632183908046,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 0.9425287356321839,
+      "fault_sensitivity": 0.9712643678160919,
+      "balanced_accuracy": 0.985632183908046,
+      "BA": 0.985632183908046,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 48,
+          "rate": 0.8275862068965517
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_F14",
+    "candidate": "F14",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_41a490172bc9dbbb6f96",
+    "eval_id": "dete_a80de3345d5502b6138d",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_T6",
+    "candidate": "T6",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_3122d04887afe17e568d",
+    "eval_id": "dete_9faa591611f41c7fbd02",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_S8",
+    "candidate": "S8",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_b95022e08dee9ee8532d",
+    "eval_id": "dete_1db9514e5969cb88faa9",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_41a490172bc9dbbb6f96",
+    "eval_id": "dete_a80de3345d5502b6138d",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_b7ac1a4914b70ba0547f",
+    "eval_id": "dete_0ab80a2fca87ee3e078c",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_ec591debe240e2da08f2",
+    "eval_id": "dete_c54e36c16cdfe1bb9591",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_d5dbe84e2a79fbe04d8e",
+    "eval_id": "dete_1a9eda4d0adf7deba957",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer1_inner3_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 1,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_5eb0dba47598fbb3e8ec",
+    "eval_id": "dete_b416fc76f003ec38aab3",
+    "normal_spec": 0.7758620689655172,
+    "ir_recall": 0.9942528735632185,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.8864942528735633,
+    "metrics": {
+      "normal_spec": 0.7758620689655172,
+      "ir_recall": 0.9942528735632185,
+      "or_recall": 1.0,
+      "fault_sensitivity": 0.9971264367816093,
+      "balanced_accuracy": 0.8864942528735633,
+      "BA": 0.8864942528735633,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 13,
+          "rate": 0.7758620689655172
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 57,
+          "rate": 0.9827586206896551
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner0_F14",
+    "candidate": "F14",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_ef864a49c6c07af925be",
+    "eval_id": "dete_a31032b85d98f02a0ab1",
+    "normal_spec": 0.10714285714285714,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5535714285714286,
+    "metrics": {
+      "normal_spec": 0.10714285714285714,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5535714285714286,
+      "BA": 0.5535714285714286,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 25,
+          "rate": 0.10714285714285714
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_T6",
+    "candidate": "T6",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_acac78c3fee6f7e411a0",
+    "eval_id": "dete_65fe7ae26e18832f8e45",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_S8",
+    "candidate": "S8",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_07dec4054612848f48e1",
+    "eval_id": "dete_3025772306838c8bb5f5",
+    "normal_spec": 0.21428571428571427,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.6071428571428571,
+    "metrics": {
+      "normal_spec": 0.21428571428571427,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.6071428571428571,
+      "BA": 0.6071428571428571,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 22,
+          "rate": 0.21428571428571427
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_ef864a49c6c07af925be",
+    "eval_id": "dete_a31032b85d98f02a0ab1",
+    "normal_spec": 0.10714285714285714,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5535714285714286,
+    "metrics": {
+      "normal_spec": 0.10714285714285714,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5535714285714286,
+      "BA": 0.5535714285714286,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 25,
+          "rate": 0.10714285714285714
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_b63c7bc14882fd4a9c93",
+    "eval_id": "dete_6e6bf1cac6a16d87377e",
+    "normal_spec": 0.14285714285714285,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5714285714285714,
+    "metrics": {
+      "normal_spec": 0.14285714285714285,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5714285714285714,
+      "BA": 0.5714285714285714,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 24,
+          "rate": 0.14285714285714285
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_3ce42394be7bd23082d0",
+    "eval_id": "dete_56ce75544a2a9498691f",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_64b7cec8948a7197090d",
+    "eval_id": "dete_0bcf5c177ca0541aa69e",
+    "normal_spec": 0.10714285714285714,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5535714285714286,
+    "metrics": {
+      "normal_spec": 0.10714285714285714,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5535714285714286,
+      "BA": 0.5535714285714286,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 25,
+          "rate": 0.10714285714285714
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner0_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 2,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_d11209462df6a3062d49",
+    "eval_id": "dete_5c06e6c8bacf6219d3e1",
+    "normal_spec": 0.07142857142857142,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5357142857142857,
+    "metrics": {
+      "normal_spec": 0.07142857142857142,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5357142857142857,
+      "BA": 0.5357142857142857,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 26,
+          "rate": 0.07142857142857142
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer2_inner1_F14",
+    "candidate": "F14",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_258c27f0d2ea46b8e82c",
+    "eval_id": "dete_91dc3dfbb559cdefee62",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_T6",
+    "candidate": "T6",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_52a0409d94336be4f046",
+    "eval_id": "dete_b442a79172efca6fd0e0",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_S8",
+    "candidate": "S8",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_1686e7dffa2c37c3323b",
+    "eval_id": "dete_f978e0c272d568cc0fb3",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_258c27f0d2ea46b8e82c",
+    "eval_id": "dete_91dc3dfbb559cdefee62",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_6513ef79d642f5dd951e",
+    "eval_id": "dete_1a9c5c76cf187d427d1e",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_a40b4d6cf3865f5ee6bf",
+    "eval_id": "dete_a538059accdc1391cf0e",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_e63239f292f128ba57a7",
+    "eval_id": "dete_af6f7b7852321c7430d8",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner1_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 2,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_8b3cd1554b2e64754ab3",
+    "eval_id": "dete_22bcb57cf424beaba3ce",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_F14",
+    "candidate": "F14",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_d8c135936e8a1c569941",
+    "eval_id": "dete_1895ef7b19cc284a0b52",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_T6",
+    "candidate": "T6",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_1d1d5d1e605f502d9478",
+    "eval_id": "dete_2118c5bc946ef4c78ca7",
+    "normal_spec": 0.08620689655172414,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5431034482758621,
+    "metrics": {
+      "normal_spec": 0.08620689655172414,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5431034482758621,
+      "BA": 0.5431034482758621,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 53,
+          "rate": 0.08620689655172414
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_S8",
+    "candidate": "S8",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_210ce8ba512f2f1a8409",
+    "eval_id": "dete_3acbc078c22ee382d417",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_d8c135936e8a1c569941",
+    "eval_id": "dete_1895ef7b19cc284a0b52",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_7aad605f3fc8dba4457d",
+    "eval_id": "dete_a05c22804602603bed18",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_984c2bc5a95b4d5f2a4b",
+    "eval_id": "dete_a6233de2184a4985f6ed",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_ea6aceea75ef608d355e",
+    "eval_id": "dete_551468074c2d591f2736",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer2_inner3_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 2,
+    "inner_validation_load": 3,
+    "status": "PASS",
+    "param_id": "detp_2ffaea25af1b9c66cc1b",
+    "eval_id": "dete_5f7c672c15c6e1873f81",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "100",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        },
+        {
+          "record_id": "112",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "138",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "177",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "204",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "217",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "241",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner0_F14",
+    "candidate": "F14",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_8b678742a8a6a12946a3",
+    "eval_id": "dete_0b209ac1208abf724115",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_T6",
+    "candidate": "T6",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_1811ea439818d882467f",
+    "eval_id": "dete_8f18b43c4365c0e6dab0",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_S8",
+    "candidate": "S8",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_db4d260afbd06123f3fa",
+    "eval_id": "dete_8b703fbe4eea9a75e6d9",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_8b678742a8a6a12946a3",
+    "eval_id": "dete_0b209ac1208abf724115",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_2b6c73826c5abd21a1ca",
+    "eval_id": "dete_d32744da1436001fdbe6",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_994b5755883a146bb18b",
+    "eval_id": "dete_4f3a4032f3c288559125",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_731564800d688f20b269",
+    "eval_id": "dete_a3ac3f381bb390d5a49d",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner0_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 3,
+    "inner_validation_load": 0,
+    "status": "PASS",
+    "param_id": "detp_bf5d5b14ed57df132af0",
+    "eval_id": "dete_47d2f81543fad82a5e87",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "109",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "135",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "174",
+          "label": 1,
+          "windows": 6,
+          "rejected_windows": 6,
+          "rate": 1.0
+        },
+        {
+          "record_id": "201",
+          "label": 2,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "213",
+          "label": 1,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 1.0
+        },
+        {
+          "record_id": "238",
+          "label": 2,
+          "windows": 29,
+          "rejected_windows": 29,
+          "rate": 1.0
+        },
+        {
+          "record_id": "97",
+          "label": 0,
+          "windows": 28,
+          "rejected_windows": 28,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner1_F14",
+    "candidate": "F14",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_41a490172bc9dbbb6f96",
+    "eval_id": "dete_3565568917d5232d32d0",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner1_T6",
+    "candidate": "T6",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_3122d04887afe17e568d",
+    "eval_id": "dete_7fbb5bfbfa0ac06f0112",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner1_S8",
+    "candidate": "S8",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_b95022e08dee9ee8532d",
+    "eval_id": "dete_f25bb4366b469b453ec7",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner1_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_41a490172bc9dbbb6f96",
+    "eval_id": "dete_3565568917d5232d32d0",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner1_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_b7ac1a4914b70ba0547f",
+    "eval_id": "dete_53575028de0ca76cee54",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner1_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_ec591debe240e2da08f2",
+    "eval_id": "dete_172ce95f869eb538cb49",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner1_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_d5dbe84e2a79fbe04d8e",
+    "eval_id": "dete_5cc6440a69e96a2ddf21",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner1_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 3,
+    "inner_validation_load": 1,
+    "status": "PASS",
+    "param_id": "detp_5eb0dba47598fbb3e8ec",
+    "eval_id": "dete_07c1a8bfa9de7685c4a0",
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 1.0,
+    "metrics": {
+      "normal_spec": 1.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 1.0,
+      "BA": 1.0,
+      "per_record": [
+        {
+          "record_id": "110",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "136",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "175",
+          "label": 1,
+          "windows": 45,
+          "rejected_windows": 45,
+          "rate": 1.0
+        },
+        {
+          "record_id": "202",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "214",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "239",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "98",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 0,
+          "rate": 1.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner2_F14",
+    "candidate": "F14",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_d8c135936e8a1c569941",
+    "eval_id": "dete_e90911cdc8d06501b248",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner2_T6",
+    "candidate": "T6",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_1d1d5d1e605f502d9478",
+    "eval_id": "dete_95305548552c24ab055d",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner2_S8",
+    "candidate": "S8",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_210ce8ba512f2f1a8409",
+    "eval_id": "dete_a940231cabaab70cf958",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner2_NF12",
+    "candidate": "NF12",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_d8c135936e8a1c569941",
+    "eval_id": "dete_e90911cdc8d06501b248",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": true
+  },
+  {
+    "row_id": "detr_outer3_inner2_NM10",
+    "candidate": "NM10",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_7aad605f3fc8dba4457d",
+    "eval_id": "dete_1a7517488d6953a1bce2",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner2_NE12",
+    "candidate": "NE12",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_984c2bc5a95b4d5f2a4b",
+    "eval_id": "dete_f6b10512d2f6aaa84508",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner2_DE7",
+    "candidate": "DE7",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_ea6aceea75ef608d355e",
+    "eval_id": "dete_28d53bd3b1260bc54908",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  },
+  {
+    "row_id": "detr_outer3_inner2_FE7",
+    "candidate": "FE7",
+    "outer_load_hp": 3,
+    "inner_validation_load": 2,
+    "status": "PASS",
+    "param_id": "detp_2ffaea25af1b9c66cc1b",
+    "eval_id": "dete_ce467dff1fc284cb782e",
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.5,
+    "metrics": {
+      "normal_spec": 0.0,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "fault_sensitivity": 1.0,
+      "balanced_accuracy": 0.5,
+      "BA": 0.5,
+      "per_record": [
+        {
+          "record_id": "111",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "137",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "176",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "203",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "215",
+          "label": 1,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "240",
+          "label": 2,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 1.0
+        },
+        {
+          "record_id": "99",
+          "label": 0,
+          "windows": 58,
+          "rejected_windows": 58,
+          "rate": 0.0
+        }
+      ]
+    },
+    "reused_logical_row": false
+  }
+]

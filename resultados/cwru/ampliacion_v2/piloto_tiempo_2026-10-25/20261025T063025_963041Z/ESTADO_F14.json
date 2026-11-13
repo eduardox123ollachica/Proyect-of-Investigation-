@@ -1,0 +1,10 @@
+{
+  "job_id": "pilot_outer3_inner0_F14_seed11",
+  "status": "FAIL",
+  "return_code": 1,
+  "elapsed_process_seconds": 109.19317939999746,
+  "timeout_seconds": 300,
+  "automatic_retry": false,
+  "process_launch_error": null,
+  "result_read_error": "resultado.json ausente"
+}

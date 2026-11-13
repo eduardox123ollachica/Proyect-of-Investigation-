@@ -1,0 +1,5 @@
+﻿file_a,file_id_a,split_a,variable_a,selected_a,file_b,file_id_b,split_b,variable_b,selected_b,cross_split,samples,sha256_numeric
+"98_N_0,000.mat",98,train,X098_DE_time,True,"99_N_0,000.mat",99,validation,X098_DE_time,False,True,483903,c6849294ba401cf2f6d8126069f67d06ece00273412b555d4ad842638fb42c5d
+"98_N_0,000.mat",98,train,X098_FE_time,True,"99_N_0,000.mat",99,validation,X098_FE_time,False,True,483903,ef0c6f81222d5b6cac4c6edba43e146057b9c36869370df346ba34760aab8eb2
+"215_IR_0,021.mat",215,validation,X215_DE_time,True,"217_IR_0,021.mat",217,test,X215_DE_time,False,True,491446,73f741f4e4b164fc9f31fbcd1326ae881988250c9c8ea28433a2ccfb549e366d
+"215_IR_0,021.mat",215,validation,X215_FE_time,True,"217_IR_0,021.mat",217,test,X215_FE_time,False,True,491446,57287e7f833d73804762971a6194d89f1c09ce60fb9c42fb14c62de1417665eb

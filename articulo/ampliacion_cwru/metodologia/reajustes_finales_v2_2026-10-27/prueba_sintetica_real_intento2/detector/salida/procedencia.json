@@ -1,0 +1,50 @@
+{
+  "fit": {
+    "global_window_ids": [
+      0,
+      1,
+      18,
+      19
+    ],
+    "selected_loads_hp": [
+      1,
+      2
+    ],
+    "selected_record_ids": [
+      "1001",
+      "1010"
+    ],
+    "shape": [
+      4,
+      14
+    ],
+    "loaded_dtype": "float32",
+    "source_dtype": "synthetic_float32",
+    "only_requested_rows_selected_or_materialized": true,
+    "synthetic": true,
+    "source_arrays": [],
+    "raw_signals_or_MAT_opened": false
+  },
+  "calibration": {
+    "global_window_ids": [
+      30,
+      31
+    ],
+    "selected_loads_hp": [
+      3
+    ],
+    "selected_record_ids": [
+      "1016"
+    ],
+    "shape": [
+      2,
+      14
+    ],
+    "loaded_dtype": "float32",
+    "source_dtype": "synthetic_float32",
+    "only_requested_rows_selected_or_materialized": true,
+    "synthetic": true,
+    "source_arrays": [],
+    "raw_signals_or_MAT_opened": false
+  }
+}

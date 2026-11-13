@@ -1,0 +1,14 @@
+{
+  "status": "FINAL_REFITS_COMPLETED_NO_OUTER_EVALUATION",
+  "completed_jobs": 131,
+  "planned_jobs": 131,
+  "remaining_jobs": 0,
+  "jobs_started": 130,
+  "jobs_passed": 130,
+  "batch_execution_verification_seconds": 1119.8929999999527,
+  "campaign_execution_verification_seconds": 1132.3149999999587,
+  "batch_wall_seconds": 1137.2809999999881,
+  "outer_evaluation_executed": false,
+  "outer_prediction_release_enabled": false,
+  "automatic_retry": false
+}

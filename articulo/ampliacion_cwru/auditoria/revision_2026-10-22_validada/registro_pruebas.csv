@@ -1,0 +1,26 @@
+﻿id,status,observed,criterion,evidence
+CW01,PASS,MAT=28; filas manifiesto=28,28 archivos únicos y 28 filas,inventario_archivos.csv
+CW02,PASS,28,Manifiesto y archivos MAT coinciden; ninguna ruta ambigua,inventario_archivos.csv
+CW03,PASS,"IDs, clases, diámetros y claves contrastados con tablas oficiales","IDs, etiquetas y cargas oficiales esperadas",inventario_archivos.csv; fuentes_y_alcance.md
+CW04,PASS,90,Todas las variables numéricas finitas,inventario_variables_mat.csv
+CW05,WARN,"['213', '201', '238']",Los dos canales no deben suponerse independientes si son copias afines,inventario_archivos.csv; equivalencias_afines.csv
+CW06_DE,PASS,"{'block_length': 16, 'starts_checked': 11650891, 'verified_matching_position_pairs': 0, 'segments': 0, 'fingerprint_collisions_rejected': 0, 'pathological_groups_skipped': 0, 'coverage_complete': True}","Cobertura completa y sin segmentos exactos cruzados >=16 muestras, a igualdad de canal",segmentos_exactos_DE.csv
+CW06_FE,PASS,"{'block_length': 16, 'starts_checked': 11650891, 'verified_matching_position_pairs': 0, 'segments': 0, 'fingerprint_collisions_rejected': 0, 'pathological_groups_skipped': 0, 'coverage_complete': True}","Cobertura completa y sin segmentos exactos cruzados >=16 muestras, a igualdad de canal",segmentos_exactos_FE.csv
+CW06_DE_FE,PASS,"{'block_length': 16, 'starts_checked': 11650891, 'verified_matching_position_pairs': 0, 'segments': 0, 'fingerprint_collisions_rejected': 0, 'pathological_groups_skipped': 0, 'coverage_complete': True}","Cobertura completa y sin segmentos exactos cruzados >=16 muestras, a igualdad de canal",segmentos_exactos_DE_FE.csv
+CW07,PASS,0,Sin copias afines COMPLETAS entre variables seleccionadas de distintos conjuntos,equivalencias_afines.csv
+CW08,WARN,7,Variables auxiliares cruzadas presentes: la lectura debe ser por clave explícita,equivalencias_afines.csv
+CW09,PASS,"{'num_taps': 177, 'dtype': 'float32', 'coefficients_sha256': 'f4e6d23b976a6f448674496182853f706e88b604fed47a3fa2b01218047befbb', 'passband_ripple_db': 0.015459710924240488, 'stopband_max_db': -60.020102951720425, 'input_fs_hz': 48000, 'output_fs_hz': 12000, 'group_delay_raw_samples': 88, 'group_delay_output_samples': 22, 'edge_trim_each_side_output': 22, 'response_grid_points': 262144, 'passband_edge_hz': 5000, 'stopband_edge_hz': 6000}","177 coeficientes float32, hash canónico, ripple<=0.1dB y rechazo>=60dB",verificacion_fir.json
+CW23,PASS,291 representaciones decimales diferentes; error máximo=1.7763568394002505e-15,Metadata base/enriquecida idéntica salvo representación float con diferencia<=1e-12,recalculo_por_archivo.csv
+CW10,PASS,1380,"Todas las 1380 ventanas reproducidas desde MAT seleccionados; rtol1e-6, atol1e-7",recalculo_por_archivo.csv
+CW11,PASS,19320,"19320 valores de características; fórmulas independientes; rtol1e-9, atol1e-8",recalculo_por_archivo.csv
+CW12,PASS,1352,Solapamiento exacto 2048 muestras sólo dentro de archivo,recalculo_por_archivo.csv
+CW13,PASS,0,Ninguna ventana procesada completa repetida (dos canales),ventanas_duplicadas.json
+CW14,PASS,6,Todos los HASHES.sha256 históricos contrastados,comprobacion_hashes_historicos.csv
+CW15,PASS,"14 train/7 validation/7 test; cargas 0,1/2/3",Separación por MAT y por carga antes del ventaneo,inventario_archivos.csv
+CW16,LIMITATION,7 configuraciones nominales; identidad física no verificable; configuraciones compartidas entre cargas,No afirmar independencia entre motores/rodamientos a partir de archivos distintos,grupos_y_limitaciones.csv
+CW17,LIMITATION,El conjunto 3HP ya tiene resultados y fue inspeccionado; nuevo split no borra la exposición,No llamar ciego/no observado al nuevo test reutilizado,exposicion_historica.json
+CW18,LIMITATION,Fs documentada=48000 Hz; no hay reloj/timestamps/fs embebidos que permitan medición independiente,Separar frecuencia documentada de frecuencia medida,inventario_variables_mat.csv; fuentes_y_alcance.md
+CW19,LIMITATION,"No se descargaron ni compararon bytes oficiales en esta ejecución; procedencia por IDs y claves, no autenticación remota",Hash local no equivale a hash del distribuidor,entradas_sha256.csv; fuentes_y_alcance.md
+CW20,WARN,Ruido eléctrico reportado en 177; recorte de DE reportado en 214 y 215,Documentar calidad antes de entrenar; no exclusiones por desempeño,advertencias_bibliograficas.csv
+CW21,PASS,9 tests; errores=0; fallos=0,"Canales erróneos, desfase, copias, FIR, momentos, constante y alteración de manifiesto detectados",pruebas_unitarias.txt
+CW22,PASS,96 entradas sin cambios,SHA256 idéntico antes y después; originales y V1 intactos,entradas_sha256.csv

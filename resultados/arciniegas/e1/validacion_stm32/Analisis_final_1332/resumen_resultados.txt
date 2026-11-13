@@ -1,0 +1,53 @@
+===========================================================================
+ANÁLISIS FINAL STM32 - 1332 VENTANAS
+===========================================================================
+
+Archivo analizado: resultados_1332_ventanas.csv
+Número total de ventanas: 1332
+
+RESULTADOS GENERALES
+---------------------------------------------------------------------------
+Accuracy PC: 97.8979%
+Accuracy STM32: 97.8979%
+Coincidencia PC vs STM32: 100.0000%
+Clasificaciones correctas STM32: 1304/1332
+Clasificaciones incorrectas STM32: 28/1332
+
+MÉTRICAS GLOBALES STM32
+---------------------------------------------------------------------------
+Precision macro: 0.983568
+Recall macro: 0.974074
+F1-score macro: 0.978089
+Precision weighted: 0.980015
+Recall weighted: 0.978979
+F1-score weighted: 0.978819
+
+COMPARACIÓN NUMÉRICA PC vs STM32
+---------------------------------------------------------------------------
+Error absoluto medio de probabilidades: 0.0000607023
+Error absoluto máximo de probabilidades: 0.0625002500
+
+MÉTRICAS POR CLASE
+---------------------------------------------------------------------------
+
+              precision    recall  f1-score   support
+
+         DET   0.950704  1.000000  0.974729       540
+       MEDIA   1.000000  0.922222  0.959538       360
+        ALTA   1.000000  1.000000  1.000000       432
+
+    accuracy                       0.978979      1332
+   macro avg   0.983568  0.974074  0.978089      1332
+weighted avg   0.980015  0.978979  0.978819      1332
+
+
+MATRIZ DE CONFUSIÓN STM32
+---------------------------------------------------------------------------
+            Pred_DET  Pred_MEDIA  Pred_ALTA
+Real_DET         540           0          0
+Real_MEDIA        28         332          0
+Real_ALTA          0           0        432
+
+TIPOS DE ERROR
+---------------------------------------------------------------------------
+MEDIA -> DET: 28

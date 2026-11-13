@@ -1,0 +1,13 @@
+{
+  "status": "CAMPAIGN_COMPLETED",
+  "completed_new_fits": 240,
+  "remaining_new_fits": 0,
+  "available_logical_cells": 288,
+  "batches_launched": 14,
+  "consumed_worker_seconds": 2483.0290000000023,
+  "campaign": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\resultados\\cwru\\ampliacion_v2\\busqueda_interna_v2_2026-10-26\\20261027T005636_578225Z",
+  "receipt": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\resultados\\cwru\\ampliacion_v2\\control_continuacion_interna_v2_2026-10-26\\20261027T011412_141104Z",
+  "automatic_retry": false,
+  "original_preparation_manifest_sha256": "011cffef5862a3cbd5277a96dfc0ea2c696762ddd53b90fed7fad718d7488295",
+  "continuation_manifest_sha256": "9972418e30126673beae232f445fec7b56553b540e31e31eb6c0bd25f9bca1ef"
+}

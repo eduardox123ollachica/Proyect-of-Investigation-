@@ -1,0 +1,9 @@
+{
+  "articulo/ampliacion_cwru/metodologia/analisis_matriz_interna_v2_2026-10-26/HALLAZGOS_Y_LIMITES.md": "9ef19269640173ce2e6038a5a9edd646c88b82b149fd10aece29b796640d5b58",
+  "articulo/ampliacion_cwru/metodologia/analisis_matriz_interna_v2_2026-10-26/VARIABILIDAD_INTERNA.json": "3013c3c257d42240173b2ea97aebb6aa32338289114e39c1a998b6520aed9d44",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/CIERRE_MATRIZ_INTERNA.json": "f1115732523f2ccfa01ba00eb968f3b46c6869f85387042f9be063b633a7713b",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/MANIFEST_CIERRE_MATRIZ_SHA256.json": "0856eb2a024650dd27ad7babb2ef381fdf85f1d71607bc3286d9899902c589b7",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/MANIFEST_CIERRE_MATRIZ_SHA256.sha256": "413dcf5eb9d89012328a72c943f4ce3c294a55979761522a67f0557d0d4ec6fc",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/MATRIZ_INTERNA_288.json": "8b1b43c87312a1398681c51dd180081c0a7e9fdeabbd45f81ad020f7c08925f8",
+  "codigo/cwru/ampliacion_v2/analisis/analizar_variabilidad_matriz_interna_v2.py": "32e2ba47fec5e88e53fcfa2131981adfcf8f08c07fb57bbb8d249d8de906b74d"
+}

@@ -1,0 +1,187 @@
+{
+  "status": "INNER_BATCH16_AUDITED_READY_FOR_ALL_REMAINING",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "campaign": "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z",
+  "available_logical_cells": 65,
+  "reused_cells": 48,
+  "completed_new_fits": 17,
+  "new_fits_remaining": 223,
+  "latest_batch_passed": 16,
+  "latest_batch_seconds": 175.26499999999578,
+  "latest_process_mean_seconds": 10.954062499999736,
+  "latest_process_min_seconds": 9.59400000000096,
+  "latest_process_max_seconds": 11.781000000002678,
+  "budget_consumed_seconds": 225.84299999999348,
+  "budget_remaining_seconds": 6974.1570000000065,
+  "remaining_at_last_mean_minutes": 40.71259895833235,
+  "remaining_at_last_max_minutes": 43.78605000000995,
+  "initial_cold_import_was_not_repeated_in_batch16": true,
+  "all_job_metrics_recomputed_from_saved_predictions": true,
+  "all_checkpoints_scalers_scopes_models_verified": true,
+  "outer_evaluation_executed": false,
+  "new_training_fits": 0,
+  "new_TFLite_invocations": 0,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "results_summary": [
+    {
+      "job_id": "inner_outer0_inner1_F14_seed22",
+      "best_epoch": 48,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_F14_seed33",
+      "best_epoch": 48,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_T6_seed22",
+      "best_epoch": 49,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_T6_seed33",
+      "best_epoch": 50,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_S8_seed22",
+      "best_epoch": 11,
+      "epochs_executed": 21,
+      "fp32_macro_f1": 0.9900209411295103,
+      "int8_macro_f1": 0.9900209411295103,
+      "class_changes": 0,
+      "validation_clipped_values": 58
+    },
+    {
+      "job_id": "inner_outer0_inner1_S8_seed33",
+      "best_epoch": 22,
+      "epochs_executed": 32,
+      "fp32_macro_f1": 0.9920192490947208,
+      "int8_macro_f1": 0.9920192490947208,
+      "class_changes": 0,
+      "validation_clipped_values": 58
+    },
+    {
+      "job_id": "inner_outer0_inner1_NF12_seed22",
+      "best_epoch": 50,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_NF12_seed33",
+      "best_epoch": 50,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_NM10_seed22",
+      "best_epoch": 37,
+      "epochs_executed": 47,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 58
+    },
+    {
+      "job_id": "inner_outer0_inner1_NM10_seed33",
+      "best_epoch": 22,
+      "epochs_executed": 32,
+      "fp32_macro_f1": 0.9960119047619047,
+      "int8_macro_f1": 0.9980064685631994,
+      "class_changes": 1,
+      "validation_clipped_values": 58
+    },
+    {
+      "job_id": "inner_outer0_inner1_NE12_seed22",
+      "best_epoch": 48,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_NE12_seed33",
+      "best_epoch": 48,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_DE7_seed22",
+      "best_epoch": 49,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_DE7_seed33",
+      "best_epoch": 50,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 1.0,
+      "int8_macro_f1": 1.0,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    },
+    {
+      "job_id": "inner_outer0_inner1_FE7_seed22",
+      "best_epoch": 11,
+      "epochs_executed": 21,
+      "fp32_macro_f1": 0.9759856630824372,
+      "int8_macro_f1": 0.9800052523516211,
+      "class_changes": 2,
+      "validation_clipped_values": 5
+    },
+    {
+      "job_id": "inner_outer0_inner1_FE7_seed33",
+      "best_epoch": 15,
+      "epochs_executed": 25,
+      "fp32_macro_f1": 0.9719571404654278,
+      "int8_macro_f1": 0.9739725740855288,
+      "class_changes": 1,
+      "validation_clipped_values": 5
+    },
+    {
+      "job_id": "inner_outer0_inner2_F14_seed11",
+      "best_epoch": 45,
+      "epochs_executed": 50,
+      "fp32_macro_f1": 0.996168455821635,
+      "int8_macro_f1": 0.996168455821635,
+      "class_changes": 0,
+      "validation_clipped_values": 0
+    }
+  ],
+  "qualifications": [
+    "Internal validation cells; no outer results or final feature selection.",
+    "FP32/INT8 differences and validation clipping are recorded; do not recalibrate with validation.",
+    "Timing projection excludes repeated shared audits and is not a guarantee."
+  ]
+}

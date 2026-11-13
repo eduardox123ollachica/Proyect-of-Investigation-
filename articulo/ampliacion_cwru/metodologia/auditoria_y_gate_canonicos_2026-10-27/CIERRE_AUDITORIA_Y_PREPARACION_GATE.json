@@ -1,0 +1,99 @@
+{
+  "status": "CANON42_ELF_AUDITED_CLIENTS_READY_PENDING_USER_PROGRAM_AND_PHYSICAL_GATE",
+  "date_local": "2026-10-27",
+  "timezone": "America/Lima",
+  "firmware_elf_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "catalog_sha256": "e7a0c848ccb293c3dd95c9e150e8e6909f6ae6b82c3ec90e6332faebbc2a6fdd",
+  "models": 8,
+  "seed": 42,
+  "memory": {
+    "flash_load_bytes": 185388,
+    "flash_capacity_bytes": 524288,
+    "flash_percent": 35.359954833984375,
+    "flash_program_segment_bytes": 185408,
+    "flash_program_address_span_bytes": 185408,
+    "flash_alignment_padding_bytes": 20,
+    "ram_static_including_linker_reservations_bytes": 88460,
+    "ram_capacity_bytes": 131072,
+    "ram_percent": 67.4896240234375,
+    "ram_address_span_bytes": 88464,
+    "ram_address_alignment_gap_bytes": 4,
+    "ram_unreserved_address_bytes": 42608,
+    "linker_symbols": {
+      "_Min_Heap_Size": 512,
+      "_Min_Stack_Size": 4096,
+      "_estack": 537001984,
+      "_end": 536954768
+    },
+    "heap_reservation_bytes": 512,
+    "stack_reservation_bytes": 4096,
+    "buffers": [
+      {
+        "name": "g_window",
+        "address": 536921568,
+        "bytes": 32768
+      },
+      {
+        "name": "g_fft_input",
+        "address": 536905184,
+        "bytes": 16384
+      },
+      {
+        "name": "g_fft_output",
+        "address": 536888800,
+        "bytes": 16384
+      },
+      {
+        "name": "_ZN12_GLOBAL__N_15arenaE",
+        "address": 536871904,
+        "bytes": 16384
+      }
+    ],
+    "one_reused_arena": true,
+    "arena_capacity_bytes": 16384,
+    "arena_used_pending_runtime": true,
+    "stack_high_water_or_WCET_claimed": false,
+    "Flash_is_eight_model_validation_harness": true
+  },
+  "joint_client_manifest_sha256": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+  "joint_manifest_entries": 65,
+  "gate_scope": {
+    "RAW_unique_windows": 2,
+    "RAW_model_window_pairs": 8,
+    "RAW_RUN": 24,
+    "RAW_PROFILE": 8,
+    "RAW_BASE": 2,
+    "POST": 24,
+    "POST_negative_rejections": 3
+  },
+  "user_hardware_budgets_seconds": {
+    "programmer": 120,
+    "UART_gate": 600
+  },
+  "unit_tests_passed": 26,
+  "delivered_client_offline_checks_passed": 2,
+  "full_batch_enabled": false,
+  "serial_opened": false,
+  "hardware_contacted": false,
+  "hardware_flashed": false,
+  "training_fits": 0,
+  "classifier_invocations": 0,
+  "D_files_modified": false,
+  "manuscript_modified": false,
+  "next_action": "User programs audited ELF with wrapper; after PASS invokes UART gate; root audits traces before full batch.",
+  "preserved_preparations": [
+    "archivo_preparacion_cliente_gate_v1",
+    "archivo_preparacion_cliente_gate_v2"
+  ],
+  "evidence_sha256": {
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_CLIENTES_CANON42_SHA256.json": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_CLIENTES_CANON42_SHA256.sha256": "9a5a80bb79ebedeb59631a8150a11826dbd53bb5fb5fec290d125ec8070a553f",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/COMPROBACION_OFFLINE_CLIENTES.json": "71040cb6441f27d10896a4a5ded960f0fee6ae82e6c5e5748cfd68683d74ad1b",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/COMPROBACIONES_AUDITORIA_Y_CLIENTES.json": "38c9742acda70ea0332df23aeb8818a07c0d3a3460b71eb3b4dedcca22da283b",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_ELF_CANON42.json": "18b30cfdfa9b53179080a6f824b2c3827faa4e715338437c776fb5a8ae5d09ec",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_METADATA_CDT.json": "6d3ad7dbd4fc42fe5902d35230c56c2fa9c9dd85107333ac3c8090a459b1c6f7",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_INDEPENDIENTE_KERNEL_MEMORIA.json": "d693735766a9bf468d4c8bc54f11e4b21f459ddced1f96b815eb12009ea4ce64",
+    "despliegue_stm32/canonicos_42_180mhz_2026-10-27/GUIA_CARGA_Y_GATE_CANON42.md": "a166861a9ea0841fd581e86c80c9413a54fdcc679a7598fddcdc0f17ed7ba4df",
+    "articulo/ampliacion_cwru/metodologia/auditoria_y_gate_canonicos_2026-10-27/AUDITORIA_Y_SIGUIENTE_PASO.md": "f0b464ea27021ac53d465d741dc3cc9f270b490dcad6c9bde9b7f8ce14153795"
+  }
+}

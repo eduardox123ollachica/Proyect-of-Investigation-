@@ -1,0 +1,6 @@
+{
+  "completed_before": [],
+  "max_new_jobs": 1,
+  "max_seconds": 600,
+  "campaign_execution_verification_seconds_before": 0.0
+}

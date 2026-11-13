@@ -1,0 +1,244 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792006997.844104   13472 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792007000.442888   13472 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+
+
+================================================================================
+ARQUITECTURA DEL MODELO
+================================================================================
+Model: "replica_arciniegas_21_20_10_3"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| oculta_20 (Dense)               | (None, 20)             |           440 |
+|---------------------------------+------------------------+---------------|
+| oculta_10 (Dense)               | (None, 10)             |           210 |
+|---------------------------------+------------------------+---------------|
+| salida_3_clases (Dense)         | (None, 3)              |            33 |
++--------------------------------------------------------------------------+
+ Total params: 683 (2.67 KB)
+ Trainable params: 683 (2.67 KB)
+ Non-trainable params: 0 (0.00 B)
+Epoch 1/50
+223/223 - 1s - 6ms/step - accuracy: 0.9566 - loss: 0.1713
+Epoch 2/50
+223/223 - 0s - 2ms/step - accuracy: 0.9944 - loss: 0.0506
+Epoch 3/50
+223/223 - 0s - 2ms/step - accuracy: 0.9969 - loss: 0.0371
+Epoch 4/50
+223/223 - 0s - 2ms/step - accuracy: 0.9975 - loss: 0.0297
+Epoch 5/50
+223/223 - 0s - 2ms/step - accuracy: 0.9986 - loss: 0.0251
+Epoch 6/50
+223/223 - 0s - 2ms/step - accuracy: 0.9985 - loss: 0.0227
+Epoch 7/50
+223/223 - 0s - 2ms/step - accuracy: 0.9987 - loss: 0.0208
+Epoch 8/50
+223/223 - 0s - 2ms/step - accuracy: 0.9987 - loss: 0.0195
+Epoch 9/50
+223/223 - 0s - 2ms/step - accuracy: 0.9986 - loss: 0.0186
+Epoch 10/50
+223/223 - 0s - 2ms/step - accuracy: 0.9989 - loss: 0.0176
+Epoch 11/50
+223/223 - 0s - 2ms/step - accuracy: 0.9989 - loss: 0.0164
+Epoch 12/50
+223/223 - 0s - 2ms/step - accuracy: 0.9987 - loss: 0.0159
+Epoch 13/50
+223/223 - 0s - 2ms/step - accuracy: 0.9980 - loss: 0.0164
+Epoch 14/50
+223/223 - 0s - 2ms/step - accuracy: 0.9980 - loss: 0.0157
+Epoch 15/50
+223/223 - 0s - 2ms/step - accuracy: 0.9986 - loss: 0.0147
+Epoch 16/50
+223/223 - 0s - 2ms/step - accuracy: 0.9992 - loss: 0.0137
+Epoch 17/50
+223/223 - 0s - 2ms/step - accuracy: 0.9989 - loss: 0.0137
+Epoch 18/50
+223/223 - 0s - 1ms/step - accuracy: 0.9987 - loss: 0.0140
+Epoch 19/50
+223/223 - 0s - 2ms/step - accuracy: 0.9990 - loss: 0.0127
+Epoch 20/50
+223/223 - 0s - 2ms/step - accuracy: 0.9996 - loss: 0.0112
+Epoch 21/50
+223/223 - 0s - 2ms/step - accuracy: 0.9996 - loss: 0.0115
+Epoch 22/50
+223/223 - 0s - 2ms/step - accuracy: 0.9989 - loss: 0.0128
+Epoch 23/50
+223/223 - 0s - 2ms/step - accuracy: 0.9994 - loss: 0.0113
+Epoch 24/50
+223/223 - 0s - 2ms/step - accuracy: 0.9996 - loss: 0.0108
+Epoch 25/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0098
+Epoch 26/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0097
+Epoch 27/50
+223/223 - 0s - 2ms/step - accuracy: 0.9990 - loss: 0.0119
+Epoch 28/50
+223/223 - 0s - 2ms/step - accuracy: 0.9992 - loss: 0.0112
+Epoch 29/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0088
+Epoch 30/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0092
+Epoch 31/50
+223/223 - 0s - 2ms/step - accuracy: 0.9990 - loss: 0.0111
+Epoch 32/50
+223/223 - 0s - 2ms/step - accuracy: 0.9982 - loss: 0.0169
+Epoch 33/50
+223/223 - 0s - 2ms/step - accuracy: 0.9986 - loss: 0.0116
+Epoch 34/50
+223/223 - 1s - 3ms/step - accuracy: 0.9996 - loss: 0.0100
+Epoch 35/50
+223/223 - 0s - 2ms/step - accuracy: 0.9999 - loss: 0.0080
+Epoch 36/50
+223/223 - 1s - 3ms/step - accuracy: 0.9997 - loss: 0.0078
+Epoch 37/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0077
+Epoch 38/50
+223/223 - 0s - 2ms/step - accuracy: 0.9996 - loss: 0.0087
+Epoch 39/50
+223/223 - 0s - 2ms/step - accuracy: 0.9985 - loss: 0.0128
+Epoch 40/50
+223/223 - 1s - 2ms/step - accuracy: 0.9997 - loss: 0.0087
+Epoch 41/50
+223/223 - 1s - 3ms/step - accuracy: 0.9997 - loss: 0.0076
+Epoch 42/50
+223/223 - 0s - 2ms/step - accuracy: 0.9999 - loss: 0.0072
+Epoch 43/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0072
+Epoch 44/50
+223/223 - 1s - 2ms/step - accuracy: 0.9997 - loss: 0.0072
+Epoch 45/50
+223/223 - 0s - 2ms/step - accuracy: 0.9979 - loss: 0.0125
+Epoch 46/50
+223/223 - 0s - 2ms/step - accuracy: 0.9986 - loss: 0.0132
+Epoch 47/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0086
+Epoch 48/50
+223/223 - 1s - 2ms/step - accuracy: 1.0000 - loss: 0.0070
+Epoch 49/50
+223/223 - 0s - 2ms/step - accuracy: 0.9997 - loss: 0.0068
+Epoch 50/50
+223/223 - 0s - 2ms/step - accuracy: 0.9979 - loss: 0.0114
+
+
+================================================================================
+ANALISIS DE RECURSOS TINYML
+================================================================================
+
+MODELO
+Parametros totales       : 683
+Parametros FP32          : 2732 bytes (2.6680 KiB)
+Parametros INT8 teoricos : 683 bytes (0.6670 KiB)
+
+
+CONVIRTIENDO A TFLITE FP32...
+Saved artifact at 'C:\Users\LENOVO\AppData\Local\Temp\tmpfydd3nfg'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 21), dtype=tf.float32, name='entrada_21_features')
+Output Type:
+  TensorSpec(shape=(None, 3), dtype=tf.float32, name=None)
+Captures:
+  1985918602512: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918603664: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918601360: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918601936: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918602320: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918601168: TensorSpec(shape=(), dtype=tf.resource, name=None)
+CONVIRTIENDO A TFLITE INT8...
+Saved artifact at 'C:\Users\LENOVO\AppData\Local\Temp\tmpb06iz85k'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 21), dtype=tf.float32, name='entrada_21_features')
+Output Type:
+  TensorSpec(shape=(None, 3), dtype=tf.float32, name=None)
+Captures:
+  1985918602512: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918603664: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918601360: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918601936: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918602320: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  1985918601168: TensorSpec(shape=(), dtype=tf.resource, name=None)
+C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tensorflow\lite\python\convert.py:846: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
+  warnings.warn(
+fully_quantize: 0, inference_type: 6, input_inference_type: INT8, output_inference_type: INT8
+C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+
+Cargando modelo TFLite:
+C:\Users\LENOVO\Desktop\Proyecto Investigación\articulo\experimentos_multisemilla\resultados\e2\seed_77\modelo_arciniegas_fp32.tflite
+Tamaño del archivo: 5308 bytes
+Tipo de entrada : <class 'numpy.float32'>
+Tipo de salida  : <class 'numpy.float32'>
+
+Cargando modelo TFLite:
+C:\Users\LENOVO\Desktop\Proyecto Investigación\articulo\experimentos_multisemilla\resultados\e2\seed_77\modelo_arciniegas_int8.tflite
+Tamaño del archivo: 4480 bytes
+Tipo de entrada : <class 'numpy.int8'>
+Tipo de salida  : <class 'numpy.int8'>
+Input scale     : 0.07967346161603928
+Input zero point: -55
+
+
+================================================================================
+RESULTADOS TINYML
+================================================================================
+
+TAMAÑO DE ARCHIVOS
+Keras FP32       : 34126 bytes (33.33 KiB)
+TFLite FP32      : 5308 bytes (5.18 KiB)
+TFLite INT8      : 4480 bytes (4.38 KiB)
+Reduccion FP32 -> INT8: 15.60%
+
+ACCURACY
+Keras FP32       : 96.7718%
+TFLite FP32      : 96.7718%
+TFLite INT8      : 97.0721%
+Delta FP32       : +0.0000 pp
+Delta INT8       : +0.3003 pp
+Predicciones distintas FP32 vs INT8: 4
+
+MEMORIA ESTIMADA DE TENSORES
+TFLite FP32      : 2960 bytes (2.89 KiB)
+TFLite INT8      : 839 bytes (0.82 KiB)
+
+IMPORTANTE:
+La memoria anterior es una estimacion obtenida a partir de tensores TFLite.
+NO corresponde todavia a la RAM real / Tensor Arena del MCU.
+
+
+================================================================================
+EJECUCION COMPLETADA
+================================================================================
+
+Resultados guardados en:
+C:\Users\LENOVO\Desktop\Proyecto Investigación\articulo\experimentos_multisemilla\resultados\e2\seed_77
+
+METRICAS KERAS
+accuracy             0.967718
+macro_precision      0.969948
+macro_recall         0.960185
+macro_f1             0.963202
+weighted_precision   0.970164
+weighted_recall      0.967718
+weighted_f1          0.967330
+
+
+COMPARACION TINYML
+     modelo  archivo_KiB  accuracy_percent  delta_accuracy_pp_vs_keras  memoria_tensores_estimada_KiB
+ Keras_FP32      33.3262           96.7718                      0.0000                            NaN
+TFLite_FP32       5.1836           96.7718                      0.0000                         2.8906
+TFLite_INT8       4.3750           97.0721                      0.3003                         0.8193

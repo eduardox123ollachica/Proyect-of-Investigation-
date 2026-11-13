@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "native_reload_predictions_exact": true,
+  "native_values_exact": true,
+  "model_sha256": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46",
+  "TensorFlow_imported": false,
+  "synthetic_model_fits": 1,
+  "family": "RF",
+  "model_artifact_manifest_entries": 4,
+  "result_status": "PASS",
+  "authorization_patch_scope": "this_child_synthetic_fixture_only",
+  "production_authorization_modified": false,
+  "CWRU_arrays_opened": false,
+  "blocked_CWRU_guard_probe_requests": 1,
+  "outer_evaluation_executed": false
+}

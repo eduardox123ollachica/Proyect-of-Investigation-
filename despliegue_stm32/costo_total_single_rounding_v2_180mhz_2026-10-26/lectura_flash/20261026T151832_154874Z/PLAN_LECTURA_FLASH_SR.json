@@ -1,0 +1,32 @@
+{
+  "status": "PREFLIGHT_PASS_READY_FOR_USER_READBACK",
+  "CLI": "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304\\tools\\bin\\STM32_Programmer_CLI.exe",
+  "CLI_sha256": "269db404ed3f2cdd7cfcccc257ab0a907f2364c3d44e39edab6b007cb5f668ed",
+  "CLI_version_help_verified": "2.23.0",
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "source_campaign": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\Validacion_PC\\resultados\\20261026T144540_396879Z",
+  "source_campaign_manifest_sha256": "df72445555afa114ec4974fe931de60970164308e07c24b3935cf47ed12439b2",
+  "compared_ELF_bytes": 280288,
+  "read_size_bytes": 524288,
+  "device_id_required": "0x421",
+  "STLINK_SN": "0672FF505487525067162526",
+  "original_capture_modified": false,
+  "hardware_connected": false,
+  "readback_executed": false,
+  "Flash_programming_or_erasing": false,
+  "command_argv": [
+    "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304\\tools\\bin\\STM32_Programmer_CLI.exe",
+    "-c",
+    "port=SWD",
+    "mode=HOTPLUG",
+    "freq=4000",
+    "sn=0672FF505487525067162526",
+    "-u",
+    "0x08000000",
+    "0x80000",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\lectura_flash\\20261026T151832_154874Z\\flash_512KiB.bin",
+    "-log",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\lectura_flash\\20261026T151832_154874Z\\programador.log"
+  ],
+  "budget_seconds": 120
+}

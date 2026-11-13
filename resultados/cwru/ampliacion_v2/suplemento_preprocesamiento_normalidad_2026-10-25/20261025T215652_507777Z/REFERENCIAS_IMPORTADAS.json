@@ -1,0 +1,22 @@
+{
+  "supp_o3_i0_F14_P0_s11": {
+    "cell_id": "supp_o3_i0_F14_P0_s11",
+    "source_job_id": "cost_outer3_inner0_F14_seed11",
+    "source_result": "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_F14_seed11/resultado.json",
+    "source_result_sha256": "a849188341b3ab0d8dc97875d23d15cd511900fa4c5382677bb6e311cc8dd490",
+    "source_fit_signature": "11d9e7747ee9a266256ba84d879009ad524b269d628657b803676d793977a79c",
+    "new_training_fits": 0,
+    "method": "verified_original_signature_and_identical_identity_preprocessing_roles",
+    "original_training_source_sha256": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  },
+  "supp_o3_i0_NF12_P0_s11": {
+    "cell_id": "supp_o3_i0_NF12_P0_s11",
+    "source_job_id": "cost_outer3_inner0_NF12_seed11",
+    "source_result": "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_NF12_seed11/resultado.json",
+    "source_result_sha256": "a6eadd2a2fd4dcad499c205bdc7aa3d881a8673a7714e8b1c424f20c5c8bcc87",
+    "source_fit_signature": "bd2bfc7e2d130943c035942907582eccc4e97d6a6398830a0eb2f9d997324ff0",
+    "new_training_fits": 0,
+    "method": "verified_original_signature_and_identical_identity_preprocessing_roles",
+    "original_training_source_sha256": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  }
+}

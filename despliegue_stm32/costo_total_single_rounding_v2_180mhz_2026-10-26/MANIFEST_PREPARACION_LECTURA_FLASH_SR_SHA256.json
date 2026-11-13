@@ -1,0 +1,15 @@
+{
+  "codigo/cwru/ampliacion_v2/analisis/auditar_elf_total_v2.py": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b",
+  "codigo/cwru/ampliacion_v2/analisis/cerrar_preparacion_lectura_flash_sr_v2.py": "2f6c05bf582d4ada7d3f0a52f1e13c52b77129620b89172ed5ef200d5006a9ec",
+  "codigo/cwru/ampliacion_v2/stm32/test_verificar_flash_total_sr_v2.py": "28e0bf50dedcd49e25286e275f5ca92c49a4698f92ad24945e430923b356184b",
+  "codigo/cwru/ampliacion_v2/stm32/verificar_flash_total_sr_v2.py": "543beade5ac99ece2d6202620f737804fcc5bc4a9c0903cec18279e6e7606f0e",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/AYUDA_PROGRAMADOR_OFFLINE_SR.json": "cf4f16d0aa53d991039f704f555a3deb368510114fd97202e01d024be7e7b467",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/AYUDA_PROGRAMADOR_OFFLINE_SR.txt": "9cb707177519f388eebe5fec1688df9832e62b74d0fd2a0b677e60addb81dd69",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/CIERRE_AUDITORIA_CAMPANA_SR.json": "da37893857736a4e6c75aedd90396a6184faad3aedc5cc92859f0d2b22bb598a",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/CIERRE_PREPARACION_LECTURA_FLASH_SR.json": "4171fde8b175543c4b5a6a31dfddba0a91d051914cf52e7974944b0cd8d325a5",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/MANIFEST_AUDITORIA_CAMPANA_SR_SHA256.json": "2ce73b6e8e45c101c4a54ac736436d2413f07835bd9ad6b3f5914653c4ac21ea",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/MANIFEST_AUDITORIA_CAMPANA_SR_SHA256.sha256": "ff3c4fc5820b4411d892e1e056df90c4d10fd239e4ac5d6541469ed80ccde2d0",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/PREFLIGHT_VERIFICADOR_FLASH_SR.json": "045f70b9cd7f506576d2d32acad6f1901711281ce398cbdc68ec011c450af50f",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/PRUEBAS_VERIFICADOR_FLASH_SR.json": "fd2a786e86cfe92f025f8ef750676179b845d143bd831b6f38b5e81c0cb280bb",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/VERIFICACION_FLASH_SR.md": "dd7c17b09db6737733967b9a671dc43ca817920d2690b4d6e04601b939235ae1"
+}

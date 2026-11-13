@@ -1,0 +1,178 @@
+{
+  "mode": "gate",
+  "RAW_schedule": [
+    [
+      0,
+      [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    [
+      175,
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "POST_cases": [
+    {
+      "model_id": 0,
+      "global_id": 0,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 0,
+      "global_id": 28,
+      "label": 1,
+      "reference_index": 28
+    },
+    {
+      "model_id": 0,
+      "global_id": 90,
+      "label": 2,
+      "reference_index": 90
+    },
+    {
+      "model_id": 1,
+      "global_id": 0,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 1,
+      "global_id": 28,
+      "label": 1,
+      "reference_index": 28
+    },
+    {
+      "model_id": 1,
+      "global_id": 90,
+      "label": 2,
+      "reference_index": 90
+    },
+    {
+      "model_id": 2,
+      "global_id": 175,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 2,
+      "global_id": 233,
+      "label": 1,
+      "reference_index": 58
+    },
+    {
+      "model_id": 2,
+      "global_id": 394,
+      "label": 2,
+      "reference_index": 219
+    },
+    {
+      "model_id": 3,
+      "global_id": 175,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 3,
+      "global_id": 233,
+      "label": 1,
+      "reference_index": 58
+    },
+    {
+      "model_id": 3,
+      "global_id": 394,
+      "label": 2,
+      "reference_index": 219
+    },
+    {
+      "model_id": 4,
+      "global_id": 568,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 4,
+      "global_id": 626,
+      "label": 1,
+      "reference_index": 58
+    },
+    {
+      "model_id": 4,
+      "global_id": 800,
+      "label": 2,
+      "reference_index": 232
+    },
+    {
+      "model_id": 5,
+      "global_id": 568,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 5,
+      "global_id": 626,
+      "label": 1,
+      "reference_index": 58
+    },
+    {
+      "model_id": 5,
+      "global_id": 800,
+      "label": 2,
+      "reference_index": 232
+    },
+    {
+      "model_id": 6,
+      "global_id": 974,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 6,
+      "global_id": 1032,
+      "label": 1,
+      "reference_index": 58
+    },
+    {
+      "model_id": 6,
+      "global_id": 1206,
+      "label": 2,
+      "reference_index": 232
+    },
+    {
+      "model_id": 7,
+      "global_id": 974,
+      "label": 0,
+      "reference_index": 0
+    },
+    {
+      "model_id": 7,
+      "global_id": 1032,
+      "label": 1,
+      "reference_index": 58
+    },
+    {
+      "model_id": 7,
+      "global_id": 1206,
+      "label": 2,
+      "reference_index": 232
+    }
+  ],
+  "expected_RAW_primary_RUN": 24,
+  "expected_RAW_PROFILE": 8,
+  "expected_RAW_BASE": 2,
+  "expected_POST": 24,
+  "expected_POST_negative_rejections": 3,
+  "RAW_coverage": "partial development coverage; eight model-window pairs",
+  "POST_coverage": "three mechanical labelled cases per model; not all reserved windows",
+  "selection_uses_accuracy_or_confidence": false,
+  "full_validation_enabled": false
+}

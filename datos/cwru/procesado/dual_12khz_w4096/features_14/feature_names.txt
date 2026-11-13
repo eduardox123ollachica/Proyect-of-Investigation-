@@ -1,0 +1,14 @@
+00: de_rms
+01: de_skewness
+02: de_kurtosis
+03: de_spectral_energy
+04: de_dominant_frequency
+05: de_dominant_amplitude
+06: de_spectral_entropy
+07: fe_rms
+08: fe_skewness
+09: fe_kurtosis
+10: fe_spectral_energy
+11: fe_dominant_frequency
+12: fe_dominant_amplitude
+13: fe_spectral_entropy

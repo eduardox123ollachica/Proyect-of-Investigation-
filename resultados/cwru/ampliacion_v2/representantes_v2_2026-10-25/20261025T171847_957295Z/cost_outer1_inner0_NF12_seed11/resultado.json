@@ -1,0 +1,343 @@
+{
+  "status": "PASS",
+  "job_id": "cost_outer1_inner0_NF12_seed11",
+  "fit_signature": "714d5d427ad41bf6cf027cb09deb5d3884beb1425c6c2eca7195b525f39c5d7d",
+  "candidate": "NF12",
+  "outer_load_hp": 1,
+  "inner_validation_load_hp": 0,
+  "seed": 11,
+  "purpose": "V2_inner_fit_and_predefined_total_cost_representative",
+  "included_in_288_inner": true,
+  "roles": {
+    "outer_load_hp": 1,
+    "inner_validation_load_hp": 0,
+    "development_loads": [
+      0,
+      2,
+      3
+    ],
+    "training_loads": [
+      2,
+      3
+    ],
+    "dnn_fit_loads": [
+      2,
+      3
+    ],
+    "int8_calibration_loads": [
+      2,
+      3
+    ],
+    "detector_fit_normal_loads": [
+      2
+    ],
+    "detector_calibration_normal_loads": [
+      3
+    ],
+    "evaluation_loads": [
+      0
+    ],
+    "outer_excluded_loads": [
+      1
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "training_windows": 812,
+  "validation_windows": 175,
+  "best_epoch": 2,
+  "epochs_executed": 12,
+  "optimizer_updates": 312,
+  "weights_restored": true,
+  "architecture": [
+    12,
+    20,
+    10,
+    3
+  ],
+  "parameters": 503,
+  "representative_calibration_rows": 812,
+  "freeze": {
+    "comparison_batch_size": 1,
+    "rtol": 1e-06,
+    "atol": 1e-07,
+    "model_weights_sha256": "78c8030f3299d83735d0e34ab663a6048c9ba6e2ba015a7b2693df6959c6e03b",
+    "maximum_absolute_error": 0.0,
+    "class_changes": 0,
+    "weights_unchanged": true,
+    "resource_variable_ops_remaining": 0,
+    "tensorflow_internal_API_version": "2.21.0"
+  },
+  "model_sha256": {
+    "FP32": "e2edaf52ead4740868d6c3e9458876b81a504a692806739d9ac98db1ea4c7230",
+    "INT8": "246b8abc9a736fd19e31b4604c53784afac245d2d9721de91108c70d910b304a"
+  },
+  "model_bytes": {
+    "FP32": 3904,
+    "INT8": 3608
+  },
+  "metrics": {
+    "FP32": {
+      "accuracy": 0.9371428571428572,
+      "macro_f1": 0.9497787095271372,
+      "confusion_matrix": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          0,
+          11,
+          74
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 28
+        },
+        {
+          "label": 1,
+          "precision": 0.8493150684931506,
+          "recall": 1.0,
+          "f1": 0.9185185185185185,
+          "support": 62
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 0.8705882352941177,
+          "f1": 0.9308176100628931,
+          "support": 85
+        }
+      ]
+    },
+    "INT8": {
+      "accuracy": 0.9371428571428572,
+      "macro_f1": 0.9497787095271372,
+      "confusion_matrix": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          62,
+          0
+        ],
+        [
+          0,
+          11,
+          74
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 28
+        },
+        {
+          "label": 1,
+          "precision": 0.8493150684931506,
+          "recall": 1.0,
+          "f1": 0.9185185185185185,
+          "support": 62
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 0.8705882352941177,
+          "f1": 0.9308176100628931,
+          "support": 85
+        }
+      ]
+    }
+  },
+  "detector_metrics": {
+    "normal_spec": 0.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "fault_sensitivity": 1.0,
+    "balanced_accuracy": 0.5,
+    "BA": 0.5,
+    "per_record": [
+      {
+        "record_id": "109",
+        "label": 1,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "135",
+        "label": 2,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "174",
+        "label": 1,
+        "windows": 6,
+        "rejected_windows": 6,
+        "rate": 1.0
+      },
+      {
+        "record_id": "201",
+        "label": 2,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "213",
+        "label": 1,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "238",
+        "label": 2,
+        "windows": 29,
+        "rejected_windows": 29,
+        "rate": 1.0
+      },
+      {
+        "record_id": "97",
+        "label": 0,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 0.0
+      }
+    ]
+  },
+  "FP32_INT8_class_changes": 0,
+  "keras_batch1_FP32_class_changes": 0,
+  "fp32_details": {
+    "input_dtype": "float32",
+    "output_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_quantization": [
+      0.0,
+      0
+    ],
+    "tensor_dtypes": [
+      "float32"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "int8_details": {
+    "input_dtype": "int8",
+    "output_dtype": "int8",
+    "input_quantization": [
+      0.041961800307035446,
+      -18
+    ],
+    "output_quantization": [
+      0.00390625,
+      -128
+    ],
+    "tensor_dtypes": [
+      "int32",
+      "int8"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 206,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "benchmark_int8_details": {
+    "input_dtype": "int8",
+    "output_dtype": "int8",
+    "input_quantization": [
+      0.041961800307035446,
+      -18
+    ],
+    "output_quantization": [
+      0.00390625,
+      -128
+    ],
+    "tensor_dtypes": [
+      "int32",
+      "int8"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "training_saturated_input_values": 0,
+  "benchmark_rows": 28,
+  "detector_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13
+  ],
+  "detector_refit_after_calibration": false,
+  "detector_recomputed_per_representative": true,
+  "detector_F14_NF12_alias_not_counted_as_independent_evidence": true,
+  "measured_STM32_total_cost": null,
+  "remaining_grid_enabled": false,
+  "outer_evaluation_executed": false,
+  "retrospective_evaluation": true,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "timings_seconds": {
+    "imports": 5.857150499999989,
+    "data_and_scaler": 0.7184669999987818,
+    "fit_including_checkpoint_IO": 1.0230619999929331,
+    "FP32_conversion": 0.3183343000127934,
+    "INT8_conversion": 0.08463469997514039,
+    "validation_inference_and_IO": 0.01709939999273047,
+    "detector_and_benchmark_and_IO": 0.3350693999964278
+  },
+  "elapsed_worker_seconds": 9.26464009998017
+}

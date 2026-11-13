@@ -1,0 +1,14 @@
+test_affine_copy_detected_but_unrelated_signal_rejected (test_auditoria_cwru.AuditTests.test_affine_copy_detected_but_unrelated_signal_rejected) ... ok
+test_constant_signal_has_finite_features (test_auditoria_cwru.AuditTests.test_constant_signal_has_finite_features) ... ok
+test_explicit_channel_rejects_auxiliary_key (test_auditoria_cwru.AuditTests.test_explicit_channel_rejects_auxiliary_key) ... ok
+test_fingerprints_all_offsets_and_signed_zero (test_auditoria_cwru.AuditTests.test_fingerprints_all_offsets_and_signed_zero) ... ok
+test_independent_feature_moments_and_spectral_bins (test_auditoria_cwru.AuditTests.test_independent_feature_moments_and_spectral_bins) ... ok
+test_independent_fir_matches_polyphase_reference (test_auditoria_cwru.AuditTests.test_independent_fir_matches_polyphase_reference) ... ok
+test_metadata_decimal_rounding_not_real_timestamp_or_key_change (test_auditoria_cwru.AuditTests.test_metadata_decimal_rounding_not_real_timestamp_or_key_change) ... ok
+test_output_manifest_detects_tampering (test_auditoria_cwru.AuditTests.test_output_manifest_detects_tampering) ... ok
+test_reversed_channels_and_wrong_window_offset_are_detected (test_auditoria_cwru.AuditTests.test_reversed_channels_and_wrong_window_offset_are_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.036s
+
+OK

@@ -1,0 +1,31 @@
+{
+  "scope": "two_runtime_pilot_jobs_only",
+  "source_plan": "articulo/ampliacion_cwru/metodologia/protocolo_v2_2026-10-25/piloto_plan.json",
+  "source_plan_sha256": "33fc1baef8608d5d9d00e5f691026f18bf01e997e2b1df6c3bfa27e297c97d04",
+  "historical_plan_pilot_execution_enabled": false,
+  "historical_snapshot_unmodified": true,
+  "pilot_execution_enabled": true,
+  "execution_stage_basis": "User requested continuing with the bounded runtime pilot on 2026-10-25.",
+  "job_ids": [
+    "pilot_outer3_inner0_F14_seed11",
+    "pilot_outer3_inner0_T6_seed11"
+  ],
+  "maximum_DNN_fits": 2,
+  "maximum_FP32_plus_INT8_conversions": 4,
+  "timeout_per_worker_seconds": 300,
+  "maximum_worker_seconds_total": 600,
+  "sequential": true,
+  "automatic_retry": false,
+  "mass_training_enabled": false,
+  "outer_predictive_evaluation_enabled": false,
+  "manuscript_edits_enabled": false,
+  "pilot_models_reused_as_confirmatory_results": false,
+  "technical_revision": "freeze_variable_values_before_FP32_and_INT8_conversion",
+  "previous_attempt": "resultados/cwru/ampliacion_v2/piloto_tiempo_2026-10-25/20261025T063025_963041Z",
+  "previous_attempt_preserved": true,
+  "previous_attempt_trained_F14_but_failed_INT8": true,
+  "extra_technical_F14_training_repeat": 1,
+  "reason_for_repeat": "The first failed worker did not persist weights before conversion; repeat is a technical recovery, not model selection.",
+  "cumulative_training_attempts_limit_including_failed_attempt": 3,
+  "new_checkpoint_saved_before_conversion": true
+}

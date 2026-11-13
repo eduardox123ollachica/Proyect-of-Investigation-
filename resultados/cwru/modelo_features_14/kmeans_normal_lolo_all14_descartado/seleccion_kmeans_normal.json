@@ -1,0 +1,251 @@
+{
+  "status": "selected_with_load_grouped_development_test_not_loaded",
+  "development_loads_hp": [
+    0,
+    1,
+    2
+  ],
+  "test_load_hp": 3,
+  "test_loaded": false,
+  "normal_training_definition": "class_N_only",
+  "candidate_k": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "selection_rule": "maximum pooled leave-one-load-out balanced accuracy; then maximum minimum fault sensitivity across loads; then smaller K",
+  "threshold_rule": "P95_of_out_of_fold_normal_scores_for_each_candidate_K",
+  "candidate_results": [
+    {
+      "k": 1,
+      "threshold_oof_normal_p95": 28655096.0,
+      "true_positive_fault_corroborated": 28,
+      "false_negative_fault_not_corroborated": 802,
+      "false_positive_normal_rejected": 8,
+      "true_negative_normal_accepted": 136,
+      "fault_corroboration_sensitivity": 0.033734939759036145,
+      "normal_specificity": 0.9444444444444444,
+      "balanced_accuracy": 0.4890896921017403,
+      "minimum_fault_sensitivity_across_loads": 0.0,
+      "minimum_normal_specificity_across_loads": 0.7142857142857143,
+      "by_held_load": {
+        "0": {
+          "true_positive_fault_corroborated": 28,
+          "false_negative_fault_not_corroborated": 119,
+          "false_positive_normal_rejected": 8,
+          "true_negative_normal_accepted": 20,
+          "fault_corroboration_sensitivity": 0.19047619047619047,
+          "normal_specificity": 0.7142857142857143,
+          "balanced_accuracy": 0.4523809523809524
+        },
+        "1": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 335,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        },
+        "2": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 348,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        }
+      }
+    },
+    {
+      "k": 2,
+      "threshold_oof_normal_p95": 28655020.0,
+      "true_positive_fault_corroborated": 28,
+      "false_negative_fault_not_corroborated": 802,
+      "false_positive_normal_rejected": 7,
+      "true_negative_normal_accepted": 137,
+      "fault_corroboration_sensitivity": 0.033734939759036145,
+      "normal_specificity": 0.9513888888888888,
+      "balanced_accuracy": 0.4925619143239625,
+      "minimum_fault_sensitivity_across_loads": 0.0,
+      "minimum_normal_specificity_across_loads": 0.75,
+      "by_held_load": {
+        "0": {
+          "true_positive_fault_corroborated": 28,
+          "false_negative_fault_not_corroborated": 119,
+          "false_positive_normal_rejected": 7,
+          "true_negative_normal_accepted": 21,
+          "fault_corroboration_sensitivity": 0.19047619047619047,
+          "normal_specificity": 0.75,
+          "balanced_accuracy": 0.47023809523809523
+        },
+        "1": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 335,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        },
+        "2": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 348,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        }
+      }
+    },
+    {
+      "k": 4,
+      "threshold_oof_normal_p95": 28655020.0,
+      "true_positive_fault_corroborated": 28,
+      "false_negative_fault_not_corroborated": 802,
+      "false_positive_normal_rejected": 7,
+      "true_negative_normal_accepted": 137,
+      "fault_corroboration_sensitivity": 0.033734939759036145,
+      "normal_specificity": 0.9513888888888888,
+      "balanced_accuracy": 0.4925619143239625,
+      "minimum_fault_sensitivity_across_loads": 0.0,
+      "minimum_normal_specificity_across_loads": 0.75,
+      "by_held_load": {
+        "0": {
+          "true_positive_fault_corroborated": 28,
+          "false_negative_fault_not_corroborated": 119,
+          "false_positive_normal_rejected": 7,
+          "true_negative_normal_accepted": 21,
+          "fault_corroboration_sensitivity": 0.19047619047619047,
+          "normal_specificity": 0.75,
+          "balanced_accuracy": 0.47023809523809523
+        },
+        "1": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 335,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        },
+        "2": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 348,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        }
+      }
+    },
+    {
+      "k": 8,
+      "threshold_oof_normal_p95": 28655014.0,
+      "true_positive_fault_corroborated": 28,
+      "false_negative_fault_not_corroborated": 802,
+      "false_positive_normal_rejected": 8,
+      "true_negative_normal_accepted": 136,
+      "fault_corroboration_sensitivity": 0.033734939759036145,
+      "normal_specificity": 0.9444444444444444,
+      "balanced_accuracy": 0.4890896921017403,
+      "minimum_fault_sensitivity_across_loads": 0.0,
+      "minimum_normal_specificity_across_loads": 0.7142857142857143,
+      "by_held_load": {
+        "0": {
+          "true_positive_fault_corroborated": 28,
+          "false_negative_fault_not_corroborated": 119,
+          "false_positive_normal_rejected": 8,
+          "true_negative_normal_accepted": 20,
+          "fault_corroboration_sensitivity": 0.19047619047619047,
+          "normal_specificity": 0.7142857142857143,
+          "balanced_accuracy": 0.4523809523809524
+        },
+        "1": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 335,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        },
+        "2": {
+          "true_positive_fault_corroborated": 0,
+          "false_negative_fault_not_corroborated": 348,
+          "false_positive_normal_rejected": 0,
+          "true_negative_normal_accepted": 58,
+          "fault_corroboration_sensitivity": 0.0,
+          "normal_specificity": 1.0,
+          "balanced_accuracy": 0.5
+        }
+      }
+    }
+  ],
+  "selected_k": 2,
+  "selected_threshold": 28655020.0,
+  "selected_oof_metrics": {
+    "true_positive_fault_corroborated": 28,
+    "false_negative_fault_not_corroborated": 802,
+    "false_positive_normal_rejected": 7,
+    "true_negative_normal_accepted": 137,
+    "fault_corroboration_sensitivity": 0.033734939759036145,
+    "normal_specificity": 0.9513888888888888,
+    "balanced_accuracy": 0.4925619143239625,
+    "minimum_fault_sensitivity_across_loads": 0.0,
+    "minimum_normal_specificity_across_loads": 0.75
+  },
+  "selected_oof_metrics_by_load": {
+    "0": {
+      "true_positive_fault_corroborated": 28,
+      "false_negative_fault_not_corroborated": 119,
+      "false_positive_normal_rejected": 7,
+      "true_negative_normal_accepted": 21,
+      "fault_corroboration_sensitivity": 0.19047619047619047,
+      "normal_specificity": 0.75,
+      "balanced_accuracy": 0.47023809523809523
+    },
+    "1": {
+      "true_positive_fault_corroborated": 0,
+      "false_negative_fault_not_corroborated": 335,
+      "false_positive_normal_rejected": 0,
+      "true_negative_normal_accepted": 58,
+      "fault_corroboration_sensitivity": 0.0,
+      "normal_specificity": 1.0,
+      "balanced_accuracy": 0.5
+    },
+    "2": {
+      "true_positive_fault_corroborated": 0,
+      "false_negative_fault_not_corroborated": 348,
+      "false_positive_normal_rejected": 0,
+      "true_negative_normal_accepted": 58,
+      "fault_corroboration_sensitivity": 0.0,
+      "normal_specificity": 1.0,
+      "balanced_accuracy": 0.5
+    }
+  },
+  "final_model_fit_scope": "all_normal_windows_from_loads_0_1_2",
+  "final_model_development_descriptive_metrics": {
+    "true_positive_fault_corroborated": 0,
+    "false_negative_fault_not_corroborated": 830,
+    "false_positive_normal_rejected": 0,
+    "true_negative_normal_accepted": 144,
+    "fault_corroboration_sensitivity": 0.0,
+    "normal_specificity": 1.0,
+    "balanced_accuracy": 0.5
+  },
+  "interpretation": "Rejection is corroborative evidence of departure from learned healthy operation; it does not identify IR/OR or independently confirm a fault.",
+  "artifact": {
+    "path": "kmeans_normal_final_float32.npz",
+    "bytes": 1516,
+    "sha256": "2d508213a432132cc131cf8bb3c55d88559ca644ab366bb11fab7a47e17c07cc",
+    "centroid_shape": [
+      2,
+      14
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "FIRST_FINAL_REFIT_AUDITED_PASS_READY_FOR_REMAINING_USER_RUN",
+  "date_local": "2026-10-27",
+  "timezone": "America/Lima",
+  "verified_at_utc": "2026-10-27T17:37:40.701263+00:00",
+  "campaign": "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z",
+  "selection_signature": "c577339ac0c9450f99d40044850063e7090b19d5e81502eca0378c46e1b2c32f",
+  "preparation_manifest_sha256": "a72aa056e3ec7cf09d205e09fbf57d411f1f4f04afe16e58e1fad8c580e56839",
+  "completed_jobs": [
+    "outer0_F14_e45_s11"
+  ],
+  "epochs": 45,
+  "optimizer_updates": 1710,
+  "training_windows": 1205,
+  "training_MAT": 21,
+  "training_loads_hp": [
+    1,
+    2,
+    3
+  ],
+  "heldout_load_hp": 0,
+  "job_execution_verification_seconds": 12.422000000005937,
+  "worker_seconds": 7.950272400004906,
+  "stage_seconds": {
+    "imports_and_payload_arrays": 4.852271399999154,
+    "data_and_scaler": 0.022918600006960332,
+    "fit_and_checkpoint_IO": 1.9479076999996323,
+    "FP32_conversion": 0.9215966000047047,
+    "INT8_conversion": 0.07541489999857731,
+    "training_only_inference_and_IO": 0.06744079999043606
+  },
+  "remaining_jobs": 130,
+  "remaining_counts": {
+    "DNN": 79,
+    "RF": 40,
+    "SVM": 4,
+    "detector": 7
+  },
+  "next_job_id": "outer0_F14_e45_s22",
+  "campaign_seconds_remaining": 7187.577999999994,
+  "continuation_command": "& \"C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps\\python3.12.exe\" -B \"C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\codigo\\cwru\\ampliacion_v2\\reajustes_finales\\ejecutar_reajustes.py\" --run --max-new-jobs 130 --max-seconds 7200",
+  "original_job_repeated": false,
+  "new_training_fits": 0,
+  "new_TFLite_invocations": 0,
+  "training_diagnostics_reconstructed_from_saved_outputs": true,
+  "scaler_reconstructed_for_verification": true,
+  "outer_evaluation_executed": false,
+  "outer_values_selected_or_materialized": false,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "manuscript_modified": false,
+  "interpretation": "Training diagnostics are technical checks, not heldout accuracy or evidence of generalization. One elapsed process is not a guarantee for all remaining jobs."
+}

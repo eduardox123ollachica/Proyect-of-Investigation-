@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-10-25T06:30:09.771534+00:00",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "test_ids": [
+    "test_datos_piloto.PilotScopeTests.test_both_masks_accept_exact_scopes",
+    "test_datos_piloto.PilotScopeTests.test_calibration_not_training_rejected",
+    "test_datos_piloto.PilotScopeTests.test_changed_class_and_file_counts_rejected",
+    "test_datos_piloto.PilotScopeTests.test_duplicate_metadata_ids_rejected",
+    "test_datos_piloto.PilotScopeTests.test_duplicate_scope_id_rejected",
+    "test_datos_piloto.PilotScopeTests.test_extra_epoch_or_seed_rejected",
+    "test_datos_piloto.PilotScopeTests.test_no_load3_rows_are_materialized",
+    "test_datos_piloto.PilotScopeTests.test_outer_id_in_train_rejected",
+    "test_datos_piloto.PilotScopeTests.test_path_allowlist_and_escape",
+    "test_datos_piloto.PilotScopeTests.test_reused_source_row_rejected",
+    "test_datos_piloto.PilotScopeTests.test_test_source_and_wrong_count_rejected",
+    "test_datos_piloto.PilotScopeTests.test_validation_id_in_train_rejected",
+    "test_datos_piloto.PilotScopeTests.test_wrong_label_rejected",
+    "test_datos_piloto.PilotScopeTests.test_wrong_mask_rejected",
+    "test_ejecutor_piloto.WorkerResultTests.test_invalid_payload_is_failure",
+    "test_ejecutor_piloto.WorkerResultTests.test_missing_result_is_failure",
+    "test_ejecutor_piloto.WorkerResultTests.test_partial_json_is_preserved_as_failure",
+    "test_ejecutor_piloto.WorkerResultTests.test_unreadable_result_is_failure",
+    "test_ejecutor_piloto.WorkerResultTests.test_valid_payload_survives_without_mutation",
+    "test_presupuesto_piloto.BudgetTests.test_all_stages_sum_once_and_conserve_seconds_units",
+    "test_presupuesto_piloto.BudgetTests.test_bad_scope_missing_duplicate_or_failed_profiles_rejected",
+    "test_presupuesto_piloto.BudgetTests.test_counts_do_not_double_count_representatives_or_pilot",
+    "test_presupuesto_piloto.BudgetTests.test_epoch_scenario_changes_only_epoch_dependent_stages",
+    "test_presupuesto_piloto.BudgetTests.test_invalid_or_overlapping_timing_schema_rejected",
+    "test_presupuesto_piloto.BudgetTests.test_order_and_irrelevant_predictive_metrics_do_not_change_budget",
+    "test_presupuesto_piloto.BudgetTests.test_training_and_inference_scope_scaling",
+    "test_presupuesto_piloto.BudgetTests.test_two_complete_profiles_define_range_not_statistical_interval"
+  ],
+  "log": "test_both_masks_accept_exact_scopes (test_datos_piloto.PilotScopeTests.test_both_masks_accept_exact_scopes) ... ok\ntest_calibration_not_training_rejected (test_datos_piloto.PilotScopeTests.test_calibration_not_training_rejected) ... ok\ntest_changed_class_and_file_counts_rejected (test_datos_piloto.PilotScopeTests.test_changed_class_and_file_counts_rejected) ... ok\ntest_duplicate_metadata_ids_rejected (test_datos_piloto.PilotScopeTests.test_duplicate_metadata_ids_rejected) ... ok\ntest_duplicate_scope_id_rejected (test_datos_piloto.PilotScopeTests.test_duplicate_scope_id_rejected) ... ok\ntest_extra_epoch_or_seed_rejected (test_datos_piloto.PilotScopeTests.test_extra_epoch_or_seed_rejected) ... ok\ntest_no_load3_rows_are_materialized (test_datos_piloto.PilotScopeTests.test_no_load3_rows_are_materialized) ... ok\ntest_outer_id_in_train_rejected (test_datos_piloto.PilotScopeTests.test_outer_id_in_train_rejected) ... ok\ntest_path_allowlist_and_escape (test_datos_piloto.PilotScopeTests.test_path_allowlist_and_escape) ... ok\ntest_reused_source_row_rejected (test_datos_piloto.PilotScopeTests.test_reused_source_row_rejected) ... ok\ntest_test_source_and_wrong_count_rejected (test_datos_piloto.PilotScopeTests.test_test_source_and_wrong_count_rejected) ... ok\ntest_validation_id_in_train_rejected (test_datos_piloto.PilotScopeTests.test_validation_id_in_train_rejected) ... ok\ntest_wrong_label_rejected (test_datos_piloto.PilotScopeTests.test_wrong_label_rejected) ... ok\ntest_wrong_mask_rejected (test_datos_piloto.PilotScopeTests.test_wrong_mask_rejected) ... ok\ntest_invalid_payload_is_failure (test_ejecutor_piloto.WorkerResultTests.test_invalid_payload_is_failure) ... ok\ntest_missing_result_is_failure (test_ejecutor_piloto.WorkerResultTests.test_missing_result_is_failure) ... ok\ntest_partial_json_is_preserved_as_failure (test_ejecutor_piloto.WorkerResultTests.test_partial_json_is_preserved_as_failure) ... ok\ntest_unreadable_result_is_failure (test_ejecutor_piloto.WorkerResultTests.test_unreadable_result_is_failure) ... ok\ntest_valid_payload_survives_without_mutation (test_ejecutor_piloto.WorkerResultTests.test_valid_payload_survives_without_mutation) ... ok\ntest_all_stages_sum_once_and_conserve_seconds_units (test_presupuesto_piloto.BudgetTests.test_all_stages_sum_once_and_conserve_seconds_units) ... ok\ntest_bad_scope_missing_duplicate_or_failed_profiles_rejected (test_presupuesto_piloto.BudgetTests.test_bad_scope_missing_duplicate_or_failed_profiles_rejected) ... ok\ntest_counts_do_not_double_count_representatives_or_pilot (test_presupuesto_piloto.BudgetTests.test_counts_do_not_double_count_representatives_or_pilot) ... ok\ntest_epoch_scenario_changes_only_epoch_dependent_stages (test_presupuesto_piloto.BudgetTests.test_epoch_scenario_changes_only_epoch_dependent_stages) ... ok\ntest_invalid_or_overlapping_timing_schema_rejected (test_presupuesto_piloto.BudgetTests.test_invalid_or_overlapping_timing_schema_rejected) ... ok\ntest_order_and_irrelevant_predictive_metrics_do_not_change_budget (test_presupuesto_piloto.BudgetTests.test_order_and_irrelevant_predictive_metrics_do_not_change_budget) ... ok\ntest_training_and_inference_scope_scaling (test_presupuesto_piloto.BudgetTests.test_training_and_inference_scope_scaling) ... ok\ntest_two_complete_profiles_define_range_not_statistical_interval (test_presupuesto_piloto.BudgetTests.test_two_complete_profiles_define_range_not_statistical_interval) ... ok\n\n----------------------------------------------------------------------\nRan 27 tests in 0.105s\n\nOK\n",
+  "source_AST_passed": true,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/piloto/datos_piloto.py": "8404e4c4176f324ed243ad4564f5380950a0872ee6769503ed67bee6470455a7",
+    "codigo/cwru/ampliacion_v2/piloto/ejecutar_piloto_tiempo.py": "77287ad4755e87968e43755c9d9b2039bbce24f72d7900d5d9ae0212cf1b8772",
+    "codigo/cwru/ampliacion_v2/piloto/presupuesto_piloto.py": "5faf429b925dab3ec1455eefa3b031adb29b11657f58d6b6da6502c85c766a09",
+    "codigo/cwru/ampliacion_v2/piloto/test_datos_piloto.py": "1d2a856722d574008fcbad276029065d35cfd23ebf395af47a02e5bed1c931f8",
+    "codigo/cwru/ampliacion_v2/piloto/test_ejecutor_piloto.py": "50de4ba43a507e9666460a9977c159f885e35b944b8293560a766159767bd1d4",
+    "codigo/cwru/ampliacion_v2/piloto/test_presupuesto_piloto.py": "49327181df2c046738d069ca5a439d95c3ded1216707fb457e3e92fd705abf4d",
+    "codigo/cwru/ampliacion_v2/piloto/worker_piloto_tiempo.py": "6fa8939b3d823c1f89dadc82b9f86d26414449265bcd59d2404ad47ef5516a70"
+  },
+  "data": "synthetic_only",
+  "TensorFlow_imported": false,
+  "models_trained": 0,
+  "initial_development_incidents": [
+    "Synthetic temporary-directory cleanup was denied by sandbox; test now uses pure path resolution without creating files.",
+    "Metadata allowlist initially omitted .txt of the historical partition seal; corrected before final tests."
+  ],
+  "review_corrections": [
+    "Preserve and close partial result JSON and process launch failures.",
+    "Separate observed full process wall time from sum of worker stages."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "job_id": "synthetic_RF",
+  "family": "RF",
+  "outer_load_hp": 0,
+  "roles": {
+    "outer_load_hp": 0,
+    "inner_validation_load_hp": null,
+    "development_loads": [
+      1,
+      2,
+      3
+    ],
+    "training_loads": [
+      1,
+      2,
+      3
+    ],
+    "dnn_fit_loads": [
+      1,
+      2,
+      3
+    ],
+    "int8_calibration_loads": [
+      1,
+      2,
+      3
+    ],
+    "detector_fit_normal_loads": [
+      1,
+      2
+    ],
+    "detector_calibration_normal_loads": [
+      3
+    ],
+    "evaluation_loads": [
+      0
+    ],
+    "outer_excluded_loads": [
+      0
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "seed": 11,
+  "config_index": 5,
+  "params": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt",
+    "criterion": "gini",
+    "bootstrap": true,
+    "class_weight": "balanced",
+    "n_jobs": 1,
+    "random_state": 11
+  },
+  "fit_signature": "2f7bf22702eeb7a7eea21d3c8eb2f578b2165631646985a2b20ee79e27f0d06a",
+  "selection_signature": "synthetic_only_not_a_production_authorization",
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/contrato.py": "ef256260d581572fb429565e243ae154e8bc08b524d9d51ffdd33c9aa51af915",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/ejecutar_reajustes.py": "32a856ab8c6c805476170027b8a720b0ea3a856abac7a2cd920ffba7a711b2b7",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/presupuesto.py": "eba0dbe6f38cab5e2cf38195769a6cf66ad82afe8897def47136d708ccc128a1",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/prueba_sintetica.py": "d21287844ae371f35936e525a179b97334e4e15f1efa22b584adb6e72e5c18cc",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/test_reajustes.py": "c557344eb5d299cc2acf396dcb0cf8a37945a1b83e81f6c9cd7c40c519ed1b36",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/worker_clasicos.py": "0aaae3aaeb69f9ae280d3e868a24cb471158b0f3b156ca1dd77b69916280af54",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/worker_detector.py": "bb0e8a154fd0c0d6c068aadfda43f5d5a6fd84a1e5219219d8684975b0e57f6c",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/worker_dnn.py": "44367fbc4901ec9575c2fc472c30a0383ab3fb887306b1a29680754336a55d2b",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+    "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0"
+  },
+  "training_windows": 42,
+  "training_global_window_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "input_dimension": 14,
+  "model_classes": [
+    0,
+    1,
+    2
+  ],
+  "class_counts": [
+    14,
+    14,
+    14
+  ],
+  "balanced_class_weights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "normalization": "raw_float32",
+  "native_predict_rule": true,
+  "diagnostic_scope": "training_only_not_generalization_metrics",
+  "model_sha256": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46",
+  "model_bytes": 45459,
+  "support_vectors_dtype": null,
+  "new_model_fits": 1,
+  "new_training_prediction_batches": 1,
+  "outer_rows_materialized": false,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "early_stopping": false,
+  "TensorFlow_imported": false,
+  "STM32_cost_measured": false,
+  "model_joblib_bytes_are_not_Flash_usage": true,
+  "fit_seconds": 0.42199999999138527,
+  "training_prediction_seconds": 0.03200000000651926,
+  "worker_elapsed_seconds": 2.6719999999913853
+}

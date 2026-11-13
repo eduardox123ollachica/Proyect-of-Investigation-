@@ -1,0 +1,66 @@
+{
+  "status": "fitted_on_training_validated_on_validation_test_not_loaded",
+  "features": 14,
+  "n_clusters": 32,
+  "random_state": 42,
+  "n_init": 20,
+  "algorithm": "lloyd",
+  "scaler_fit_scope": "training_only",
+  "threshold_definition": "percentile_99_of_float32_training_min_squared_distance",
+  "threshold": 1.277197003364563,
+  "training": {
+    "windows": 568,
+    "rejected_by_strict_greater_than": 6,
+    "rejection_fraction": 0.01056338028169014,
+    "score_median": 0.16519266366958618,
+    "score_p99": 1.277197003364563,
+    "score_maximum": 2.6066601276397705
+  },
+  "validation_known_domain": {
+    "windows": 406,
+    "rejected_windows": 184,
+    "rejection_fraction": 0.45320197044334976,
+    "score_median": 1.197249412536621,
+    "score_p99": 9.13155460357666,
+    "score_maximum": 9.751273155212402,
+    "per_class": {
+      "N": {
+        "windows": 58,
+        "rejected_known_domain_windows": 4,
+        "rejection_fraction": 0.06896551724137931,
+        "score_median": 0.98447585105896,
+        "score_p99": 1.4918928146362305
+      },
+      "IR": {
+        "windows": 174,
+        "rejected_known_domain_windows": 117,
+        "rejection_fraction": 0.6724137931034483,
+        "score_median": 2.6682028770446777,
+        "score_p99": 9.428207397460938
+      },
+      "OR": {
+        "windows": 174,
+        "rejected_known_domain_windows": 63,
+        "rejection_fraction": 0.3620689655172414,
+        "score_median": 0.9516311883926392,
+        "score_p99": 5.94761848449707
+      }
+    }
+  },
+  "float32_export_vs_sklearn_cluster_agreement": {
+    "training": 568,
+    "training_total": 568,
+    "validation": 406,
+    "validation_total": 406
+  },
+  "artifact": {
+    "path": "kmeans_k32_modelo_float32.npz",
+    "bytes": 2940,
+    "sha256": "e2e9c27e5f8c16c0acffe82e98c42ffa3ed8c09b61025a43913679429dac4397",
+    "centroid_shape": [
+      32,
+      14
+    ]
+  },
+  "interpretation_limit": "Validation contains known classes but no independent anomaly labels; rejections are statistically atypical known-domain windows, not proven false alarms or detected faults."
+}

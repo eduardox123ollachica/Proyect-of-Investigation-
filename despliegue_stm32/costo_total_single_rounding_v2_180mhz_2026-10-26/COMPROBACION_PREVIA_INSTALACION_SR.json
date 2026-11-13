@@ -1,0 +1,16 @@
+{
+  "status": "READY_FOR_SR_INSTALL_NOT_ARM_VALIDATED",
+  "mode": "--check",
+  "exitcode": 0,
+  "targets": 5,
+  "overwrite": 1,
+  "added": 4,
+  "original_configurations": 16,
+  "next_configurations": 17,
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "source_project": "D:\\STM32IDE\\Prueba_2_CWRU_Extraccion",
+  "installer_sha256": "c56c474e31063ceba389fe9e19458474f4015eb1759cbb21a4b3994ce2d739fa",
+  "D_files_modified": false,
+  "serial_port_opened": false,
+  "hardware_flashed": false
+}

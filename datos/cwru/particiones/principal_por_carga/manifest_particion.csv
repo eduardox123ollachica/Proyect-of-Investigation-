@@ -1,0 +1,29 @@
+split,file_id,file,class,label,diameter_in,load_hp,rpm,de_key,fe_key,samples_per_channel,notes
+train,97,"97_N_0,000.mat",N,0,0.000,0,1797,X097_DE_time,X097_FE_time,243938,
+train,109,"109_IR_0,007.mat",IR,1,0.007,0,1797,X109_DE_time,X109_FE_time,243938,
+train,174,"174_IR_0,014.mat",IR,1,0.014,0,1797,X173_DE_time,X173_FE_time,63788,"El prefijo interno oficial es X173"
+train,213,"213_IR_0,021.mat",IR,1,0.021,0,1797,X213_DE_time,X213_FE_time,244339,
+train,135,"135_OR_0,007.mat",OR,2,0.007,0,1797,X135_DE_time,X135_FE_time,243538,"OR centrada a las 6:00"
+train,201,"201_OR_0,014.mat",OR,2,0.014,0,1797,X201_DE_time,X201_FE_time,245140,"OR centrada a las 6:00"
+train,238,"238_OR_0,021.mat",OR,2,0.021,0,1797,X238_DE_time,X238_FE_time,246342,"OR centrada a las 6:00"
+train,98,"98_N_0,000.mat",N,0,0.000,1,1772,X098_DE_time,X098_FE_time,483903,
+train,110,"110_IR_0,007.mat",IR,1,0.007,1,1772,X110_DE_time,X110_FE_time,486224,
+train,175,"175_IR_0,014.mat",IR,1,0.014,1,1772,X175_DE_time,X175_FE_time,381890,"Ignorar X217_DE_time adicional"
+train,214,"214_IR_0,021.mat",IR,1,0.021,1,1772,X214_DE_time,X214_FE_time,485063,
+train,136,"136_OR_0,007.mat",OR,2,0.007,1,1772,X136_DE_time,X136_FE_time,486804,"OR centrada a las 6:00"
+train,202,"202_OR_0,014.mat",OR,2,0.014,1,1772,X202_DE_time,X202_FE_time,484483,"OR centrada a las 6:00"
+train,239,"239_OR_0,021.mat",OR,2,0.021,1,1772,X239_DE_time,X239_FE_time,489125,"OR centrada a las 6:00"
+validation,99,"99_N_0,000.mat",N,0,0.000,2,1750,X099_DE_time,X099_FE_time,485063,"Ignorar las variables X098_* adicionales"
+validation,111,"111_IR_0,007.mat",IR,1,0.007,2,1750,X111_DE_time,X111_FE_time,485643,
+validation,176,"176_IR_0,014.mat",IR,1,0.014,2,1750,X176_DE_time,X176_FE_time,487964,
+validation,215,"215_IR_0,021.mat",IR,1,0.021,2,1750,X215_DE_time,X215_FE_time,491446,
+validation,137,"137_OR_0,007.mat",OR,2,0.007,2,1750,X137_DE_time,X137_FE_time,486804,"OR centrada a las 6:00"
+validation,203,"203_OR_0,014.mat",OR,2,0.014,2,1750,X203_DE_time,X203_FE_time,486804,"OR centrada a las 6:00"
+validation,240,"240_OR_0,021.mat",OR,2,0.021,2,1750,X240_DE_time,X240_FE_time,487964,"OR centrada a las 6:00"
+test,100,"100_N_0,000.mat",N,0,0.000,3,1730,X100_DE_time,X100_FE_time,485643,
+test,112,"112_IR_0,007.mat",IR,1,0.007,3,1730,X112_DE_time,X112_FE_time,485643,
+test,177,"177_IR_0,014.mat",IR,1,0.014,3,1730,X177_DE_time,X177_FE_time,485063,
+test,217,"217_IR_0,021.mat",IR,1,0.021,3,1730,X217_DE_time,X217_FE_time,489125,"Ignorar las variables X215_* adicionales"
+test,138,"138_OR_0,007.mat",OR,2,0.007,3,1730,X138_DE_time,X138_FE_time,487964,"OR centrada a las 6:00"
+test,204,"204_OR_0,014.mat",OR,2,0.014,3,1730,X204_DE_time,X204_FE_time,488545,"OR centrada a las 6:00"
+test,241,"241_OR_0,021.mat",OR,2,0.021,3,1730,X241_DE_time,X241_FE_time,489125,"OR centrada a las 6:00"

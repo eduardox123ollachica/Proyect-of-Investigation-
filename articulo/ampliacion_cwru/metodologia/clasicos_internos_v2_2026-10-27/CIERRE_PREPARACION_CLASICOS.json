@@ -1,0 +1,50 @@
+{
+  "status": "CLASSICAL_EXECUTOR_PREPARED_TESTED_USER_ENVIRONMENT_VERIFIED_PENDING_USER_RUN",
+  "date_local": "2026-10-27",
+  "timezone": "America/Lima",
+  "tests_passed": 22,
+  "RF_inner_fits_pending": 288,
+  "SVM_inner_fits_pending": 96,
+  "total_inner_fits_pending": 384,
+  "pilot_reused_as_confirmatory": false,
+  "preparation_manifest_sha256": "a1163dfd4be7d2b32a69e14ab399d5beeedb662320e73d7bada3ae1a594b20a0",
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/datos_clasicos.py": "070b807c4ac4cb63c909280dba676fdcc672ecdbe7632e6d5c431b430433d005",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/ejecutar_clasicos.py": "9714d52a9fb6eae7cc1102d48b8bedc9ebff4fba1784367f9ec77db9bc1d7c79",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/presupuesto_clasicos_internos.py": "5553815efdc1163500a369ab4369219b603001c7e4d6601283d9e2aae055cc9f",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/test_clasicos_internos.py": "ca58b64b84554ca896d18b1a080e690b1be57f614b19bc0ac1033c36231bb93f",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "tested_versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0"
+  },
+  "limits": {
+    "RF_worker_seconds": 60,
+    "SVM_worker_seconds": 30,
+    "campaign_execution_verification_seconds": 3600,
+    "maximum_new_fits": 384,
+    "concurrent_workers": 1,
+    "automatic_retry": false
+  },
+  "read_only_user_preflight_exit_code": 0,
+  "real_CWRU_fits_started": 0,
+  "real_CWRU_model_predictions_started": 0,
+  "synthetic_fits_for_tests": 2,
+  "synthetic_predictions_for_tests": 4,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "manuscript_modified": false,
+  "selection_executed": false,
+  "outer_evaluation_executed": false
+}

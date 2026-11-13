@@ -1,0 +1,8 @@
+{
+  "completed_before": [
+    "outer0_F14_e45_s11"
+  ],
+  "max_new_jobs": 130,
+  "max_seconds": 7200,
+  "campaign_execution_verification_seconds_before": 12.422000000005937
+}

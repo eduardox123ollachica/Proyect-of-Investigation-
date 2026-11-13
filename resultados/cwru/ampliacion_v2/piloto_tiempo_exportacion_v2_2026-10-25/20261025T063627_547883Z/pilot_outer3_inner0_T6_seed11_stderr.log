@@ -1,0 +1,9 @@
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\Proyecto Investigación\codigo\cwru\ampliacion_v2\piloto\worker_piloto_tiempo_v2.py", line 340, in <module>
+    run(args.job_id, args.run_dir)
+  File "C:\Users\LENOVO\Desktop\Proyecto Investigación\codigo\cwru\ampliacion_v2\piloto\worker_piloto_tiempo_v2.py", line 208, in run
+    require(weight_digest() == trained_weight_digest
+  File "C:\Users\LENOVO\Desktop\Proyecto Investigación\codigo\cwru\ampliacion_v2\piloto\worker_piloto_tiempo_v2.py", line 23, in require
+    raise ValueError(message)
+ValueError: Congelar el grafo cambio pesos o predicciones

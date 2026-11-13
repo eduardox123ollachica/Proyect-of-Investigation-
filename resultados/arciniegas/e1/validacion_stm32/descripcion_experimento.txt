@@ -1,0 +1,39 @@
+EXPERIMENTO STM32 - MODELO SIN STANDARDSCALER Y SIN CLASS_WEIGHT
+
+Modelo:
+Red neuronal DNN cuantizada INT8.
+
+Arquitectura:
+21 entradas
+Dense 20 - ReLU
+Dense 10 - ReLU
+Dense 3 - Softmax
+
+Preprocesamiento:
+Sin StandardScaler.
+
+Balanceo durante entrenamiento:
+Sin class_weight.
+
+Plataforma de despliegue:
+STM32 Nucleo-F446RE.
+
+Framework embebido:
+TensorFlow Lite Micro.
+
+Optimización:
+INT8.
+CMSIS-NN.
+
+Objetivo:
+Comparar las predicciones del modelo TFLite ejecutado en PC con
+el mismo modelo desplegado mediante TensorFlow Lite Micro en
+STM32.
+
+Las características son enviadas desde el PC a la STM32 mediante
+USART2 a 115200 baudios.
+
+Clases:
+0 = DET
+1 = MEDIA
+2 = ALTA

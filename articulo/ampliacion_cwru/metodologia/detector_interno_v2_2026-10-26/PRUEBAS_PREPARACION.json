@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "tests_run": 16,
+  "test_names": [
+    "test_detector_interno.ExecutionGuards.test_preflight_does_not_adjust_or_score_detector",
+    "test_detector_interno.ExecutionGuards.test_timeout_kills_only_launched_worker_without_retry",
+    "test_detector_interno.ExecutionGuards.test_worker_rejects_fault_labels_in_fit_before_adjusting",
+    "test_detector_interno.ExecutionGuards.test_worker_requires_active_parent_before_any_fit",
+    "test_detector_interno.InventoryGuards.test_F14_NF12_alias_both_parameters_and_evaluation_but_keep_logical_rows",
+    "test_detector_interno.InventoryGuards.test_complete_inventory_and_reuse_counts",
+    "test_detector_interno.InventoryGuards.test_inventory_and_imports_never_load_tensorflow",
+    "test_detector_interno.InventoryGuards.test_loader_materializes_only_requested_rows_and_keeps_float32_contract",
+    "test_detector_interno.InventoryGuards.test_loader_rejects_duplicate_out_of_range_or_boolean_ids_before_arrays",
+    "test_detector_interno.InventoryGuards.test_logical_rows_exclude_outer_and_validation_from_parameter_fitting",
+    "test_detector_interno.InventoryGuards.test_parameter_scopes_are_normal_only_disjoint_and_seed_independent",
+    "test_detector_interno.InventoryGuards.test_payload_identity_ignores_zip_encoding_but_detects_single_parameter_bit",
+    "test_detector_interno.InventoryGuards.test_same_fit_cal_pair_reuses_parameters_across_outer_inner_roles",
+    "test_detector_interno.NumericIntegrationGuards.test_equal_record_mass_P95_and_strict_threshold_tie",
+    "test_detector_interno.NumericIntegrationGuards.test_float32_sequential_sum_is_not_promoted_or_reassociated",
+    "test_detector_interno.NumericIntegrationGuards.test_worker_uses_the_original_numeric_core_functions"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "seconds": 28.541023800000403,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/detector_interno/ejecutar_detector.py": "b25c305e411e97493ec8498c513f78c29ccb78728b6d35a0fc7dd5468adeedb8",
+    "codigo/cwru/ampliacion_v2/detector_interno/test_detector_interno.py": "2306390e7c766bb1c7f272f91509efa7ecca1cd9686354541cb3e3f35944e8da",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "source_sha256_before": {
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/detector_interno/ejecutar_detector.py": "b25c305e411e97493ec8498c513f78c29ccb78728b6d35a0fc7dd5468adeedb8",
+    "codigo/cwru/ampliacion_v2/detector_interno/test_detector_interno.py": "2306390e7c766bb1c7f272f91509efa7ecca1cd9686354541cb3e3f35944e8da",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "source_sha256_after": {
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/detector_interno/ejecutar_detector.py": "b25c305e411e97493ec8498c513f78c29ccb78728b6d35a0fc7dd5468adeedb8",
+    "codigo/cwru/ampliacion_v2/detector_interno/test_detector_interno.py": "2306390e7c766bb1c7f272f91509efa7ecca1cd9686354541cb3e3f35944e8da",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "sources_unchanged_during_tests": true,
+  "new_real_parameter_fits": 0,
+  "new_real_evaluations": 0,
+  "synthetic_numeric_fit_calls": 0,
+  "synthetic_score_test_cases": 1,
+  "synthetic_weighted_P95_test_cases": 1,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "python_executable": "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "test_output": "test_preflight_does_not_adjust_or_score_detector (test_detector_interno.ExecutionGuards.test_preflight_does_not_adjust_or_score_detector) ... ok\ntest_timeout_kills_only_launched_worker_without_retry (test_detector_interno.ExecutionGuards.test_timeout_kills_only_launched_worker_without_retry) ... ok\ntest_worker_rejects_fault_labels_in_fit_before_adjusting (test_detector_interno.ExecutionGuards.test_worker_rejects_fault_labels_in_fit_before_adjusting) ... ok\ntest_worker_requires_active_parent_before_any_fit (test_detector_interno.ExecutionGuards.test_worker_requires_active_parent_before_any_fit) ... ok\ntest_F14_NF12_alias_both_parameters_and_evaluation_but_keep_logical_rows (test_detector_interno.InventoryGuards.test_F14_NF12_alias_both_parameters_and_evaluation_but_keep_logical_rows) ... ok\ntest_complete_inventory_and_reuse_counts (test_detector_interno.InventoryGuards.test_complete_inventory_and_reuse_counts) ... ok\ntest_inventory_and_imports_never_load_tensorflow (test_detector_interno.InventoryGuards.test_inventory_and_imports_never_load_tensorflow) ... ok\ntest_loader_materializes_only_requested_rows_and_keeps_float32_contract (test_detector_interno.InventoryGuards.test_loader_materializes_only_requested_rows_and_keeps_float32_contract) ... ok\ntest_loader_rejects_duplicate_out_of_range_or_boolean_ids_before_arrays (test_detector_interno.InventoryGuards.test_loader_rejects_duplicate_out_of_range_or_boolean_ids_before_arrays) ... ok\ntest_logical_rows_exclude_outer_and_validation_from_parameter_fitting (test_detector_interno.InventoryGuards.test_logical_rows_exclude_outer_and_validation_from_parameter_fitting) ... ok\ntest_parameter_scopes_are_normal_only_disjoint_and_seed_independent (test_detector_interno.InventoryGuards.test_parameter_scopes_are_normal_only_disjoint_and_seed_independent) ... ok\ntest_payload_identity_ignores_zip_encoding_but_detects_single_parameter_bit (test_detector_interno.InventoryGuards.test_payload_identity_ignores_zip_encoding_but_detects_single_parameter_bit) ... ok\ntest_same_fit_cal_pair_reuses_parameters_across_outer_inner_roles (test_detector_interno.InventoryGuards.test_same_fit_cal_pair_reuses_parameters_across_outer_inner_roles) ... ok\ntest_equal_record_mass_P95_and_strict_threshold_tie (test_detector_interno.NumericIntegrationGuards.test_equal_record_mass_P95_and_strict_threshold_tie) ... ok\ntest_float32_sequential_sum_is_not_promoted_or_reassociated (test_detector_interno.NumericIntegrationGuards.test_float32_sequential_sum_is_not_promoted_or_reassociated) ... ok\ntest_worker_uses_the_original_numeric_core_functions (test_detector_interno.NumericIntegrationGuards.test_worker_uses_the_original_numeric_core_functions) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 28.541s\n\nOK\n",
+  "scope": "Existing inventory authentication, synthetic arrays/process fixtures and no-fit preparation guards only"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "ALL_REMAINING_INNER_DNN_CONTINUATION_PREPARED",
+  "campaign": "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z",
+  "minimum_closed_new_fits": 17,
+  "initial_pending_new_fits": 223,
+  "expected_batches_if_16_each": 14,
+  "limits": {
+    "worker_seconds": 300,
+    "campaign_worker_seconds": 7200,
+    "max_batch_seconds": 1800,
+    "max_new_jobs": 16,
+    "maximum_new_fits_total": 240,
+    "default_first_batch_seconds": 600
+  },
+  "prior_preparation_manifest_sha256": "011cffef5862a3cbd5277a96dfc0ea2c696762ddd53b90fed7fad718d7488295",
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/continuacion_interna/continuar_restantes.py": "80e81eb239473cd2caa8c8aa0e0411e01841da2f5aa7247741a7391bdc6f9eeb",
+    "codigo/cwru/ampliacion_v2/continuacion_interna/test_continuar_restantes.py": "be960a0cc4585a5955e1ec06a7544da6884f070879d07dea63d31f4b11f08cd6"
+  },
+  "new_training_fits_during_preparation": 0,
+  "original_executor_modified": false,
+  "automatic_retry": false,
+  "user_starts_training": true,
+  "objective": "Continue the same campaign until 288/288 inner DNN cells or frozen stop condition"
+}

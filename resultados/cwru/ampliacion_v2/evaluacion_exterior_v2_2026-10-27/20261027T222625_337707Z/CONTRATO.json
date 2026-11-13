@@ -1,0 +1,9 @@
+{
+  "preparation_manifest_sha256": "62deed898ead1f48d475931401638eba3dc2e729360526e7855c406e81bddf67",
+  "plan_sha256": "4eb246e4701c07791a009b3fec1ba5d4478d54bccacc6851bc655e27d744620e",
+  "final_refit_manifest_sha256": "5d90a9dc4e91b6d9295acd593878e31bf48c5b9e6117cb910ed52a618986bc8b",
+  "selection_signature": "c577339ac0c9450f99d40044850063e7090b19d5e81502eca0378c46e1b2c32f",
+  "execution_owner": "user_CLI",
+  "scope": "controlled_outer_evaluation_without_training",
+  "partial_metric_release": false
+}

@@ -1,0 +1,11 @@
+{"stage": "worker_started", "elapsed_seconds": 0.08999299998686183, "family": "DETECTOR"}
+{"stage": "imports_complete", "elapsed_seconds": 2.676435899993521, "sklearn": "1.9.1"}
+{"stage": "data_ready", "elapsed_seconds": 2.749143399996683, "train": 799, "validation": 175, "load3_arrays_opened": false}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.782304299995303, "candidate": "F14", "repetitions": 3}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.793045499987784, "candidate": "T6", "repetitions": 3}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.803840599997784, "candidate": "S8", "repetitions": 3}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.811931599993841, "candidate": "NM10", "repetitions": 3}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.8228794999886304, "candidate": "NE12", "repetitions": 3}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.831994999985909, "candidate": "DE7", "repetitions": 3}
+{"stage": "detector_candidate_complete", "elapsed_seconds": 2.8401984999945853, "candidate": "FE7", "repetitions": 3}
+{"stage": "PASS", "elapsed_seconds": 2.8418036999937613}

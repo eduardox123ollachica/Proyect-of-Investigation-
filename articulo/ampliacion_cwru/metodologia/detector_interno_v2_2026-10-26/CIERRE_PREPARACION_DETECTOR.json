@@ -1,0 +1,20 @@
+{
+  "status": "DETECTOR_EXECUTOR_PREPARED_TESTED_AND_USER_ENVIRONMENT_PREFLIGHT_PASS",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "tests_run": 16,
+  "new_parameter_fits_pending": 19,
+  "new_unique_evaluations_pending": 54,
+  "new_logical_rows_pending": 60,
+  "reused_parameters": 23,
+  "reused_unique_evaluations": 30,
+  "reused_logical_rows": 36,
+  "worker_limit_seconds": 300,
+  "user_runs_command": true,
+  "real_new_parameter_fits_started": 0,
+  "real_new_evaluations_started": 0,
+  "TensorFlow_imported": false,
+  "original_models_dataset_manuscript_unchanged": true,
+  "preparation_manifest_sha256": "c5f5a6b0c2bdb660b6497a2aca37fd5112dd2ae5adfd5d0cbf1aa08640018109",
+  "read_only_user_environment_preflight_exit_code": 0
+}

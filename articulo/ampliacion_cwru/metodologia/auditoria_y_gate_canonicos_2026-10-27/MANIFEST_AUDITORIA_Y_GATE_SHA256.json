@@ -1,0 +1,12 @@
+{
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_CLIENTES_CANON42_SHA256.json": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_CLIENTES_CANON42_SHA256.sha256": "9a5a80bb79ebedeb59631a8150a11826dbd53bb5fb5fec290d125ec8070a553f",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/COMPROBACION_OFFLINE_CLIENTES.json": "71040cb6441f27d10896a4a5ded960f0fee6ae82e6c5e5748cfd68683d74ad1b",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/COMPROBACIONES_AUDITORIA_Y_CLIENTES.json": "38c9742acda70ea0332df23aeb8818a07c0d3a3460b71eb3b4dedcca22da283b",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_ELF_CANON42.json": "18b30cfdfa9b53179080a6f824b2c3827faa4e715338437c776fb5a8ae5d09ec",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_METADATA_CDT.json": "6d3ad7dbd4fc42fe5902d35230c56c2fa9c9dd85107333ac3c8090a459b1c6f7",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_INDEPENDIENTE_KERNEL_MEMORIA.json": "d693735766a9bf468d4c8bc54f11e4b21f459ddced1f96b815eb12009ea4ce64",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/GUIA_CARGA_Y_GATE_CANON42.md": "a166861a9ea0841fd581e86c80c9413a54fdcc679a7598fddcdc0f17ed7ba4df",
+  "articulo/ampliacion_cwru/metodologia/auditoria_y_gate_canonicos_2026-10-27/AUDITORIA_Y_SIGUIENTE_PASO.md": "f0b464ea27021ac53d465d741dc3cc9f270b490dcad6c9bde9b7f8ce14153795",
+  "articulo/ampliacion_cwru/metodologia/auditoria_y_gate_canonicos_2026-10-27/CIERRE_AUDITORIA_Y_PREPARACION_GATE.json": "095cdce59b17a3cdcfe3c029fe57a25b2321a60d89a344d9ac36a45a19f35650"
+}

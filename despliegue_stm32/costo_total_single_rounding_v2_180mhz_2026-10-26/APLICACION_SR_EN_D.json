@@ -1,0 +1,114 @@
+{
+  "status": "PASS_SR_INSTALLED_PENDING_ARM",
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "configuration": "Release_180MHz_TotalV2_SR",
+  "source_project": "D:\\STM32IDE\\Prueba_2_CWRU_Extraccion",
+  "targets": [
+    {
+      "relative": "CWRU_TotalSR/arm_nn_vec_mat_mult_t_per_ch_s8.c",
+      "source": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\archivos_para_D\\CWRU_TotalSR\\arm_nn_vec_mat_mult_t_per_ch_s8.c",
+      "sha256": "316a9b62c9c79a0a390149fa75d704b51ec392bc19751c443dcd73750e809ad6",
+      "overwrite": false
+    },
+    {
+      "relative": "Prueba_2_CWRU_Extraccion_TotalV2_SR_180MHz_SinRecompilar.launch",
+      "source": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\archivos_para_D\\Prueba_2_CWRU_Extraccion_TotalV2_SR_180MHz_SinRecompilar.launch",
+      "sha256": "02301156493f6116eb60ddfc57ef14d37eca6323823a8033aceaf7710e2facfe",
+      "overwrite": false
+    },
+    {
+      "relative": "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.elf",
+      "source": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\copia_aislada\\Prueba_2_CWRU_Extraccion\\Release_180MHz_TotalV2_SR\\Prueba_2_CWRU_Extraccion.elf",
+      "sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+      "overwrite": false
+    },
+    {
+      "relative": "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.map",
+      "source": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\copia_aislada\\Prueba_2_CWRU_Extraccion\\Release_180MHz_TotalV2_SR\\Prueba_2_CWRU_Extraccion.map",
+      "sha256": "074c3796581e6c1eaaec0854722cd0085c0c22371e054d7af284a507a0413c3e",
+      "overwrite": false
+    },
+    {
+      "relative": ".cproject",
+      "source": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\archivos_para_D\\.cproject",
+      "sha256": "ff50567b5e90a474469c5c967d80d8c677ec232f7946669274f87cf456cfd6ec",
+      "overwrite": true
+    }
+  ],
+  "context": {
+    "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+    "launch": {
+      "build_before_launch_disabled": true,
+      "load_item_build_disabled": true,
+      "program": "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.elf",
+      "attributes_unchanged": true
+    },
+    "cdt": {
+      "jar": "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\org.eclipse.cdt.debug.core_9.0.300.202512020204.jar",
+      "jar_sha256": "bf17d0ba8b3ff6d0fb7176c695f7c7dca643e7033a240b37d800cf7993948367",
+      "class_entry": "org/eclipse/cdt/debug/core/ICDTLaunchConfigurationConstants.class",
+      "class_sha256": "36fd2c90fea668e094a207c318d6447df88fa1bcf9a65cff635d69672579dec9",
+      "verified_constants": {
+        "BUILD_BEFORE_LAUNCH_DISABLED": 0,
+        "BUILD_BEFORE_LAUNCH_ENABLED": 1,
+        "BUILD_BEFORE_LAUNCH_USE_WORKSPACE_SETTING": 2,
+        "ATTR_BUILD_BEFORE_LAUNCH": "org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR"
+      }
+    },
+    "preparation_seal_exceptions": [
+      {
+        "path": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/.settings/language.settings.xml",
+        "sealed_sha256": "87860c0410d01852da4d2b3b71a61a86c712e035f8733a4e5950b0c834928ef1",
+        "current_sha256": "b3d06815ef8e78b4eaeb613cf3d8c5f6949861226f9c2bb277e0ec87e3aad77f",
+        "cause": "CubeIDE anadio metadatos SR y actualizo solo env-hash del detector",
+        "prior_sixteen_semantically_preserved": true,
+        "original_seal_not_rewritten": true,
+        "copied_to_D": false
+      }
+    ],
+    "input_sha256": {
+      "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/PREPARACION_SR.json": "57ce444aefdc67e096e2064c8ee7aa268c9bceba6d7f34122534de395fb0f57d",
+      "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/COMPILACION_SR.json": "94ca669647e4b9924730febe6513c338277ae401f5cfabf008f4f3b69af7f974",
+      "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/AUDITORIA_ELF_SR.json": "cc69242112f521d6d1fa7e01b44dc578c633d82faa40019e06296a13abf12645",
+      "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/AUDITORIA_MAQUINA_SR.json": "e4b6c24a9023a26e9e56af5052f26708bc143dfbf9a42beda756f5e1fd789932",
+      "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/MANIFEST_PREPARACION_SR_SHA256.json": "75d8773bd38aa37b796f3c8008723eaa5f555e1c046db00714779900bfb2c697",
+      "codigo/cwru/ampliacion_v2/stm32/preparar_total_single_rounding_v2.py": "59c3e7ab587e1d2329cd878e942d6c07179487528fdf5bcdc6b26c19ad82c9fb",
+      "codigo/cwru/ampliacion_v2/stm32/instalar_total_v2.py": "c0ca2ad3d8e0e7cdc7c6242b4795c0d1d598ee443bd5cb9c901b72d027b772b6",
+      "codigo/cwru/ampliacion_v2/analisis/auditar_elf_total_sr_v2.py": "fdd3fd3c414151b87b775e010ccf35bf594b86a86a914f06254d4901be50c341",
+      "codigo/cwru/ampliacion_v2/analisis/auditar_maquina_total_sr_v2.py": "d28d5ce463877072a001038aaf9295f83b5ab15a057cc7ef4d49ab0e654f4981"
+    }
+  },
+  "backup_sha256": {
+    ".cproject": "bf0d2b3d93fa2c39c7ad974bebfb76e9b15bf8071f1dd725cbb1089fe08983da",
+    ".settings/language.settings.xml": "87860c0410d01852da4d2b3b71a61a86c712e035f8733a4e5950b0c834928ef1"
+  },
+  "checks": {
+    "installed_files_verified": 5,
+    "previous_configurations_preserved": 16,
+    "previous_ELF_hashes_preserved": 16,
+    "previous_other_source_files_preserved": true,
+    "metadata": {
+      "status": "UNCHANGED",
+      "sha256": "87860c0410d01852da4d2b3b71a61a86c712e035f8733a4e5950b0c834928ef1",
+      "overwritten_by_installer": false
+    }
+  },
+  "seconds": 6.717999999993481,
+  "installer_sha256": "c56c474e31063ceba389fe9e19458474f4015eb1759cbb21a4b3994ce2d739fa",
+  "primary_launch": "Prueba_2_CWRU_Extraccion_TotalV2_SR_180MHz_SinRecompilar.launch",
+  "changed_files": [
+    ".cproject"
+  ],
+  "added_files": [
+    "CWRU_TotalSR/arm_nn_vec_mat_mult_t_per_ch_s8.c",
+    "Prueba_2_CWRU_Extraccion_TotalV2_SR_180MHz_SinRecompilar.launch",
+    "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.elf",
+    "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.map"
+  ],
+  "hardware_flashed": false,
+  "serial_port_opened": false,
+  "compiled_here": false,
+  "physical_validation_pending": true,
+  "selector_costs_enabled": false,
+  "rollback": "Restaurar solo .cproject desde respaldo_instalacion_sr. Los cuatro archivos nuevos se conservan hasta revision. Sin borrado automatico."
+}

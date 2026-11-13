@@ -1,0 +1,21 @@
+{
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/CIERRE_PREPARACION_CLASICOS.json": "79cffe64c09744808afa0fa9888d8a2436f50ce2bed50b43190dfb70ebf2f178",
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/MANIFEST_PREPARACION_CLASICOS_SHA256.json": "a1163dfd4be7d2b32a69e14ab399d5beeedb662320e73d7bada3ae1a594b20a0",
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/MANIFEST_PREPARACION_CLASICOS_SHA256.sha256": "e8a4cfa92a952faab1846b8f277c8a4ce124f0f744ee62a3bb6458d9de3521be",
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/PLAN_CLASICOS_INTERNOS.json": "843546ab8bb58b1019010d40b3d68226c23021d71f02414ac367e1904697adc6",
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/PRESUPUESTO_Y_LIMITES.json": "9973169fd62fdacba161f9ca0fa78fcbd1c2174a27e5fe37f695e3be000e4185",
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/PRUEBAS_PREPARACION.json": "c0d3884cf2d7af824bceba6ac28debebf0c9e47ecfad40c41b3a98a26563b763",
+  "articulo/ampliacion_cwru/metodologia/clasicos_internos_v2_2026-10-27/README_EJECUCION.md": "44be1fad5e915fedbea66a4159c1a32763ef7b799692a358958a277c94b2f2c5",
+  "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+  "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+  "codigo/cwru/ampliacion_v2/clasicos_internos/datos_clasicos.py": "070b807c4ac4cb63c909280dba676fdcc672ecdbe7632e6d5c431b430433d005",
+  "codigo/cwru/ampliacion_v2/clasicos_internos/ejecutar_clasicos.py": "9714d52a9fb6eae7cc1102d48b8bedc9ebff4fba1784367f9ec77db9bc1d7c79",
+  "codigo/cwru/ampliacion_v2/clasicos_internos/presupuesto_clasicos_internos.py": "5553815efdc1163500a369ab4369219b603001c7e4d6601283d9e2aae055cc9f",
+  "codigo/cwru/ampliacion_v2/clasicos_internos/test_clasicos_internos.py": "ca58b64b84554ca896d18b1a080e690b1be57f614b19bc0ac1033c36231bb93f",
+  "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+  "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+  "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+  "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+  "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+  "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "tests_run": 7,
+  "test_names": [
+    "test_all_288_results_supply_closure_schema_and_canonical_roles",
+    "test_all_sixteen_supplement_P0_results_map_to_canonical_roles_without_mutation",
+    "test_all_thirtytwo_representatives_keep_original_result_and_signature",
+    "test_auditor_imports_no_ML_runtime",
+    "test_each_contradictory_alias_is_rejected",
+    "test_nonidentity_P1_result_is_rejected",
+    "test_snapshot_preserves_one_authorized_job_arrays_provenance_and_plan"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "seconds": 2.154341299999942,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/analisis/test_cierre_matriz_interna_v2.py": "801b25791ff3831388f4fa621e5320781389b45e1793c03513f903c48caa398b",
+    "codigo/cwru/ampliacion_v2/analisis/cerrar_matriz_dnn_interna_v2.py": "08806a3f588b8f74f9a9a9632e9a1ca9181c76919f7bfa6383e52335ee23d6a7",
+    "codigo/cwru/ampliacion_v2/analisis/analizar_variabilidad_matriz_interna_v2.py": "32e2ba47fec5e88e53fcfa2131981adfcf8f08c07fb57bbb8d249d8de906b74d"
+  },
+  "source_sha256_before": {
+    "codigo/cwru/ampliacion_v2/analisis/test_cierre_matriz_interna_v2.py": "801b25791ff3831388f4fa621e5320781389b45e1793c03513f903c48caa398b",
+    "codigo/cwru/ampliacion_v2/analisis/cerrar_matriz_dnn_interna_v2.py": "08806a3f588b8f74f9a9a9632e9a1ca9181c76919f7bfa6383e52335ee23d6a7",
+    "codigo/cwru/ampliacion_v2/analisis/analizar_variabilidad_matriz_interna_v2.py": "32e2ba47fec5e88e53fcfa2131981adfcf8f08c07fb57bbb8d249d8de906b74d"
+  },
+  "source_sha256_after": {
+    "codigo/cwru/ampliacion_v2/analisis/test_cierre_matriz_interna_v2.py": "801b25791ff3831388f4fa621e5320781389b45e1793c03513f903c48caa398b",
+    "codigo/cwru/ampliacion_v2/analisis/cerrar_matriz_dnn_interna_v2.py": "08806a3f588b8f74f9a9a9632e9a1ca9181c76919f7bfa6383e52335ee23d6a7",
+    "codigo/cwru/ampliacion_v2/analisis/analizar_variabilidad_matriz_interna_v2.py": "32e2ba47fec5e88e53fcfa2131981adfcf8f08c07fb57bbb8d249d8de906b74d"
+  },
+  "sources_unchanged_during_tests": true,
+  "real_training_fits": 0,
+  "real_TFLite_invocations": 0,
+  "TensorFlow_imported": false,
+  "runtime_import_blocked_by_auditor": true,
+  "outer_evaluation_executed": false,
+  "scope": "Historical result adapter on16P0+32REP/all288schema; metadata cache equivalence on one real authorized job.",
+  "python_executable": "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "test_output": "test_all_288_results_supply_closure_schema_and_canonical_roles (__main__.ClosureCompatibility.test_all_288_results_supply_closure_schema_and_canonical_roles) ... ok\ntest_all_sixteen_supplement_P0_results_map_to_canonical_roles_without_mutation (__main__.ClosureCompatibility.test_all_sixteen_supplement_P0_results_map_to_canonical_roles_without_mutation) ... ok\ntest_all_thirtytwo_representatives_keep_original_result_and_signature (__main__.ClosureCompatibility.test_all_thirtytwo_representatives_keep_original_result_and_signature) ... ok\ntest_auditor_imports_no_ML_runtime (__main__.ClosureCompatibility.test_auditor_imports_no_ML_runtime) ... ok\ntest_each_contradictory_alias_is_rejected (__main__.ClosureCompatibility.test_each_contradictory_alias_is_rejected) ... ok\ntest_nonidentity_P1_result_is_rejected (__main__.ClosureCompatibility.test_nonidentity_P1_result_is_rejected) ... ok\ntest_snapshot_preserves_one_authorized_job_arrays_provenance_and_plan (__main__.ClosureCompatibility.test_snapshot_preserves_one_authorized_job_arrays_provenance_and_plan) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 2.152s\n\nOK\n"
+}

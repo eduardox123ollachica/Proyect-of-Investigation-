@@ -1,0 +1,1305 @@
+{
+  "status": "PASS",
+  "job_id": "outer_eval_0",
+  "outer_load_hp": 0,
+  "selection_signature": "synthetic_only_not_a_production_authorization",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0"
+  },
+  "evaluation_signature": "82a49ce159e770035ebc65e015663cff5ed6c784e501827c7d923bdc0242734f",
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/contrato_evaluacion.py": "0bf0585b367f4c84b8896c674976ba15f14662c7b631ca76be36e691a3c467e2",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/ejecutar_evaluacion.py": "7532dc19cae5361b53ec901e86781394ff3a634bd31abff18c119dbe34c27745",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/metricas_evaluacion.py": "485ad7edbd434a45d909a4d1f155e0cd0075e7dbfe9cd54633a0bd5af6871524",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/prueba_sintetica_evaluacion.py": "34e0c849690d97fee46ed58a42cc831bc1b4ab6cee255d81dae36341d47d67b9",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_contrato_evaluacion.py": "211604038dfcfcc9cede65bde508b92b20f68ee2b8a871e9efcc374914020a3e",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_metricas_evaluacion.py": "8e85e10669b4f5acc341f94644860a520f07cb30210fd857ad3c20fdc9f9ee0d",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/worker_evaluacion.py": "d6509f710f1e1f17b401e0a50b1ab5e30968be39bdc93d6d12187f9700159dda",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/contrato.py": "ef256260d581572fb429565e243ae154e8bc08b524d9d51ffdd33c9aa51af915",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+    "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  },
+  "provenance": {
+    "global_window_ids": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009,
+      1000010,
+      1000011,
+      1000012,
+      1000013,
+      1000014,
+      1000015,
+      1000016,
+      1000017,
+      1000018,
+      1000019,
+      1000020,
+      1000021,
+      1000022,
+      1000023,
+      1000024,
+      1000025,
+      1000026,
+      1000027,
+      1000028,
+      1000029,
+      1000030,
+      1000031,
+      1000032,
+      1000033,
+      1000034,
+      1000035,
+      1000036,
+      1000037,
+      1000038,
+      1000039,
+      1000040,
+      1000041
+    ],
+    "selected_loads_hp": [
+      0
+    ],
+    "selected_record_ids": [
+      "SYNTH_0",
+      "SYNTH_1",
+      "SYNTH_2",
+      "SYNTH_3",
+      "SYNTH_4",
+      "SYNTH_5",
+      "SYNTH_6"
+    ],
+    "shape": [
+      42,
+      14
+    ],
+    "loaded_dtype": "float32",
+    "only_requested_rows_selected_or_materialized": true,
+    "raw_signals_or_MAT_opened": false,
+    "synthetic_data": true
+  },
+  "input_snapshot_sha256": "d119979dbc6f92a9f0826a811279eda13e1f4b1a98b66b24f7cf452335cf60cf",
+  "evaluated_windows": 42,
+  "evaluated_MAT": 7,
+  "heldout_global_window_ids": [
+    1000000,
+    1000001,
+    1000002,
+    1000003,
+    1000004,
+    1000005,
+    1000006,
+    1000007,
+    1000008,
+    1000009,
+    1000010,
+    1000011,
+    1000012,
+    1000013,
+    1000014,
+    1000015,
+    1000016,
+    1000017,
+    1000018,
+    1000019,
+    1000020,
+    1000021,
+    1000022,
+    1000023,
+    1000024,
+    1000025,
+    1000026,
+    1000027,
+    1000028,
+    1000029,
+    1000030,
+    1000031,
+    1000032,
+    1000033,
+    1000034,
+    1000035,
+    1000036,
+    1000037,
+    1000038,
+    1000039,
+    1000040,
+    1000041
+  ],
+  "new_training_fits": 0,
+  "scalers_refitted": false,
+  "INT8_recalibrated": false,
+  "detector_threshold_refitted": false,
+  "training_executed": false,
+  "parameter_fit_executed": false,
+  "threshold_calibrated": false,
+  "model_conversion_executed": false,
+  "mask_or_seed_selection_executed": false,
+  "seed_ensembles": false,
+  "detector_class_override": false,
+  "channels": [
+    "DE",
+    "FE"
+  ],
+  "sensor_positions_not_axes": true,
+  "STM32_cost_measured": false,
+  "predictions_are_for_previously_explored_retrospective_dataset": true,
+  "metrics_printed_to_stdout": false,
+  "partial_results_are_not_rule_change_input": true,
+  "elapsed_worker_seconds": 64.04699999999957,
+  "model_results": [
+    {
+      "model_job_id": "synthetic_DNN",
+      "family": "DNN",
+      "candidate": "F14",
+      "seed": 11,
+      "config_index": null,
+      "outer_load_hp": 0,
+      "prediction_file": "synthetic_DNN_predicciones.npz",
+      "model_source_sha256": {
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f"
+      },
+      "fit_signature": "3133a4f3ac7a0c7fb2192594d0c29eb657f52043c5220d33693b18ab871f9eb7",
+      "selection_signature": "synthetic_only_not_a_production_authorization",
+      "prediction_scope": "heldout_load_for_this_final_refit",
+      "windows": 42,
+      "metrics": {
+        "FP32": {
+          "accuracy": 0.4523809523809524,
+          "macro_f1": 0.2384775498067202,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              1,
+              17
+            ],
+            [
+              0,
+              0,
+              18
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            },
+            {
+              "label": 1,
+              "precision": 1.0,
+              "recall": 0.05555555555555555,
+              "f1": 0.10526315789473684,
+              "support": 18
+            },
+            {
+              "label": 2,
+              "precision": 0.43902439024390244,
+              "recall": 1.0,
+              "f1": 0.6101694915254238,
+              "support": 18
+            }
+          ],
+          "per_record_true_class_recall": [
+            {
+              "record_id": "SYNTH_0",
+              "label": 0,
+              "windows": 6,
+              "correct_windows": 0,
+              "true_class_recall": 0.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_1",
+              "label": 1,
+              "windows": 6,
+              "correct_windows": 0,
+              "true_class_recall": 0.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_2",
+              "label": 1,
+              "windows": 6,
+              "correct_windows": 1,
+              "true_class_recall": 0.16666666666666666,
+              "predicted_class_counts": [
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "record_id": "SYNTH_3",
+              "label": 1,
+              "windows": 6,
+              "correct_windows": 0,
+              "true_class_recall": 0.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_4",
+              "label": 2,
+              "windows": 6,
+              "correct_windows": 6,
+              "true_class_recall": 1.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_5",
+              "label": 2,
+              "windows": 6,
+              "correct_windows": 6,
+              "true_class_recall": 1.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_6",
+              "label": 2,
+              "windows": 6,
+              "correct_windows": 6,
+              "true_class_recall": 1.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            }
+          ],
+          "MAT_count": 7
+        },
+        "INT8": {
+          "accuracy": 0.42857142857142855,
+          "macro_f1": 0.22873563218390802,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              1,
+              17
+            ],
+            [
+              0,
+              1,
+              17
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            },
+            {
+              "label": 1,
+              "precision": 0.5,
+              "recall": 0.05555555555555555,
+              "f1": 0.1,
+              "support": 18
+            },
+            {
+              "label": 2,
+              "precision": 0.425,
+              "recall": 0.9444444444444444,
+              "f1": 0.5862068965517241,
+              "support": 18
+            }
+          ],
+          "per_record_true_class_recall": [
+            {
+              "record_id": "SYNTH_0",
+              "label": 0,
+              "windows": 6,
+              "correct_windows": 0,
+              "true_class_recall": 0.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_1",
+              "label": 1,
+              "windows": 6,
+              "correct_windows": 0,
+              "true_class_recall": 0.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_2",
+              "label": 1,
+              "windows": 6,
+              "correct_windows": 1,
+              "true_class_recall": 0.16666666666666666,
+              "predicted_class_counts": [
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "record_id": "SYNTH_3",
+              "label": 1,
+              "windows": 6,
+              "correct_windows": 0,
+              "true_class_recall": 0.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_4",
+              "label": 2,
+              "windows": 6,
+              "correct_windows": 6,
+              "true_class_recall": 1.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_5",
+              "label": 2,
+              "windows": 6,
+              "correct_windows": 6,
+              "true_class_recall": 1.0,
+              "predicted_class_counts": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "record_id": "SYNTH_6",
+              "label": 2,
+              "windows": 6,
+              "correct_windows": 5,
+              "true_class_recall": 0.8333333333333334,
+              "predicted_class_counts": [
+                0,
+                1,
+                5
+              ]
+            }
+          ],
+          "MAT_count": 7
+        }
+      },
+      "quantization_report": {
+        "windows": 42,
+        "features": 14,
+        "input_clipped_feature_values": 64,
+        "input_clipped_by_feature": [
+          9,
+          7,
+          10,
+          8,
+          4,
+          5,
+          3,
+          2,
+          3,
+          1,
+          4,
+          4,
+          2,
+          2
+        ],
+        "input_clipped_by_window": [
+          3,
+          1,
+          1,
+          0,
+          4,
+          0,
+          2,
+          1,
+          1,
+          0,
+          2,
+          1,
+          0,
+          1,
+          3,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          3,
+          0,
+          3,
+          1,
+          3,
+          1,
+          2,
+          3,
+          1,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          3
+        ],
+        "input_clipped_window_count": 36,
+        "input_clipped_feature_value_fraction": 0.10884353741496598,
+        "input_clipped_global_window_ids": [
+          1000000,
+          1000001,
+          1000002,
+          1000004,
+          1000006,
+          1000007,
+          1000008,
+          1000010,
+          1000011,
+          1000013,
+          1000014,
+          1000015,
+          1000016,
+          1000017,
+          1000018,
+          1000019,
+          1000020,
+          1000021,
+          1000022,
+          1000024,
+          1000025,
+          1000026,
+          1000027,
+          1000028,
+          1000029,
+          1000030,
+          1000031,
+          1000032,
+          1000033,
+          1000035,
+          1000036,
+          1000037,
+          1000038,
+          1000039,
+          1000040,
+          1000041
+        ],
+        "input_endpoint_value_count": 64,
+        "input_endpoint_values_without_clipping": 0,
+        "output_endpoint_value_count": 0,
+        "endpoint_values_are_not_equivalent_to_clipping": true,
+        "INT8_output_tied_argmax_window_count": 0,
+        "argmax_tie_rule": "lowest class index",
+        "class_changes": 3,
+        "class_change_fraction": 0.07142857142857142,
+        "class_change_rows": [
+          {
+            "row_index": 13,
+            "global_window_id": 1000013,
+            "record_id": "SYNTH_2",
+            "true_label": 1,
+            "FP32_prediction": 2,
+            "INT8_prediction": 1
+          },
+          {
+            "row_index": 14,
+            "global_window_id": 1000014,
+            "record_id": "SYNTH_2",
+            "true_label": 1,
+            "FP32_prediction": 1,
+            "INT8_prediction": 2
+          },
+          {
+            "row_index": 37,
+            "global_window_id": 1000037,
+            "record_id": "SYNTH_6",
+            "true_label": 2,
+            "FP32_prediction": 2,
+            "INT8_prediction": 1
+          }
+        ],
+        "class_changes_per_record": {
+          "SYNTH_0": 0,
+          "SYNTH_1": 0,
+          "SYNTH_2": 2,
+          "SYNTH_3": 0,
+          "SYNTH_4": 0,
+          "SYNTH_5": 0,
+          "SYNTH_6": 1
+        },
+        "FP32_correct_INT8_incorrect": 2,
+        "FP32_incorrect_INT8_correct": 1,
+        "metrics_FP32": {
+          "accuracy": 0.4523809523809524,
+          "macro_f1": 0.2384775498067202,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              1,
+              17
+            ],
+            [
+              0,
+              0,
+              18
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            },
+            {
+              "label": 1,
+              "precision": 1.0,
+              "recall": 0.05555555555555555,
+              "f1": 0.10526315789473684,
+              "support": 18
+            },
+            {
+              "label": 2,
+              "precision": 0.43902439024390244,
+              "recall": 1.0,
+              "f1": 0.6101694915254238,
+              "support": 18
+            }
+          ]
+        },
+        "metrics_INT8": {
+          "accuracy": 0.42857142857142855,
+          "macro_f1": 0.22873563218390802,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              1,
+              17
+            ],
+            [
+              0,
+              1,
+              17
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            },
+            {
+              "label": 1,
+              "precision": 0.5,
+              "recall": 0.05555555555555555,
+              "f1": 0.1,
+              "support": 18
+            },
+            {
+              "label": 2,
+              "precision": 0.425,
+              "recall": 0.9444444444444444,
+              "f1": 0.5862068965517241,
+              "support": 18
+            }
+          ]
+        },
+        "INT8_minus_FP32_accuracy": -0.023809523809523836,
+        "INT8_minus_FP32_macro_f1": -0.00974191762281218,
+        "INT8_minus_FP32_accuracy_pp": -2.3809523809523836,
+        "INT8_minus_FP32_macro_f1_pp": -0.974191762281218,
+        "maximum_absolute_probability_difference": 0.48046875,
+        "mean_absolute_probability_difference": 0.04548010303978882,
+        "quantization_verified": true,
+        "output_dequantization_verified": true,
+        "no_statistical_noninferiority_claim": true
+      },
+      "fp32_details": {
+        "input_dtype": "float32",
+        "output_dtype": "float32",
+        "input_quantization": [
+          0.0,
+          0
+        ],
+        "output_quantization": [
+          0.0,
+          0
+        ],
+        "tensor_dtypes": [
+          "float32"
+        ],
+        "operators": [
+          "FULLY_CONNECTED",
+          "FULLY_CONNECTED",
+          "FULLY_CONNECTED",
+          "SOFTMAX"
+        ],
+        "input_clipped_values": 0,
+        "default_delegates_disabled": true,
+        "threads": 1
+      },
+      "int8_details": {
+        "input_dtype": "int8",
+        "output_dtype": "int8",
+        "input_quantization": [
+          0.02304868772625923,
+          3
+        ],
+        "output_quantization": [
+          0.00390625,
+          -128
+        ],
+        "tensor_dtypes": [
+          "int32",
+          "int8"
+        ],
+        "operators": [
+          "FULLY_CONNECTED",
+          "FULLY_CONNECTED",
+          "FULLY_CONNECTED",
+          "SOFTMAX"
+        ],
+        "input_clipped_values": 64,
+        "default_delegates_disabled": true,
+        "threads": 1
+      },
+      "procedures": [
+        "baseline_F14",
+        "performance_only"
+      ],
+      "epochs": 2,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "prediction_sha256": "f33762e411ef22d3dbbf9620233ebd7004882ca287df4416158ebf5fd70024fa",
+      "prediction_seconds": 39.09400000000005
+    },
+    {
+      "model_job_id": "synthetic_RF",
+      "family": "RF",
+      "candidate": null,
+      "seed": 11,
+      "config_index": 5,
+      "outer_load_hp": 0,
+      "prediction_file": "synthetic_RF_predicciones.npz",
+      "model_source_sha256": {
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/modelo.joblib": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46"
+      },
+      "fit_signature": "2f7bf22702eeb7a7eea21d3c8eb2f578b2165631646985a2b20ee79e27f0d06a",
+      "selection_signature": "synthetic_only_not_a_production_authorization",
+      "prediction_scope": "heldout_load_for_this_final_refit",
+      "windows": 42,
+      "metrics": {
+        "accuracy": 0.21428571428571427,
+        "macro_f1": 0.17756097560975612,
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            15,
+            3,
+            0
+          ],
+          [
+            14,
+            4,
+            0
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.17142857142857143,
+            "recall": 1.0,
+            "f1": 0.2926829268292683,
+            "support": 6
+          },
+          {
+            "label": 1,
+            "precision": 0.42857142857142855,
+            "recall": 0.16666666666666666,
+            "f1": 0.24,
+            "support": 18
+          },
+          {
+            "label": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 18
+          }
+        ],
+        "per_record_true_class_recall": [
+          {
+            "record_id": "SYNTH_0",
+            "label": 0,
+            "windows": 6,
+            "correct_windows": 6,
+            "true_class_recall": 1.0,
+            "predicted_class_counts": [
+              6,
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_1",
+            "label": 1,
+            "windows": 6,
+            "correct_windows": 1,
+            "true_class_recall": 0.16666666666666666,
+            "predicted_class_counts": [
+              5,
+              1,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_2",
+            "label": 1,
+            "windows": 6,
+            "correct_windows": 1,
+            "true_class_recall": 0.16666666666666666,
+            "predicted_class_counts": [
+              5,
+              1,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_3",
+            "label": 1,
+            "windows": 6,
+            "correct_windows": 1,
+            "true_class_recall": 0.16666666666666666,
+            "predicted_class_counts": [
+              5,
+              1,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_4",
+            "label": 2,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              5,
+              1,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_5",
+            "label": 2,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              5,
+              1,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_6",
+            "label": 2,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              4,
+              2,
+              0
+            ]
+          }
+        ],
+        "MAT_count": 7
+      },
+      "native_predict_rule": true,
+      "values_kind": "predict_proba",
+      "input_representation": "raw_float32_F14",
+      "prediction_sha256": "dd52baebb472e0526ac1ded689fc7cafbfe1634fde121bceaca1498197045043",
+      "prediction_seconds": 0.5940000000000509
+    },
+    {
+      "model_job_id": "synthetic_SVM",
+      "family": "SVM",
+      "candidate": null,
+      "seed": null,
+      "config_index": 5,
+      "outer_load_hp": 0,
+      "prediction_file": "synthetic_SVM_predicciones.npz",
+      "model_source_sha256": {
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/modelo.joblib": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/scaler_train_only.npz": "1813d2cd027224ee8ad45ceb802f7fbf9d6c32b41c9fce21a6840dbfa860b812"
+      },
+      "fit_signature": "15d5a74eb6e1bf4c3d8de67bda4965742ffa51dd9dd9cfffe79ffc02f7ceb170",
+      "selection_signature": "synthetic_only_not_a_production_authorization",
+      "prediction_scope": "heldout_load_for_this_final_refit",
+      "windows": 42,
+      "metrics": {
+        "accuracy": 0.19047619047619047,
+        "macro_f1": 0.15128205128205127,
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            16,
+            2,
+            0
+          ],
+          [
+            12,
+            6,
+            0
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.17647058823529413,
+            "recall": 1.0,
+            "f1": 0.3,
+            "support": 6
+          },
+          {
+            "label": 1,
+            "precision": 0.25,
+            "recall": 0.1111111111111111,
+            "f1": 0.15384615384615385,
+            "support": 18
+          },
+          {
+            "label": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 18
+          }
+        ],
+        "per_record_true_class_recall": [
+          {
+            "record_id": "SYNTH_0",
+            "label": 0,
+            "windows": 6,
+            "correct_windows": 6,
+            "true_class_recall": 1.0,
+            "predicted_class_counts": [
+              6,
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_1",
+            "label": 1,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              6,
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_2",
+            "label": 1,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              6,
+              0,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_3",
+            "label": 1,
+            "windows": 6,
+            "correct_windows": 2,
+            "true_class_recall": 0.3333333333333333,
+            "predicted_class_counts": [
+              4,
+              2,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_4",
+            "label": 2,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              5,
+              1,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_5",
+            "label": 2,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              3,
+              3,
+              0
+            ]
+          },
+          {
+            "record_id": "SYNTH_6",
+            "label": 2,
+            "windows": 6,
+            "correct_windows": 0,
+            "true_class_recall": 0.0,
+            "predicted_class_counts": [
+              4,
+              2,
+              0
+            ]
+          }
+        ],
+        "MAT_count": 7
+      },
+      "native_predict_rule": true,
+      "values_kind": "decision_function_not_argmax_classifier",
+      "input_representation": "stored_train_only_scaler_explicit_float32_F14",
+      "prediction_sha256": "206c2eed88a0ee22b2b310a9b79ea4bf3b2aecc33df5b006a01e426a99cee721",
+      "prediction_seconds": 0.014999999999417923
+    },
+    {
+      "model_job_id": "synthetic_detector",
+      "family": "detector",
+      "candidate": null,
+      "seed": null,
+      "config_index": null,
+      "outer_load_hp": 0,
+      "prediction_file": "synthetic_detector_predicciones.npz",
+      "model_source_sha256": {
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/parametros.npz": "718e8be655c0de08c1e4ce55fbeb0fa20bcc385be86948d665bec24dd6323094",
+        "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/calibracion.npz": "9f5e87b6e8082582e71b6e5a6bbfce5816df757e6c7ae7b11807ce04979f8baa"
+      },
+      "fit_signature": "d4a6a1aa0a02ae3d618c982fc578867664d4b59cd4ae0e0a9c92b0caaacb4fb1",
+      "selection_signature": "synthetic_only_not_a_production_authorization",
+      "prediction_scope": "heldout_load_for_this_final_refit",
+      "windows": 42,
+      "metrics": {
+        "normal_spec": 0.0,
+        "ir_recall": 0.888888888888889,
+        "or_recall": 1.0,
+        "fault_sensitivity": 0.9444444444444444,
+        "balanced_accuracy": 0.4722222222222222,
+        "BA": 0.4722222222222222,
+        "per_record": [
+          {
+            "record_id": "SYNTH_0",
+            "label": 0,
+            "windows": 6,
+            "rejected_windows": 6,
+            "rate": 0.0
+          },
+          {
+            "record_id": "SYNTH_1",
+            "label": 1,
+            "windows": 6,
+            "rejected_windows": 6,
+            "rate": 1.0
+          },
+          {
+            "record_id": "SYNTH_2",
+            "label": 1,
+            "windows": 6,
+            "rejected_windows": 5,
+            "rate": 0.8333333333333334
+          },
+          {
+            "record_id": "SYNTH_3",
+            "label": 1,
+            "windows": 6,
+            "rejected_windows": 5,
+            "rate": 0.8333333333333334
+          },
+          {
+            "record_id": "SYNTH_4",
+            "label": 2,
+            "windows": 6,
+            "rejected_windows": 6,
+            "rate": 1.0
+          },
+          {
+            "record_id": "SYNTH_5",
+            "label": 2,
+            "windows": 6,
+            "rejected_windows": 6,
+            "rate": 1.0
+          },
+          {
+            "record_id": "SYNTH_6",
+            "label": 2,
+            "windows": 6,
+            "rejected_windows": 6,
+            "rate": 1.0
+          }
+        ]
+      },
+      "threshold_float32": 75.78202819824219,
+      "threshold_bits": "66909742",
+      "masks": [
+        "F14"
+      ],
+      "procedures": [
+        "baseline_F14",
+        "performance_only"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "class_override": false,
+      "strict_rejection_rule": "score > stored_threshold; equality accepted",
+      "prediction_sha256": "61064b3ccbf8426f2bd077e7d311dc1c0a156ca09ca86db433e8c6c9b182aaa9",
+      "prediction_seconds": 0.032000000000152795
+    }
+  ],
+  "inference_counts": {
+    "DNN_models": 1,
+    "DNN_FP32_invocations": 42,
+    "DNN_INT8_invocations": 42,
+    "RF_models": 1,
+    "RF_prediction_batches": 1,
+    "RF_predicted_rows": 42,
+    "SVM_models": 1,
+    "SVM_prediction_batches": 1,
+    "SVM_predicted_rows": 42,
+    "detector_models": 1,
+    "detector_score_batches": 1,
+    "detector_scored_rows": 42
+  },
+  "model_hashes_before": {
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/modelo.joblib": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/RESULTADO.json": "f5c9fd110950ec771a15c4142f6cf3dd3c35a3163a4d317f931a4d0d5e382554",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/modelo.joblib": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/scaler_train_only.npz": "1813d2cd027224ee8ad45ceb802f7fbf9d6c32b41c9fce21a6840dbfa860b812",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/RESULTADO.json": "aee5032b3ceabdc5bc45120f58255afb9daebe9b02716ce4865331e0c4b897ba",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/parametros.npz": "718e8be655c0de08c1e4ce55fbeb0fa20bcc385be86948d665bec24dd6323094",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/calibracion.npz": "9f5e87b6e8082582e71b6e5a6bbfce5816df757e6c7ae7b11807ce04979f8baa",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/RESULTADO.json": "92068f06e64298174b2ecc71560e05196d968bb88d422188f6c0a1a525f23a19"
+  },
+  "model_hashes_after": {
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/modelo.joblib": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/RESULTADO.json": "f5c9fd110950ec771a15c4142f6cf3dd3c35a3163a4d317f931a4d0d5e382554",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/modelo.joblib": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/scaler_train_only.npz": "1813d2cd027224ee8ad45ceb802f7fbf9d6c32b41c9fce21a6840dbfa860b812",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/RESULTADO.json": "aee5032b3ceabdc5bc45120f58255afb9daebe9b02716ce4865331e0c4b897ba",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/parametros.npz": "718e8be655c0de08c1e4ce55fbeb0fa20bcc385be86948d665bec24dd6323094",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/calibracion.npz": "9f5e87b6e8082582e71b6e5a6bbfce5816df757e6c7ae7b11807ce04979f8baa",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/RESULTADO.json": "92068f06e64298174b2ecc71560e05196d968bb88d422188f6c0a1a525f23a19"
+  },
+  "model_sha256_before": {
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/modelo.joblib": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/RESULTADO.json": "f5c9fd110950ec771a15c4142f6cf3dd3c35a3163a4d317f931a4d0d5e382554",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/modelo.joblib": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/scaler_train_only.npz": "1813d2cd027224ee8ad45ceb802f7fbf9d6c32b41c9fce21a6840dbfa860b812",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/RESULTADO.json": "aee5032b3ceabdc5bc45120f58255afb9daebe9b02716ce4865331e0c4b897ba",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/parametros.npz": "718e8be655c0de08c1e4ce55fbeb0fa20bcc385be86948d665bec24dd6323094",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/calibracion.npz": "9f5e87b6e8082582e71b6e5a6bbfce5816df757e6c7ae7b11807ce04979f8baa",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/RESULTADO.json": "92068f06e64298174b2ecc71560e05196d968bb88d422188f6c0a1a525f23a19"
+  },
+  "model_sha256_after": {
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/modelo.joblib": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/RESULTADO.json": "f5c9fd110950ec771a15c4142f6cf3dd3c35a3163a4d317f931a4d0d5e382554",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/modelo.joblib": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/scaler_train_only.npz": "1813d2cd027224ee8ad45ceb802f7fbf9d6c32b41c9fce21a6840dbfa860b812",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/RESULTADO.json": "aee5032b3ceabdc5bc45120f58255afb9daebe9b02716ce4865331e0c4b897ba",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/parametros.npz": "718e8be655c0de08c1e4ce55fbeb0fa20bcc385be86948d665bec24dd6323094",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/calibracion.npz": "9f5e87b6e8082582e71b6e5a6bbfce5816df757e6c7ae7b11807ce04979f8baa",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/RESULTADO.json": "92068f06e64298174b2ecc71560e05196d968bb88d422188f6c0a1a525f23a19"
+  },
+  "source_sha256_before": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/contrato_evaluacion.py": "0bf0585b367f4c84b8896c674976ba15f14662c7b631ca76be36e691a3c467e2",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/ejecutar_evaluacion.py": "7532dc19cae5361b53ec901e86781394ff3a634bd31abff18c119dbe34c27745",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/metricas_evaluacion.py": "485ad7edbd434a45d909a4d1f155e0cd0075e7dbfe9cd54633a0bd5af6871524",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/prueba_sintetica_evaluacion.py": "34e0c849690d97fee46ed58a42cc831bc1b4ab6cee255d81dae36341d47d67b9",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_contrato_evaluacion.py": "211604038dfcfcc9cede65bde508b92b20f68ee2b8a871e9efcc374914020a3e",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_metricas_evaluacion.py": "8e85e10669b4f5acc341f94644860a520f07cb30210fd857ad3c20fdc9f9ee0d",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/worker_evaluacion.py": "d6509f710f1e1f17b401e0a50b1ab5e30968be39bdc93d6d12187f9700159dda",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/contrato.py": "ef256260d581572fb429565e243ae154e8bc08b524d9d51ffdd33c9aa51af915",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+    "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  },
+  "source_sha256_after": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/contrato_evaluacion.py": "0bf0585b367f4c84b8896c674976ba15f14662c7b631ca76be36e691a3c467e2",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/ejecutar_evaluacion.py": "7532dc19cae5361b53ec901e86781394ff3a634bd31abff18c119dbe34c27745",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/metricas_evaluacion.py": "485ad7edbd434a45d909a4d1f155e0cd0075e7dbfe9cd54633a0bd5af6871524",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/prueba_sintetica_evaluacion.py": "34e0c849690d97fee46ed58a42cc831bc1b4ab6cee255d81dae36341d47d67b9",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_contrato_evaluacion.py": "211604038dfcfcc9cede65bde508b92b20f68ee2b8a871e9efcc374914020a3e",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_metricas_evaluacion.py": "8e85e10669b4f5acc341f94644860a520f07cb30210fd857ad3c20fdc9f9ee0d",
+    "codigo/cwru/ampliacion_v2/evaluacion_exterior/worker_evaluacion.py": "d6509f710f1e1f17b401e0a50b1ab5e30968be39bdc93d6d12187f9700159dda",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/contrato.py": "ef256260d581572fb429565e243ae154e8bc08b524d9d51ffdd33c9aa51af915",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+    "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  },
+  "training_blocked_methods": [
+    "StandardScaler.fit",
+    "StandardScaler.fit_transform",
+    "StandardScaler.partial_fit",
+    "RandomForestClassifier.fit",
+    "SVC.fit",
+    "KMeans.fit",
+    "KMeans.fit_predict",
+    "keras.Model.fit",
+    "keras.Model.train_on_batch",
+    "lite.TFLiteConverter.convert"
+  ]
+}

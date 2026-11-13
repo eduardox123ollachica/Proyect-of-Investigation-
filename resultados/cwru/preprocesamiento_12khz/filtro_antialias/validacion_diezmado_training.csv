@@ -1,0 +1,15 @@
+file,input_samples_per_channel,output_samples_per_channel,expected_output_samples,invalid_edge_samples_each_side_at_12khz,channels_synchronized,finite_output
+"97_N_0,000.mat",243938,60985,60985,22,True,True
+"109_IR_0,007.mat",243938,60985,60985,22,True,True
+"174_IR_0,014.mat",63788,15947,15947,22,True,True
+"213_IR_0,021.mat",244339,61085,61085,22,True,True
+"135_OR_0,007.mat",243538,60885,60885,22,True,True
+"201_OR_0,014.mat",245140,61285,61285,22,True,True
+"238_OR_0,021.mat",246342,61586,61586,22,True,True
+"98_N_0,000.mat",483903,120976,120976,22,True,True
+"110_IR_0,007.mat",486224,121556,121556,22,True,True
+"175_IR_0,014.mat",381890,95473,95473,22,True,True
+"214_IR_0,021.mat",485063,121266,121266,22,True,True
+"136_OR_0,007.mat",486804,121701,121701,22,True,True
+"202_OR_0,014.mat",484483,121121,121121,22,True,True
+"239_OR_0,021.mat",489125,122282,122282,22,True,True

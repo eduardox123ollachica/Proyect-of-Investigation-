@@ -1,0 +1,12 @@
+{
+  "command_argv": [
+    "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.win32_1.0.100.202602081740\\tools\\bin\\arm-none-eabi-objcopy.exe",
+    "-O",
+    "srec",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\lectura_flash\\20261026T151832_154874Z\\firmware_auditado_sr.elf",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\diagnostico_padding_flash\\firmware_auditado_sr.srec"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

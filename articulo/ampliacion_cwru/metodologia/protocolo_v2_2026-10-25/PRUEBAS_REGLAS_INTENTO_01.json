@@ -1,0 +1,14 @@
+{
+  "status": "FAILED_PRESERVED_BEFORE_NUMERIC_TIE_CORRECTION",
+  "tests_run": 23,
+  "failures": 1,
+  "errors": 0,
+  "failed_test": "SelectionTests.test_worst_load_breaks_mean_tie",
+  "expected_selected_candidate": "S8",
+  "observed_selected_candidate": "T6",
+  "cause": "An exact float comparison ranked nominally equal means differently before the intended worst-load tie-break.",
+  "correction": "Compare each tie stage against its maximum with absolute tolerance 1e-12; catalogue resolves the remaining tie. The predictive margins are unchanged.",
+  "data": "synthetic_only",
+  "models_trained": 0,
+  "historical_evidence_modified": false
+}

@@ -1,0 +1,43 @@
+# Corpus crudos externos (no redistribuibles)
+datos/arciniegas/raw/
+datos/cwru/raw/
+datos/**/raw/*.mat
+datos/**/raw/*.json
+
+# Arreglos procesados y tablas con características por ventana
+datos/*/procesado/*.npy
+datos/*/procesado/**/*.npy
+datos/*/procesado/metadata_features.csv
+datos/*/procesado/**/metadata_features*.csv
+**/bancos/*.npz
+resultados/**/probabilidades_test.csv
+resultados/**/scores_test_*.csv
+resultados/**/top_50_scores_test.csv
+resultados/**/ventanas_rechazadas_P99.csv
+resultados/**/muestras_ordenadas_por_margen.csv
+
+# Python y entornos locales
+__pycache__/
+*.py[cod]
+*$py.class
+.venv*/
+venv*/
+.tmp_*.json
+
+# Manuscritos, documentos ofimáticos y auxiliares LaTeX (excluidos de la publicación)
+*.pdf
+*.docx
+*.xlsx
+*.tex
+*.bib
+*.pptx
+articulo/**/*.aux
+articulo/**/*.log
+articulo/**/*.out
+articulo/**/*.toc
+
+# Artefactos intermedios de compilación STM32CubeIDE y manuales CHM
+*.o
+*.d
+*.su
+*.chm

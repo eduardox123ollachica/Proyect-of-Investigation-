@@ -1,0 +1,15 @@
+{
+  "status": "AUDIT_INTERRUPTED_TO_CORRECT_HISTORICAL_SCHEMA_ADAPTER",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "scope": "Read-only report consolidation; not a DNN training attempt",
+  "reason": "The16 original supplement P0 results use outer/inner/class_changes/training_clipped_values. The first consolidator expected representative-worker field names. Its read-only process was interrupted before writing the final report.",
+  "action": "Add an explicit P0 reader preserving original result files and signatures. Cache already verified metadata/plan during reconstruction and recheck them before/after.",
+  "auditor_process_exit_code": 1,
+  "training_campaign_failure": false,
+  "new_training_fits": 0,
+  "new_TFLite_invocations": 0,
+  "source_campaign_files_modified": false,
+  "original_result_files_or_signatures_modified": false,
+  "final_closure_directory_created_by_first_attempt": false
+}

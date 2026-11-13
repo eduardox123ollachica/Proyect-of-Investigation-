@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-10-22T22:40:42.224413+00:00",
+  "profiles": [
+    {
+      "profile": "50pct",
+      "hop_samples": 2048,
+      "overlap_percent": 50,
+      "gap_output_samples": 0,
+      "decision_stride_ms": 170.66666666666666,
+      "train": 568,
+      "validation": 406,
+      "test": 406,
+      "total": 1380
+    },
+    {
+      "profile": "25pct",
+      "hop_samples": 3072,
+      "overlap_percent": 25,
+      "gap_output_samples": 0,
+      "decision_stride_ms": 256.0,
+      "train": 382,
+      "validation": 273,
+      "test": 273,
+      "total": 928
+    },
+    {
+      "profile": "0pct",
+      "hop_samples": 4096,
+      "overlap_percent": 0,
+      "gap_output_samples": 0,
+      "decision_stride_ms": 341.3333333333333,
+      "train": 285,
+      "validation": 203,
+      "test": 203,
+      "total": 691
+    },
+    {
+      "profile": "0pct_gap44",
+      "hop_samples": 4140,
+      "overlap_percent": 0,
+      "gap_output_samples": 44,
+      "decision_stride_ms": 345.0,
+      "train": 284,
+      "validation": 203,
+      "test": 203,
+      "total": 690
+    }
+  ],
+  "median_across_14_feature_medians_absolute_lag1": {
+    "50pct": 0.5267100229062145,
+    "0pct": 0.2413563852868627
+  },
+  "correlation_scope": "Descriptivo por archivo; >=10 pares; mediana igual peso por archivo. No prueba de independencia.",
+  "unit_of_physical_replication_unchanged": true,
+  "zero_overlap_via_existing_windows_every_other_within_file": true,
+  "no_dataset_regeneration": true,
+  "no_training": true,
+  "no_manuscript_change": true,
+  "inputs_unchanged": true,
+  "checks_passed": 32,
+  "numpy": "2.4.4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

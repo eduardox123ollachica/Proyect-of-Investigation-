@@ -1,0 +1,21 @@
+{
+  "status": "DETECTOR_INTERNAL_COMPLETED",
+  "logical_rows": 96,
+  "parameter_scopes": 42,
+  "reused_parameter_scopes": 23,
+  "new_parameter_fits": 19,
+  "unique_evaluations": 84,
+  "reused_unique_evaluations": 30,
+  "new_unique_evaluations": 54,
+  "reused_logical_rows": 36,
+  "new_logical_rows": 60,
+  "worker_process_seconds": 49.09400000000096,
+  "all_scores_and_metrics_replayed": true,
+  "no_DNN_class_override": true,
+  "DNN_fits": 0,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "STM32_cost_measured": false,
+  "manuscript_modified": false,
+  "automatic_retry": false
+}

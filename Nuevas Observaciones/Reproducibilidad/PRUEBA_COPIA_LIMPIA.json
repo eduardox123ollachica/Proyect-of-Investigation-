@@ -1,0 +1,511 @@
+{
+  "estado": "RECALCULO_EN_COPIA_LIMPIA_VERIFICADO",
+  "ejecutado_utc": "2026-11-09T01:11:05+00:00",
+  "alcance": "Recálculo de matrices, métricas, comparación por carga, restricciones de 3 HP y diagnóstico del detector desde predicciones y mediciones congeladas.",
+  "carpeta_temporal_relativa": ".codex_tmp/reproducibilidad_fase2/copia_t3gps9jz",
+  "script": {
+    "ruta": "Nuevas Observaciones/recalcular_evidencia_fase1.py",
+    "sha256": "74916c98bf9958e84a1fddedb6956bb009948796dcf747f64ab30147807eeb63"
+  },
+  "entorno": {
+    "arquitectura": "AMD64",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "python_aislado": true,
+    "sin_bytecode": true,
+    "sistema": "Windows",
+    "sonda_externa_bloqueada": true
+  },
+  "ejecucion": {
+    "segundos": 8.191,
+    "codigo_salida": 0,
+    "salida_recálculo": [
+      "EVIDENCIA_FASE1_CWRU.json: 120 celdas INT8 contrastadas, 91 insumos identificados por SHA-256"
+    ],
+    "auditoria": "Tras inicializar Python y NumPy, se restringieron las aperturas auditadas por Python al árbol temporal. La sonda de lectura externa fue denegada.",
+    "insumos_leidos": 91,
+    "script_leido": true,
+    "archivos_generados": [
+      "Nuevas Observaciones/EVIDENCIA_FASE1_CWRU.json"
+    ],
+    "evidencia_esperada_presente_antes_del_recalculo": false
+  },
+  "insumos": {
+    "cantidad": 91,
+    "formatos": {
+      "json": 4,
+      "npz": 87
+    },
+    "bytes_totales": 7642775,
+    "inventario": [
+      {
+        "ruta": "articulo/ampliacion_cwru/metodologia/seleccion_congelada_v2_2026-10-27/DECISIONES_CONGELADAS.json",
+        "bytes": 155869,
+        "sha256": "bd9f02b9b91871adf042d43f56d16fcead9fe0538678c5cab5e311ae1bd4462b"
+      },
+      {
+        "ruta": "articulo/ampliacion_cwru/metodologia/validacion_fisica_canonicos_completa_2026-10-28/RESUMEN_VALIDACION_FISICA.json",
+        "bytes": 15334,
+        "sha256": "d3e25dd8117c1cbe7ebe407c475f78f2af8ea17c6f38edbf663bc6ab93eb38e5"
+      },
+      {
+        "ruta": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/COSTOS_TOTALES_SR_VALIDADOS.json",
+        "bytes": 139065,
+        "sha256": "90a63a18c2251be5641a2300b5cb0b05ae5068610c9e27e8ee18939da82ccbfc"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/RESULTADOS_EXTERIORES.json",
+        "bytes": 1645637,
+        "sha256": "6d410fdd1e48731c7d75484d2a178240f07baee2b4f1046eae9c7091128a150f"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s11_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "43ab5bd226705509e705b04841fa100c5650158920cfc440987d87071258a863"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s22_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "51c9e70c99c6ff3a467811499bf8589ce6df060e8f128e6e9a4522d7d7e4e87c"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s33_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "708767c6f4f9e8abf1c25420b4fb613cfd6648a25befd49d7ecc45dadee4cbcc"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s42_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "439c25c4f3c694f0910ed2d16f557365d49969173aebc4dab020d420cf7be724"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s44_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "dffc052695ff00fc32b3bf373e1468421b9476a30bcf472ff99346f84d309d4a"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s55_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "6cb641801d5c3b45ce318bda60e3b75594babefb5dd70079e72536bd4a750429"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s66_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "69ecf487fdb6ed88fc8a205eb3ee2677d18a6c1bce2f024edea2cc4a64d83fa3"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s77_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "033408f4bf1b61c2587e4623eb115738df948ffeb8a23e9012ccdc6b0e3af647"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s88_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "8c3584b9748c6787470f6289330f3d20e39807e03fc10b919235e1bbf8c5f39a"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_F14_e45_s99_predicciones.npz",
+        "bytes": 42353,
+        "sha256": "3c915175c958b50ae6715d152a2b77357960bf2c41bc6d3101572f385a5bd6a8"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s11_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "77484824106cfee2bd92b0f0a04fd11bf9e43546c5f7467ec8f2814dbcc4473c"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s22_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "7f0c8ea4bcd21bbdba9b41a5855f0ba9f4f7263ee2a6d5c89b1f9464b57b18a7"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s33_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "c39abc03bf45350554693d96a2d3af9b69f8a6f38a97efea2349e82735f1b163"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s42_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "7021bb27a03e8ebfe43999cbc9f5b0225ba6640ee740da8a56a975dd16a0c1bb"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s44_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "310a8e9715031f59222cfae8a3432f47dbd6d31ef09d1c50ba025c2d5a613de9"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s55_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "cfeb6954a4560a458d31113c4c3a695946f4e69a0b23a4a2429d6a80b1df2bfc"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s66_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "780ec963aaf927fde64f98c0ec879c6e234114d7ec1cf9bc33658e977f8b225e"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s77_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "3c52d83d7eb52d9688ba78ace3a997d28869840b3115c5e204e1c3a3fc802f0f"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s88_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "9fe7f55cba5ecb1cc13b662d56103427d7cfce732956dc36eae9575fac3ebce7"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_T6_e47_s99_predicciones.npz",
+        "bytes": 29689,
+        "sha256": "a8e34144088c22a8beb6fd1de1002c94e36ae53c8eb72a541864d860910e5a04"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_detector_00_predicciones.npz",
+        "bytes": 7309,
+        "sha256": "5ade46768a0699779cab5620380540a34f545c7449de85c779f2267a06816ba7"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_0/outer0_detector_01_predicciones.npz",
+        "bytes": 7309,
+        "sha256": "06dcb43d96f97eb33089655a2af7e697b3d3049ec5b48225371b11d92334ad9d"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s11_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "6a784818bd11d14a0524c78fb779c3425e8e0837e015477ad9898a83644ee17c"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s22_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "6af5fb528ff07fb7580bf4bcb15852d0394db8b34b96165f1e29dafbd6761e22"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s33_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "8305abf6b760b7d5090990ae3f55f9c5be996dc911aee6ed3e15ef8714f8e988"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s42_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "e5f386b572cd2e36ba70b80ad433a5dc7c0db5cdedabdebde19f149f208833b5"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s44_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "10f0b94aef2a3ab7c02b3d811bb9e848956ddda961ca4bde9590704352762384"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s55_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "62ed71ff0eba0c72cd95deccc8c5aedfe5df099798707adfe42fe7dfb053465d"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s66_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "8bc717227032cde3941c7a05b48804926e67228b84a389d676f3ede9c1a410f2"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s77_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "ba2f500198d7780d6930d5ae0069ddcd0cc3eb49b52e803f38e168d2c3c7146d"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s88_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "8b36a3ea6e02479e19489b308bc4bff82d007ba5dffb3c63ded369a9e6374df6"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_F14_e14_s99_predicciones.npz",
+        "bytes": 89659,
+        "sha256": "44f44824a791fe0859ac54d556ddddbcc65920f83b8326b3bb94a5a98ba2197c"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s11_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "f55ad5a9f4a56aba2da3ed4faa9492acb2f5dda9d014bd47275e5a664d7bd379"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s22_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "704b497d740dccde8eb56ecc8eedd2407c3eb25e052e11e360799ab6f8dc6276"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s33_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "9bd99f75834fce1f903d33db6e7922739efe2f66e263e0f95b597f8148b55cf6"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s42_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "29400d8591b44c8bf579c76f3fc3850743f62cb61e7f1d69bb7e5212ef31bea2"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s44_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "bc6f5bad063d989e4ce44059575a1488c33a71b45bfa4424363a32887960b59f"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s55_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "e861bb8d14cab4edc65a7b206310bc7df8143f9947b5c5367ca2e998e7925da7"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s66_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "ddafb0b54a5d9bb8a627568de118af4ac38ba2de70557709aa72dff0c02b4eed"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s77_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "ae0534568f62470d09986497fb282afcbc2557315ede5437affc0ecc45f38e4c"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s88_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "cb199290189e0770b10cc15888938b1b1034f42a1c68bb98c2a0e4b8b2cc3d9c"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_FE7_e27_s99_predicciones.npz",
+        "bytes": 64844,
+        "sha256": "7c1c65f0499228994543d0b2ce41adb52c9b16d4d1f1a5b404dc630f0ddda778"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_detector_02_predicciones.npz",
+        "bytes": 14503,
+        "sha256": "423eafbcd51b26b9fa1adf63baa79daef5dc610d8581cb521c4be60a853a152e"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_1/outer1_detector_03_predicciones.npz",
+        "bytes": 14503,
+        "sha256": "3b208b2297ac678ef43b2ed4346ac39aba28b695e99c030121296a508163e518"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s11_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "3afd494a3b9e656f92170c9435df32ecb500e2b4b35a56b3edcb7ffd53b22228"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s22_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "49873d0feae5d5cb030fff7f1449ece172eb09a2e3c10736a7ca5894b1a8fcbb"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s33_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "4e067648e3e811f2ef9c6192a67f5806a00f6896fb982d75391d648d15bc7c11"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s42_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "048bac4864f7b461219e7cfb2b41ce1555862f196ba555fcbcad48ba72130c5a"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s44_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "768de8cd9fc2710edecdc21e417200b6730403e7be5664e09764f2f8c4b58693"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s55_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "ad2352203c835bc221c7c9b9d71789197efcb40119c7bf83d9d50a96a4b14e95"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s66_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "8da411d9cdfdaf0fa991994b0d73827d149acd8119a645737c422f4ce5f79e36"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s77_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "79acd7efbcc864d732e2142c09a3e3120b163a61043b1cd306b922b7d96ea569"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s88_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "c75610c633730ac945eb5e631b60fd9a1c4dedcd015b78b63926daf99f82eedc"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_F14_e19_s99_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "76f37464bc98123b10413304d3db5d22c0380206653a35678f54694f637bf5c1"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s11_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "0e199ab97b603eb5c5acd5fa8bdc306c89fe8bb67885d7a6678c125774d5e3b1"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s22_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "6aa1da90cab33fd376c0e145ad9780d26a56a170f689876d654848cf8d6e3a3a"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s33_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "da7f9fa00a2e2e18e3b34e63e82705c3ee09ab641fb54e1b7ee0011346235610"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s42_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "9bc7daac0c9bd058ac790c23b2a7316de47ad233e6019166f76ff725ee5ad88a"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s44_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "886ab034ed7c9b316609a354e2859b80f52eb45bf16f9381bad26cbe057b28f4"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s55_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "494a2955826fbf1b3b9e1aefa91bed7c7684810a578e4cc3ea254cdbc97db9ff"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s66_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "19477dfde562a42ec6cdb68103131bc82726d094fcf68af1031d8646d002e30d"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s77_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "5c8d99bd3602cbd12c361b86d7a96ca89ee16edb7c6e1c64f7053537027a2763"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s88_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "c2deb02b8fe96cdae5798058b72f21a8f702d5e12c9b0fa06996dc9d65093493"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_T6_e32_s99_predicciones.npz",
+        "bytes": 63184,
+        "sha256": "1a3fbceae469656a10fb6c2257ca624aebdbf498c7e246d4e0f92fb8424b4c67"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_detector_04_predicciones.npz",
+        "bytes": 14932,
+        "sha256": "aaf1f8a0cfd59970bc72385741d50816c672c60dc45232dc9fd20df4bc46e0f6"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_2/outer2_detector_05_predicciones.npz",
+        "bytes": 14932,
+        "sha256": "70a8ad4379533569ff5fc950c2505415768abef24f622e1eb54db828bd37c044"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s11_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "abe319c42e49d0ea95792253a69180d06f368d4162cb10fd84148eb6a5cbfa04"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s22_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "aa9273646918d6ac7dc5a68c6f94dd1d92d232af2eece20380d525ce2099e96f"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s33_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "4fe54567d7a89ce20cb57f0c0932032e34369751b44fcf23dbb25f03c4ee01a2"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s42_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "7175d15de9e4b835c7e08b79d926f9b0ff0c45b3cf7b4bfaa0d0f8440f59a520"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s44_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "c04a4915d7fbf9623af768c7792d3aa3d984f145ce29e24c33720740366e3809"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s55_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "07e3c781c3badb87a25c7afca1716944387550f5633e3faa03fb6c484587cbdc"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s66_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "eb7fcc17c9eb01cb508394f5f9673e641c76502f04fdbf34f17f5ad0777fe472"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s77_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "b49ca82c6cc7362ffd476ec4be2a8491f06cd962511dbfad0f516937598e3962"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s88_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "2fef25b5d48c9e0aac916ad69b09a738a7eade0ffc066cb1c12072b2afcedf44"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_F14_e9_s99_predicciones.npz",
+        "bytes": 92480,
+        "sha256": "83fac2e93483df680ef40a6ed47bb14688f9a075dde59dc5895017b3a13a1f88"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s11_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "e272957d72d80a5b738f072af477b5606b7779214649ceb33ffb76bdf2569800"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s22_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "f6020a77a9db8637a4101d957ce03b3a69fa6892f5300abb1e4df3515c88d87e"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s33_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "316a925ada177d5557aafb545d961e6a76788074331727a25b55b2c96fd86a60"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s42_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "21209e0fb08e491ebc42311b9f8e5acd90a290bda46838ebb08055898cee9f6d"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s44_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "ddf01b2d762d0c9cf62c021a78df428a7b67b9afde6d5bfb3485f53d901c1996"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s55_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "e2a2946e4d911e3412ee83d13026ba89bf3c954a818583037d657d75084c9d7e"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s66_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "959a0375b6b7b83535a12a5401db1b6b8ecb495f719e624577ee4c4d036b20cf"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s77_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "8b8556979e34c0055bf6943d3b6ae8ba3760f345dce05c46cca7948f60c233e6"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s88_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "767087d9b108f01ef307bffa610174062dc27f131bf0bddb97a25a8658c9690b"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_NF12_e47_s99_predicciones.npz",
+        "bytes": 85156,
+        "sha256": "9ddd881f988a7463d7bbfe63b5a20b9e2753629448d0b997508e3f033e3e75c0"
+      },
+      {
+        "ruta": "resultados/cwru/ampliacion_v2/evaluacion_exterior_v2_2026-10-27/20261027T222625_337707Z/outer_eval_3/outer3_detector_06_predicciones.npz",
+        "bytes": 14932,
+        "sha256": "b21c0571732e41d099c4d56f693c9c8199e1480878b9bc3036ba78f69a09e12a"
+      }
+    ]
+  },
+  "resultado": {
+    "ruta": "Nuevas Observaciones/EVIDENCIA_FASE1_CWRU.json",
+    "celdas_INT8_contrastadas": 120,
+    "sha256_referencia": "09b04f7aa5ff4307abe7cdf485c7073f0f5d62b35af5231f8c63e6eb9cda3a4d",
+    "sha256_regenerado": "09b04f7aa5ff4307abe7cdf485c7073f0f5d62b35af5231f8c63e6eb9cda3a4d",
+    "coincidencia_byte_a_byte": true
+  },
+  "limites": [
+    "Se reutilizó un entorno Python y NumPy ya instalado. La limpieza corresponde al árbol de trabajo.",
+    "El ensayo comienza en predicciones y registros congelados. No incluyó MAT, señales crudas, preprocesamiento, entrenamiento ni nueva inferencia.",
+    "La compilación del firmware, la repetición de mediciones STM32 y la publicación de los artefactos quedan fuera de este ensayo.",
+    "La auditoría se limita a los eventos de apertura observables por Python."
+  ]
+}

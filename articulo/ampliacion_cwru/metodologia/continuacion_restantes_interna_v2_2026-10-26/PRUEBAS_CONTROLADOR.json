@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "failures": 0,
+  "errors": 0,
+  "tests_run": 13,
+  "test_names": [
+    "test_all_223_remaining_complete_in_fourteen_bounded_batches",
+    "test_already_completed_campaign_does_not_retrain",
+    "test_callback_imports_do_not_load_tensorflow",
+    "test_closed_snapshot_rejects_tampered_budget_and_job_sequence",
+    "test_closed_snapshot_rejects_unclosed_job_or_failed_batch",
+    "test_closed_snapshot_verifies_seal_sequence_counts_and_budget",
+    "test_completed_jobs_must_be_canonical_prefix",
+    "test_cumulative_budget_is_not_reset_between_partial_batches",
+    "test_failing_batch_stops_without_automatic_retry",
+    "test_insufficient_cumulative_budget_never_starts_batch",
+    "test_partial_clean_batch_can_continue_without_resetting_budget",
+    "test_resume_only_pending_jobs_and_preserve_existing_seventeen",
+    "test_zero_progress_stops_instead_of_looping"
+  ],
+  "elapsed_test_seconds": 0.10040060000028461,
+  "exit_code": 0,
+  "simulation_only": true,
+  "real_training_fits": 0,
+  "real_TFLite_invocations": 0,
+  "TensorFlow_imported": false,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/continuacion_interna/continuar_restantes.py": "80e81eb239473cd2caa8c8aa0e0411e01841da2f5aa7247741a7391bdc6f9eeb",
+    "codigo/cwru/ampliacion_v2/continuacion_interna/test_continuar_restantes.py": "be960a0cc4585a5955e1ec06a7544da6884f070879d07dea63d31f4b11f08cd6"
+  },
+  "source_sha256_before_tests": {
+    "codigo/cwru/ampliacion_v2/continuacion_interna/continuar_restantes.py": "80e81eb239473cd2caa8c8aa0e0411e01841da2f5aa7247741a7391bdc6f9eeb",
+    "codigo/cwru/ampliacion_v2/continuacion_interna/test_continuar_restantes.py": "be960a0cc4585a5955e1ec06a7544da6884f070879d07dea63d31f4b11f08cd6"
+  },
+  "sources_unchanged_during_tests": true,
+  "python_executable": "C:\\Users\\LENOVO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14",
+  "test_output": "test_all_223_remaining_complete_in_fourteen_bounded_batches (test_continuar_restantes.ContinuationGuards.test_all_223_remaining_complete_in_fourteen_bounded_batches) ... ok\ntest_already_completed_campaign_does_not_retrain (test_continuar_restantes.ContinuationGuards.test_already_completed_campaign_does_not_retrain) ... ok\ntest_callback_imports_do_not_load_tensorflow (test_continuar_restantes.ContinuationGuards.test_callback_imports_do_not_load_tensorflow) ... ok\ntest_closed_snapshot_rejects_tampered_budget_and_job_sequence (test_continuar_restantes.ContinuationGuards.test_closed_snapshot_rejects_tampered_budget_and_job_sequence) ... ok\ntest_closed_snapshot_rejects_unclosed_job_or_failed_batch (test_continuar_restantes.ContinuationGuards.test_closed_snapshot_rejects_unclosed_job_or_failed_batch) ... ok\ntest_closed_snapshot_verifies_seal_sequence_counts_and_budget (test_continuar_restantes.ContinuationGuards.test_closed_snapshot_verifies_seal_sequence_counts_and_budget) ... ok\ntest_completed_jobs_must_be_canonical_prefix (test_continuar_restantes.ContinuationGuards.test_completed_jobs_must_be_canonical_prefix) ... ok\ntest_cumulative_budget_is_not_reset_between_partial_batches (test_continuar_restantes.ContinuationGuards.test_cumulative_budget_is_not_reset_between_partial_batches) ... ok\ntest_failing_batch_stops_without_automatic_retry (test_continuar_restantes.ContinuationGuards.test_failing_batch_stops_without_automatic_retry) ... ok\ntest_insufficient_cumulative_budget_never_starts_batch (test_continuar_restantes.ContinuationGuards.test_insufficient_cumulative_budget_never_starts_batch) ... ok\ntest_partial_clean_batch_can_continue_without_resetting_budget (test_continuar_restantes.ContinuationGuards.test_partial_clean_batch_can_continue_without_resetting_budget) ... ok\ntest_resume_only_pending_jobs_and_preserve_existing_seventeen (test_continuar_restantes.ContinuationGuards.test_resume_only_pending_jobs_and_preserve_existing_seventeen) ... ok\ntest_zero_progress_stops_instead_of_looping (test_continuar_restantes.ContinuationGuards.test_zero_progress_stops_instead_of_looping) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.100s\n\nOK\n"
+}

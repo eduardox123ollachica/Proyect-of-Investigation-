@@ -1,0 +1,29 @@
+VERIFICACION DE LA ESPECIFICACION LPF DE 1 HZ
+================================================================
+Captura: VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s9.json
+Fs: 100.000000 Hz
+FFT: 16 muestras; hop usado para seleccionar ventana: 8
+Filtro interpretado: Butterworth digital orden 4, fc=1.000000 Hz
+Respuesta evaluada: fase cero |H|^2
+Ventana seleccionada automaticamente: inicio=280, fin_exclusivo=296
+Energia AC conjunta de seleccion: 17.57393125
+
+ATENUACION DEL PRIMER BIN NO-DC
+Frecuencia: 6.250000 Hz
+Una pasada: -64.109522 dB
+Fase cero: -128.219044 dB
+Relacion de amplitud: 3.881930928459e-07
+
+ENERGIA NO-DC PROYECTADA EN LA VENTANA
+Eje X: restante=1.336273741428e-13; reduccion=99.999999999987%
+Eje Y: restante=9.120065988877e-14; reduccion=99.999999999991%
+Eje Z: restante=1.158924368525e-13; reduccion=99.999999999988%
+
+INTERPRETACION
+Con N=16 y Fs=100 Hz, el primer bin no-DC se ubica en 6.25 Hz.
+Todos los bins utilizados para energia, frecuencia dominante, amplitud
+dominante y entropia quedan por encima de fc=1 Hz. Bajo la interpretacion
+literal ensayada, el LPF suprime practicamente todo el contenido espectral
+no-DC. Esto respalda omitirlo del pipeline principal y reportar la
+especificacion publicada como ambigua o probablemente incorrecta; no permite
+determinar si los autores pretendian indicar un pasa-altos u otro corte.

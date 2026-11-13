@@ -1,0 +1,17 @@
+{
+  "status": "BATCH_COMPLETED",
+  "completed_new_fits": 113,
+  "planned_new_fits": 240,
+  "imported_cells": 48,
+  "available_logical_cells": 161,
+  "total_logical_cells": 288,
+  "jobs_started": 16,
+  "jobs_passed": 16,
+  "worker_elapsed_seconds": 166.59400000000096,
+  "campaign_worker_seconds_consumed": 1210.6069999999963,
+  "wall_seconds": 166.625,
+  "budget_boundary_without_starting_another_job": false,
+  "outer_evaluation_executed": false,
+  "detector_fits_executed": false,
+  "predictive_selection_executed": false
+}

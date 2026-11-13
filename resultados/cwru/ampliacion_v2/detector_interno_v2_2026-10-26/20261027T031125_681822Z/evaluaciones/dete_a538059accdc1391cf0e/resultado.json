@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "eval_id": "dete_a538059accdc1391cf0e",
+  "param_id": "detp_a40b4d6cf3865f5ee6bf",
+  "evaluation_signature": "a538059accdc1391cf0e07f224acd034f299f4e676b0a802b4ae56bf8f031a69",
+  "metrics": {
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "fault_sensitivity": 1.0,
+    "balanced_accuracy": 1.0,
+    "BA": 1.0,
+    "per_record": [
+      {
+        "record_id": "110",
+        "label": 1,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "136",
+        "label": 2,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "175",
+        "label": 1,
+        "windows": 45,
+        "rejected_windows": 45,
+        "rate": 1.0
+      },
+      {
+        "record_id": "202",
+        "label": 2,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "214",
+        "label": 1,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "239",
+        "label": 2,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "98",
+        "label": 0,
+        "windows": 58,
+        "rejected_windows": 0,
+        "rate": 1.0
+      }
+    ]
+  },
+  "parameter_file_sha256": "05dd79792237ad3eae3ce728aae88b1bf012133ab24d873c5a4cb42676ed0802",
+  "no_DNN_class_override": true,
+  "outer_evaluation_executed": false
+}

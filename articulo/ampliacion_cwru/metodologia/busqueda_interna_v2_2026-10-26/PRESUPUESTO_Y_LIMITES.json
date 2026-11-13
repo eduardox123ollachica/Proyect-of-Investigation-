@@ -1,0 +1,275 @@
+{
+  "status": "BUDGET_FROZEN_FOR_INNER_DNN_ONLY",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "scope": "Remaining inner DNN fits only; RF/SVM, outer evaluation, new detector fits and hardware excluded",
+  "planned_inner_DNN_total": 288,
+  "reused_DNN_fits": 48,
+  "n_new_fits": 240,
+  "expected_reuse_sources": {
+    "cost_representatives": 32,
+    "supplementary_P0": 16,
+    "complete_signatures_and_manifests_must_be_verified_by_preparer": true
+  },
+  "epochs_policy": {
+    "maximum": 50,
+    "patience": 10,
+    "min_delta": 1e-12,
+    "restore_best_weights": true,
+    "fixed50": false
+  },
+  "conversions_per_new_fit": 2,
+  "maximum_new_conversions": 480,
+  "limits": {
+    "worker_seconds": 300,
+    "campaign_worker_seconds": 7200,
+    "max_batch_seconds": 1800,
+    "max_new_jobs": 16,
+    "maximum_new_fits_total": 240,
+    "default_first_batch_seconds": 600
+  },
+  "first_user_gate": {
+    "max_new_jobs": 1,
+    "max_seconds": 600,
+    "audit_before_next_batch": true
+  },
+  "recommended_following_batch": {
+    "max_new_jobs": 16,
+    "max_seconds": 1800,
+    "forecast_mean_process_minutes": 3.757041219166179,
+    "forecast_component_stress_minutes": 6.359884506648857
+  },
+  "frontier_rule": "Do not start another worker unless both batch and cumulative campaign budgets retain300s; stop normally at a job boundary, do not truncate a fit to use leftover budget.",
+  "tested_versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "measured_reference": {
+    "representative_count": 32,
+    "controller_process_seconds": {
+      "count": 32,
+      "min": 10.864610599994194,
+      "mean": 14.088904571873172,
+      "median": 15.145547299995087,
+      "max": 16.57861509997747,
+      "sum": 450.8449462999415
+    },
+    "internal_worker_seconds": {
+      "count": 32,
+      "min": 9.26464009998017,
+      "mean": 12.13376435311875,
+      "median": 13.14767104999919,
+      "max": 14.486825899977703,
+      "sum": 388.2804592998
+    },
+    "stage_seconds": {
+      "imports": {
+        "count": 32,
+        "min": 5.610789199999999,
+        "mean": 7.309259356246912,
+        "median": 8.021281850000378,
+        "max": 9.193915699986974,
+        "sum": 233.89629939990118
+      },
+      "data_and_scaler": {
+        "count": 32,
+        "min": 0.5929162999964319,
+        "mean": 0.9185454437510998,
+        "median": 1.0877395999996224,
+        "max": 1.2264491000096314,
+        "sum": 29.393454200035194
+      },
+      "fit_including_checkpoint_IO": {
+        "count": 32,
+        "min": 1.0230619999929331,
+        "mean": 1.790252062500258,
+        "median": 1.7548840999952517,
+        "max": 2.8002260999928694,
+        "sum": 57.28806600000826
+      },
+      "FP32_conversion": {
+        "count": 32,
+        "min": 0.2874854000110645,
+        "mean": 0.5318474125006105,
+        "median": 0.5684984999970766,
+        "max": 0.7813965999812353,
+        "sum": 17.019117200019537
+      },
+      "INT8_conversion": {
+        "count": 32,
+        "min": 0.08331750001525506,
+        "mean": 0.1279398062506516,
+        "median": 0.14347394998185337,
+        "max": 0.21441390001564287,
+        "sum": 4.094073800020851
+      },
+      "validation_inference_and_IO": {
+        "count": 32,
+        "min": 0.017095599992899224,
+        "mean": 0.032571887501035235,
+        "median": 0.033510200009914115,
+        "max": 0.05286989998421632,
+        "sum": 1.0423004000331275
+      },
+      "detector_and_benchmark_and_IO": {
+        "count": 32,
+        "min": 0.31759200000669807,
+        "mean": 0.48547273124768253,
+        "median": 0.5701389000023482,
+        "max": 0.6236533999908715,
+        "sum": 15.535127399925841
+      }
+    },
+    "epochs": {
+      "min": 11,
+      "mean": 19.46875,
+      "max": 50,
+      "stopped_before50": 26,
+      "cap50": 6
+    },
+    "all50_epoch_stress": {
+      "max_training_windows": 812,
+      "max_optimizer_updates": 1300,
+      "worst_observed_fit_seconds_per_update": 0.00717270799997178,
+      "projected_fit_seconds": 9.324520399963314,
+      "maximum_observed_controller_worker_gap": 2.432347900001332,
+      "component_envelope_seconds_per_fit": 23.849566899933215,
+      "interpretation": "Engineering sensitivity; stagewise maxima from different jobs and linear extrapolation of short fits, not one measured profile or a bound"
+    },
+    "source_sha256": {
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_DE7_seed11/resultado.json": "e2b6ceb25ca29431285cdedd664a749245b30cd79ce6a66c2814af7eaf2a70d7",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_F14_seed11/resultado.json": "1f21c79c4354ddc1d34bc60bcb0c0694eabd42a08f53f17a8323aa31a2421e66",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_FE7_seed11/resultado.json": "8801e235cee323b4e95278d167f26d4d1c359d09180207aea9adc5ce01b69b04",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_NE12_seed11/resultado.json": "2679a0860ea00dc5f84e7c0f0acfec1f9daea1fdb85989a11d289868b612004b",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_NF12_seed11/resultado.json": "859a3e91ef6a73c335dcbab7617f5ea61a5db908fc374baf7d6c22cd9dae3d6c",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_NM10_seed11/resultado.json": "d695012c7e09fe87e81e7d7cc60c7d9d6e6af662bd5169a57b25c8a4263c68e6",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_S8_seed11/resultado.json": "485a582e0100054a3b6633d5a92953a692f3cfb89af302448bfad99f3a9a231a",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer0_inner1_T6_seed11/resultado.json": "098603c15da2f3875772bcab11836bf4971a709b898c10f4c1323349a7d5d52f",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_DE7_seed11/resultado.json": "db70474faaba6f3c1cfcd47aaf02eb44374ec3ba8c4bb06ef15bc770a65a0f94",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_F14_seed11/resultado.json": "892163070ae0abee85b62f1eb90dd82b6e15b53a75899474134f758bd84fe5f3",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_FE7_seed11/resultado.json": "91976e57d14b88f0c882cbb0a89988ed51cbee5a3451c027c7545f1ca2f14559",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_NE12_seed11/resultado.json": "3da378b52cc4b15478e521e1d6384d8bd720db1be4e7b03a1d6f2aad8bccb276",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_NF12_seed11/resultado.json": "e0658e4e8f3efb14c33cacb3a43b18c2aeccddf7ecb512a871f970829797a8a2",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_NM10_seed11/resultado.json": "c3a3dbeae08b6395af1f98028607ba9f0c0bcb2e94b7ae7ce6754d38b87b60e0",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_S8_seed11/resultado.json": "ce21ae5b6aec8dab900356c84433461ee64dd7903087393e1c762d711300c462",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer1_inner0_T6_seed11/resultado.json": "421b0cf733f4a9402b34b6cf5bbd65ed1f0277015de686ff4b469fcf64075272",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_DE7_seed11/resultado.json": "ad0a7f88774be76aec812e47b53738cedbcc37618378f9554f7005aa0609e483",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_F14_seed11/resultado.json": "9e3efdfe7e22f6ecebc6fa1834ea550bf7fddf57bcd4d52de90cfec2d80a5a94",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_FE7_seed11/resultado.json": "c01f3cccdc8f6e6b5f83215afc5cb017a016c1ac977f0a7de4317e3477064c89",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_NE12_seed11/resultado.json": "73100de7b620388dda97a12307f5c411446af900ddfdecf71aeecaa60d6a8d99",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_NF12_seed11/resultado.json": "85ecbd0014a2df90fb38b1cdf17ab789aca91c5b96209938f091f2fcd4546296",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_NM10_seed11/resultado.json": "99029dba14e37d83e46220e118565d6c001514f51d64c5ce2d1c96e8be604373",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_S8_seed11/resultado.json": "2886d3c8a12299ba127d3e402d6bf0e99ad17c6ac9bc383afa95889df4d455cc",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer2_inner0_T6_seed11/resultado.json": "ba42cf5f1362fa88cb6c0b33cc109717ee49980b0baf1873dff0d92ca4e8774e",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_DE7_seed11/resultado.json": "131f5930228f44c96e4299275286db460cc864c39bc70bba9fbc0790695c4073",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_F14_seed11/resultado.json": "a849188341b3ab0d8dc97875d23d15cd511900fa4c5382677bb6e311cc8dd490",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_FE7_seed11/resultado.json": "e840388b650fdc2c657b5ed508ee81414ed3ebc271b4b991df0680857ae4ae06",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_NE12_seed11/resultado.json": "91aa986b4bebe1507437ec7d07cb704231b0c08cb3cf2d274012e1ad7ebdb2e6",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_NF12_seed11/resultado.json": "a6eadd2a2fd4dcad499c205bdc7aa3d881a8673a7714e8b1c424f20c5c8bcc87",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_NM10_seed11/resultado.json": "62fd2aa20617057ddf42137628e60670e09aef0e318e6da5c328d7687a52eeea",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/resultado.json": "bf11a72a5e7fdf7240e9bb655753158e8bd9d03645463c1b8f016bf94e410822",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_T6_seed11/resultado.json": "dc04327aa082b3358321f278205f885893b2964be94ac57d6a5b54205be5c1e5",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T171847_957295Z/ESTADO_cost_outer0_inner1_F14_seed11.json": "f322a71cd916b6250f67da2a9a7ebaba8110c2f976cd67cf659b8c32bcab09e1",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_DE7_seed11.json": "cb38f7dadaab477e9505f42881aa95efb40d782aba4faef478d205ba60318a71",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_FE7_seed11.json": "b5ae6d855be02001df637dadd591b39cace8ea3d7af772cec2c2e58ef7659f8d",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_NE12_seed11.json": "e260ffbb7a5a60a09fdc88696ce964631ec092030dd179abfa7a192b143b5279",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_NF12_seed11.json": "ff1adf976b0786d7da8c24a8c42d510eaff4146f20e6d1c2d428e885995e839f",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_NM10_seed11.json": "4065a4283322e6dd3c96bc422b000cf6ede30427f1a4db4187a495e55ae76819",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_S8_seed11.json": "8d3fa8c53f978b49e52c204fd196156a8facfac339e6ae5c9ebf89010e1af15c",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer0_inner1_T6_seed11.json": "2b7ab7b6051dec7fa860797929e9a83ae18803fba6a79f3096eaea3b0ec06e0f",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_DE7_seed11.json": "d5b71ac32ff679c8f058225144351d36a235a9363f0c62ead38ef7b043711ae5",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_F14_seed11.json": "263433859e5810880d4dd9d63564eda9c2739e364a95eb39cdc3fac09edfe5c0",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_FE7_seed11.json": "0e33c48002515bc0e46168b2e275b7f84197e5817aad6460513b0b3a464671c4",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_NE12_seed11.json": "ba04bc143f8bd642a0d0b1b0edb51478b8b78b4eaa526ac1a3a727dc45ffc6f6",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_NF12_seed11.json": "4c98eb230212d10eb1344e97fcb2fd0de58a24d3b3e32f36daf72bd34982fa26",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_NM10_seed11.json": "eeb8ed0df1e7eadf04efaa2903baa8aa95bf12d6accd804234f6bee4f9f89ad3",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_S8_seed11.json": "e026d2a274cdc4ff4b301c2858701c9aaa43566d00dbadc775fc963e6df1137c",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer1_inner0_T6_seed11.json": "817f2ab3aa72f1d7ff3b6d69881e8dd5c849516d67229c7c420bf6377223e5df",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_DE7_seed11.json": "3ffdfc89075039ee0eb9931eca05b5f564cef58df1e8040a547f496576369d66",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_F14_seed11.json": "d2893eb9611e455e053c60efa431d12df3b91380ec15cac1208b44bd5472116f",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_FE7_seed11.json": "c2b7b9b6619ebb1083ba6d1a28812a034ce317c4e0b395412ef9952b43572943",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_NE12_seed11.json": "f8cb71e6b02213e0d9e76fce9b5d4e7cbd6f1aed28ef5ef704e7129e9d753705",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_NF12_seed11.json": "9e905173b03dad06e49df0f470ceaf1f29a1c5978d552217d1165a38567fb038",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_NM10_seed11.json": "93f21319cbbaa6dcc23707089277860ed3f0abff3571b278c037822ae4b3e36a",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_S8_seed11.json": "d4cad9a9d863a731a85423952911cce7dc0559aa2e97a66c30a9837f2214e7de",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer2_inner0_T6_seed11.json": "590116f6009184b0a2675e0199d58782e91e97dd30113885b3673f0563620994",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_DE7_seed11.json": "99821f6c678ff1bcadb1b87038797896d46d5de13f48db4c0793cc1a2af211c2",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_F14_seed11.json": "17b65e6191205633564a193428c996bab60abeefb138489e6fd8db0f502a0969",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_FE7_seed11.json": "86d7e060e812b23f06843a29097b00079915965451fac5022991a5ed42019c1a",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_NE12_seed11.json": "a078ca50a69348c22d69e862fcdd9d40f181321e9c0ccb66ec66d78529d45ccf",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_NF12_seed11.json": "adc164188b916c36147feb500d87e9750f9a834fb4678f44ab352ae060b77846",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_NM10_seed11.json": "013ac1984e98d98d32c45043f7e4c413b1aea9fe01806756a0943acdabf732c3",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_S8_seed11.json": "aaa03c9fa80f0d7fc8bedb184060910fd34839bc50b715aed0af6a853d8aa411",
+      "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/lotes/20261025T173754_248875Z/ESTADO_cost_outer3_inner0_T6_seed11.json": "e20d34f9b3a552afc75de1e146fcb8d790c686c44e319353d724c5af8996732c",
+      "articulo/ampliacion_cwru/metodologia/cierre_representantes_v2_2026-10-25/CIERRE_REPRESENTANTES.json": "612c16567a6566b2a6419e759e0b0302825664b0a465a4e243fb7252114e9992",
+      "articulo/ampliacion_cwru/metodologia/cierre_piloto_clasicos_2026-10-25/PRESUPUESTO_CPU_PRELIMINAR.json": "5a4566922da4f485e0e79d50d59ca3eb60472d751fa83d4bd7d5806845f482b6",
+      "articulo/ampliacion_cwru/metodologia/cierre_representantes_v2_2026-10-25/MANIFEST_CIERRE_SHA256.json": "08200f921ff45b424f0592fa5a93b1be01b9b71151d34d27a9c57378392359ca",
+      "articulo/ampliacion_cwru/metodologia/cierre_representantes_v2_2026-10-25/MANIFEST_CIERRE_SHA256.sha256": "ac987946b128d7daf789abab26aaa136cdc49898c75bad87a28655cb9fbf0e12",
+      "articulo/ampliacion_cwru/metodologia/cierre_piloto_clasicos_2026-10-25/MANIFEST_CIERRE_CLASICOS_SHA256.json": "161edc117f596dd67b3459fda2d69a5cd2b842a8d2ad799315d77a07f8fdcb75",
+      "articulo/ampliacion_cwru/metodologia/cierre_piloto_clasicos_2026-10-25/MANIFEST_CIERRE_CLASICOS_SHA256.sha256": "faf046b05de6d1aa472ef04ea41bdb6babd4a5991254ec4947355c2ad604fcb7"
+    },
+    "tested_versions": {
+      "python": "3.12.10",
+      "numpy": "2.4.4",
+      "sklearn": "1.9.1",
+      "tensorflow": "2.21.0",
+      "keras": "3.15.0"
+    }
+  },
+  "forecast": {
+    "new_fits": 240,
+    "from_observed_mean_seconds": 3381.3370972495613,
+    "from_observed_mean_minutes": 56.35561828749269,
+    "from_observed_max_process_seconds": 3978.8676239945926,
+    "from_observed_max_process_minutes": 66.31446039990988,
+    "component_max_all50_epoch_stress_seconds": 5723.896055983972,
+    "component_max_all50_epoch_stress_minutes": 95.39826759973286,
+    "user_total_expectation_minutes": [
+      60,
+      120
+    ],
+    "historical_cold_import_sensitivity_seconds": 23264.442665247116,
+    "cold_import_extra_seconds_per_fit_from_prior_projection": 82.84627319998981,
+    "cold_sensitivity_is_not_expected_runtime": true,
+    "observational_range_or_stress_is_not_a_confidence_interval_or_guarantee": true
+  },
+  "prior_3h26_scope": {
+    "DNN": 408,
+    "RF": 328,
+    "SVM": 100,
+    "detector_maximum": 108,
+    "hours": 3.4263073178144774,
+    "not_the_remaining_inner_DNN_scope": true
+  },
+  "budget_interpretation": {
+    "campaign_seconds_are_cumulative_worker_process_time": true,
+    "batch_seconds_scope": "Wall-clock batch budget enforced by runner; shared preparation/audit/import checks may add time outside workers.",
+    "timeout_termination_grace_is_additional": true,
+    "restarting_a_batch_does_not_reset_consumed_campaign_worker_budget": true,
+    "hitting_budget_does_not_guarantee_all_fits_completed": true,
+    "limits_may_not_be_raised_automatically": true
+  },
+  "environment": {
+    "CPU_only": true,
+    "CPU_threads": 1,
+    "sequential_workers": 1,
+    "first_seed_order_fixed": true
+  },
+  "training_started": false,
+  "new_training_fits": 0,
+  "new_TFLite_invocations": 0,
+  "hardware_connected": false,
+  "old_artifacts_modified": false,
+  "source_sha256": "c5a12b673a48fba50923debf0e9e5970158910d282cb63f213159537ebcddd4b",
+  "qualifications": [
+    "The32 timing profiles are recent measured processes; only six reached50epochs.",
+    "Future seeds and folds can change epochs, export time and process startup.",
+    "Observed component maxima are mixed engineering projections, not measured full future runs.",
+    "Cold import sensitivity from the older projection can exceed the2h worker budget; the runner must stop rather than silently extend it.",
+    "RF/SVM pilot has already completed and is not repeated or included in this DNN budget.",
+    "PC training duration is not STM32 latency; manuscript and frozen scientific decisions remain unchanged."
+  ]
+}

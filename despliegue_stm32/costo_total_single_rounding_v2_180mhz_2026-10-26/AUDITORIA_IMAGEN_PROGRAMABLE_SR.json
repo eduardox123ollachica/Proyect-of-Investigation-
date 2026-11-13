@@ -1,0 +1,185 @@
+{
+  "status": "PASS_PROGRAMMABLE_SREC_IHEX_BYTES_EXACT_TO_EXISTING_READBACK",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "readback_dump_sha256": "3eb018130ace014447f6d1e197bacb864b61c9a3930fc24d8d5c6e6c6cb62252",
+  "readback_manifest_sha256": "1d886565e1cde57e1252b74d92cf7bf45258e654573ef01bf01398d81fd8d0f3",
+  "objcopy_executable": "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.win32_1.0.100.202602081740\\tools\\bin\\arm-none-eabi-objcopy.exe",
+  "objcopy_sha256": "08bc4ccb5bf92fecf395e11d6f046d4582cf80c0f0e1e33428f6609eb4b1a6dd",
+  "formats": {
+    "srec": {
+      "command_argv": [
+        "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.win32_1.0.100.202602081740\\tools\\bin\\arm-none-eabi-objcopy.exe",
+        "-O",
+        "srec",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\lectura_flash\\20261026T151832_154874Z\\firmware_auditado_sr.elf",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\diagnostico_padding_flash\\firmware_auditado_sr.srec"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "record_counts": {
+        "0": 1,
+        "3": 17520,
+        "7": 1
+      },
+      "data_records": 17520,
+      "entry_point": "0x0800dbbd",
+      "output": "despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\diagnostico_padding_flash\\firmware_auditado_sr.srec",
+      "output_sha256": "5b93c12c2b9641e8186d7b6df626f6477389ba70119e73039a63a38db6e0b1bd",
+      "programmable_bytes": 280276,
+      "all_emitted_bytes_exact_to_readback": true,
+      "mismatch_count": 0,
+      "address_ranges": [
+        {
+          "start": "0x08000000",
+          "end_exclusive": "0x080001c4",
+          "bytes": 452
+        },
+        {
+          "start": "0x080001d0",
+          "end_exclusive": "0x080446e0",
+          "bytes": 279824
+        }
+      ],
+      "alignment_12bytes_omitted_from_format": true,
+      "ordered_payload_sha256": "1897d3c4e22b459e51175d96179e9a2095672ba8280e89e03deea8ec9a7b7f73"
+    },
+    "ihex": {
+      "command_argv": [
+        "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.win32_1.0.100.202602081740\\tools\\bin\\arm-none-eabi-objcopy.exe",
+        "-O",
+        "ihex",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\lectura_flash\\20261026T151832_154874Z\\firmware_auditado_sr.elf",
+        "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\diagnostico_padding_flash\\firmware_auditado_sr.hex"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "record_counts": {
+        "4": 5,
+        "0": 17520,
+        "5": 1,
+        "1": 1
+      },
+      "entry_point": "0x0800dbbd",
+      "output": "despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\diagnostico_padding_flash\\firmware_auditado_sr.hex",
+      "output_sha256": "36767599b287cf424c124c52954ee10124a114390bd79db2d0cf5bc4ed993c9e",
+      "programmable_bytes": 280276,
+      "all_emitted_bytes_exact_to_readback": true,
+      "mismatch_count": 0,
+      "address_ranges": [
+        {
+          "start": "0x08000000",
+          "end_exclusive": "0x080001c4",
+          "bytes": 452
+        },
+        {
+          "start": "0x080001d0",
+          "end_exclusive": "0x080446e0",
+          "bytes": 279824
+        }
+      ],
+      "alignment_12bytes_omitted_from_format": true,
+      "ordered_payload_sha256": "1897d3c4e22b459e51175d96179e9a2095672ba8280e89e03deea8ec9a7b7f73"
+    }
+  },
+  "same_programmable_addresses_and_values_in_both_formats": true,
+  "expected_programmable_bytes": 280276,
+  "programmable_mismatches": 0,
+  "excluded_alignment_bytes": 12,
+  "alignment_gap": [
+    {
+      "address": "0x080001c4",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001c5",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001c6",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001c7",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001c8",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001c9",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001ca",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001cb",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001cc",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001cd",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001ce",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    },
+    {
+      "address": "0x080001cf",
+      "dump_value": 255,
+      "encoded_in_SREC": false,
+      "encoded_in_IHEX": false
+    }
+  ],
+  "explanation": "Objcopy SREC/IHEX data records omit12ELFsegment alignment bytes; the readback exactly matches every emitted byte.",
+  "diagnostic_conversion_is_current_not_historical_download_record": true,
+  "does_not_prove_historical_programming_file_was_this_generated_SREC": true,
+  "archived_failed_verification_unchanged": true,
+  "new_physical_readbacks": 0,
+  "hardware_connected": false,
+  "training_fits": 0,
+  "builds_executed": 0,
+  "Flash_programming_or_erasing": false,
+  "D_files_modified": false,
+  "selector_enabled": false,
+  "costs_promoted_here": false,
+  "script_sha256": "fc847dc2bb4f6a73ce35720fbbe0862f07309b39bb4bfbed42d0b107af569285",
+  "seconds": 0.8769050000119023,
+  "limitations": [
+    "Readback was captured after the computational campaign.",
+    "These format files are freshly generated diagnostic artifacts, not recovered IDE download files.",
+    "No tolerance was applied to emitted code, constants, vector or initialized-data bytes."
+  ]
+}

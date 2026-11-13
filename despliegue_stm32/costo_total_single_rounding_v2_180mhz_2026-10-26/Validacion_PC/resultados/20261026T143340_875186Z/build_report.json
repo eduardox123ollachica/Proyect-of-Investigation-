@@ -1,0 +1,183 @@
+{
+  "attempt": 1,
+  "command": [
+    "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\stm32cubeidec.exe",
+    "--launcher.suppressErrors",
+    "-nosplash",
+    "-application",
+    "org.eclipse.cdt.managedbuilder.core.headlessbuild",
+    "-data",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\workspace_aislado\\1",
+    "-import",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\copia_aislada\\Prueba_2_CWRU_Extraccion",
+    "-no-indexer",
+    "-cleanBuild",
+    "Prueba_2_CWRU_Extraccion/Release_180MHz_EntM",
+    "-cleanBuild",
+    "Prueba_2_CWRU_Extraccion/Release_180MHz_TotalV2",
+    "-cleanBuild",
+    "Prueba_2_CWRU_Extraccion/Release_180MHz_TotalV2_SR"
+  ],
+  "returncode": 0,
+  "timed_out": false,
+  "seconds": 100.14000000001397,
+  "zero_errors_and_warnings": true,
+  "configurations": {
+    "Release_180MHz_EntM": {
+      "elf_sha256": "fe3372711fbeddfdf08601cea8b501f5b3e38e01a1b7abdaea33e0eae6767df1",
+      "flash_bytes": 78328,
+      "ram_including_linker_reservations_bytes": 71156,
+      "flags_confirmed": true,
+      "compile_definition_values": {
+        "CMSIS_NN_USE_SINGLE_ROUNDING": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "TFLITE_SINGLE_ROUNDING": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      "CMSIS_NN_USE_SINGLE_ROUNDING_matches_expected": true,
+      "TFLITE_SINGLE_ROUNDING_matches_expected": true,
+      "control_ELF_identical": true,
+      "control_Flash_identical": true
+    },
+    "Release_180MHz_TotalV2": {
+      "elf_sha256": "85e8d7e2d1848833117fd4704493710cda0058fecedef3b379a80e9560171b1c",
+      "flash_bytes": 280332,
+      "ram_including_linker_reservations_bytes": 88460,
+      "flags_confirmed": true,
+      "compile_definition_values": {
+        "CMSIS_NN_USE_SINGLE_ROUNDING": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "TFLITE_SINGLE_ROUNDING": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      "CMSIS_NN_USE_SINGLE_ROUNDING_matches_expected": true,
+      "TFLITE_SINGLE_ROUNDING_matches_expected": true,
+      "control_ELF_identical": true,
+      "control_Flash_identical": true
+    },
+    "Release_180MHz_TotalV2_SR": {
+      "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+      "flash_bytes": 280276,
+      "ram_including_linker_reservations_bytes": 88460,
+      "flags_confirmed": true,
+      "compile_definition_values": {
+        "CMSIS_NN_USE_SINGLE_ROUNDING": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "TFLITE_SINGLE_ROUNDING": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      "CMSIS_NN_USE_SINGLE_ROUNDING_matches_expected": true,
+      "TFLITE_SINGLE_ROUNDING_matches_expected": true,
+      "override": {
+        "application_object_in_objects_list": true,
+        "application_object_in_map": true,
+        "original_archive_member_not_extracted": true,
+        "final_symbol_address": "080079d0",
+        "final_symbol_bytes": 3702,
+        "archive_unchanged": true,
+        "application_objects_before_prebuilt_archive": true,
+        "link_recipe": "arm-none-eabi-g++ -o \"Prueba_2_CWRU_Extraccion.elf\" @\"objects.list\" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T\"C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\copia_aislada\\Prueba_2_CWRU_Extraccion\\STM32F446RETX_FLASH.ld\" -Wl,-Map=\"Prueba_2_CWRU_Extraccion.map\" -Wl,--gc-sections -static -L../Lib -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb",
+        "libraries_declaration": "-ltensorflow-microlite -lm"
+      },
+      "physical_memory_limits_passed": true,
+      "machine_rounding_review_pending": true,
+      "model_bytes_and_parameters_review_pending": true,
+      "runtime_gate_both_cases_pending": true,
+      "whole_archive_rebuilt": false
+    }
+  },
+  "D_files_modified": false,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "selector_costs_enabled": false,
+  "integrity_after_build": true,
+  "status": "PASS_SR_BUILD_PENDING_ELF_REVIEW_AND_ARM"
+}

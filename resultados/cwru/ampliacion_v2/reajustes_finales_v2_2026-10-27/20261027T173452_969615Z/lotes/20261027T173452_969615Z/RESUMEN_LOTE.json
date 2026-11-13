@@ -1,0 +1,14 @@
+{
+  "status": "BATCH_COMPLETED",
+  "completed_jobs": 1,
+  "planned_jobs": 131,
+  "remaining_jobs": 130,
+  "jobs_started": 1,
+  "jobs_passed": 1,
+  "batch_execution_verification_seconds": 12.422000000005937,
+  "campaign_execution_verification_seconds": 12.422000000005937,
+  "batch_wall_seconds": 12.78200000000652,
+  "outer_evaluation_executed": false,
+  "outer_prediction_release_enabled": false,
+  "automatic_retry": false
+}

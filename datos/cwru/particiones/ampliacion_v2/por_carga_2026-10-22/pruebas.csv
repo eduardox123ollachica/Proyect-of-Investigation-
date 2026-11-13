@@ -1,0 +1,20 @@
+﻿id,status,observed,criterion
+PT_OUTER_0,PASS,21/7 MAT; 1205/175 ventanas,Desarrollo/prueba disjuntos por MAT y ventana; cobertura total
+PT_INNER_0_1,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_0_2,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_0_3,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_OUTER_1,PASS,21/7 MAT; 987/393 ventanas,Desarrollo/prueba disjuntos por MAT y ventana; cobertura total
+PT_INNER_1_0,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_1_2,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_1_3,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_OUTER_2,PASS,21/7 MAT; 974/406 ventanas,Desarrollo/prueba disjuntos por MAT y ventana; cobertura total
+PT_INNER_2_0,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_2_1,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_2_3,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_OUTER_3,PASS,21/7 MAT; 974/406 ventanas,Desarrollo/prueba disjuntos por MAT y ventana; cobertura total
+PT_INNER_3_0,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_3_1,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_INNER_3_2,PASS,14/7/7 MAT,Train/validation/excluido externo disjuntos; guarda rechaza fila no autorizada
+PT_COVERAGE,PASS,1380/1380 una vez,Cada ventana figura exactamente una vez en la prueba externa rotatoria
+PT_UNIT,PASS,10 pruebas,Casos positivos y negativos sintéticos aprobados
+PT_INTEGRITY,PASS,104 entradas intactas; 32 salidas auditoría comprobadas,SHA256 antes/después y sellos históricos válidos

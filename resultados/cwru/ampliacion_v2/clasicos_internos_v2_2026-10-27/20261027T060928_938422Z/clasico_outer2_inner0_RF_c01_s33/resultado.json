@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "job_id": "clasico_outer2_inner0_RF_c01_s33",
+  "family": "RF",
+  "config_index": 1,
+  "seed": 33,
+  "outer_load_hp": 2,
+  "inner_validation_load_hp": 0,
+  "roles": {
+    "outer_load_hp": 2,
+    "inner_validation_load_hp": 0,
+    "development_loads": [
+      0,
+      1,
+      3
+    ],
+    "training_loads": [
+      1,
+      3
+    ],
+    "dnn_fit_loads": [
+      1,
+      3
+    ],
+    "int8_calibration_loads": [
+      1,
+      3
+    ],
+    "detector_fit_normal_loads": [
+      1
+    ],
+    "detector_calibration_normal_loads": [
+      3
+    ],
+    "evaluation_loads": [
+      0
+    ],
+    "outer_excluded_loads": [
+      2
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "fit_signature": "0b3055d099c5114d09873b0daaabc412296aadcb82dff513e6c5321cede0eed1",
+  "params": {
+    "n_estimators": 100,
+    "max_depth": null,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt",
+    "criterion": "gini",
+    "bootstrap": true,
+    "class_weight": "balanced",
+    "n_jobs": 1,
+    "random_state": 33
+  },
+  "training_windows": 799,
+  "validation_windows": 175,
+  "input_dimension": 14,
+  "model_classes": [
+    0,
+    1,
+    2
+  ],
+  "class_counts": [
+    116,
+    335,
+    348
+  ],
+  "balanced_class_weights": [
+    2.295977011494253,
+    0.7950248756218905,
+    0.7653256704980843
+  ],
+  "metrics": {
+    "accuracy": 0.7142857142857143,
+    "macro_f1": 0.523224043715847,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        28
+      ],
+      [
+        0,
+        50,
+        12
+      ],
+      [
+        0,
+        10,
+        75
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 28
+      },
+      {
+        "label": 1,
+        "precision": 0.8333333333333334,
+        "recall": 0.8064516129032258,
+        "f1": 0.819672131147541,
+        "support": 62
+      },
+      {
+        "label": 2,
+        "precision": 0.6521739130434783,
+        "recall": 0.8823529411764706,
+        "f1": 0.75,
+        "support": 85
+      }
+    ]
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0"
+  },
+  "model_sha256": "da62114c8cce831fd9be6fb5e732bafe4ce5cea1f3239d3fba6d2b99e70bbdbc",
+  "model_bytes": 32881,
+  "support_vectors_dtype": null,
+  "preparation_manifest_sha256": "a1163dfd4be7d2b32a69e14ab399d5beeedb662320e73d7bada3ae1a594b20a0",
+  "normalization": "raw_float32",
+  "native_predict_rule": true,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "DNN_fit_or_inference": false,
+  "detector_fit_or_score": false,
+  "STM32_cost_measured": false,
+  "fit_seconds": 0.375,
+  "inference_seconds": 0.01599999999598367,
+  "worker_elapsed_seconds": 4.093000000000757
+}

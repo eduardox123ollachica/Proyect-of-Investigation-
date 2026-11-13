@@ -1,0 +1,228 @@
+{
+  "status": "DESCRIPTIVE_INTERNAL_VARIABILITY_RECORDED_NO_SELECTION",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "source_closure_manifest_sha256": "0856eb2a024650dd27ad7babb2ef381fdf85f1d71607bc3286d9899902c589b7",
+  "cells": 288,
+  "mean_macro_f1_FP32": 0.8494201067661015,
+  "mean_macro_f1_INT8": 0.8455271120971679,
+  "median_cell_macro_f1_INT8": 0.972552644306788,
+  "minimum_cell_macro_f1_INT8": 0.25126209717649406,
+  "per_inner_validation_load": [
+    {
+      "inner_validation_load_hp": 0,
+      "cells": 72,
+      "mean_macro_f1_FP32": 0.5697211617209181,
+      "mean_macro_f1_INT8": 0.5532498742743158
+    },
+    {
+      "inner_validation_load_hp": 1,
+      "cells": 72,
+      "mean_macro_f1_FP32": 0.9727949407081405,
+      "mean_macro_f1_INT8": 0.9726283201578348
+    },
+    {
+      "inner_validation_load_hp": 2,
+      "cells": 72,
+      "mean_macro_f1_FP32": 0.9661600917885856,
+      "mean_macro_f1_INT8": 0.9656537300808468
+    },
+    {
+      "inner_validation_load_hp": 3,
+      "cells": 72,
+      "mean_macro_f1_FP32": 0.8890042328467613,
+      "mean_macro_f1_INT8": 0.8905765238756743
+    }
+  ],
+  "per_outer_scenario_internal_mean": [
+    {
+      "outer_load_hp": 0,
+      "cells": 72,
+      "mean_macro_f1_INT8": 0.972725803249558
+    },
+    {
+      "outer_load_hp": 1,
+      "cells": 72,
+      "mean_macro_f1_INT8": 0.8018549893907079
+    },
+    {
+      "outer_load_hp": 2,
+      "cells": 72,
+      "mean_macro_f1_INT8": 0.7669936430400889
+    },
+    {
+      "outer_load_hp": 3,
+      "cells": 72,
+      "mean_macro_f1_INT8": 0.840534012708317
+    }
+  ],
+  "per_seed_internal_mean": [
+    {
+      "seed": 11,
+      "cells": 96,
+      "mean_macro_f1_INT8": 0.8558784944581727
+    },
+    {
+      "seed": 22,
+      "cells": 96,
+      "mean_macro_f1_INT8": 0.829854144942569
+    },
+    {
+      "seed": 33,
+      "cells": 96,
+      "mean_macro_f1_INT8": 0.850848696890762
+    }
+  ],
+  "quantization": {
+    "cells_with_class_changes": 151,
+    "class_changes_summed_repeated_passes": 1873,
+    "mean_delta_INT8_minus_FP32_pp": -0.38929946689335176,
+    "cells_F1_improved": 70,
+    "cells_F1_decreased": 76,
+    "cells_F1_unchanged": 142,
+    "largest_losses": [
+      {
+        "job_id": "inner_outer3_inner0_NF12_seed22",
+        "candidate": "NF12",
+        "outer_load_hp": 3,
+        "inner_validation_load_hp": 0,
+        "seed": 22,
+        "macro_f1_FP32": 0.9522417153996101,
+        "macro_f1_INT8": 0.6005434782608695,
+        "delta_INT8_minus_FP32_pp": -35.16982371387406,
+        "class_changes": 50,
+        "validation_clipped_feature_values": 221
+      },
+      {
+        "job_id": "cost_outer2_inner0_F14_seed11",
+        "candidate": "F14",
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "seed": 11,
+        "macro_f1_FP32": 0.5984738723075437,
+        "macro_f1_INT8": 0.26175820707070707,
+        "delta_INT8_minus_FP32_pp": -33.67156652368366,
+        "class_changes": 55,
+        "validation_clipped_feature_values": 177
+      },
+      {
+        "job_id": "inner_outer1_inner0_T6_seed22",
+        "candidate": "T6",
+        "outer_load_hp": 1,
+        "inner_validation_load_hp": 0,
+        "seed": 22,
+        "macro_f1_FP32": 0.8479719175020547,
+        "macro_f1_INT8": 0.5298087490542384,
+        "delta_INT8_minus_FP32_pp": -31.816316844781632,
+        "class_changes": 56,
+        "validation_clipped_feature_values": 57
+      },
+      {
+        "job_id": "inner_outer1_inner0_NF12_seed22",
+        "candidate": "NF12",
+        "outer_load_hp": 1,
+        "inner_validation_load_hp": 0,
+        "seed": 22,
+        "macro_f1_FP32": 0.8728687916975537,
+        "macro_f1_INT8": 0.5669191919191919,
+        "delta_INT8_minus_FP32_pp": -30.59495997783618,
+        "class_changes": 56,
+        "validation_clipped_feature_values": 206
+      },
+      {
+        "job_id": "inner_outer2_inner0_NF12_seed22",
+        "candidate": "NF12",
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "seed": 22,
+        "macro_f1_FP32": 0.8728687916975537,
+        "macro_f1_INT8": 0.5669191919191919,
+        "delta_INT8_minus_FP32_pp": -30.59495997783618,
+        "class_changes": 56,
+        "validation_clipped_feature_values": 177
+      }
+    ],
+    "largest_gains": [
+      {
+        "job_id": "inner_outer1_inner0_NM10_seed22",
+        "candidate": "NM10",
+        "outer_load_hp": 1,
+        "inner_validation_load_hp": 0,
+        "seed": 22,
+        "macro_f1_FP32": 0.17852161785216178,
+        "macro_f1_INT8": 0.523047304730473,
+        "delta_INT8_minus_FP32_pp": 34.45256868783112,
+        "class_changes": 61,
+        "validation_clipped_feature_values": 321
+      },
+      {
+        "job_id": "cost_outer3_inner0_S8_seed11",
+        "candidate": "S8",
+        "outer_load_hp": 3,
+        "inner_validation_load_hp": 0,
+        "seed": 11,
+        "macro_f1_FP32": 0.3846827967231854,
+        "macro_f1_INT8": 0.6090672453257575,
+        "delta_INT8_minus_FP32_pp": 22.438444860257214,
+        "class_changes": 14,
+        "validation_clipped_feature_values": 210
+      },
+      {
+        "job_id": "inner_outer3_inner0_NM10_seed22",
+        "candidate": "NM10",
+        "outer_load_hp": 3,
+        "inner_validation_load_hp": 0,
+        "seed": 22,
+        "macro_f1_FP32": 0.2310096480500068,
+        "macro_f1_INT8": 0.42103313221128397,
+        "delta_INT8_minus_FP32_pp": 19.002348416127717,
+        "class_changes": 35,
+        "validation_clipped_feature_values": 323
+      },
+      {
+        "job_id": "cost_outer1_inner0_NE12_seed11",
+        "candidate": "NE12",
+        "outer_load_hp": 1,
+        "inner_validation_load_hp": 0,
+        "seed": 11,
+        "macro_f1_FP32": 0.4516602809706258,
+        "macro_f1_INT8": 0.5941619585687382,
+        "delta_INT8_minus_FP32_pp": 14.250167759811239,
+        "class_changes": 28,
+        "validation_clipped_feature_values": 206
+      },
+      {
+        "job_id": "cost_outer2_inner0_NE12_seed11",
+        "candidate": "NE12",
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "seed": 11,
+        "macro_f1_FP32": 0.4516602809706258,
+        "macro_f1_INT8": 0.5941619585687382,
+        "delta_INT8_minus_FP32_pp": 14.250167759811239,
+        "class_changes": 28,
+        "validation_clipped_feature_values": 177
+      }
+    ]
+  },
+  "clipping": {
+    "training_feature_values": 0,
+    "validation_feature_values": 13815,
+    "validation_feature_evaluations": 943920,
+    "percentage_over_repeated_feature_evaluations": 1.463577421815408,
+    "cells_with_validation_clipping": 180
+  },
+  "cause_identified": false,
+  "new_training_fits": 0,
+  "new_TFLite_invocations": 0,
+  "TensorFlow_imported": false,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "qualifications": [
+    "Descriptive means over related candidate/fold/seed cells, not final system accuracy.",
+    "Internal validation load differs from held-out outer load; outer predictions are not released.",
+    "Clipping counts feature values in repeated evaluations, not unique windows.",
+    "Poor load0 performance also exists in FP32; quantization alone does not explain it.",
+    "These results do not authorize recalibrating with validation, choosing a fortunate seed, or changing frozen margins."
+  ]
+}

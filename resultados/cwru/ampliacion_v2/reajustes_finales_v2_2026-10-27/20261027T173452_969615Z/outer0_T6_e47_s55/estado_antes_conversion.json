@@ -1,0 +1,263 @@
+{
+  "final_epoch": 47,
+  "fixed_epochs": 47,
+  "epochs_executed": 47,
+  "optimizer_updates": 1786,
+  "weights_restored": false,
+  "early_stopping_used": false,
+  "validation_used": false,
+  "model_weights_sha256": "5baa5441fe38f05b76f84394df5876c2d65c0edf146ece1154c6f532db7bdd7f",
+  "class_counts": [
+    174,
+    509,
+    522
+  ],
+  "class_weights": [
+    2.3084291187739465,
+    0.7891290111329404,
+    0.7694763729246488
+  ],
+  "training_timing_seconds": {
+    "training_updates": 1.4924585000408115,
+    "epoch_training_diagnostics": 0.2400183999852743
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5241265296936035,
+      "optimizer_updates": 38
+    },
+    {
+      "epoch": 2,
+      "loss": 0.26518264412879944,
+      "optimizer_updates": 76
+    },
+    {
+      "epoch": 3,
+      "loss": 0.1585468351840973,
+      "optimizer_updates": 114
+    },
+    {
+      "epoch": 4,
+      "loss": 0.1000998467206955,
+      "optimizer_updates": 152
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0758582130074501,
+      "optimizer_updates": 190
+    },
+    {
+      "epoch": 6,
+      "loss": 0.06762459129095078,
+      "optimizer_updates": 228
+    },
+    {
+      "epoch": 7,
+      "loss": 0.062308959662914276,
+      "optimizer_updates": 266
+    },
+    {
+      "epoch": 8,
+      "loss": 0.058443695306777954,
+      "optimizer_updates": 304
+    },
+    {
+      "epoch": 9,
+      "loss": 0.055787138640880585,
+      "optimizer_updates": 342
+    },
+    {
+      "epoch": 10,
+      "loss": 0.05335952341556549,
+      "optimizer_updates": 380
+    },
+    {
+      "epoch": 11,
+      "loss": 0.05121804028749466,
+      "optimizer_updates": 418
+    },
+    {
+      "epoch": 12,
+      "loss": 0.04933582991361618,
+      "optimizer_updates": 456
+    },
+    {
+      "epoch": 13,
+      "loss": 0.04763317108154297,
+      "optimizer_updates": 494
+    },
+    {
+      "epoch": 14,
+      "loss": 0.04625650495290756,
+      "optimizer_updates": 532
+    },
+    {
+      "epoch": 15,
+      "loss": 0.04474074766039848,
+      "optimizer_updates": 570
+    },
+    {
+      "epoch": 16,
+      "loss": 0.04367814585566521,
+      "optimizer_updates": 608
+    },
+    {
+      "epoch": 17,
+      "loss": 0.04209122434258461,
+      "optimizer_updates": 646
+    },
+    {
+      "epoch": 18,
+      "loss": 0.04094729200005531,
+      "optimizer_updates": 684
+    },
+    {
+      "epoch": 19,
+      "loss": 0.03993317112326622,
+      "optimizer_updates": 722
+    },
+    {
+      "epoch": 20,
+      "loss": 0.03896129131317139,
+      "optimizer_updates": 760
+    },
+    {
+      "epoch": 21,
+      "loss": 0.03798982873558998,
+      "optimizer_updates": 798
+    },
+    {
+      "epoch": 22,
+      "loss": 0.03704529255628586,
+      "optimizer_updates": 836
+    },
+    {
+      "epoch": 23,
+      "loss": 0.03611506149172783,
+      "optimizer_updates": 874
+    },
+    {
+      "epoch": 24,
+      "loss": 0.03554217517375946,
+      "optimizer_updates": 912
+    },
+    {
+      "epoch": 25,
+      "loss": 0.034669168293476105,
+      "optimizer_updates": 950
+    },
+    {
+      "epoch": 26,
+      "loss": 0.034001342952251434,
+      "optimizer_updates": 988
+    },
+    {
+      "epoch": 27,
+      "loss": 0.03327898308634758,
+      "optimizer_updates": 1026
+    },
+    {
+      "epoch": 28,
+      "loss": 0.0327940508723259,
+      "optimizer_updates": 1064
+    },
+    {
+      "epoch": 29,
+      "loss": 0.03210271894931793,
+      "optimizer_updates": 1102
+    },
+    {
+      "epoch": 30,
+      "loss": 0.031569283455610275,
+      "optimizer_updates": 1140
+    },
+    {
+      "epoch": 31,
+      "loss": 0.032845377922058105,
+      "optimizer_updates": 1178
+    },
+    {
+      "epoch": 32,
+      "loss": 0.030516892671585083,
+      "optimizer_updates": 1216
+    },
+    {
+      "epoch": 33,
+      "loss": 0.030009359121322632,
+      "optimizer_updates": 1254
+    },
+    {
+      "epoch": 34,
+      "loss": 0.029650963842868805,
+      "optimizer_updates": 1292
+    },
+    {
+      "epoch": 35,
+      "loss": 0.029522374272346497,
+      "optimizer_updates": 1330
+    },
+    {
+      "epoch": 36,
+      "loss": 0.029361193999648094,
+      "optimizer_updates": 1368
+    },
+    {
+      "epoch": 37,
+      "loss": 0.028507821261882782,
+      "optimizer_updates": 1406
+    },
+    {
+      "epoch": 38,
+      "loss": 0.028696779161691666,
+      "optimizer_updates": 1444
+    },
+    {
+      "epoch": 39,
+      "loss": 0.02829616516828537,
+      "optimizer_updates": 1482
+    },
+    {
+      "epoch": 40,
+      "loss": 0.027271725237369537,
+      "optimizer_updates": 1520
+    },
+    {
+      "epoch": 41,
+      "loss": 0.026969969272613525,
+      "optimizer_updates": 1558
+    },
+    {
+      "epoch": 42,
+      "loss": 0.026609407737851143,
+      "optimizer_updates": 1596
+    },
+    {
+      "epoch": 43,
+      "loss": 0.026666700839996338,
+      "optimizer_updates": 1634
+    },
+    {
+      "epoch": 44,
+      "loss": 0.02629498764872551,
+      "optimizer_updates": 1672
+    },
+    {
+      "epoch": 45,
+      "loss": 0.02561318874359131,
+      "optimizer_updates": 1710
+    },
+    {
+      "epoch": 46,
+      "loss": 0.025351211428642273,
+      "optimizer_updates": 1748
+    },
+    {
+      "epoch": 47,
+      "loss": 0.02524738386273384,
+      "optimizer_updates": 1786
+    }
+  ],
+  "training_loss": "mean_class_balanced_weighted_sparse_crossentropy_plus_L2",
+  "tracing_updates": 0
+}

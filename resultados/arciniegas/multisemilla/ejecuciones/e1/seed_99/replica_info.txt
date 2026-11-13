@@ -1,0 +1,103 @@
+
+REPLICA METODOLOGICA DEL ARTICULO DE ARCINIEGAS
+================================================
+
+Naturaleza del experimento
+--------------------------
+Esta ejecucion es una replica metodologica
+y no una reproduccion exacta.
+
+Arquitectura
+------------
+Entrada: 21 caracteristicas
+Oculta 1: 20 neuronas, ReLU, L2=0.001
+Oculta 2: 10 neuronas, ReLU, L2=0.001
+Salida: 3 neuronas, Softmax
+Topologia: 21 -> 20 -> 10 -> 3
+
+Hiperparametros
+---------------
+Optimizador: Adam
+Learning rate: 0.005
+Batch size: 32
+Epocas: 50
+Funcion de perdida:
+sparse categorical crossentropy
+class_weight: no utilizado
+Semilla: 99
+
+Datos y metodologia
+-------------------
+Shape X_train original:
+(7128, 21)
+
+Shape X_test original:
+(1332, 21)
+
+Clases originales:
+[0, 1, 2]
+
+Nombres mostrados:
+['DETENIDO', 'MEDIA', 'ALTA']
+
+StandardScaler: no utilizado.
+
+Las 21 caracteristicas se utilizaron
+con sus valores originales provenientes
+de la etapa de preprocesamiento.
+
+class_weight: no utilizado.
+
+El conjunto test no se uso
+durante model.fit.
+
+Metricas de esta replica
+------------------------
+Accuracy:
+95.42 %
+
+Macro precision:
+96.56 %
+
+Macro recall:
+94.35 %
+
+Macro F1:
+95.11 %
+
+Weighted precision:
+95.86 %
+
+Weighted recall:
+95.42 %
+
+Weighted F1:
+95.32 %
+
+Metricas publicadas
+-------------------
+Accuracy:
+96.50 %
+
+Precision:
+96.19 %
+
+Recall:
+97.11 %
+
+F1:
+96.64 %
+
+Diferencia replica - articulo
+-----------------------------
+Accuracy:
+-1.08 pp
+
+Precision:
++0.37 pp
+
+Recall:
+-2.76 pp
+
+F1:
+-1.53 pp

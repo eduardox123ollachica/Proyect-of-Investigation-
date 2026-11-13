@@ -1,0 +1,30 @@
+{
+  "status": "PILOT_STOPPED_ON_FIRST_FAILURE",
+  "purpose": "runtime_and_conversion_only",
+  "jobs_requested": 2,
+  "jobs_started": 1,
+  "jobs_passed": 0,
+  "statuses": [
+    {
+      "job_id": "pilot_outer3_inner0_F14_seed11",
+      "status": "FAIL",
+      "return_code": 1,
+      "elapsed_process_seconds": 109.19317939999746,
+      "timeout_seconds": 300,
+      "automatic_retry": false,
+      "process_launch_error": null,
+      "result_read_error": "resultado.json ausente"
+    }
+  ],
+  "total_elapsed_orchestrator_seconds": 110.9139034000109,
+  "observed_worker_process_seconds": 109.19317939999746,
+  "maximum_worker_seconds_total": 600,
+  "models_not_reused_for_selection": true,
+  "load3_feature_arrays_opened": false,
+  "mass_training_started": false,
+  "outer_predictive_evaluation_executed": false,
+  "full_runtime_budget_frozen": false,
+  "classical_runtime_pilot_pending": true,
+  "STM32_full_pipeline_cost_pending": true,
+  "projection_error": null
+}

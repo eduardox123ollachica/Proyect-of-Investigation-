@@ -1,0 +1,34 @@
+23:58:29:861       -------------------------------------------------------------------
+23:58:29:864                        STM32CubeProgrammer v2.23.0                  
+23:58:29:864       -------------------------------------------------------------------
+
+23:58:29:864 
+
+23:58:29:864 Log output file:   C:\Users\LENOVO\Desktop\Proyecto Investigación\despliegue_stm32\canonicos_42_180mhz_2026-10-27\programacion_flash\20261028T045829_691392Z\programmer_identidad.log
+23:58:29:864 Command line:  -c port=SWD sn=0672ff505487525067162526 mode=ur reset=hwrst -log "C:\Users\LENOVO\Desktop\Proyecto InvestigaciÃ³n\despliegue_stm32\canonicos_42_180mhz_2026-10-27\programacion_flash\20261028T045829_691392Z\programmer_identidad.log"
+23:58:29:865 
+23:58:30:034 ST-LINK SN  : 0672FF505487525067162526
+23:58:30:034 ST-LINK FW  : V2J48M35
+23:58:30:035 Board       : NUCLEO-F446RE
+23:58:30:036 Voltage     : 3.25V
+23:58:30:045 SWD freq    : 4000 KHz
+23:58:30:045 Connect mode: Under Reset
+23:58:30:045 Reset mode  : Hardware reset
+23:58:30:047 Device ID   : 0x421
+23:58:30:048 Revision ID : Rev A
+23:58:30:087 Reading data...
+23:58:30:088 r ap 0 @0x40023C14 0x00000004 bytes Data 0x0FFFAAED
+23:58:30:088 Database: Config 0 is active.
+23:58:30:111 flash loader D:/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304/tools/bin/FlashLoader/0x421.stldr is loaded
+23:58:30:116 Reading data...
+23:58:30:116 r ap 0 @0x40023C14 0x00000004 bytes Data 0x0FFFAAED
+23:58:30:116 Database: Config 0 is active.
+23:58:30:116 Device name : STM32F446xx
+23:58:30:116 Reading data...
+23:58:30:117 r ap 0 @0x1FFF7A22 0x00000004 bytes Data 0x040C0200
+23:58:30:117 NVM size    : 512 KBytes
+23:58:30:118 Device type : MCU
+23:58:30:118 Device CPU  : Cortex-M4
+23:58:30:118 BL Version  : 0x90
+23:58:30:120 
+23:58:30:127 Disconnected

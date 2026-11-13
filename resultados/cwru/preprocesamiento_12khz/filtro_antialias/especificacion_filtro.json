@@ -1,0 +1,29 @@
+{
+  "status": "validated_on_training_only",
+  "input_sampling_rate_hz": 48000,
+  "output_sampling_rate_hz": 12000,
+  "decimation_factor": 4,
+  "filter_type": "linear_phase_fir_kaiser_type_i",
+  "coefficient_dtype_for_pipeline": "float32",
+  "num_taps": 177,
+  "kaiser_beta": 5.65326,
+  "passband_edge_hz": 5000,
+  "nominal_cutoff_hz": 5500.0,
+  "stopband_edge_hz": 6000,
+  "target_stopband_attenuation_db": 60.0,
+  "group_delay_input_samples": 88,
+  "group_delay_output_samples": 22,
+  "group_delay_ms": 1.8333333333333333,
+  "invalid_edge_samples_each_side_at_12khz": 22,
+  "response_float32": {
+    "passband_min_db": -0.005395793821662664,
+    "passband_max_db": 0.010065877810120583,
+    "passband_ripple_db": 0.015461672097444534,
+    "stopband_max_db": -60.01991653442383
+  },
+  "training_files_used_for_signal_analysis": 14,
+  "validation_files_used": 0,
+  "test_files_used": 0,
+  "sha256_float32_coefficients": "f4e6d23b976a6f448674496182853f706e88b604fed47a3fa2b01218047befbb",
+  "scipy_version": "1.17.1"
+}

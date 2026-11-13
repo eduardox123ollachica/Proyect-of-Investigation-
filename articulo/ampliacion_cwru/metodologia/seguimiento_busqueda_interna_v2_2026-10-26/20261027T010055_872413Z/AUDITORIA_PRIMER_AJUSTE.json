@@ -1,0 +1,191 @@
+{
+  "status": "FIRST_INNER_DNN_FIT_AUDITED_READY_FOR_USER_BATCH16",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "campaign": "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z",
+  "job_id": "inner_outer0_inner1_F14_seed22",
+  "source_batch_manifest_sha256": "d1e4998e99f3a0b6be5cc3633dab39f684b277a49e4a83e9d33ded94dfce690c",
+  "source_job_manifest_sha256": "494136ae1ee76595a5d8229be605ab97ebba42310a9861fca91fb87e63aa8069",
+  "preparation_manifest_sha256": "011cffef5862a3cbd5277a96dfc0ea2c696762ddd53b90fed7fad718d7488295",
+  "original_sources_and_imports_verified": true,
+  "model_checkpoints_scaler_quantization_metrics_verified": true,
+  "result_sha256": "ef9ce8879e304d13d04d2751071162a002619cf5e3d6d06607906e167ca1a9a9",
+  "imported_cells": 48,
+  "completed_new_fits": 1,
+  "available_logical_cells": 49,
+  "total_logical_cells": 288,
+  "new_fits_remaining": 239,
+  "roles": {
+    "outer_load_hp": 0,
+    "inner_validation_load_hp": 1,
+    "development_loads": [
+      1,
+      2,
+      3
+    ],
+    "training_loads": [
+      2,
+      3
+    ],
+    "dnn_fit_loads": [
+      2,
+      3
+    ],
+    "int8_calibration_loads": [
+      2,
+      3
+    ],
+    "detector_fit_normal_loads": [
+      2
+    ],
+    "detector_calibration_normal_loads": [
+      3
+    ],
+    "evaluation_loads": [
+      1
+    ],
+    "outer_excluded_loads": [
+      0
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "training_windows": 812,
+  "validation_windows": 393,
+  "metrics": {
+    "FP32": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          0,
+          161,
+          0
+        ],
+        [
+          0,
+          0,
+          174
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 58
+        },
+        {
+          "label": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 161
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 174
+        }
+      ]
+    },
+    "INT8": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          0,
+          161,
+          0
+        ],
+        [
+          0,
+          0,
+          174
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 58
+        },
+        {
+          "label": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 161
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 174
+        }
+      ]
+    }
+  },
+  "best_epoch": 48,
+  "epochs_executed": 50,
+  "weights_restored": true,
+  "optimizer_updates": 1300,
+  "FP32_INT8_class_changes": 0,
+  "training_saturated_input_values": 0,
+  "validation_saturated_input_values": 0,
+  "worker_reported_seconds": 46.15792160000274,
+  "controller_execution_and_verification_seconds": 50.5779999999977,
+  "timings_seconds": {
+    "imports": 41.338445800000045,
+    "data_and_scaler": 0.2779332999998587,
+    "fit_including_checkpoint_IO": 2.396784300002764,
+    "FP32_conversion": 0.6861070999984804,
+    "INT8_conversion": 0.24914800000260584,
+    "validation_inference_and_IO": 0.06621000000086497
+  },
+  "campaign_budget_consumed_seconds": 50.5779999999977,
+  "campaign_budget_remaining_seconds": 7149.422000000002,
+  "timing_sensitivity": {
+    "observations": 1,
+    "following_16_at_same_rate_minutes": 13.487466666666053,
+    "remaining_239_at_same_rate_minutes": 201.46903333332418,
+    "remaining_budget_minutes": 119.15703333333337,
+    "same_rate_would_exceed_remaining_budget": true,
+    "prediction_is_not_a_guarantee": true,
+    "initial_1_to_2_hour_forecast_requires_reassessment": true,
+    "action": "Measure next16, preserve frozen limits; stop rather than raise them automatically"
+  },
+  "next_batch": {
+    "new_jobs": 16,
+    "seconds": 1800,
+    "worker_seconds": 300,
+    "expected_available_cells_if_all_pass": 65,
+    "expected_new_fits_remaining_if_all_pass": 223
+  },
+  "new_training_fits_by_auditor": 0,
+  "new_TFLite_invocations_by_auditor": 0,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "existing_campaign_files_modified": false,
+  "manuscript_modified": false,
+  "limitations": [
+    "100 percent is one internal validation cell, not external test performance.",
+    "A single startup does not establish a duration distribution for the full campaign.",
+    "No independent motors/bearings or predictive selection are established by this gate."
+  ]
+}

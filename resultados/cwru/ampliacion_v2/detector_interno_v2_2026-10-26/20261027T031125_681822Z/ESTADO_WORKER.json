@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "return_code": 0,
+  "error": null,
+  "worker_process_seconds": 49.09400000000096,
+  "timeout_seconds": 300,
+  "automatic_retry": false
+}

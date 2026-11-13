@@ -1,0 +1,15 @@
+{
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/README_VALIDACION_ESCALONADA.md": "faa41cf597e753796cb7a367714935e0fc7af9b4c5480359edb49817de321e1d",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/COMPROBACIONES_PREPARACION.json": "aea6873a45bb98e4a2d16d5a79b83302431ffb1e17a29c11fcc4030b9c297e71",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/DOMINIO_MODELOS_CANONICOS.json": "6c5ac5b01cd148968b53b214ce184a23a762b80238a68ad0b4c69d26cc54bdc2",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/VERIFICACION_SINTAXIS_ARM.json": "5f66a00135f14e055234d2a76e36ad2e39a95a7fcdfb89e8a8bd784075d45c2b",
+  "codigo/cwru/ampliacion_v2/analisis/verificar_sintaxis_canonicos_v2.py": "3e43e6c35cf86aa887735904fc3fdeea132115e4883636d4d334b34047fb79c7",
+  "articulo/ampliacion_cwru/metodologia/preparacion_canonicos_stm32_2026-10-27/ALCANCE_VALIDACION_ESCALONADA.md": "5c65b752ace6b12acdef6d48c8181d0ef57b89d771efaa784fbd4ecafa5ebe87",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_PREPARACION_PROYECTO_SHA256.json": "514c54360b77343ae3c2dd872941edf0fdad22e2216931ba63d03915472fa369",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_PREPARACION_PROYECTO_SHA256.sha256": "b4e81054c61aa2ee17ab51b5677fa96e6fb05e433bc1a7d308316f40130873e6",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/recursos/MANIFEST_RECURSOS_SHA256.json": "ad01c048f50b24880c3f567489a1d75fe4d433a81f3dd8d05b8178b4be3b6390",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/recursos/MANIFEST_RECURSOS_SHA256.sha256": "8b60c988a55e2bfd92295f63d8066147f2cf94fb7bc86e1f578ab59860f652c9",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/bancos/MANIFEST_BANCOS_SHA256.json": "b43fd7ef371aaf844dc91861eed3e0a420d4420c90ae0802591dc1ff8b7df173",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/bancos/MANIFEST_BANCOS_SHA256.sha256": "e50acf918ce86dbd25a23feb991b9307bb3e742f5af880d7101c36f16d1c8436",
+  "articulo/ampliacion_cwru/metodologia/preparacion_canonicos_stm32_2026-10-27/CIERRE_PREPARACION_CANONICOS.json": "e5f35f328cdc5c84a89e702ff2b02f2ce95b11667f6cc93b2c67b12191a1bf8c"
+}

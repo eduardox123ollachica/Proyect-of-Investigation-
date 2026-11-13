@@ -1,0 +1,36 @@
+{
+  "status": "features_generated_not_scaled_not_trained",
+  "source_directory": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\datos\\cwru\\procesado\\dual_12khz_w4096",
+  "sampling_rate_hz": 12000,
+  "fft_size": 4096,
+  "fft_bin_spacing_hz": 2.9296875,
+  "channel_order": [
+    "DE",
+    "FE"
+  ],
+  "feature_order": [
+    "de_rms",
+    "de_skewness",
+    "de_kurtosis",
+    "de_spectral_energy",
+    "de_dominant_frequency",
+    "de_dominant_amplitude",
+    "de_spectral_entropy",
+    "fe_rms",
+    "fe_skewness",
+    "fe_kurtosis",
+    "fe_spectral_energy",
+    "fe_dominant_frequency",
+    "fe_dominant_amplitude",
+    "fe_spectral_entropy"
+  ],
+  "feature_count": 14,
+  "rms_input": "original_window",
+  "fft_input": "window_minus_its_mean",
+  "dominant_frequency": "maximum_non_dc_rfft_bin",
+  "kurtosis": "fisher_bias_false",
+  "skewness": "bias_false",
+  "spectral_energy": "sum_squared_rfft_magnitudes",
+  "spectral_entropy": "normalized_base2_over_all_rfft_bins",
+  "scaling": "none"
+}

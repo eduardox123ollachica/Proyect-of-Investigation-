@@ -1,0 +1,21 @@
+Fase 4: ejecución multisemilla E2 y E3
+Fecha: 2026-10-14
+Sistema: Windows
+Python: 3.12.10
+TensorFlow: 2.21.0
+NumPy: 2.4.4
+pandas: 3.0.2
+scikit-learn: 1.9.1
+matplotlib: 3.10.8
+joblib: 1.6.0
+
+Semillas: 11, 22, 33, 42, 44, 55, 66, 77, 88, 99
+Ejecuciones nuevas: E2 y E3, 10 por variante
+Ejecuciones preservadas sin repetición: E1 y E4, 10 por variante
+Orquestador: ejecutar_multisemilla.py
+
+Nota: TensorFlow informó que las operaciones oneDNN estaban activadas. La
+repetición de control con semilla 42 reprodujo exactamente las métricas y las
+predicciones canónicas de E2 y E3. El archivo INT8 de E2 también coincidió byte
+a byte. En el directorio canónico de E3 no se conserva el archivo INT8, por lo
+que para esa variante la comprobación se limitó a métricas y predicciones.

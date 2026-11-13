@@ -1,0 +1,513 @@
+{
+  "status": "PASS_STATIC_MODEL_DOMAIN_PENDING_BUILD_AND_ARM",
+  "models": [
+    {
+      "id": 0,
+      "model_job_id": "outer0_F14_e45_s42",
+      "model_sha256": "77c251f32ae70a4f963a18f1485fe8c7840c86dfac2ffaacc517c0ffd1bfde45",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2d520c"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -10,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 2061194496,
+      "softmax_multiplier_shift": 22
+    },
+    {
+      "id": 1,
+      "model_job_id": "outer0_T6_e47_s42",
+      "model_sha256": "5d85dd41282dfa78621b8f2fcea77e6bc08de85873eb7857e909b66e52309a68",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2d520c"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -19,
+      "FC_maximum_shift": -5,
+      "softmax_quantized_multiplier": 1342505728,
+      "softmax_multiplier_shift": 24
+    },
+    {
+      "id": 2,
+      "model_job_id": "outer1_F14_e14_s42",
+      "model_sha256": "045129e32dee3b8a79ba705b4aba776ca33b803e944afccc3bc30c7befeb477c",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d31b060"
+          ],
+          "zero_points": [
+            -16
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -9,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 1214509056,
+      "softmax_multiplier_shift": 23
+    },
+    {
+      "id": 3,
+      "model_job_id": "outer1_FE7_e27_s42",
+      "model_sha256": "af40bfb7aa286e95797981bbe8e4af774f37007e07203f35741970910c399e99",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d0e0bb2"
+          ],
+          "zero_points": [
+            -27
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -12,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 1079717760,
+      "softmax_multiplier_shift": 24
+    },
+    {
+      "id": 4,
+      "model_job_id": "outer2_F14_e19_s42",
+      "model_sha256": "15298a0b330849169710c55a5361063caabe5fda9db7becb665cd97bbe4f25e1",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d363274"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -10,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 1204153472,
+      "softmax_multiplier_shift": 23
+    },
+    {
+      "id": 5,
+      "model_job_id": "outer2_T6_e32_s42",
+      "model_sha256": "52774addea1efea1c71b531cec29e6729bab78162fc70dc9b0216c8aa7728ad6",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d363274"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -12,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 1854193152,
+      "softmax_multiplier_shift": 24
+    },
+    {
+      "id": 6,
+      "model_job_id": "outer3_F14_e9_s42",
+      "model_sha256": "a706ebb726e7fba4795498f72600e2918d2856c7bbd63560e26dc1af1f3cd404",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d1e041e"
+          ],
+          "zero_points": [
+            -11
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -9,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 1140798592,
+      "softmax_multiplier_shift": 23
+    },
+    {
+      "id": 7,
+      "model_job_id": "outer3_NF12_e47_s42",
+      "model_sha256": "9e2e760024197681aee58b7102906e84b5ba4ee7fb461b31947ce70511d9f4da",
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d1e041e"
+          ],
+          "zero_points": [
+            -11
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      },
+      "FC_channels": 33,
+      "FC_minimum_shift": -11,
+      "FC_maximum_shift": -6,
+      "softmax_quantized_multiplier": 1142171648,
+      "softmax_multiplier_shift": 23
+    }
+  ],
+  "total_FC_channels": 264,
+  "catalog_sha256": "e7a0c848ccb293c3dd95c9e150e8e6909f6ae6b82c3ec90e6332faebbc2a6fdd",
+  "resource_manifest_sha256": "ad01c048f50b24880c3f567489a1d75fe4d433a81f3dd8d05b8178b4be3b6390",
+  "reader_sha256": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b",
+  "verifier_sha256": "2701991efc15004a0aefd25b54850e40393833c1668cb4a532ceec18cbe8a2ec",
+  "training_fits": 0,
+  "classifier_invocations": 0,
+  "full_firmware_build": false,
+  "serial_opened": false,
+  "hardware_flashed": false,
+  "whole_TFLM_archive_rebuilt": false,
+  "limitation": "Static tensor/shift checks only; compiled ELF review and physical equivalence remain pending."
+}

@@ -1,0 +1,97 @@
+{
+  "status": "PREPARED_SR_VERIFIED_PENDING_USER_BUILD",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "configuration": "Release_180MHz_TotalV2_SR",
+  "source_inventory_verified": 1877,
+  "original_configurations_verified": 16,
+  "original_ELF_hashes_verified": 16,
+  "isolated_configurations": 17,
+  "tests": {
+    "client": 30,
+    "preparer": 9,
+    "total": 39,
+    "rerun": false
+  },
+  "syntax": {
+    "C": true,
+    "CPP": true,
+    "required_macros": 3,
+    "rerun": false
+  },
+  "resources_identical_to_original": 39,
+  "models_unchanged": 32,
+  "FC_channel_multipliers_checked": 1056,
+  "Softmax_multiplier_domains_checked": 32,
+  "whole_archive_rebuilt": false,
+  "whole_archive_rounding_changed": false,
+  "original_library_sha256": "84cd3fae745ce78530e49f353725f845588ca0298cc35bd01da98403eabbe974",
+  "override_source_sha256": "316a9b62c9c79a0a390149fa75d704b51ec392bc19751c443dcd73750e809ad6",
+  "protected_client_routines_AST_identical": [
+    "params_bytes",
+    "replay",
+    "LiteModels",
+    "Link",
+    "parse_info",
+    "validate_model",
+    "parse_selected",
+    "frames",
+    "transmit",
+    "baseline",
+    "parse_result",
+    "get_pages",
+    "compare",
+    "negatives",
+    "statistics"
+  ],
+  "diagnosis_status": "CAUSE_ROUNDING_MISMATCH_CONFIRMED_PENDING_ARM_FIX",
+  "causal_mechanism_reproduced": true,
+  "correction_physically_verified": false,
+  "old_failed_capture_preserved": true,
+  "old_partial_costs_promoted": false,
+  "physical_gate_plan": {
+    "cases": [
+      [
+        568,
+        [
+          0
+        ]
+      ],
+      [
+        232,
+        [
+          22
+        ]
+      ]
+    ],
+    "primary_RUN": 6,
+    "PROFILE": 2,
+    "BASE": 2,
+    "negative_rejections": 17,
+    "required_status": "SR_GATE_PASS_NOT_TOTAL_COST_VALIDATED",
+    "output_comparison": "exact_INT8_no_new_tolerance"
+  },
+  "builds_executed": 0,
+  "new_TFLite_invocations": 0,
+  "new_training_fits": 0,
+  "D_files_modified": false,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "selector_costs_enabled": false,
+  "diagnostic_manifest_sha256": "8be8a8ec59aec4ad4fac58a092e7dc64f1c5a5a3e66339ab430801bf09aca73c",
+  "original_failure_manifest_sha256": "1dbab79c7ff53d4f410fbb45941a036e10353c9ec1b5e63188c0ee927f28f10d",
+  "manifest_entries_including_closure": 1992,
+  "hashing_seconds_before_write": 8.318459900008747,
+  "exclusions": [
+    "mutable ESTADO_ACTUAL_ENTREGA_CWRU.md",
+    "future build/workspace/result directories",
+    "__pycache__",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "limitations": [
+    "Syntax and configuration checks do not prove linked replacement symbol or runtime equivalence.",
+    "User build must be followed by ELF/map/disassembly review and a new control+regression physical gate.",
+    "No old physical timing is imported into the future single-firmware total-cost table."
+  ]
+}

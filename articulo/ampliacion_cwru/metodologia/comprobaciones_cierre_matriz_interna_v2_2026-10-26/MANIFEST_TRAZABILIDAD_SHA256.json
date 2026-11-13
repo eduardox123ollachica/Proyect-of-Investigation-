@@ -1,0 +1,18 @@
+{
+  "articulo/ampliacion_cwru/metodologia/analisis_matriz_interna_v2_2026-10-26/HALLAZGOS_Y_LIMITES.md": "9ef19269640173ce2e6038a5a9edd646c88b82b149fd10aece29b796640d5b58",
+  "articulo/ampliacion_cwru/metodologia/analisis_matriz_interna_v2_2026-10-26/MANIFEST_ANALISIS_SHA256.json": "d0d2a7c4d8d748cbb68c343b8788020c36a8b5ad128f29286eaaf2f77504e382",
+  "articulo/ampliacion_cwru/metodologia/analisis_matriz_interna_v2_2026-10-26/MANIFEST_ANALISIS_SHA256.sha256": "c19d198ffb03e479f9d0614cb1c8475cc60e87122397b0762e6faba31ebe46e6",
+  "articulo/ampliacion_cwru/metodologia/analisis_matriz_interna_v2_2026-10-26/VARIABILIDAD_INTERNA.json": "3013c3c257d42240173b2ea97aebb6aa32338289114e39c1a998b6520aed9d44",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/CIERRE_MATRIZ_INTERNA.json": "f1115732523f2ccfa01ba00eb968f3b46c6869f85387042f9be063b633a7713b",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/MANIFEST_CIERRE_MATRIZ_SHA256.json": "0856eb2a024650dd27ad7babb2ef381fdf85f1d71607bc3286d9899902c589b7",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/MANIFEST_CIERRE_MATRIZ_SHA256.sha256": "413dcf5eb9d89012328a72c943f4ce3c294a55979761522a67f0557d0d4ec6fc",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/MATRIZ_INTERNA_288.json": "8b1b43c87312a1398681c51dd180081c0a7e9fdeabbd45f81ad020f7c08925f8",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/RESULTADOS_Y_SIGUIENTE_ETAPA.md": "17b301c568c899c3c4c530eb5ebd4e3e39cf113944201f9875b1be69df5fcd0f",
+  "articulo/ampliacion_cwru/metodologia/cierre_matriz_dnn_interna_v2_2026-10-26/RESUMEN_POR_ESCENARIO_MASCARA.json": "b82cc7ea40ad69f1257a9e8bd0b82805aeedb066981e27e2c1ecb7cf7a883a3a",
+  "articulo/ampliacion_cwru/metodologia/comprobaciones_cierre_matriz_interna_v2_2026-10-26/CIERRE_VALIDACION_COMPLETA.json": "d1c821efc52a2d4c7e70c9704128540400d0945b488e2fa0e945bf4836bb5697",
+  "articulo/ampliacion_cwru/metodologia/comprobaciones_cierre_matriz_interna_v2_2026-10-26/INTENTO_01_AUDITOR.json": "ad56e6f3f715dc6c060c9fd67b4d2da4ece720f3003216e30214af321676962f",
+  "articulo/ampliacion_cwru/metodologia/comprobaciones_cierre_matriz_interna_v2_2026-10-26/PRUEBAS_CIERRE.json": "996e3e0bc9ccb9052f838f33d97b9588e0abb4db0c8524483c7c89fe7265d04f",
+  "codigo/cwru/ampliacion_v2/analisis/analizar_variabilidad_matriz_interna_v2.py": "32e2ba47fec5e88e53fcfa2131981adfcf8f08c07fb57bbb8d249d8de906b74d",
+  "codigo/cwru/ampliacion_v2/analisis/cerrar_matriz_dnn_interna_v2.py": "08806a3f588b8f74f9a9a9632e9a1ca9181c76919f7bfa6383e52335ee23d6a7",
+  "codigo/cwru/ampliacion_v2/analisis/test_cierre_matriz_interna_v2.py": "801b25791ff3831388f4fa621e5320781389b45e1793c03513f903c48caa398b"
+}

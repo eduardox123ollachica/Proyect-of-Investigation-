@@ -1,0 +1,506 @@
+{
+  "job": {
+    "job_id": "outer_eval_0",
+    "outer_load_hp": 0,
+    "heldout_global_window_ids": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009,
+      1000010,
+      1000011,
+      1000012,
+      1000013,
+      1000014,
+      1000015,
+      1000016,
+      1000017,
+      1000018,
+      1000019,
+      1000020,
+      1000021,
+      1000022,
+      1000023,
+      1000024,
+      1000025,
+      1000026,
+      1000027,
+      1000028,
+      1000029,
+      1000030,
+      1000031,
+      1000032,
+      1000033,
+      1000034,
+      1000035,
+      1000036,
+      1000037,
+      1000038,
+      1000039,
+      1000040,
+      1000041
+    ],
+    "heldout_MAT": [
+      "SYNTH_0",
+      "SYNTH_1",
+      "SYNTH_2",
+      "SYNTH_3",
+      "SYNTH_4",
+      "SYNTH_5",
+      "SYNTH_6"
+    ],
+    "heldout_windows": 42,
+    "models": [
+      {
+        "job_id": "synthetic_DNN",
+        "family": "DNN",
+        "outer_load_hp": 0,
+        "seed": 11,
+        "candidate": "F14",
+        "epochs": 2,
+        "config_index": null,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "roles": {
+          "outer_load_hp": 0,
+          "inner_validation_load_hp": null,
+          "development_loads": [
+            1,
+            2,
+            3
+          ],
+          "training_loads": [
+            1,
+            2,
+            3
+          ],
+          "dnn_fit_loads": [
+            1,
+            2,
+            3
+          ],
+          "int8_calibration_loads": [
+            1,
+            2,
+            3
+          ],
+          "detector_fit_normal_loads": [
+            1,
+            2
+          ],
+          "detector_calibration_normal_loads": [
+            3
+          ],
+          "evaluation_loads": [
+            0
+          ],
+          "outer_excluded_loads": [
+            0
+          ],
+          "detector_refit_after_calibration": false
+        },
+        "masks": null,
+        "procedures": [
+          "baseline_F14",
+          "performance_only"
+        ],
+        "fit_signature": "3133a4f3ac7a0c7fb2192594d0c29eb657f52043c5220d33693b18ab871f9eb7",
+        "selection_signature": "synthetic_only_not_a_production_authorization",
+        "result_path": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json",
+        "result_sha256": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+        "paths": {
+          "modelo.keras": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras",
+          "modelo_fp32.tflite": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite",
+          "modelo_int8.tflite": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite",
+          "scaler_train_only.npz": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz"
+        },
+        "artifact_sha256": {
+          "modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+          "modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+          "modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+          "scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f"
+        }
+      },
+      {
+        "job_id": "synthetic_RF",
+        "family": "RF",
+        "outer_load_hp": 0,
+        "seed": 11,
+        "candidate": null,
+        "epochs": null,
+        "config_index": 5,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "roles": {
+          "outer_load_hp": 0,
+          "inner_validation_load_hp": null,
+          "development_loads": [
+            1,
+            2,
+            3
+          ],
+          "training_loads": [
+            1,
+            2,
+            3
+          ],
+          "dnn_fit_loads": [
+            1,
+            2,
+            3
+          ],
+          "int8_calibration_loads": [
+            1,
+            2,
+            3
+          ],
+          "detector_fit_normal_loads": [
+            1,
+            2
+          ],
+          "detector_calibration_normal_loads": [
+            3
+          ],
+          "evaluation_loads": [
+            0
+          ],
+          "outer_excluded_loads": [
+            0
+          ],
+          "detector_refit_after_calibration": false
+        },
+        "masks": null,
+        "procedures": null,
+        "fit_signature": "2f7bf22702eeb7a7eea21d3c8eb2f578b2165631646985a2b20ee79e27f0d06a",
+        "selection_signature": "synthetic_only_not_a_production_authorization",
+        "result_path": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/RESULTADO.json",
+        "result_sha256": "f5c9fd110950ec771a15c4142f6cf3dd3c35a3163a4d317f931a4d0d5e382554",
+        "paths": {
+          "modelo.joblib": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/RF/salida/modelo.joblib"
+        },
+        "artifact_sha256": {
+          "modelo.joblib": "c755d8fbd37caf8d80d172247ba313a05b655ffeba28ba9a2633b5ab2a3fcc46"
+        }
+      },
+      {
+        "job_id": "synthetic_SVM",
+        "family": "SVM",
+        "outer_load_hp": 0,
+        "seed": null,
+        "candidate": null,
+        "epochs": null,
+        "config_index": 5,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "roles": {
+          "outer_load_hp": 0,
+          "inner_validation_load_hp": null,
+          "development_loads": [
+            1,
+            2,
+            3
+          ],
+          "training_loads": [
+            1,
+            2,
+            3
+          ],
+          "dnn_fit_loads": [
+            1,
+            2,
+            3
+          ],
+          "int8_calibration_loads": [
+            1,
+            2,
+            3
+          ],
+          "detector_fit_normal_loads": [
+            1,
+            2
+          ],
+          "detector_calibration_normal_loads": [
+            3
+          ],
+          "evaluation_loads": [
+            0
+          ],
+          "outer_excluded_loads": [
+            0
+          ],
+          "detector_refit_after_calibration": false
+        },
+        "masks": null,
+        "procedures": null,
+        "fit_signature": "15d5a74eb6e1bf4c3d8de67bda4965742ffa51dd9dd9cfffe79ffc02f7ceb170",
+        "selection_signature": "synthetic_only_not_a_production_authorization",
+        "result_path": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/RESULTADO.json",
+        "result_sha256": "aee5032b3ceabdc5bc45120f58255afb9daebe9b02716ce4865331e0c4b897ba",
+        "paths": {
+          "modelo.joblib": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/modelo.joblib",
+          "scaler_train_only.npz": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/SVM/salida/scaler_train_only.npz"
+        },
+        "artifact_sha256": {
+          "modelo.joblib": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+          "scaler_train_only.npz": "1813d2cd027224ee8ad45ceb802f7fbf9d6c32b41c9fce21a6840dbfa860b812"
+        }
+      },
+      {
+        "job_id": "synthetic_detector",
+        "family": "detector",
+        "outer_load_hp": 0,
+        "seed": null,
+        "candidate": null,
+        "epochs": null,
+        "config_index": null,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "roles": {
+          "outer_load_hp": 0,
+          "inner_validation_load_hp": null,
+          "development_loads": [
+            1,
+            2,
+            3
+          ],
+          "training_loads": [
+            1,
+            2,
+            3
+          ],
+          "dnn_fit_loads": [
+            1,
+            2,
+            3
+          ],
+          "int8_calibration_loads": [
+            1,
+            2,
+            3
+          ],
+          "detector_fit_normal_loads": [
+            1,
+            2
+          ],
+          "detector_calibration_normal_loads": [
+            3
+          ],
+          "evaluation_loads": [
+            0
+          ],
+          "outer_excluded_loads": [
+            0
+          ],
+          "detector_refit_after_calibration": false
+        },
+        "masks": [
+          "F14"
+        ],
+        "procedures": [
+          "baseline_F14",
+          "performance_only"
+        ],
+        "fit_signature": "d4a6a1aa0a02ae3d618c982fc578867664d4b59cd4ae0e0a9c92b0caaacb4fb1",
+        "selection_signature": "synthetic_only_not_a_production_authorization",
+        "result_path": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/RESULTADO.json",
+        "result_sha256": "92068f06e64298174b2ecc71560e05196d968bb88d422188f6c0a1a525f23a19",
+        "paths": {
+          "parametros.npz": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/parametros.npz",
+          "calibracion.npz": "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/detector/salida/calibracion.npz"
+        },
+        "artifact_sha256": {
+          "parametros.npz": "718e8be655c0de08c1e4ce55fbeb0fa20bcc385be86948d665bec24dd6323094",
+          "calibracion.npz": "9f5e87b6e8082582e71b6e5a6bbfce5816df757e6c7ae7b11807ce04979f8baa"
+        }
+      }
+    ],
+    "expected_counts": {
+      "DNN": 1,
+      "RF": 1,
+      "SVM": 1,
+      "detector": 1
+    },
+    "expected_inference_counts": {
+      "DNN_FP32_invocations": 42,
+      "DNN_INT8_invocations": 42,
+      "RF_predicted_rows": 42,
+      "SVM_predicted_rows": 42,
+      "detector_scored_rows": 42
+    },
+    "timeout_seconds": 300
+  },
+  "plan": {
+    "expected_versions": {
+      "python": "3.12.10",
+      "numpy": "2.4.4",
+      "sklearn": "1.9.1",
+      "tensorflow": "2.21.0",
+      "keras": "3.15.0",
+      "scipy": "1.17.1",
+      "joblib": "1.6.0"
+    },
+    "source_sha256": {
+      "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+      "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+      "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/contrato_evaluacion.py": "0bf0585b367f4c84b8896c674976ba15f14662c7b631ca76be36e691a3c467e2",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/ejecutar_evaluacion.py": "7532dc19cae5361b53ec901e86781394ff3a634bd31abff18c119dbe34c27745",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/metricas_evaluacion.py": "485ad7edbd434a45d909a4d1f155e0cd0075e7dbfe9cd54633a0bd5af6871524",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/prueba_sintetica_evaluacion.py": "34e0c849690d97fee46ed58a42cc831bc1b4ab6cee255d81dae36341d47d67b9",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_contrato_evaluacion.py": "211604038dfcfcc9cede65bde508b92b20f68ee2b8a871e9efcc374914020a3e",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/test_metricas_evaluacion.py": "8e85e10669b4f5acc341f94644860a520f07cb30210fd857ad3c20fdc9f9ee0d",
+      "codigo/cwru/ampliacion_v2/evaluacion_exterior/worker_evaluacion.py": "d6509f710f1e1f17b401e0a50b1ab5e30968be39bdc93d6d12187f9700159dda",
+      "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+      "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+      "codigo/cwru/ampliacion_v2/reajustes_finales/contrato.py": "ef256260d581572fb429565e243ae154e8bc08b524d9d51ffdd33c9aa51af915",
+      "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+      "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+      "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+      "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+    },
+    "worker_environment": {
+      "PYTHONHASHSEED": "11",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "TF_NUM_INTRAOP_THREADS": "1",
+      "TF_NUM_INTEROP_THREADS": "1",
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "TF_ENABLE_ONEDNN_OPTS": "0",
+      "TF_DETERMINISTIC_OPS": "1",
+      "TF_CPP_MIN_LOG_LEVEL": "2"
+    },
+    "selection_signature": "synthetic_only_not_a_production_authorization",
+    "evaluation_signatures": {
+      "outer_eval_0": "82a49ce159e770035ebc65e015663cff5ed6c784e501827c7d923bdc0242734f"
+    }
+  },
+  "provenance": {
+    "global_window_ids": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009,
+      1000010,
+      1000011,
+      1000012,
+      1000013,
+      1000014,
+      1000015,
+      1000016,
+      1000017,
+      1000018,
+      1000019,
+      1000020,
+      1000021,
+      1000022,
+      1000023,
+      1000024,
+      1000025,
+      1000026,
+      1000027,
+      1000028,
+      1000029,
+      1000030,
+      1000031,
+      1000032,
+      1000033,
+      1000034,
+      1000035,
+      1000036,
+      1000037,
+      1000038,
+      1000039,
+      1000040,
+      1000041
+    ],
+    "selected_loads_hp": [
+      0
+    ],
+    "selected_record_ids": [
+      "SYNTH_0",
+      "SYNTH_1",
+      "SYNTH_2",
+      "SYNTH_3",
+      "SYNTH_4",
+      "SYNTH_5",
+      "SYNTH_6"
+    ],
+    "shape": [
+      42,
+      14
+    ],
+    "loaded_dtype": "float32",
+    "only_requested_rows_selected_or_materialized": true,
+    "raw_signals_or_MAT_opened": false,
+    "synthetic_data": true
+  }
+}

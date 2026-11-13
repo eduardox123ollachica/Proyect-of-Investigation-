@@ -1,0 +1,66 @@
+{
+  "status": "AUDITADO_CON_ADVERTENCIAS",
+  "created_utc": "2026-10-22T16:15:50.842894+00:00",
+  "duration_seconds": 41.406286699988414,
+  "raw_mat_files": 28,
+  "raw_bytes": 213775376,
+  "variables": 90,
+  "windows": 1380,
+  "feature_values": 19320,
+  "overlaps_checked": 1352,
+  "split_window_counts": {
+    "train": 568,
+    "validation": 406,
+    "test": 406
+  },
+  "selected_de_fe_affine_duplicate_ids": [
+    213,
+    201,
+    238
+  ],
+  "exact_complete_variable_pairs": 4,
+  "affine_complete_variable_pairs": 11,
+  "cross_split_affine_selected_pairs": 0,
+  "cross_split_affine_auxiliary_pairs": 7,
+  "block_scans": {
+    "DE": {
+      "block_length": 16,
+      "starts_checked": 11650891,
+      "verified_matching_position_pairs": 0,
+      "segments": 0,
+      "fingerprint_collisions_rejected": 0,
+      "pathological_groups_skipped": 0,
+      "coverage_complete": true
+    },
+    "FE": {
+      "block_length": 16,
+      "starts_checked": 11650891,
+      "verified_matching_position_pairs": 0,
+      "segments": 0,
+      "fingerprint_collisions_rejected": 0,
+      "pathological_groups_skipped": 0,
+      "coverage_complete": true
+    },
+    "DE_FE": {
+      "block_length": 16,
+      "starts_checked": 11650891,
+      "verified_matching_position_pairs": 0,
+      "segments": 0,
+      "fingerprint_collisions_rejected": 0,
+      "pathological_groups_skipped": 0,
+      "coverage_complete": true
+    }
+  },
+  "max_window_abs_error": 0.0,
+  "max_feature_abs_error": 7.105427357601002e-15,
+  "test_status_counts": {
+    "PASS": 18,
+    "WARN": 3,
+    "LIMITATION": 4
+  },
+  "metadata_decimal_representation_differences": 291,
+  "metadata_decimal_max_abs_error": 1.7763568394002505e-15,
+  "original_inputs_unchanged": true,
+  "no_training_performed": true,
+  "no_dataset_or_manuscript_modified": true
+}

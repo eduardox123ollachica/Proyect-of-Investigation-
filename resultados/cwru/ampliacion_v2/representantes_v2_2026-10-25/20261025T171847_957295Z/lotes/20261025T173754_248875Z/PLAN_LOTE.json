@@ -1,0 +1,40 @@
+{
+  "job_ids": [
+    "cost_outer0_inner1_T6_seed11",
+    "cost_outer0_inner1_S8_seed11",
+    "cost_outer0_inner1_NF12_seed11",
+    "cost_outer0_inner1_NM10_seed11",
+    "cost_outer0_inner1_NE12_seed11",
+    "cost_outer0_inner1_DE7_seed11",
+    "cost_outer0_inner1_FE7_seed11",
+    "cost_outer1_inner0_F14_seed11",
+    "cost_outer1_inner0_T6_seed11",
+    "cost_outer1_inner0_S8_seed11",
+    "cost_outer1_inner0_NF12_seed11",
+    "cost_outer1_inner0_NM10_seed11",
+    "cost_outer1_inner0_NE12_seed11",
+    "cost_outer1_inner0_DE7_seed11",
+    "cost_outer1_inner0_FE7_seed11",
+    "cost_outer2_inner0_F14_seed11",
+    "cost_outer2_inner0_T6_seed11",
+    "cost_outer2_inner0_S8_seed11",
+    "cost_outer2_inner0_NF12_seed11",
+    "cost_outer2_inner0_NM10_seed11",
+    "cost_outer2_inner0_NE12_seed11",
+    "cost_outer2_inner0_DE7_seed11",
+    "cost_outer2_inner0_FE7_seed11",
+    "cost_outer3_inner0_F14_seed11",
+    "cost_outer3_inner0_T6_seed11",
+    "cost_outer3_inner0_S8_seed11",
+    "cost_outer3_inner0_NF12_seed11",
+    "cost_outer3_inner0_NM10_seed11",
+    "cost_outer3_inner0_NE12_seed11",
+    "cost_outer3_inner0_DE7_seed11",
+    "cost_outer3_inner0_FE7_seed11"
+  ],
+  "completed_before": [
+    "cost_outer0_inner1_F14_seed11"
+  ],
+  "consumed_worker_seconds_before": 14.577924400015036,
+  "user_requested_limit": 31
+}

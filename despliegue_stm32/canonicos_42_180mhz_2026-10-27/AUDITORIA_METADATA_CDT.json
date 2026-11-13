@@ -1,0 +1,14 @@
+{
+  "status": "PASS_GENERATED_METADATA_ONLY",
+  "before_sha256": "a67c6a497c03503f90c3062cbb496f0b50942c0903611c2ce8c82a1758dc4565",
+  "after_sha256": "ad15b95ade80bf02f7fe8ecc52eb03c4643f6615ccf2a4aa929920093771af4b",
+  "original_configurations_semantically_equal": 17,
+  "ignored_attribute": "env-hash",
+  "added_configuration": "Release_180MHz_Canon42_SR",
+  "added_providers_equal_SR_except_identity_and_env_hash": true,
+  "original_manifest_preserved": true,
+  "verifier_sha256": "50d0bf371aea5df08493d3239cec6efe23bd8330708290737219125bf80b3dd9",
+  "D_files_modified": false,
+  "serial_opened": false,
+  "hardware_flashed": false
+}

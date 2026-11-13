@@ -1,0 +1,8 @@
+{
+  "official_description": "https://engineering.case.edu/bearingdatacenter/download-data-file",
+  "official_faults": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+  "official_normal": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+  "official_apparatus": "https://engineering.case.edu/bearingdatacenter/apparatus-and-procedures",
+  "smith_randall_doi": "https://doi.org/10.1016/j.ymssp.2015.04.021",
+  "smith_randall_author_copy": "https://www.researchgate.net/publication/276248554_Rolling_Element_Bearing_Diagnostics_Using_the_Case_Western_Reserve_University_Data_A_Benchmark_Study"
+}

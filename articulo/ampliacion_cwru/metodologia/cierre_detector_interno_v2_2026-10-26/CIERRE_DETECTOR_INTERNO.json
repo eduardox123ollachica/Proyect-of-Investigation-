@@ -1,0 +1,141 @@
+{
+  "status": "INTERNAL_DETECTOR_COMPLETE_AUDITED_PENDING_CLASSICAL_AND_SELECTION",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "campaign": "resultados/cwru/ampliacion_v2/detector_interno_v2_2026-10-26/20261027T031125_681822Z",
+  "logical_rows": 96,
+  "parameter_scopes": 42,
+  "unique_evaluations": 84,
+  "reused_parameter_scopes": 23,
+  "new_parameter_fits": 19,
+  "reused_unique_evaluations": 30,
+  "new_unique_evaluations": 54,
+  "reused_logical_rows": 36,
+  "new_logical_rows": 60,
+  "worker_process_seconds": 49.09400000000096,
+  "worker_limit_seconds": 300,
+  "failed_units": 0,
+  "automatic_retries": 0,
+  "scores_replayed_for_unique_evaluations": 84,
+  "new_parameter_scalers_centroids_P95_reconstructed": 19,
+  "all_original_signatures_and_payloads_preserved": true,
+  "F14_NF12_aliases_verified": true,
+  "N_fit_calibration_validation_MAT_scopes_separated": true,
+  "refit_after_calibration": false,
+  "no_DNN_class_override": true,
+  "reference_F14_by_outer_internal_mean": [
+    {
+      "outer_load_hp": 0,
+      "candidate": "F14",
+      "internal_validation_rows": 3,
+      "mean_normal_spec": 0.6666666666666666,
+      "minimum_internal_load_normal_spec": 0.0,
+      "mean_ir_recall": 1.0,
+      "minimum_internal_load_ir_recall": 1.0,
+      "mean_or_recall": 1.0,
+      "minimum_internal_load_or_recall": 1.0,
+      "mean_balanced_accuracy": 0.8333333333333334,
+      "minimum_internal_load_balanced_accuracy": 0.5
+    },
+    {
+      "outer_load_hp": 1,
+      "candidate": "F14",
+      "internal_validation_rows": 3,
+      "mean_normal_spec": 0.3333333333333333,
+      "minimum_internal_load_normal_spec": 0.0,
+      "mean_ir_recall": 1.0,
+      "minimum_internal_load_ir_recall": 1.0,
+      "mean_or_recall": 1.0,
+      "minimum_internal_load_or_recall": 1.0,
+      "mean_balanced_accuracy": 0.6666666666666666,
+      "minimum_internal_load_balanced_accuracy": 0.5
+    },
+    {
+      "outer_load_hp": 2,
+      "candidate": "F14",
+      "internal_validation_rows": 3,
+      "mean_normal_spec": 0.36904761904761907,
+      "minimum_internal_load_normal_spec": 0.0,
+      "mean_ir_recall": 1.0,
+      "minimum_internal_load_ir_recall": 1.0,
+      "mean_or_recall": 1.0,
+      "minimum_internal_load_or_recall": 1.0,
+      "mean_balanced_accuracy": 0.6845238095238095,
+      "minimum_internal_load_balanced_accuracy": 0.5
+    },
+    {
+      "outer_load_hp": 3,
+      "candidate": "F14",
+      "internal_validation_rows": 3,
+      "mean_normal_spec": 0.3333333333333333,
+      "minimum_internal_load_normal_spec": 0.0,
+      "mean_ir_recall": 1.0,
+      "minimum_internal_load_ir_recall": 1.0,
+      "mean_or_recall": 1.0,
+      "minimum_internal_load_or_recall": 1.0,
+      "mean_balanced_accuracy": 0.6666666666666666,
+      "minimum_internal_load_balanced_accuracy": 0.5
+    }
+  ],
+  "reference_F14_global_descriptive_mean": {
+    "normal_spec": 0.4255952380952381,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "balanced_accuracy": 0.7127976190476191
+  },
+  "reference_F14_internal_cells_with_zero_normal_specificity": 6,
+  "descriptive_means_by_inner_validation_load": [
+    {
+      "inner_validation_load": 0,
+      "logical_rows": 24,
+      "normal_spec": 0.03125,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "balanced_accuracy": 0.515625
+    },
+    {
+      "inner_validation_load": 1,
+      "logical_rows": 24,
+      "normal_spec": 0.9770114942528736,
+      "ir_recall": 1.0,
+      "or_recall": 1.0,
+      "balanced_accuracy": 0.9885057471264368
+    },
+    {
+      "inner_validation_load": 2,
+      "logical_rows": 24,
+      "normal_spec": 0.5919540229885057,
+      "ir_recall": 1.0,
+      "or_recall": 0.9976053639846744,
+      "balanced_accuracy": 0.7953783524904214
+    },
+    {
+      "inner_validation_load": 3,
+      "logical_rows": 24,
+      "normal_spec": 0.13218390804597702,
+      "ir_recall": 0.9997605363984674,
+      "or_recall": 1.0,
+      "balanced_accuracy": 0.5660320881226054
+    }
+  ],
+  "primary_guards": "Frozen relative F14 margins; absolute0.95 supplement checks are not substituted.",
+  "operational_PASS_is_not_predictive_acceptance": true,
+  "source_campaign_manifest_sha256": "d5d67af28189699f36b4aa7fa8181843d18314ae8699fe27975ea82815a585b1",
+  "preparation_manifest_sha256": "c5f5a6b0c2bdb660b6497a2aca37fd5112dd2ae5adfd5d0cbf1aa08640018109",
+  "new_detector_fit_normality_calls_by_auditor": 0,
+  "new_DNN_fits_or_inferences_by_auditor": 0,
+  "existing_scores_replayed_not_new_evidence": true,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "manuscript_modified": false,
+  "selection_executed": false,
+  "outer_evaluation_executed": false,
+  "next_stage": "Prepare frozen RF/SVM inner grids with explicit budget; do not repeat classical timing pilot.",
+  "qualifications": [
+    "The84 unique evaluations expand to96 logical rows; aliases are not independent evidence.",
+    "Metrics use per-record rates averaged within class, then equal validation loads.",
+    "Preserving a weak reference does not establish adequate absolute detector performance.",
+    "No threshold tuning, normality refit or validation-based scaler calibration follows these results."
+  ],
+  "audit_seconds": 59.97917960000268
+}

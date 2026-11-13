@@ -1,0 +1,129 @@
+{
+  "protocol_id": "CWRU_V2_DATOS_PARTICIONES_2026-10-22",
+  "status": "data_contract_prepared_full_experiment_not_frozen",
+  "partition_generation_enabled": true,
+  "mass_training_enabled": false,
+  "outer_predictive_evaluation_enabled": false,
+  "base_proposal": "articulo/ampliacion_cwru/protocolo_v2_propuesto.json",
+  "base_plan": "articulo/ampliacion_cwru/PLAN_MAESTRO_AMPLIACION_CWRU.md",
+  "versioning_reason": "Conservar sin cambios los documentos incluidos en el sello de la auditoría; esta versión prevalece para estado de auditoría y contrato de datos/particiones.",
+  "primary_scope": {
+    "claim": "Comparación de rendimiento y costo embebido entre cargas excluidas del banco CWRU, condicionada al subconjunto y montajes disponibles.",
+    "new_motor_or_bearing_generalization_claimed": false,
+    "zero_correlation_required": false,
+    "windows_are_independent_physical_trials": false,
+    "evaluation_is_retrospective": true,
+    "all_28_records_previously_explored": true
+  },
+  "audit": {
+    "full_mat_audit_pending": false,
+    "status": "completed_with_warnings_and_limitations",
+    "directory": "articulo/ampliacion_cwru/auditoria/revision_2026-10-22_validada",
+    "raw_manifest": "datos/cwru/particiones/principal_por_carga/manifest_particion.csv",
+    "inventory": "articulo/ampliacion_cwru/auditoria/revision_2026-10-22_validada/inventario_archivos.csv",
+    "original_input_hashes_must_still_match": true
+  },
+  "preprocessing": {
+    "reuse_directory": "datos/cwru/procesado/dual_12khz_w4096",
+    "input_rate_hz_documented": 48000,
+    "output_rate_hz": 12000,
+    "window_samples": 4096,
+    "hop_samples": 2048,
+    "overlap_fraction": 0.5,
+    "overlap_decision": "Conservar el valor establecido; 0% es sensibilidad propuesta, no sustitución aprobada del principal.",
+    "zero_overlap_sensitivity_status": "structurally_evaluated_not_trained_not_part_of_this_execution",
+    "fir_taps": 177,
+    "edge_trim_output_samples_each_side": 22,
+    "channels": [
+      "DE",
+      "FE"
+    ],
+    "channels_are_positions_not_axes": true,
+    "feature_count": 14,
+    "feature_order_reference": "datos/cwru/procesado/dual_12khz_w4096/features_14/configuracion_features.json",
+    "reuse_only_unscaled_features": true,
+    "reuse_v1_scaler_or_models_for_new_folds": false,
+    "source_arrays_are_never_rewritten": true
+  },
+  "quality_policy": {
+    "retain_all_28_mat": true,
+    "automatic_sample_repair_or_exclusion": false,
+    "affine_equivalent_de_fe_record_ids": [
+      201,
+      213,
+      238
+    ],
+    "reported_electrical_noise_record_ids": [
+      177
+    ],
+    "reported_de_clipping_record_ids": [
+      214,
+      215
+    ],
+    "channel_selection": "Sólo de_key/fe_key explícitas del manifiesto; no escoger la primera variable *_time.",
+    "de_only_comparator": "DE7 ya propuesto; no implica borrar FE de los originales.",
+    "quality_sensitivity_before_training": "Cualquier exclusión o reparación adicional exige protocolo y justificación previos; no según resultados externos."
+  },
+  "partitions": {
+    "scheme": "nested_leave_one_load_out",
+    "loads_hp": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "outer_folds": 4,
+    "inner_folds_per_outer": 3,
+    "outer_roles": [
+      "development",
+      "outer_test"
+    ],
+    "inner_roles": [
+      "inner_train",
+      "inner_validation",
+      "outer_excluded"
+    ],
+    "group_unit": "entire_selected_MAT_record_and_all_channels_windows",
+    "verified_physical_bearing_grouping": false,
+    "record_groups_decided_before_window_assignment": true,
+    "outer_refit_training": "Tres cargas de desarrollo; entrenamiento final sólo después de selección interna.",
+    "outer_epochs": "Regla pendiente de congelar a partir de épocas internas; nunca early stopping externo.",
+    "normalization_and_class_weights": "Ajuste en inner_train; reajuste en development para la instancia externa.",
+    "representative_int8_calibration": "Sólo entrenamiento correspondiente; jamás inner_validation/outer_test.",
+    "normality_detector": "Prototipo y escalador sólo N de entrenamiento; umbral de desarrollo según regla aún pendiente de congelar.",
+    "outer_results_cannot_change_later_fold_selection_rule": true,
+    "window_index_only_no_array_copy": true
+  },
+  "statistics": {
+    "main_metric_proposed": "multiclass_macro_f1",
+    "report_per_load_and_seed": true,
+    "descriptive_file_level_metrics_required": true,
+    "seeds_not_independent_acquisitions": true,
+    "four_loads_not_four_independent_testbenches": true,
+    "no_iid_binomial_intervals_over_overlapping_windows": true,
+    "physical_independence_not_inferred_from_low_pearson": true
+  },
+  "blocked_before_mass_training": [
+    "Delimitar contribución frente a antecedentes de selección por costo.",
+    "Medir viabilidad y costo por bloques en STM32 con configuración identificada.",
+    "Congelar catálogo definitivo, márgenes, desempates y restricciones del detector.",
+    "Congelar épocas, calibración INT8 y selección interna implementada sin consulta externa.",
+    "Congelar cuadrículas RF/SVM y presupuesto tras un piloto limitado de desarrollo."
+  ],
+  "immediate_artifacts": {
+    "destination": "datos/cwru/particiones/ampliacion_v2/por_carga_2026-10-22",
+    "produce": [
+      "record_manifests",
+      "window_index_views",
+      "fold_summary",
+      "unit_and_negative_tests",
+      "hash_manifests"
+    ],
+    "do_not_produce": [
+      "trained_models",
+      "new_accuracy_claims",
+      "modified_raw_data",
+      "manuscript_edits"
+    ]
+  }
+}

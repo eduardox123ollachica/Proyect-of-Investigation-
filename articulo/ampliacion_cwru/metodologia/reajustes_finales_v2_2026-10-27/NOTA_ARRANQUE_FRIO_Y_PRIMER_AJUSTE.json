@@ -1,0 +1,28 @@
+{
+  "status": "COLD_START_OBSERVATION_NOT_A_NEW_TRAINING_EXPERIMENT",
+  "synthetic_DNN_import_and_payload_seconds": 50.371165999997174,
+  "historical_scaled_projection_minutes": 29.05906372424319,
+  "additional_cold_allowance_all_80_DNN_minutes": 67.1615546666629,
+  "combined_double_counting_sensitivity_minutes": 96.22061839090608,
+  "interpretation": "Add the entire observed synthetic import time to each DNN on top of historical projection. Deliberately double-counts historical import; sensitivity, not forecast, confidence bound or guarantee.",
+  "provisional_full_campaign_reserve_minutes": [
+    30,
+    100
+  ],
+  "first_real_job_gate_required_before_remaining_command": true,
+  "campaign_limit_seconds_unchanged": 7200,
+  "new_CWRU_training_fits": 0,
+  "outer_evaluation_executed": false,
+  "original_synthetic_RF_attempt1_fits_verified_from_artifacts": 1,
+  "synthetic_attempt2_fits": {
+    "DNN": 2,
+    "RF": 1,
+    "SVM": 1,
+    "detector": 1
+  },
+  "source_sha256": {
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/PRUEBA_SINTETICA_REAL_INTENTO2.json": "c23e9416b9d0101dd73826fb7375917be7ff298f1fd2d51febb88400f45a3809",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+    "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/PRESUPUESTO_Y_LIMITES_FINAL.json": "3f6f8cecc5a5dd46d2dd1f216bd1b9c787ec52ef8712d96dff5161349c3928c2"
+  }
+}

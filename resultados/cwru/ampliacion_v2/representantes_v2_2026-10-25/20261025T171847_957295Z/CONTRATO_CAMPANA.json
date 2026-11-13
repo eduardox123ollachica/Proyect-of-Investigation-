@@ -1,0 +1,8 @@
+{
+  "preparation_manifest_sha256": "c8d67b95d787557987a98332bbc3b6321f4d3837befe2bf55a3be62e2044469c",
+  "execution_owner": "user_CLI",
+  "plan_sha256": "77a3ea39b8be19665987afa43aa7a11ae4372d5fd2d2438d0f0aa7d600e7fe07",
+  "scope": "32_predefined_inner_representatives_only",
+  "maximum_fits": 32,
+  "automatic_retry": false
+}

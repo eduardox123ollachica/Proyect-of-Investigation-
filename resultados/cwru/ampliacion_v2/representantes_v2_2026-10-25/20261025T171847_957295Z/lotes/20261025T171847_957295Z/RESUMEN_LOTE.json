@@ -1,0 +1,13 @@
+{
+  "status": "BATCH_COMPLETED",
+  "total_completed": 1,
+  "total_planned": 32,
+  "jobs_started": 1,
+  "jobs_passed": 1,
+  "worker_elapsed_seconds": 14.577924400015036,
+  "campaign_worker_seconds_consumed": 14.577924400015036,
+  "outer_evaluation_executed": false,
+  "remaining_grid_enabled": false,
+  "cost_selection_enabled": false,
+  "STM32_total_cost_measured": false
+}

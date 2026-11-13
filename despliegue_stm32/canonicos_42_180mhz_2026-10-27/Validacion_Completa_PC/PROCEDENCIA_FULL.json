@@ -1,0 +1,12 @@
+{
+  "status": "FULL_CLIENT_READY_PENDING_USER_EXECUTION",
+  "firmware_elf_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "catalog_sha256": "e7a0c848ccb293c3dd95c9e150e8e6909f6ae6b82c3ec90e6332faebbc2a6fdd",
+  "gate_audit_sha256": "c5249315671343feeda58e7e5fb1b049b7b9fef93abaaf48f0701e4e631ee805",
+  "gate_manifest_sha256": "a84b706213aa76b40cf7223cfbf6513557188cb41490e727b9f7f2c6b773da9f",
+  "old_client_manifest_sha256": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+  "completed_gate_imported_without_reexecution": true,
+  "training_fits": 0,
+  "serial_opened": false,
+  "hardware_flashed": false
+}

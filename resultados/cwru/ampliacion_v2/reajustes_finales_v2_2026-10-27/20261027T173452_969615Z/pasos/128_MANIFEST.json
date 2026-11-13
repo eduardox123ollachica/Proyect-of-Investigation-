@@ -1,0 +1,13 @@
+{
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04/calibracion.npz": "9efae883381bf7755ee52838f63911a5299cbedf6d7785b36724442ad6a2eb6b",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04/MANIFEST_JOB_SHA256.json": "da08e81e0b44793a1454174fa797d52c9797815802af33a1a0398a985cd54ae9",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04/MANIFEST_JOB_SHA256.sha256": "0d2d0093db11cf69528a7e61a5472a4541996f6813c4985b84792f4be2c05cb3",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04/parametros.npz": "0b70d0c53e5907be221ee7b0828b138a11498030ea4ec8a0157c580437b5f518",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04/procedencia.json": "4adb178baf822b8c7005f8b8eae7158bef106ca3e9b9871fa2a15c7f026c0158",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04/RESULTADO.json": "28d010392665168fe5c4f295edba3153ff505f82fad1dc4bb066b01bf4e81516",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer2_detector_04_stdout.log": "e6cf893893cb68549d3548d3d293e7f9f900d44ef8a6ab72af8bdcd57ff6ca73",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/pasos/128.json": "4949d8b834e0d118d0fa284f65efc50cbf0f18ce1c0503f79eb016c9f1c93a45",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer2_detector_04/datos.npz": "db4c96de85e4f619cc4fbdbaa9a9835114702003b61422b45ae6a8546d2a929d",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer2_detector_04/payload.json": "ee6391e0df498f5dcadb190cce652e9b6cd951a6a0f98c673973eb93f4b93295"
+}

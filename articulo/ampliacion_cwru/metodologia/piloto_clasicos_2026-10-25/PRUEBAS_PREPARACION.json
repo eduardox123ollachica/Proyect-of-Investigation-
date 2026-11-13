@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-10-25T07:15:53.783895+00:00",
+  "tests_run": 39,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "log": "test_changed_grid_or_catalogue_is_rejected (test_contrato_piloto.ContractTests.test_changed_grid_or_catalogue_is_rejected) ... ok\ntest_detector_alias_and_excluded_frequencies (test_contrato_piloto.ContractTests.test_detector_alias_and_excluded_frequencies) ... ok\ntest_grid_and_process_limits (test_contrato_piloto.ContractTests.test_grid_and_process_limits) ... ok\ntest_invalid_result_scope_is_rejected (test_contrato_piloto.ContractTests.test_invalid_result_scope_is_rejected) ... ok\ntest_rf_configurations_cover_full_grid (test_contrato_piloto.ContractTests.test_rf_configurations_cover_full_grid) ... ok\ntest_svm_is_not_repeated_by_seeds (test_contrato_piloto.ContractTests.test_svm_is_not_repeated_by_seeds) ... ok\ntest_calibration_gives_equal_total_mass_to_each_record (test_detector_numerico.FitTests.test_calibration_gives_equal_total_mass_to_each_record) ... ok\ntest_centroid_is_mean_after_float32_transform_not_forced_zero (test_detector_numerico.FitTests.test_centroid_is_mean_after_float32_transform_not_forced_zero) ... ok\ntest_fit_preserves_inputs_and_repeats_bit_exactly (test_detector_numerico.FitTests.test_fit_preserves_inputs_and_repeats_bit_exactly) ... ok\ntest_scaler_and_p95_match_known_problem_without_refit (test_detector_numerico.FitTests.test_scaler_and_p95_match_known_problem_without_refit) ... ok\ntest_zero_variance_uses_scaler_unit_scale (test_detector_numerico.FitTests.test_zero_variance_uses_scaler_unit_scale) ... ok\ntest_indices_must_be_unique_integer_allowed_features (test_detector_numerico.ScoreTests.test_indices_must_be_unique_integer_allowed_features) ... ok\ntest_input_shape_and_dtype_are_strict (test_detector_numerico.ScoreTests.test_input_shape_and_dtype_are_strict) ... ok\ntest_invalid_fit_scope_and_record_ids_rejected_before_sklearn (test_detector_numerico.ScoreTests.test_invalid_fit_scope_and_record_ids_rejected_before_sklearn) ... ok\ntest_invalid_parameter_types_dimensions_scales_and_threshold (test_detector_numerico.ScoreTests.test_invalid_parameter_types_dimensions_scales_and_threshold) ... ok\ntest_known_float32_scores (test_detector_numerico.ScoreTests.test_known_float32_scores) ... ok\ntest_nonfinite_in_any_input_column_is_rejected (test_detector_numerico.ScoreTests.test_nonfinite_in_any_input_column_is_rejected) ... ok\ntest_overflow_in_normalization_is_rejected (test_detector_numerico.ScoreTests.test_overflow_in_normalization_is_rejected) ... ok\ntest_sequential_sum_overflow_is_rejected (test_detector_numerico.ScoreTests.test_sequential_sum_overflow_is_rejected) ... ok\ntest_square_overflow_is_rejected (test_detector_numerico.ScoreTests.test_square_overflow_is_rejected) ... ok\ntest_strict_threshold_ties_are_accepted (test_detector_numerico.ScoreTests.test_strict_threshold_ties_are_accepted) ... ok\ntest_unselected_finite_columns_do_not_change_score (test_detector_numerico.ScoreTests.test_unselected_finite_columns_do_not_change_score) ... ok\ntest_invalid_status_rejected (test_ejecucion.ExecutionTests.test_invalid_status_rejected) ... ok\ntest_keyboard_interrupt_kills_child (test_ejecucion.ExecutionTests.test_keyboard_interrupt_kills_child) ... ok\ntest_launch_failure_is_preserved (test_ejecucion.ExecutionTests.test_launch_failure_is_preserved) ... ok\ntest_missing_result_rejected (test_ejecucion.ExecutionTests.test_missing_result_rejected) ... ok\ntest_partial_json_rejected (test_ejecucion.ExecutionTests.test_partial_json_rejected) ... ok\ntest_successful_process_is_retained (test_ejecucion.ExecutionTests.test_successful_process_is_retained) ... ok\ntest_timeout_kills_child_and_is_not_success (test_ejecucion.ExecutionTests.test_timeout_kills_child_and_is_not_success) ... ok\ntest_all_rf_configurations_are_valid (test_estimator_api.EstimatorAPITests.test_all_rf_configurations_are_valid) ... ok\ntest_all_svm_configurations_are_valid (test_estimator_api.EstimatorAPITests.test_all_svm_configurations_are_valid) ... ok\ntest_counts_do_not_repeat_SVM_or_detector_by_DNN_seed (test_presupuesto_clasicos.ClassicalBudgetTests.test_counts_do_not_repeat_SVM_or_detector_by_DNN_seed) ... ok\ntest_detector_copies_group_overhead_per_fit_without_dividing_or_seed_factor (test_presupuesto_clasicos.ClassicalBudgetTests.test_detector_copies_group_overhead_per_fit_without_dividing_or_seed_factor) ... ok\ntest_failed_missing_duplicate_or_wrong_scopes_rejected (test_presupuesto_clasicos.ClassicalBudgetTests.test_failed_missing_duplicate_or_wrong_scopes_rejected) ... ok\ntest_input_order_and_predictive_metrics_do_not_change_projection (test_presupuesto_clasicos.ClassicalBudgetTests.test_input_order_and_predictive_metrics_do_not_change_projection) ... ok\ntest_invalid_or_overlapping_times_and_short_wall_rejected (test_presupuesto_clasicos.ClassicalBudgetTests.test_invalid_or_overlapping_times_and_short_wall_rejected) ... ok\ntest_missing_wall_time_remains_unknown_instead_of_zero (test_presupuesto_clasicos.ClassicalBudgetTests.test_missing_wall_time_remains_unknown_instead_of_zero) ... ok\ntest_scaling_factors_are_declared_sensitivity_assumptions (test_presupuesto_clasicos.ClassicalBudgetTests.test_scaling_factors_are_declared_sensitivity_assumptions) ... ok\ntest_totals_preserve_seconds_and_sum_every_stage_once (test_presupuesto_clasicos.ClassicalBudgetTests.test_totals_preserve_seconds_and_sum_every_stage_once) ... ok\n\n----------------------------------------------------------------------\nRan 39 tests in 8.073s\n\nOK\n",
+  "source_AST_passed": true,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/ejecutar_piloto_clasicos.py": "6a0c31f41193a66cf1f4118e4081b31699acccd87a41ac2fe07af2044d818d6f",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/presupuesto_clasicos.py": "f9110827285909dd57e2bc63ffbbb6a52e04604e21a9884558094a7ac6b3196a",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_contrato_piloto.py": "56b51b4fb024e1f7b8a841e3f3798275362acb34f28fdf225fd6bc811ea872a7",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_detector_numerico.py": "1a5baaa13fbb536896b9f1f072689f10fb5e3bbcc3450726337736f4f299a089",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_ejecucion.py": "d3d2c095e61edd7f53bdb3e0412bac1784687b119a6a8bd4ac0619ea83e603f2",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_estimator_api.py": "b732d45c08b1688b7b633de6d2933ccf6bd82debfaec4fac891a51d9f84d92e7",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_presupuesto_clasicos.py": "e09819d6c719ad4fdda620bcef73ad0fd384a53c07f9625ec15702ab032abe54",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/verificar_preparacion.py": "657482dfa8d9578ef3a5d083ba0753b31e2e97caf4fc929ba77b8e39ad2bf867",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/worker_tiempos.py": "2a2a4f17348a119e38a4920c5379e9c770864365e4d0c91a38a79031fb9c7232"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1"
+  },
+  "data": "synthetic_only",
+  "real_RF_SVM_fits": 0,
+  "source_NPY_MAT_arrays_opened": false,
+  "TensorFlow_imported": false,
+  "prior_bundled_run": {
+    "tests_run": 39,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 7,
+    "reason": "Bundled Python lacks sklearn; final report requires all synthetic tests without skips."
+  }
+}

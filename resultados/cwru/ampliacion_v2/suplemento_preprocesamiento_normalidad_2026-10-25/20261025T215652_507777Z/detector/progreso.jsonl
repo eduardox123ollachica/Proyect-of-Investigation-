@@ -1,0 +1,12 @@
+{"stage": "detector_start", "detector_id": "detector_o3_i0_CONTROL12"}
+{"stage": "detector_PASS", "detector_id": "detector_o3_i0_CONTROL12", "normal_spec": 0.0}
+{"stage": "detector_start", "detector_id": "detector_o3_i0_MOM4"}
+{"stage": "detector_PASS", "detector_id": "detector_o3_i0_MOM4", "normal_spec": 0.42857142857142855}
+{"stage": "detector_start", "detector_id": "detector_o3_i1_CONTROL12"}
+{"stage": "detector_PASS", "detector_id": "detector_o3_i1_CONTROL12", "normal_spec": 1.0}
+{"stage": "detector_start", "detector_id": "detector_o3_i1_MOM4"}
+{"stage": "detector_PASS", "detector_id": "detector_o3_i1_MOM4", "normal_spec": 0.9827586206896551}
+{"stage": "detector_start", "detector_id": "detector_o3_i2_CONTROL12"}
+{"stage": "detector_PASS", "detector_id": "detector_o3_i2_CONTROL12", "normal_spec": 0.0}
+{"stage": "detector_start", "detector_id": "detector_o3_i2_MOM4"}
+{"stage": "detector_PASS", "detector_id": "detector_o3_i2_MOM4", "normal_spec": 0.7413793103448276}

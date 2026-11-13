@@ -1,0 +1,12 @@
+{
+  "status": "PASS_STRICT_SECTION_PAYLOAD_GUARDS",
+  "tests": 5,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_gap_becomes_required_if_it_has_an_allocated_file_backed_section (__main__.SectionComparisonGuards.test_gap_becomes_required_if_it_has_an_allocated_file_backed_section) ... ok\ntest_initialized_RAM_load_byte_change_and_incomplete_read_fail (__main__.SectionComparisonGuards.test_initialized_RAM_load_byte_change_and_incomplete_read_fail) ... ok\ntest_one_code_byte_change_fails (__main__.SectionComparisonGuards.test_one_code_byte_change_fails) ... ok\ntest_one_vector_byte_change_fails (__main__.SectionComparisonGuards.test_one_vector_byte_change_fails) ... ok\ntest_only_gap_difference_is_accepted_and_all_payload_bytes_remain_required (__main__.SectionComparisonGuards.test_only_gap_difference_is_accepted_and_all_payload_bytes_remain_required) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.005s\n\nOK\n",
+  "comparison_source_sha256": "3b870cabd36af7bf90430d2781930e998b68c71c5ccb8b1f2175b4a1043da10d",
+  "test_source_sha256": "877861a6f86eccb6547ce941ca11a50d593dd658b9cf9c10f2b50c0419fb5436",
+  "simulation_only": true,
+  "hardware_connections": 0,
+  "old_files_modified": false
+}

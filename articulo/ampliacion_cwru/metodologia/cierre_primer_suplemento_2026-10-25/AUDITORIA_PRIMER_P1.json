@@ -1,0 +1,99 @@
+{
+  "status": "TECHNICAL_GATE_PASS_PREDICTIVE_NEGATIVE_FIRST_PAIR",
+  "run": "resultados/cwru/ampliacion_v2/suplemento_preprocesamiento_normalidad_2026-10-25/20261025T215652_507777Z",
+  "new_fits_complete": 1,
+  "imported_cells": 2,
+  "available_cells": 3,
+  "total_cells": 36,
+  "new_fits_remaining": 33,
+  "source_job": "supp_o3_i0_F14_P1_s11",
+  "roles": {
+    "outer_load_hp": 3,
+    "inner_validation_load_hp": 0,
+    "development_loads": [
+      0,
+      1,
+      2
+    ],
+    "training_loads": [
+      1,
+      2
+    ],
+    "dnn_fit_loads": [
+      1,
+      2
+    ],
+    "int8_calibration_loads": [
+      1,
+      2
+    ],
+    "detector_fit_normal_loads": [
+      1
+    ],
+    "detector_calibration_normal_loads": [
+      2
+    ],
+    "evaluation_loads": [
+      0
+    ],
+    "outer_excluded_loads": [
+      3
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "training_windows": 799,
+  "validation_windows": 175,
+  "epochs_executed": 11,
+  "best_epoch": 1,
+  "comparison": {
+    "FP32_macro_f1": {
+      "P0": 0.5809983896940419,
+      "P1": 0.3102706544713166
+    },
+    "INT8_macro_f1": {
+      "P0": 0.4057737225050831,
+      "P1": 0.26175820707070707
+    },
+    "validation_clipped_values": {
+      "P0": 221,
+      "P1": 64
+    },
+    "class_changes": {
+      "P0": 32,
+      "P1": 5
+    },
+    "normal_recall_INT8": {
+      "P0": 0.0,
+      "P1": 0.0
+    }
+  },
+  "clipping_reduction_fraction": 0.7104072398190044,
+  "timing": {
+    "process_and_audit_seconds": 72.5838395000028,
+    "worker_to_result_seconds": 70.60925259999931,
+    "before_worker_directory_event_seconds": 2.9070098999945913,
+    "imports_and_data_interval_seconds": 65.36249929998303,
+    "training_fit_seconds": 1.5021955000120215,
+    "remaining33_linear_at_first_process_seconds": 2395.2667035000923,
+    "remaining33_linear_at_first_process_minutes": 39.92111172500154,
+    "remaining_campaign_limit_seconds": 7127.416160499997
+  },
+  "duration_note": "Single observed first process; linear projection is not an ETA or confidence bound. Import/data interval is not isolated TensorFlow import.",
+  "decision": "Continue fixed paired design without changing formula, epochs or parameters based on this one pair.",
+  "detector_block_run": false,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "STM32_cost_measured": false,
+  "new_training_fits_during_audit": 0,
+  "new_model_inferences_during_audit": 0,
+  "next_command": [
+    "python3.12.exe",
+    "-B",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\codigo\\cwru\\ampliacion_v2\\suplemento\\ejecutar_suplemento.py",
+    "--execute",
+    "--resume",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\resultados\\cwru\\ampliacion_v2\\suplemento_preprocesamiento_normalidad_2026-10-25\\20261025T215652_507777Z",
+    "--limit",
+    "33"
+  ]
+}

@@ -1,0 +1,11 @@
+CWRU TinyML preprocessing
+Original sampling rate: 48000 Hz
+Target sampling rate: 2000 Hz
+Decimation factor: 24
+LPF cutoff: 800 Hz
+Filter order: 6
+Window size: 1024
+Overlap: 0.5
+Hop size: 512
+Normalization: Z-score per window
+Outer Race position: Centered @6:00

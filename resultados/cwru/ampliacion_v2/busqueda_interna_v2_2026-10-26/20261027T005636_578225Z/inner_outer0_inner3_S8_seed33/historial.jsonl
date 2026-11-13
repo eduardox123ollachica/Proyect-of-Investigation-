@@ -1,0 +1,13 @@
+{"epoch": 1, "loss": 0.43425896763801575, "val_loss": 0.6590104103088379, "optimizer_updates": 25, "improved": true, "best_epoch": 1, "patience_used": 0}
+{"epoch": 2, "loss": 0.14032962918281555, "val_loss": 0.44503629207611084, "optimizer_updates": 50, "improved": true, "best_epoch": 2, "patience_used": 0}
+{"epoch": 3, "loss": 0.056585777550935745, "val_loss": 0.4116626977920532, "optimizer_updates": 75, "improved": true, "best_epoch": 3, "patience_used": 0}
+{"epoch": 4, "loss": 0.045274995267391205, "val_loss": 0.43263640999794006, "optimizer_updates": 100, "improved": false, "best_epoch": 3, "patience_used": 1}
+{"epoch": 5, "loss": 0.041822418570518494, "val_loss": 0.41513192653656006, "optimizer_updates": 125, "improved": false, "best_epoch": 3, "patience_used": 2}
+{"epoch": 6, "loss": 0.039572879672050476, "val_loss": 0.43264827132225037, "optimizer_updates": 150, "improved": false, "best_epoch": 3, "patience_used": 3}
+{"epoch": 7, "loss": 0.03777685388922691, "val_loss": 0.4435310661792755, "optimizer_updates": 175, "improved": false, "best_epoch": 3, "patience_used": 4}
+{"epoch": 8, "loss": 0.03616638109087944, "val_loss": 0.45357754826545715, "optimizer_updates": 200, "improved": false, "best_epoch": 3, "patience_used": 5}
+{"epoch": 9, "loss": 0.03465569391846657, "val_loss": 0.4564618170261383, "optimizer_updates": 225, "improved": false, "best_epoch": 3, "patience_used": 6}
+{"epoch": 10, "loss": 0.03320201486349106, "val_loss": 0.4517744779586792, "optimizer_updates": 250, "improved": false, "best_epoch": 3, "patience_used": 7}
+{"epoch": 11, "loss": 0.03182138130068779, "val_loss": 0.4503076672554016, "optimizer_updates": 275, "improved": false, "best_epoch": 3, "patience_used": 8}
+{"epoch": 12, "loss": 0.030527282506227493, "val_loss": 0.45846083760261536, "optimizer_updates": 300, "improved": false, "best_epoch": 3, "patience_used": 9}
+{"epoch": 13, "loss": 0.029307054355740547, "val_loss": 0.4321943521499634, "optimizer_updates": 325, "improved": false, "best_epoch": 3, "patience_used": 10}

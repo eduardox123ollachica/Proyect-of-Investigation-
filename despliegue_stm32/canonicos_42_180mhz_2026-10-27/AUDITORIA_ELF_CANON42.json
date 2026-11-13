@@ -1,0 +1,627 @@
+{
+  "status": "PASS_ELF_CANON42_VERIFIED_PENDING_ARM",
+  "schema_version": 1,
+  "date_local": "2026-10-27",
+  "timezone": "America/Lima",
+  "firmware_elf_path": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\copia_aislada\\Prueba_2_CWRU_Extraccion\\Release_180MHz_Canon42_SR\\Prueba_2_CWRU_Extraccion.elf",
+  "firmware_elf_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "elf_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "build_report_sha256": "17044183489abacb3fa5098366e2bdc8cef495e8fc4eb48700f0f71badf3b860",
+  "map_sha256": "24b4141ae00ab6e1d04da2c51ed8c502d96a19518a5431ca9ad8fc9cd863132d",
+  "configuration": "Release_180MHz_Canon42_SR",
+  "build_seconds": 61.29699999999957,
+  "zero_errors_and_warnings": true,
+  "source_integrity_after_build": true,
+  "original_D_sources_verified": 1877,
+  "original_D_ELFs_verified": 17,
+  "preparation_manifest_sha256": "514c54360b77343ae3c2dd872941edf0fdad22e2216931ba63d03915472fa369",
+  "resource_manifest_sha256": "ad01c048f50b24880c3f567489a1d75fe4d433a81f3dd8d05b8178b4be3b6390",
+  "bank_manifest_sha256": "b43fd7ef371aaf844dc91861eed3e0a420d4420c90ae0802591dc1ff8b7df173",
+  "metadata_audit_sha256": "6d3ad7dbd4fc42fe5902d35230c56c2fa9c9dd85107333ac3c8090a459b1c6f7",
+  "kernel_audit_sha256": "d693735766a9bf468d4c8bc54f11e4b21f459ddced1f96b815eb12009ea4ce64",
+  "catalog_sha256": "e7a0c848ccb293c3dd95c9e150e8e6909f6ae6b82c3ec90e6332faebbc2a6fdd",
+  "catalog_fnv": "ef55c4a4",
+  "model_count": 8,
+  "model_payload_bytes": 28688,
+  "models": [
+    {
+      "id": 0,
+      "representative_id": "outer0_F14_e45_s42",
+      "model_sha256": "77c251f32ae70a4f963a18f1485fe8c7840c86dfac2ffaacc517c0ffd1bfde45",
+      "model_fnv": "60a7e4d4",
+      "params_fnv": "7ff68d8f",
+      "model_bytes": 3648,
+      "params_sha256": "26fcf5d9c6dc366780e1bb0b7c548b52dbbe169b2c63c3c478f2ad3571f0f778",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801b254",
+      "model_address": "08021e80",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2d520c"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 1,
+      "representative_id": "outer0_T6_e47_s42",
+      "model_sha256": "5d85dd41282dfa78621b8f2fcea77e6bc08de85873eb7857e909b66e52309a68",
+      "model_fnv": "d9859b8c",
+      "params_fnv": "b210b602",
+      "model_bytes": 3488,
+      "params_sha256": "ca4bdd130d1f6ee8885984e493e26a7b66ef37320db9aa4580a66f086e7eba1b",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801b39c",
+      "model_address": "080210e0",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2d520c"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 2,
+      "representative_id": "outer1_F14_e14_s42",
+      "model_sha256": "045129e32dee3b8a79ba705b4aba776ca33b803e944afccc3bc30c7befeb477c",
+      "model_fnv": "b001abbb",
+      "params_fnv": "df624687",
+      "model_bytes": 3648,
+      "params_sha256": "2b9db63fd2995978ba1d0112e4448450d83590e6f360ef79a1c1f783235236ac",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801b4e4",
+      "model_address": "080202a0",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d31b060"
+          ],
+          "zero_points": [
+            -16
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 3,
+      "representative_id": "outer1_FE7_e27_s42",
+      "model_sha256": "af40bfb7aa286e95797981bbe8e4af774f37007e07203f35741970910c399e99",
+      "model_fnv": "8bc1bf43",
+      "params_fnv": "de521f49",
+      "model_bytes": 3512,
+      "params_sha256": "e5b6bec47eaa1633a8b833e786b2aa06cc7ba169ea12885ad60f01590f594395",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801b62c",
+      "model_address": "0801f4e0",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d0e0bb2"
+          ],
+          "zero_points": [
+            -27
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 4,
+      "representative_id": "outer2_F14_e19_s42",
+      "model_sha256": "15298a0b330849169710c55a5361063caabe5fda9db7becb665cd97bbe4f25e1",
+      "model_fnv": "cbc8f2af",
+      "params_fnv": "9eecd91a",
+      "model_bytes": 3648,
+      "params_sha256": "de3de962f5fb13cddffca7dc316f57ce3d74b30c756f245fab8b0b1815b24771",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801b774",
+      "model_address": "0801e6a0",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d363274"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 5,
+      "representative_id": "outer2_T6_e32_s42",
+      "model_sha256": "52774addea1efea1c71b531cec29e6729bab78162fc70dc9b0216c8aa7728ad6",
+      "model_fnv": "52d715c0",
+      "params_fnv": "e7aa0911",
+      "model_bytes": 3488,
+      "params_sha256": "cef65d3f66bc1916b8f298de78a8296d046fa07277058eb24a8cd6df810761b1",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801b8bc",
+      "model_address": "0801d900",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d363274"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 6,
+      "representative_id": "outer3_F14_e9_s42",
+      "model_sha256": "a706ebb726e7fba4795498f72600e2918d2856c7bbd63560e26dc1af1f3cd404",
+      "model_fnv": "f0235191",
+      "params_fnv": "115f7a75",
+      "model_bytes": 3648,
+      "params_sha256": "397e6ecc2ce2a1e0ed5eff28179279877f6721abc489723b052c7efd31fee10d",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801ba04",
+      "model_address": "0801cac0",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d1e041e"
+          ],
+          "zero_points": [
+            -11
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 7,
+      "representative_id": "outer3_NF12_e47_s42",
+      "model_sha256": "9e2e760024197681aee58b7102906e84b5ba4ee7fb461b31947ce70511d9f4da",
+      "model_fnv": "6a9c8eb1",
+      "params_fnv": "9a1e4a1a",
+      "model_bytes": 3608,
+      "params_sha256": "79cb00a0f81d4224f580684d92e670e43f6ba641578528f82c1c6de7fd419253",
+      "parameter_bytes": 297,
+      "descriptor_address": "0801bb4c",
+      "model_address": "0801bca0",
+      "all_model_bytes_exact": true,
+      "all_parameter_bytes_exact": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d1e041e"
+          ],
+          "zero_points": [
+            -11
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    }
+  ],
+  "descriptor_stride_bytes": 328,
+  "descriptor_parameter_serialization_bytes": 297,
+  "memory": {
+    "flash_load_bytes": 185388,
+    "flash_capacity_bytes": 524288,
+    "flash_percent": 35.359954833984375,
+    "flash_program_segment_bytes": 185408,
+    "flash_program_address_span_bytes": 185408,
+    "flash_alignment_padding_bytes": 20,
+    "ram_static_including_linker_reservations_bytes": 88460,
+    "ram_capacity_bytes": 131072,
+    "ram_percent": 67.4896240234375,
+    "ram_address_span_bytes": 88464,
+    "ram_address_alignment_gap_bytes": 4,
+    "ram_unreserved_address_bytes": 42608,
+    "linker_symbols": {
+      "_Min_Heap_Size": 512,
+      "_Min_Stack_Size": 4096,
+      "_estack": 537001984,
+      "_end": 536954768
+    },
+    "heap_reservation_bytes": 512,
+    "stack_reservation_bytes": 4096,
+    "buffers": [
+      {
+        "name": "g_window",
+        "address": 536921568,
+        "bytes": 32768
+      },
+      {
+        "name": "g_fft_input",
+        "address": 536905184,
+        "bytes": 16384
+      },
+      {
+        "name": "g_fft_output",
+        "address": 536888800,
+        "bytes": 16384
+      },
+      {
+        "name": "_ZN12_GLOBAL__N_15arenaE",
+        "address": 536871904,
+        "bytes": 16384
+      }
+    ],
+    "one_reused_arena": true,
+    "arena_capacity_bytes": 16384,
+    "arena_used_pending_runtime": true,
+    "stack_high_water_or_WCET_claimed": false,
+    "Flash_is_eight_model_validation_harness": true
+  },
+  "post_code_symbol": {
+    "address": 134224197,
+    "bytes": 756
+  },
+  "reader_sha256": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b",
+  "audit_script_sha256": "d96a03dadda34de7c71a7fb9a770cc54096c388bbf398aa939f47647680504a0",
+  "seconds": 31.232123700000557,
+  "new_builds_executed": 0,
+  "classifier_invocations": 0,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "sources_modified": false,
+  "D_files_modified": false,
+  "limitations": [
+    "Static ELF review does not establish the identity of the image programmed on the board.",
+    "Physical RAW/POST gates, AllocateTensors arena usage and runtime equivalence remain pending.",
+    "Memory totals belong to an eight-model validation harness, not a final single-model firmware.",
+    "Linker stack reservation is not a runtime stack maximum; no WCET or timing measured here.",
+    "RAW coverage is partial: 56 unique windows, 42 development windows per model."
+  ]
+}

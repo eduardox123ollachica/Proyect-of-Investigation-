@@ -1,0 +1,284 @@
+{
+  "status": "PASS",
+  "scope": "first_inner_representative_only",
+  "job_id": "cost_outer0_inner1_F14_seed11",
+  "campaign": "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z",
+  "completed_jobs": [
+    "cost_outer0_inner1_F14_seed11"
+  ],
+  "remaining_jobs": 31,
+  "resumption_verified_without_execution": true,
+  "training_windows": 812,
+  "validation_windows": 393,
+  "training_records": [
+    "99",
+    "100",
+    "111",
+    "112",
+    "137",
+    "138",
+    "176",
+    "177",
+    "203",
+    "204",
+    "215",
+    "217",
+    "240",
+    "241"
+  ],
+  "validation_records": [
+    "98",
+    "110",
+    "136",
+    "175",
+    "202",
+    "214",
+    "239"
+  ],
+  "roles": {
+    "outer_load_hp": 0,
+    "inner_validation_load_hp": 1,
+    "development_loads": [
+      1,
+      2,
+      3
+    ],
+    "training_loads": [
+      2,
+      3
+    ],
+    "dnn_fit_loads": [
+      2,
+      3
+    ],
+    "int8_calibration_loads": [
+      2,
+      3
+    ],
+    "detector_fit_normal_loads": [
+      2
+    ],
+    "detector_calibration_normal_loads": [
+      3
+    ],
+    "evaluation_loads": [
+      1
+    ],
+    "outer_excluded_loads": [
+      0
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "detector_scopes": {
+    "fit": {
+      "windows": 58,
+      "file_ids": [
+        "99"
+      ],
+      "loads_hp": [
+        2
+      ]
+    },
+    "calibration": {
+      "windows": 58,
+      "file_ids": [
+        "100"
+      ],
+      "loads_hp": [
+        3
+      ]
+    }
+  },
+  "best_epoch": 48,
+  "epochs_executed": 50,
+  "optimizer_updates": 1300,
+  "metrics": {
+    "FP32": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          0,
+          161,
+          0
+        ],
+        [
+          0,
+          0,
+          174
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 58
+        },
+        {
+          "label": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 161
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 174
+        }
+      ]
+    },
+    "INT8": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          58,
+          0,
+          0
+        ],
+        [
+          0,
+          161,
+          0
+        ],
+        [
+          0,
+          0,
+          174
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 58
+        },
+        {
+          "label": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 161
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 174
+        }
+      ]
+    }
+  },
+  "detector_metrics": {
+    "normal_spec": 1.0,
+    "ir_recall": 1.0,
+    "or_recall": 1.0,
+    "fault_sensitivity": 1.0,
+    "balanced_accuracy": 1.0,
+    "BA": 1.0,
+    "per_record": [
+      {
+        "record_id": "110",
+        "label": 1,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "136",
+        "label": 2,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "175",
+        "label": 1,
+        "windows": 45,
+        "rejected_windows": 45,
+        "rate": 1.0
+      },
+      {
+        "record_id": "202",
+        "label": 2,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "214",
+        "label": 1,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "239",
+        "label": 2,
+        "windows": 58,
+        "rejected_windows": 58,
+        "rate": 1.0
+      },
+      {
+        "record_id": "98",
+        "label": 0,
+        "windows": 58,
+        "rejected_windows": 0,
+        "rate": 1.0
+      }
+    ]
+  },
+  "model_bytes": {
+    "FP32": 4064,
+    "INT8": 3648
+  },
+  "FP32_INT8_class_changes": 0,
+  "saturations": {
+    "training": 0,
+    "validation": 0,
+    "benchmark": 0
+  },
+  "process_and_audit_seconds": 14.577924400015036,
+  "worker_elapsed_seconds": 12.232390899996972,
+  "linear_remaining_31_seconds": 451.9156564004661,
+  "linear_estimate_not_ETA_or_bound": true,
+  "remaining_campaign_limit_seconds": 7185.422075599985,
+  "benchmark_rows": 28,
+  "benchmark_repetitions_planned_not_run": 3,
+  "STM32_cost_measured": false,
+  "outer_predictive_evaluation_executed": false,
+  "raw_source_feature_arrays_opened_in_audit": false,
+  "cached_feature_file_hashes_checked": true,
+  "new_training_fits": 0,
+  "new_model_inferences": 0,
+  "sklearn_or_tensorflow_imported": false,
+  "historical_cache_may_contain_excluded_rows": true,
+  "limitations": [
+    "Internal validation for one load/seed/mask, not final independent evaluation.",
+    "Operator metadata and saved outputs audited; no fresh TFLite inference or independent FlatBuffer parser.",
+    "Source provenance and intended row roles do not constitute an OS access trace."
+  ],
+  "next_command": [
+    "python3.12.exe",
+    "-B",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\codigo\\cwru\\ampliacion_v2\\representantes\\ejecutar_representantes.py",
+    "--execute",
+    "--resume",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\resultados\\cwru\\ampliacion_v2\\representantes_v2_2026-10-25\\20261025T171847_957295Z",
+    "--limit",
+    "31"
+  ]
+}

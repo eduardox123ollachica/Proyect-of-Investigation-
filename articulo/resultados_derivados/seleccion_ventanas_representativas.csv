@@ -1,0 +1,4 @@
+split,class,label,file,window,start_sample,end_sample_exclusive,robust_center_distance,selection_criterion
+training,DETENIDO,0,DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s12.json,8,64,80,0.8930227802565778,minimum Euclidean distance to class median after global training median/IQR scaling
+training,VELOCIDAD MEDIA,1,VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s14.json,4,32,48,0.6161273626382825,minimum Euclidean distance to class median after global training median/IQR scaling
+training,VELOCIDAD ALTA,2,VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s12.json,15,120,136,0.9336688958926161,minimum Euclidean distance to class median after global training median/IQR scaling

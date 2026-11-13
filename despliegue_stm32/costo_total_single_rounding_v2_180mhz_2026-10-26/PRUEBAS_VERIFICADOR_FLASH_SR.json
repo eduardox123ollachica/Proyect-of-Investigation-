@@ -1,0 +1,28 @@
+{
+  "status": "PASS_SR_FLASH_VERIFIER_SYNTHETIC_TESTS",
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "exitcode": 0,
+  "unittest_seconds": 0.04,
+  "python": "C:\\Users\\LENOVO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_options": [
+    "-B"
+  ],
+  "source_sha256": "543beade5ac99ece2d6202620f737804fcc5bc4a9c0903cec18279e6e7606f0e",
+  "test_source_sha256": "28e0bf50dedcd49e25286e275f5ca92c49a4698f92ad24945e430923b356184b",
+  "tests_run": [
+    "test_command_is_read_only_fixed_and_confined",
+    "test_compares_physical_flash_and_initialized_RAM_while_ignoring_unspecified_bytes",
+    "test_cross_boundary_and_overlapping_segments_are_rejected",
+    "test_mismatch_and_incomplete_dump_are_rejected",
+    "test_programmer_identity_and_completed_read_are_required",
+    "test_timeout_terminates_without_retries_and_preserves_partial_output"
+  ],
+  "simulation_only": true,
+  "real_device_connections": 0,
+  "Flash_programming_or_erasing": false,
+  "serial_COM_opened": false,
+  "fixture_root": "ROOT/tmp/sr_flash_guard_*; absolute path checked before cleanup",
+  "result_origin": "Existing unittest invocation; not rerun by this report writer"
+}

@@ -1,0 +1,605 @@
+{
+  "status": "CLASSICAL_INNER_MATRIX_COMPLETE_AUDITED_READY_FOR_SELECTION_PREPARATION",
+  "date_local": "2026-10-27",
+  "timezone": "America/Lima",
+  "campaign": "resultados/cwru/ampliacion_v2/clasicos_internos_v2_2026-10-27/20261027T060928_938422Z",
+  "completed_fits": 384,
+  "RF_completed": 288,
+  "SVM_completed": 96,
+  "remaining_fits": 0,
+  "failed_fits": 0,
+  "automatic_retries": 0,
+  "campaign_execution_verification_seconds": 2535.8299999999945,
+  "campaign_execution_verification_minutes": 42.26383333333324,
+  "budget_seconds_remaining": 1064.1700000000055,
+  "budget_seconds_limit": 3600,
+  "family_descriptive": [
+    {
+      "family": "RF",
+      "cells": 288,
+      "mean_macro_f1": 0.9140359486838877,
+      "median_macro_f1": 0.9923365319315716,
+      "minimum_macro_f1": 0.523224043715847,
+      "maximum_macro_f1": 1.0,
+      "execution_verification_seconds": 1968.1269999999931,
+      "distinct_model_hashes": 144
+    },
+    {
+      "family": "SVM",
+      "cells": 96,
+      "mean_macro_f1": 0.7892713356651792,
+      "median_macro_f1": 0.9774903229181817,
+      "minimum_macro_f1": 0.16379310344827586,
+      "maximum_macro_f1": 1.0,
+      "execution_verification_seconds": 567.7030000000013,
+      "distinct_model_hashes": 48
+    }
+  ],
+  "validation_load_descriptive": [
+    {
+      "family": "RF",
+      "inner_validation_load_hp": 0,
+      "cells": 72,
+      "mean_macro_f1": 0.6749089096464403,
+      "mean_normal_recall": 0.3392857142857143,
+      "cells_with_zero_normal_recall": 18
+    },
+    {
+      "family": "RF",
+      "inner_validation_load_hp": 1,
+      "cells": 72,
+      "mean_macro_f1": 0.9990591802103107,
+      "mean_normal_recall": 1.0,
+      "cells_with_zero_normal_recall": 0
+    },
+    {
+      "family": "RF",
+      "inner_validation_load_hp": 2,
+      "cells": 72,
+      "mean_macro_f1": 0.9924930237845031,
+      "mean_normal_recall": 1.0,
+      "cells_with_zero_normal_recall": 0
+    },
+    {
+      "family": "RF",
+      "inner_validation_load_hp": 3,
+      "cells": 72,
+      "mean_macro_f1": 0.9896826810942967,
+      "mean_normal_recall": 1.0,
+      "cells_with_zero_normal_recall": 0
+    },
+    {
+      "family": "SVM",
+      "inner_validation_load_hp": 0,
+      "cells": 24,
+      "mean_macro_f1": 0.2664201504683972,
+      "mean_normal_recall": 0.0,
+      "cells_with_zero_normal_recall": 24
+    },
+    {
+      "family": "SVM",
+      "inner_validation_load_hp": 1,
+      "cells": 24,
+      "mean_macro_f1": 0.953530397109732,
+      "mean_normal_recall": 1.0,
+      "cells_with_zero_normal_recall": 0
+    },
+    {
+      "family": "SVM",
+      "inner_validation_load_hp": 2,
+      "cells": 24,
+      "mean_macro_f1": 0.9746987465279173,
+      "mean_normal_recall": 1.0,
+      "cells_with_zero_normal_recall": 0
+    },
+    {
+      "family": "SVM",
+      "inner_validation_load_hp": 3,
+      "cells": 24,
+      "mean_macro_f1": 0.9624360485546704,
+      "mean_normal_recall": 1.0,
+      "cells_with_zero_normal_recall": 0
+    }
+  ],
+  "RF_seed_descriptive": [
+    {
+      "seed": 11,
+      "cells": 96,
+      "mean_macro_f1": 0.9074298722581158
+    },
+    {
+      "seed": 22,
+      "cells": 96,
+      "mean_macro_f1": 0.9416423879227847
+    },
+    {
+      "seed": 33,
+      "cells": 96,
+      "mean_macro_f1": 0.8930355858707627
+    }
+  ],
+  "worst_cells_by_family": {
+    "RF": [
+      {
+        "job_id": "clasico_outer2_inner0_RF_c00_s11",
+        "family": "RF",
+        "config_index": 0,
+        "seed": 11,
+        "params": {
+          "n_estimators": 100,
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt",
+          "criterion": "gini",
+          "bootstrap": true,
+          "class_weight": "balanced",
+          "n_jobs": 1,
+          "random_state": 11
+        },
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "training_windows": 799,
+        "validation_windows": 175,
+        "macro_f1": 0.523224043715847,
+        "accuracy": 0.7142857142857143,
+        "metrics": {
+          "accuracy": 0.7142857142857143,
+          "macro_f1": 0.523224043715847,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              28
+            ],
+            [
+              0,
+              50,
+              12
+            ],
+            [
+              0,
+              10,
+              75
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 28
+            },
+            {
+              "label": 1,
+              "precision": 0.8333333333333334,
+              "recall": 0.8064516129032258,
+              "f1": 0.819672131147541,
+              "support": 62
+            },
+            {
+              "label": 2,
+              "precision": 0.6521739130434783,
+              "recall": 0.8823529411764706,
+              "f1": 0.75,
+              "support": 85
+            }
+          ]
+        },
+        "normal_recall": 0.0,
+        "fit_signature": "d4ef27ab4edc847a175096bec3210438c48e38b5243d459cd0294efdbee9ec6b",
+        "model_sha256": "dd0286d45a61e5217d109e3b5cf1ec3d212ba32ab017ec38ec30ad5678a910cd",
+        "model_bytes": 33979,
+        "support_vectors_dtype": null,
+        "execution_verification_seconds": 6.0939999999973224,
+        "result_sha256": "4c53ac4937c9927746666532b855a83940d2e5bda855e1930e8402cc77b3a657"
+      },
+      {
+        "job_id": "clasico_outer2_inner0_RF_c00_s33",
+        "family": "RF",
+        "config_index": 0,
+        "seed": 33,
+        "params": {
+          "n_estimators": 100,
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt",
+          "criterion": "gini",
+          "bootstrap": true,
+          "class_weight": "balanced",
+          "n_jobs": 1,
+          "random_state": 33
+        },
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "training_windows": 799,
+        "validation_windows": 175,
+        "macro_f1": 0.523224043715847,
+        "accuracy": 0.7142857142857143,
+        "metrics": {
+          "accuracy": 0.7142857142857143,
+          "macro_f1": 0.523224043715847,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              28
+            ],
+            [
+              0,
+              50,
+              12
+            ],
+            [
+              0,
+              10,
+              75
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 28
+            },
+            {
+              "label": 1,
+              "precision": 0.8333333333333334,
+              "recall": 0.8064516129032258,
+              "f1": 0.819672131147541,
+              "support": 62
+            },
+            {
+              "label": 2,
+              "precision": 0.6521739130434783,
+              "recall": 0.8823529411764706,
+              "f1": 0.75,
+              "support": 85
+            }
+          ]
+        },
+        "normal_recall": 0.0,
+        "fit_signature": "5385ce78dc040b5f9da8789462227f1bc9011f48df0ce6d2d3c85602c9271197",
+        "model_sha256": "cbb9b0b09f85e99aad860da8ba1eaccc4aa743e2cd1a87dbaf426a0494871119",
+        "model_bytes": 33015,
+        "support_vectors_dtype": null,
+        "execution_verification_seconds": 6.093000000000757,
+        "result_sha256": "c1744604da5706f8f27d7bfd5c0ea64f791989146fe027c257b0c05f4f2fb910"
+      },
+      {
+        "job_id": "clasico_outer2_inner0_RF_c01_s11",
+        "family": "RF",
+        "config_index": 1,
+        "seed": 11,
+        "params": {
+          "n_estimators": 100,
+          "max_depth": null,
+          "min_samples_leaf": 3,
+          "max_features": "sqrt",
+          "criterion": "gini",
+          "bootstrap": true,
+          "class_weight": "balanced",
+          "n_jobs": 1,
+          "random_state": 11
+        },
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "training_windows": 799,
+        "validation_windows": 175,
+        "macro_f1": 0.523224043715847,
+        "accuracy": 0.7142857142857143,
+        "metrics": {
+          "accuracy": 0.7142857142857143,
+          "macro_f1": 0.523224043715847,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              28
+            ],
+            [
+              0,
+              50,
+              12
+            ],
+            [
+              0,
+              10,
+              75
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 28
+            },
+            {
+              "label": 1,
+              "precision": 0.8333333333333334,
+              "recall": 0.8064516129032258,
+              "f1": 0.819672131147541,
+              "support": 62
+            },
+            {
+              "label": 2,
+              "precision": 0.6521739130434783,
+              "recall": 0.8823529411764706,
+              "f1": 0.75,
+              "support": 85
+            }
+          ]
+        },
+        "normal_recall": 0.0,
+        "fit_signature": "0105b9e4e80d077455973aae364b1d6940c62f734556500234ac402f22a5e79e",
+        "model_sha256": "eabcb891b9633c5292ba53534d8d2cf727d83652eea960b07fbfb345a8ce75dd",
+        "model_bytes": 34254,
+        "support_vectors_dtype": null,
+        "execution_verification_seconds": 6.031999999999243,
+        "result_sha256": "0735e6ed14b888b60afea69a227af6a12de298231fa98494aef7117f271048de"
+      }
+    ],
+    "SVM": [
+      {
+        "job_id": "clasico_outer2_inner0_SVM_c03_snone",
+        "family": "SVM",
+        "config_index": 3,
+        "seed": null,
+        "params": {
+          "C": 1,
+          "gamma": 0.01,
+          "kernel": "rbf",
+          "class_weight": "balanced",
+          "probability": false,
+          "tol": 0.001,
+          "cache_size": 200,
+          "shrinking": true,
+          "max_iter": -1,
+          "decision_function_shape": "ovr",
+          "break_ties": false
+        },
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "training_windows": 799,
+        "validation_windows": 175,
+        "macro_f1": 0.16379310344827586,
+        "accuracy": 0.32571428571428573,
+        "metrics": {
+          "accuracy": 0.32571428571428573,
+          "macro_f1": 0.16379310344827586,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              28
+            ],
+            [
+              0,
+              0,
+              62
+            ],
+            [
+              0,
+              28,
+              57
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 28
+            },
+            {
+              "label": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 62
+            },
+            {
+              "label": 2,
+              "precision": 0.3877551020408163,
+              "recall": 0.6705882352941176,
+              "f1": 0.49137931034482757,
+              "support": 85
+            }
+          ]
+        },
+        "normal_recall": 0.0,
+        "fit_signature": "ad6c15237bd81de2294fd1f177591e53496433e83da055ffe1f64d6926065b6e",
+        "model_sha256": "0d1fccf4b210ac3a92fdbda1af088e4bd0dc277aae3e1570d6263b041759ad52",
+        "model_bytes": 16274,
+        "support_vectors_dtype": "float64",
+        "execution_verification_seconds": 7.0,
+        "result_sha256": "098e656cc3656f7950855fd520eaf86b72cb22ce54c73aabcedb922378160a40"
+      },
+      {
+        "job_id": "clasico_outer2_inner0_SVM_c05_snone",
+        "family": "SVM",
+        "config_index": 5,
+        "seed": null,
+        "params": {
+          "C": 10,
+          "gamma": 0.01,
+          "kernel": "rbf",
+          "class_weight": "balanced",
+          "probability": false,
+          "tol": 0.001,
+          "cache_size": 200,
+          "shrinking": true,
+          "max_iter": -1,
+          "decision_function_shape": "ovr",
+          "break_ties": false
+        },
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "training_windows": 799,
+        "validation_windows": 175,
+        "macro_f1": 0.17971014492753623,
+        "accuracy": 0.33714285714285713,
+        "metrics": {
+          "accuracy": 0.33714285714285713,
+          "macro_f1": 0.17971014492753623,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              28
+            ],
+            [
+              0,
+              2,
+              60
+            ],
+            [
+              0,
+              28,
+              57
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 28
+            },
+            {
+              "label": 1,
+              "precision": 0.06666666666666667,
+              "recall": 0.03225806451612903,
+              "f1": 0.043478260869565216,
+              "support": 62
+            },
+            {
+              "label": 2,
+              "precision": 0.3931034482758621,
+              "recall": 0.6705882352941176,
+              "f1": 0.4956521739130435,
+              "support": 85
+            }
+          ]
+        },
+        "normal_recall": 0.0,
+        "fit_signature": "1fa2d3dd776fbd5a967556df33268e1554b100b8fc780cbf3b01c1767ab1a5b3",
+        "model_sha256": "6c6b331da0756848712312b7935416bdec293c1bbd5f778a1055845671214561",
+        "model_bytes": 4968,
+        "support_vectors_dtype": "float64",
+        "execution_verification_seconds": 6.9060000000026776,
+        "result_sha256": "1280bdfb465ece10ab9f7f1c3836961d5f210e7a7d1b573340ea0605878cac76"
+      },
+      {
+        "job_id": "clasico_outer2_inner0_SVM_c07_snone",
+        "family": "SVM",
+        "config_index": 7,
+        "seed": null,
+        "params": {
+          "C": 100,
+          "gamma": 0.01,
+          "kernel": "rbf",
+          "class_weight": "balanced",
+          "probability": false,
+          "tol": 0.001,
+          "cache_size": 200,
+          "shrinking": true,
+          "max_iter": -1,
+          "decision_function_shape": "ovr",
+          "break_ties": false
+        },
+        "outer_load_hp": 2,
+        "inner_validation_load_hp": 0,
+        "training_windows": 799,
+        "validation_windows": 175,
+        "macro_f1": 0.17971014492753623,
+        "accuracy": 0.33714285714285713,
+        "metrics": {
+          "accuracy": 0.33714285714285713,
+          "macro_f1": 0.17971014492753623,
+          "confusion_matrix": [
+            [
+              0,
+              0,
+              28
+            ],
+            [
+              0,
+              2,
+              60
+            ],
+            [
+              0,
+              28,
+              57
+            ]
+          ],
+          "per_class": [
+            {
+              "label": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 28
+            },
+            {
+              "label": 1,
+              "precision": 0.06666666666666667,
+              "recall": 0.03225806451612903,
+              "f1": 0.043478260869565216,
+              "support": 62
+            },
+            {
+              "label": 2,
+              "precision": 0.3931034482758621,
+              "recall": 0.6705882352941176,
+              "f1": 0.4956521739130435,
+              "support": 85
+            }
+          ]
+        },
+        "normal_recall": 0.0,
+        "fit_signature": "3293484a7aed3521a5b9f371a608b04bf7945a01e78905da09f71eff14ebff1f",
+        "model_sha256": "eed1d75db627b8e604117e66c18edb17fee64a7db4f70c1248a74cff0564cd78",
+        "model_bytes": 3471,
+        "support_vectors_dtype": "float64",
+        "execution_verification_seconds": 7.10899999999674,
+        "result_sha256": "982d2847720c7365ad53150559839e7c4cbd0970fee8216d58051a6a24b0867a"
+      }
+    ]
+  },
+  "distinct_training_scopes": 192,
+  "identical_model_hashes_for_swapped_roles_confirmed": true,
+  "model_identity_is_not_independent_physical_evidence": true,
+  "authenticated_joblib_models_reloaded": 384,
+  "stored_predictions_replayed": 384,
+  "SVM_train_only_scalers_reconstructed": 96,
+  "RF_without_scaler": true,
+  "SVC_native_predict_rule_preserved": true,
+  "metadata_plan_snapshot_verified_before_and_after": true,
+  "new_RF_SVM_training_fits_by_auditor": 0,
+  "fit_methods_blocked_during_audit": true,
+  "model_prediction_replays_are_saved_internal_evaluations_not_new_test_data": true,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "selection_executed": false,
+  "outer_evaluation_executed": false,
+  "manuscript_modified": false,
+  "source_campaign_manifest_sha256": "065f01e76136d42b76c1d9058c9d9a6921542e67761a185a815c3f3ec5d245e5",
+  "preparation_manifest_sha256": "a1163dfd4be7d2b32a69e14ab399d5beeedb662320e73d7bada3ae1a594b20a0",
+  "next_stage": "Prepare and audit selectors using288DNN+96detector+384classical cells and validated total costs; lock all four scenarios before outer refits/evaluation.",
+  "qualifications": [
+    "Global grid means are descriptive, not performance of selected final procedures.",
+    "Each outer scenario must select only with its internal data; outer predictions are not released.",
+    "SVM uses one deterministic fit per configuration/fold; it has no three-seed replication.",
+    "Training and validation cells are dependent; no IID CI or claim of independent motors is made.",
+    "Results, grids and engineering margins remain unchanged after observing the metrics."
+  ],
+  "audit_seconds": 70.95236750000186
+}

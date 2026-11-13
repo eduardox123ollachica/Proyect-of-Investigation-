@@ -1,0 +1,26 @@
+{
+  "job_ids": [
+    "inner_outer0_inner1_F14_seed33",
+    "inner_outer0_inner1_T6_seed22",
+    "inner_outer0_inner1_T6_seed33",
+    "inner_outer0_inner1_S8_seed22",
+    "inner_outer0_inner1_S8_seed33",
+    "inner_outer0_inner1_NF12_seed22",
+    "inner_outer0_inner1_NF12_seed33",
+    "inner_outer0_inner1_NM10_seed22",
+    "inner_outer0_inner1_NM10_seed33",
+    "inner_outer0_inner1_NE12_seed22",
+    "inner_outer0_inner1_NE12_seed33",
+    "inner_outer0_inner1_DE7_seed22",
+    "inner_outer0_inner1_DE7_seed33",
+    "inner_outer0_inner1_FE7_seed22",
+    "inner_outer0_inner1_FE7_seed33",
+    "inner_outer0_inner2_F14_seed11"
+  ],
+  "completed_before": [
+    "inner_outer0_inner1_F14_seed22"
+  ],
+  "consumed_worker_seconds_before": 50.5779999999977,
+  "max_new_jobs": 16,
+  "max_seconds": 1800
+}

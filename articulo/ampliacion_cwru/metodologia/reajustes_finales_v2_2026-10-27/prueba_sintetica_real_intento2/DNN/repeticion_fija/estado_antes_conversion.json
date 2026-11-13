@@ -1,0 +1,38 @@
+{
+  "final_epoch": 2,
+  "fixed_epochs": 2,
+  "epochs_executed": 2,
+  "optimizer_updates": 4,
+  "weights_restored": false,
+  "early_stopping_used": false,
+  "validation_used": false,
+  "model_weights_sha256": "f2a3c502b6552ad8439bd8e2417e950e730c8ad952b2fac84aa680550fe2a9b5",
+  "class_counts": [
+    14,
+    14,
+    14
+  ],
+  "class_weights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "training_timing_seconds": {
+    "training_updates": 0.10310950000712182,
+    "epoch_training_diagnostics": 0.025834300002316013
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.1038744449615479,
+      "optimizer_updates": 2
+    },
+    {
+      "epoch": 2,
+      "loss": 0.9964357018470764,
+      "optimizer_updates": 4
+    }
+  ],
+  "training_loss": "mean_class_balanced_weighted_sparse_crossentropy_plus_L2",
+  "tracing_updates": 0
+}

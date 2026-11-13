@@ -1,0 +1,9 @@
+{
+  "scope": "inner_DNN_only_no_outer_evaluation_or_selection",
+  "execution_owner": "user_CLI",
+  "preparation_manifest_sha256": "011cffef5862a3cbd5277a96dfc0ea2c696762ddd53b90fed7fad718d7488295",
+  "plan_sha256": "a11f34140864ead3542df0909cca1dd2a11d69030867eaa50877b26429bee3b1",
+  "new_fits": 240,
+  "imported_cells": 48,
+  "automatic_retry": false
+}

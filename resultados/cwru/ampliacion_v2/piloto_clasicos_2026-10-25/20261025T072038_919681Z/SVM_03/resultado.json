@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "job_id": "SVM_03",
+  "family": "SVM",
+  "training_windows": 799,
+  "validation_windows": 175,
+  "timing_nonoverlapping_seconds": {
+    "imports": 3.1156923999951687,
+    "data_and_scaler": 0.2602238999970723,
+    "artifact_IO": 0.015056900010677055,
+    "fit": 0.015388300002086908,
+    "inference": 0.015840899999602698
+  },
+  "worker_elapsed_to_result_seconds": 3.5209215999930166,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1"
+  },
+  "metrics_used_for_selection": false,
+  "confirmatory_fit": false,
+  "no_load3_arrays_opened": true,
+  "no_TensorFlow_imported": true,
+  "no_STM32_latency_measured": true,
+  "source_data_job_id": "pilot_outer3_inner0_F14_seed11",
+  "final_result_write_and_exit_not_in_stage_times": true,
+  "config_index": 3,
+  "requested_params": {
+    "C": 1,
+    "gamma": 0.01,
+    "kernel": "rbf",
+    "class_weight": "balanced",
+    "probability": false,
+    "tol": 0.001,
+    "cache_size": 200,
+    "shrinking": true,
+    "max_iter": -1,
+    "decision_function_shape": "ovr",
+    "break_ties": false
+  },
+  "model_classes": [
+    0,
+    1,
+    2
+  ],
+  "prediction_sha256": "b71b28714c72eebd83cfa4f73389e17263029a50b5fbd38c625b929c035a7979",
+  "model_input_dtype": "float32",
+  "normalization": "train_only_scaler_explicit_float32",
+  "validation_labels_used_for_metrics": false,
+  "support_vectors_dtype": "float64"
+}

@@ -1,0 +1,12 @@
+../TFLM/tensorflow/lite/micro/micro_mutable_op_resolver.h:57:27:const TFLMRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 2]	6
+../TFLM/tensorflow/lite/micro/micro_mutable_op_resolver.h:51:7:virtual tflite::MicroMutableOpResolver<2>::~MicroMutableOpResolver()	1
+../CWRU_Canon8/cwru_total_nn.cpp:49:6:void {anonymous}::invalidate(int)	2
+../TFLM/tensorflow/lite/micro/micro_mutable_op_resolver.h:80:36:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 2]	5
+../TFLM/tensorflow/lite/micro/micro_mutable_op_resolver.h:69:27:const TFLMRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 2]	7
+../CWRU_Canon8/cwru_total_nn.cpp:81:16:int CWRUTNN_Select(uint32_t, uint32_t*, int*)	66
+../CWRU_Canon8/cwru_total_nn.cpp:167:16:int CWRUTNN_Predict(const int8_t*, uint8_t, int8_t*, int*)	12
+../CWRU_Canon8/cwru_total_nn.cpp:190:16:int CWRUTNN_Status()	1
+../CWRU_Canon8/cwru_total_nn.cpp:191:19:size_t CWRUTNN_ArenaUsed()	1
+../CWRU_Canon8/cwru_total_nn.cpp:192:21:uint32_t CWRUTNN_SelectedId()	1
+../CWRU_Canon8/cwru_total_nn.cpp:193:21:uint32_t CWRUTNN_ActualModelFNV()	5
+../CWRU_Canon8/cwru_total_nn.cpp:197:1:cpp)	1

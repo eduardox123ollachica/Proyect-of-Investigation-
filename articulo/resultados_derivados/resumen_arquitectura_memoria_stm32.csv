@@ -1,0 +1,4 @@
+resource,used_bytes,capacity_bytes,capacity_percent,scope
+int8_model_file,4480,524288,0.8544921875,archivo TFLite INT8
+full_firmware_flash,94200,524288,17.96722412109375,firmware completo E1/E4
+full_firmware_static_ram,19312,131072,14.73388671875,RAM estatica del firmware completo E1/E4

@@ -1,0 +1,223 @@
+
+================================================================================
+EXPERIMENTO 4 - BENCHMARK STM32
+================================================================================
+
+Plataforma:
+STM32 Nucleo-F446RE
+
+Ventanas analizadas:
+1332
+
+Frecuencia HCLK:
+16000000 Hz
+16.000000 MHz
+
+DWT CYCCNT:
+Habilitado
+
+Pipeline medido:
+
+ventana cruda 16x3
+-> FeatureExtraction_Extract()
+-> CMSIS-DSP FFT
+-> 21 features
+-> cuantización INT8
+-> TFLM / CMSIS-NN
+-> clasificación
+
+
+================================================================================
+VERIFICACIÓN FUNCIONAL
+================================================================================
+
+Clasificaciones correctas:
+1304/1332
+
+Accuracy:
+97.8979 %
+
+
+================================================================================
+PREPROCESAMIENTO / FEATURE EXTRACTION
+================================================================================
+
+Ciclos medios:
+46912.533
+
+Ciclos mínimos:
+46330
+
+Ciclos máximos:
+47112
+
+Tiempo medio:
+2932.033315 us
+
+Mediana:
+2933.718750 us
+
+Mínimo:
+2895.625000 us
+
+Máximo:
+2944.500000 us
+
+Desviación estándar:
+7.465390 us
+
+Percentil 95:
+2940.750000 us
+
+
+================================================================================
+INFERENCIA TINYML
+================================================================================
+
+Ciclos medios:
+11729.264
+
+Ciclos mínimos:
+10771
+
+Ciclos máximos:
+11898
+
+Tiempo medio:
+733.079017 us
+
+Mediana:
+738.406250 us
+
+Mínimo:
+673.187500 us
+
+Máximo:
+743.625000 us
+
+Desviación estándar:
+12.841190 us
+
+Percentil 95:
+742.465625 us
+
+
+================================================================================
+PIPELINE END-TO-END STM32
+================================================================================
+
+Ciclos medios:
+58660.797
+
+Ciclos mínimos:
+57691
+
+Ciclos máximos:
+59004
+
+Tiempo medio:
+3666.299831 us
+
+Mediana:
+3673.125000 us
+
+Mínimo:
+3605.687500 us
+
+Máximo:
+3687.750000 us
+
+Desviación estándar:
+15.346749 us
+
+Percentil 95:
+3681.250000 us
+
+
+================================================================================
+ACLARACIÓN
+================================================================================
+
+Los tiempos anteriores fueron obtenidos internamente mediante DWT->CYCCNT.
+
+No incluyen:
+
+- transmisión UART desde el PC,
+- recepción UART,
+- reconstrucción de la ventana en Python,
+- escritura del CSV,
+- pausas del script.
+
+Por tanto, representan el tiempo computacional interno del
+preprocesamiento y la inferencia en el microcontrolador.
+
+
+Pipeline:
+
+PC / Python
+   ↓
+lee metadata_features.csv
+   ↓
+ubica el JSON original correspondiente
+   ↓
+reconstruye una ventana de 16 muestras × 3 ejes
+   ↓
+48 valores crudos:
+ax0, ay0, az0, ..., ax15, ay15, az15
+   ↓
+construye comando:
+BENCHRAW,<48 valores>
+   ↓
+UART COM4, 115200
+   ↓
+STM32 recibe la trama
+   ↓
+parsea los 48 valores con strtok/strtof
+   ↓
+[ESTO NO SE MIDE]
+   ↓
+──────────── INICIO BENCHMARK DWT ────────────
+   ↓
+FeatureExtraction_Extract()
+   ↓
+CMSIS-DSP FFT de 16 puntos
+   ↓
+genera 21 características
+   ↓
+TinyML_Predict()
+   ↓
+cuantización INT8
+   ↓
+TFLM / CMSIS-NN
+   ↓
+clase predicha
+   ↓
+──────────── FIN BENCHMARK DWT ───────────────
+   ↓
+calcula:
+ciclos_features
+ciclos_inferencia
+ciclos_total
+   ↓
+STM32 responde:
+BENCHRAW,clase,ciclos_features,ciclos_inferencia,ciclos_total
+   ↓
+UART
+   ↓
+Python recibe la respuesta
+   ↓
+convierte ciclos a tiempo usando HCLK = 16 MHz
+   ↓
+guarda resultados por ventana
+   ↓
+repite para 1332 ventanas
+   ↓
+calcula:
+media
+mediana
+mínimo
+máximo
+desviación estándar
+percentil 95
+   ↓
+genera CSV + resumen final

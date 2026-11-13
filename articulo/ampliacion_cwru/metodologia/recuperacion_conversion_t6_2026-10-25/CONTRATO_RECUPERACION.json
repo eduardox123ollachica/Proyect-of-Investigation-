@@ -1,0 +1,15 @@
+{
+  "scope": "T6_checkpoint_export_only",
+  "maximum_training_updates": 0,
+  "maximum_model_conversions": 2,
+  "timeout_worker_seconds": 300,
+  "mass_training_enabled": false,
+  "outer_predictive_evaluation_enabled": false,
+  "prior_run": "resultados/cwru/ampliacion_v2/piloto_tiempo_exportacion_v2_2026-10-25/20261025T063627_547883Z",
+  "prior_manifest_sha256": "a55f31bcaacdc33ac356c252baf1d8e9a93fdfa08b52f9f56127d21f1514768b",
+  "source_sha256": "eaa05974c8d815153e91b0baf22a381b0521dfdb11361e7cc932fedb2b3b4219",
+  "no_F14_rerun": true,
+  "no_T6_retraining": true,
+  "fix": "Compare unfrozen and frozen ConcreteFunctions with identical batch size 1, preserving prior tolerance.",
+  "automatic_retry": false
+}

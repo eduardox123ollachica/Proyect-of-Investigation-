@@ -1,0 +1,8 @@
+{
+  "job_ids": [
+    "cost_outer0_inner1_F14_seed11"
+  ],
+  "completed_before": [],
+  "consumed_worker_seconds_before": 0.0,
+  "user_requested_limit": 1
+}

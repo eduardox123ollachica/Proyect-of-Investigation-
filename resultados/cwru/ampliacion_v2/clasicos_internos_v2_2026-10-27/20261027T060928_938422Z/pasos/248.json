@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "job_id": "clasico_outer2_inner1_SVM_c00_snone",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 6.0310000000026776,
+  "timeout_seconds": 30,
+  "automatic_retry": false
+}

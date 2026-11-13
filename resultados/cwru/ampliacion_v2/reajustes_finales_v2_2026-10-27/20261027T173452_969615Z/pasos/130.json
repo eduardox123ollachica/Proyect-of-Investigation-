@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "job_id": "outer3_detector_06",
+  "family": "detector",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 3.922000000005937,
+  "timeout_seconds": 60,
+  "automatic_retry": false
+}

@@ -1,0 +1,43 @@
+{
+  "status": "DIAGNOSIS_CLOSED_NO_PROTOCOL_AMENDMENT_EXECUTED",
+  "numerical_diagnostic_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "executable": "C:/Users/LENOVO/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "script": "codigo/cwru/ampliacion_v2/analisis/diagnosticar_representantes_v2.py"
+  },
+  "report_and_figure_runtime": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "matplotlib": "3.10.8",
+    "script": "codigo/cwru/ampliacion_v2/analisis/documentar_diagnostico_representantes_v2.py",
+    "uses_saved_diagnostic_JSON_only": true
+  },
+  "rendering_note": "The bundled runtime lacks matplotlib. The report generator initially stopped before output generation; it then used the installed project runtime without installing packages.",
+  "visual_QA": "Both final PNG figures inspected; labels, legends and notes readable. Two figures, each in PNG and PDF.",
+  "scientific_interpretation": {
+    "normal_0HP_representation_shift_confirmed": true,
+    "load_effect_separable_from_record_acquisition_effect": false,
+    "original_sampling_rate_proven_incorrect": false,
+    "original_scaling_or_quantization_implementation_error_found": false,
+    "input_range_limiting_reproduces_much_of_F14_quantization_degradation": true,
+    "normality_rejection_explained_numerically_by_normal_only_domain_shift": true,
+    "new_training_fits": 0,
+    "diagnostic_NumPy_forward_rows": 22032,
+    "new_TFLite_invocations": 0,
+    "outer_predictive_evaluation": false
+  },
+  "next_stage_proposed_not_implemented": [
+    "Write a limited development supplement before any new training, keeping the 32 original representatives and all existing seals.",
+    "Retain the original preprocessing as reference and evaluate a predefined train-only compression of nonnegative RMS/energy/amplitude features if justified; no validation data in quantization calibration.",
+    "Evaluate all predefined representation choices with the planned inner loads/seeds before selecting NF12 or any other mask.",
+    "For normality, distinguish rejection of the observed healthy domain from confirmation of fault. Define per-record specificity requirements and a role-preserving alternative before changing indices or thresholds.",
+    "Do not delete/relabel normal MAT97, silently alter sampling rate, raise thresholds using failed validation normals, or merge versions of model metrics and hardware costs.",
+    "Keep the 50-vs100 epoch sensitivity separate; raising only the cap cannot extend the 26 trajectories already stopped by patience.",
+    "After a protocol decision, freeze the executor and budget and give the user the exact command for any long execution. No long run launched by the agent."
+  ],
+  "current_protocol_changed": false,
+  "hardware_firmware_changed": false,
+  "manuscript_changed": false,
+  "STM32_total_cost_measured": false
+}

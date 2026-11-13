@@ -1,0 +1,3 @@
+experimento,semilla,accuracy_train_final_percent,accuracy_keras_test_percent,accuracy_int8_test_percent,errores_keras_total,errores_keras_media_a_detenido,mediana_margen_media_detenido,p10_margen_media_detenido,minimo_margen_media_detenido,predicciones_cambiadas_fp32_int8,delta_int8_vs_keras_pp
+E1,44,99.789559841156,99.92492492492492,99.92492492492492,1,0,0.9997031188650001,0.998389825254,0.9526127200000001,0,0.0
+E4,44,99.7053861618042,95.1951951951952,95.12012012012012,64,63,0.99988405268,-0.98677812035,-0.9999108843800599,1,-0.07507507507507061

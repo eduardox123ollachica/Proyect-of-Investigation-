@@ -1,0 +1,534 @@
+{
+  "status": "CLASSICAL_PILOT_AUDITED_NO_RETRAINING",
+  "generated_utc": "2026-10-25T07:31:30.169987+00:00",
+  "run": "resultados/cwru/ampliacion_v2/piloto_clasicos_2026-10-25/20261025T072038_919681Z",
+  "jobs_passed": 17,
+  "failed_or_timeout_jobs": 0,
+  "observed_orchestrator_seconds": 62.68714809999801,
+  "observed_worker_seconds": 62.451124899991555,
+  "observed_families": {
+    "RF": {
+      "processes": 8,
+      "observed_worker_seconds": 32.040792499974486
+    },
+    "SVM": {
+      "processes": 8,
+      "observed_worker_seconds": 27.11557810002705
+    },
+    "DETECTOR": {
+      "processes": 1,
+      "observed_worker_seconds": 3.294754299990018
+    }
+  },
+  "classifier_rows": [
+    {
+      "job_id": "RF_00",
+      "family": "RF",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 3.5866537999972934,
+      "stages_seconds": {
+        "imports": 2.777877599990461,
+        "data_and_scaler": 0.07136489999538753,
+        "artifact_IO": 0.03339580001193099,
+        "fit": 0.2346104999887757,
+        "inference": 0.012879500005510636
+      }
+    },
+    {
+      "job_id": "RF_01",
+      "family": "RF",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 3.0004672999930335,
+      "stages_seconds": {
+        "imports": 2.317121000000043,
+        "data_and_scaler": 0.05960589999449439,
+        "artifact_IO": 0.005456899976707064,
+        "fit": 0.20712819999607746,
+        "inference": 0.012287400008062832
+      }
+    },
+    {
+      "job_id": "RF_02",
+      "family": "RF",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 12,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 2.821030699997209,
+      "stages_seconds": {
+        "imports": 2.353791400004411,
+        "data_and_scaler": 0.030092799992416985,
+        "artifact_IO": 0.0032355000148527324,
+        "fit": 0.11376740000559948,
+        "inference": 0.006554999999934807
+      }
+    },
+    {
+      "job_id": "RF_03",
+      "family": "RF",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 12,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 2.1391316000081133,
+      "stages_seconds": {
+        "imports": 1.329816799989203,
+        "data_and_scaler": 0.0489190999942366,
+        "artifact_IO": 0.005751099990447983,
+        "fit": 0.3317423999978928,
+        "inference": 0.017484700001659803
+      }
+    },
+    {
+      "job_id": "RF_04",
+      "family": "RF",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 4.336585599987302,
+      "stages_seconds": {
+        "imports": 2.425808700005291,
+        "data_and_scaler": 0.06339299998944625,
+        "artifact_IO": 0.007840499994927086,
+        "fit": 1.1715275000024121,
+        "inference": 0.10262330000114162
+      }
+    },
+    {
+      "job_id": "RF_05",
+      "family": "RF",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 5.474804699988454,
+      "stages_seconds": {
+        "imports": 2.575192300006165,
+        "data_and_scaler": 0.062431899990770034,
+        "artifact_IO": 0.006894100006320514,
+        "fit": 1.4598342000099365,
+        "inference": 0.10642640000151005
+      }
+    },
+    {
+      "job_id": "RF_06",
+      "family": "RF",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 12,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 6.5238689000107115,
+      "stages_seconds": {
+        "imports": 2.825466200010851,
+        "data_and_scaler": 0.21512920000532176,
+        "artifact_IO": 0.010327099997084588,
+        "fit": 2.6494074999936856,
+        "inference": 0.0660580999974627
+      }
+    },
+    {
+      "job_id": "RF_07",
+      "family": "RF",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 12,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      },
+      "process_seconds": 4.15824989999237,
+      "stages_seconds": {
+        "imports": 2.525183699995978,
+        "data_and_scaler": 0.05970090000482742,
+        "artifact_IO": 0.007854099982068874,
+        "fit": 0.9105943999893498,
+        "inference": 0.07522509999398608
+      }
+    },
+    {
+      "job_id": "SVM_00",
+      "family": "SVM",
+      "params": {
+        "C": 0.1,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.294493599998532,
+      "stages_seconds": {
+        "imports": 2.6060547000088263,
+        "data_and_scaler": 0.0817728999973042,
+        "artifact_IO": 0.012562999996589497,
+        "fit": 0.034245900009409525,
+        "inference": 0.014166799999657087
+      }
+    },
+    {
+      "job_id": "SVM_01",
+      "family": "SVM",
+      "params": {
+        "C": 0.1,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.3902077000093414,
+      "stages_seconds": {
+        "imports": 2.718477400005213,
+        "data_and_scaler": 0.07866240000294056,
+        "artifact_IO": 0.00988149999466259,
+        "fit": 0.020953600003849715,
+        "inference": 0.02739869999641087
+      }
+    },
+    {
+      "job_id": "SVM_02",
+      "family": "SVM",
+      "params": {
+        "C": 1,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.1448222000035457,
+      "stages_seconds": {
+        "imports": 2.5207385000103386,
+        "data_and_scaler": 0.08627549999800976,
+        "artifact_IO": 0.009525599962216802,
+        "fit": 0.007873300011851825,
+        "inference": 0.004801999995834194
+      }
+    },
+    {
+      "job_id": "SVM_03",
+      "family": "SVM",
+      "params": {
+        "C": 1,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 4.435921000011149,
+      "stages_seconds": {
+        "imports": 3.1156923999951687,
+        "data_and_scaler": 0.2602238999970723,
+        "artifact_IO": 0.015056900010677055,
+        "fit": 0.015388300002086908,
+        "inference": 0.015840899999602698
+      }
+    },
+    {
+      "job_id": "SVM_04",
+      "family": "SVM",
+      "params": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.035647600001539,
+      "stages_seconds": {
+        "imports": 2.4354364000028,
+        "data_and_scaler": 0.08232719999796245,
+        "artifact_IO": 0.01596209999115672,
+        "fit": 0.007852499998989515,
+        "inference": 0.004491900006541982
+      }
+    },
+    {
+      "job_id": "SVM_05",
+      "family": "SVM",
+      "params": {
+        "C": 10,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.4156199999997625,
+      "stages_seconds": {
+        "imports": 2.6118948999937857,
+        "data_and_scaler": 0.08358809999481309,
+        "artifact_IO": 0.00859919999493286,
+        "fit": 0.0050740999868139625,
+        "inference": 0.002896099991630763
+      }
+    },
+    {
+      "job_id": "SVM_06",
+      "family": "SVM",
+      "params": {
+        "C": 100,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.150870400000713,
+      "stages_seconds": {
+        "imports": 2.527441500002169,
+        "data_and_scaler": 0.0764707000053022,
+        "artifact_IO": 0.008542199997464195,
+        "fit": 0.006095999997342005,
+        "inference": 0.0030614000133937225
+      }
+    },
+    {
+      "job_id": "SVM_07",
+      "family": "SVM",
+      "params": {
+        "C": 100,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      },
+      "process_seconds": 3.2479956000024686,
+      "stages_seconds": {
+        "imports": 2.619670900006895,
+        "data_and_scaler": 0.07509869999194052,
+        "artifact_IO": 0.019834200022160076,
+        "fit": 0.004595300008077174,
+        "inference": 0.0019629999878816307
+      }
+    }
+  ],
+  "detector_rows": [
+    {
+      "candidate": "F14",
+      "features": 12,
+      "threshold_bits": "43a8d935",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.009313933333032764,
+      "fit_calibration_max_seconds": 0.025174099995638244,
+      "inference_mean_seconds": 0.0001670000007531295
+    },
+    {
+      "candidate": "T6",
+      "features": 6,
+      "threshold_bits": "42881b43",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.0014728666622734938,
+      "fit_calibration_max_seconds": 0.00160749998758547,
+      "inference_mean_seconds": 0.00012940000548648337
+    },
+    {
+      "candidate": "S8",
+      "features": 6,
+      "threshold_bits": "438cb361",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.001353399997848707,
+      "fit_calibration_max_seconds": 0.0014602000010199845,
+      "inference_mean_seconds": 0.0001326000007490317
+    },
+    {
+      "candidate": "NM10",
+      "features": 8,
+      "threshold_bits": "43a5bd94",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.0012922999982644494,
+      "fit_calibration_max_seconds": 0.0013501999928848818,
+      "inference_mean_seconds": 0.00013673333160113543
+    },
+    {
+      "candidate": "NE12",
+      "features": 10,
+      "threshold_bits": "4372a0ea",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.001688400002118821,
+      "fit_calibration_max_seconds": 0.0021677000040654093,
+      "inference_mean_seconds": 0.00016706666792742908
+    },
+    {
+      "candidate": "DE7",
+      "features": 6,
+      "threshold_bits": "4320c4fa",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.0015083333273651078,
+      "fit_calibration_max_seconds": 0.0017639999859966338,
+      "inference_mean_seconds": 0.00013420000323094428
+    },
+    {
+      "candidate": "FE7",
+      "features": 6,
+      "threshold_bits": "43486c09",
+      "repeated_parameter_and_score_hashes_equal": true,
+      "fit_calibration_mean_seconds": 0.0012760666674391057,
+      "fit_calibration_max_seconds": 0.0013487999967765063,
+      "inference_mean_seconds": 0.00011466666668032606
+    }
+  ],
+  "run_resources_verified": 166,
+  "preparation_resources_verified": 20,
+  "protocol_resources_verified": 30,
+  "DNN_closure_resources_verified": 76,
+  "exact_data_scope": {
+    "train_windows": 799,
+    "validation_windows": 175,
+    "train_MAT": 14,
+    "validation_MAT": 7,
+    "train_loads": [
+      1,
+      2
+    ],
+    "validation_loads": [
+      0
+    ],
+    "detector_fit_windows": 58,
+    "detector_calibration_windows": 58,
+    "detector_fit_MAT": [
+      "98"
+    ],
+    "detector_calibration_MAT": [
+      "99"
+    ]
+  },
+  "detector_aliases": {
+    "NF12": "F14"
+  },
+  "detector_unique_representations": 7,
+  "detector_repeated_fit_calibration_calls": 21,
+  "repeated_calls_are_not_seeds_or_independent_acquisitions": true,
+  "source_feature_cache_hashes_verified": {
+    "datos/cwru/procesado/dual_12khz_w4096/features_14/X_features_train.npy": "e8f540cfc9d3e25d8cc40ed69514d71ad00726297d2ad845e95b09fb4299643b",
+    "datos/cwru/procesado/dual_12khz_w4096/features_14/X_features_validation.npy": "1a13033b2138a341492b3522087aeb96c4eec9cab8384a524afb79579fe8455d"
+  },
+  "pilot_predictive_metrics_computed": false,
+  "actual_pilot_fits_executed_by_user": {
+    "RF": 8,
+    "SVM": 8,
+    "detector_fit_calibration": 21,
+    "DNN": 0
+  },
+  "projection_flag_interpretation": "DNN_or_classical_training_launched=false belongs to the pure projection function; the actual user pilot did fit RF/SVM/detector as recorded here.",
+  "model_fitting_or_inference_executed_by_auditor": false,
+  "TensorFlow_or_sklearn_imported_by_auditor": false,
+  "source_feature_arrays_loaded_by_auditor": false,
+  "stored_diagnostic_NPZ_loaded_by_auditor": true,
+  "predictive_selection_or_external_evaluation_executed": false,
+  "manuscript_or_firmware_modified": false,
+  "global_cpu_budget_preliminary_ready": true,
+  "full_protocol_frozen": false,
+  "full_STM32_cost_available": false,
+  "limitations": [
+    "Hashes, stored artifacts and guarded worker sources were checked; no independent OS-level trace of every file access was collected.",
+    "Only first-repetition numeric parameter/score arrays were saved; subsequent repetitions are checked through their recorded matching hashes and runtime guards.",
+    "The audit did not re-fit scalers/centroids, recompute P95 from source arrays or re-run prediction; it does not claim a new independent predictive experiment.",
+    "Classical inference timing includes predict and additional diagnostic predict_proba/decision_function calls.",
+    "First detector fit/calibration was 25.1741 ms versus approximately 1--2 ms for subsequent calls; it is retained in the observed maximum.",
+    "This is a timing pilot, not a comparison of predictive accuracy or an ARM measurement."
+  ]
+}

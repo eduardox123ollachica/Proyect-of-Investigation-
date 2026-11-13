@@ -1,0 +1,15 @@
+{
+  "CATALOGO_CANONICO.json": "e7a0c848ccb293c3dd95c9e150e8e6909f6ae6b82c3ec90e6332faebbc2a6fdd",
+  "CATALOGO_TOTAL.json": "e2a9c6cd840938ed5456e2cd78feda3c05146801b67315fbf6c9b5aa7cf84308",
+  "cwru_total_catalog.cpp": "89da6c117a08b7d33e8095c16f9261c1adb1dd9238b850393b51d8c759b381de",
+  "cwru_total_catalog.h": "58d1ae12447ce2a2fa5ad01d9638c6ebeff9e12b5063cd2aa8acf3e9becc5e1a",
+  "FUENTES_SHA256.json": "0615f54c952ae89896d5fb7a707ea171d699f788878799b865762a671c88c8c4",
+  "models/outer0_F14_e45_s42.tflite": "77c251f32ae70a4f963a18f1485fe8c7840c86dfac2ffaacc517c0ffd1bfde45",
+  "models/outer0_T6_e47_s42.tflite": "5d85dd41282dfa78621b8f2fcea77e6bc08de85873eb7857e909b66e52309a68",
+  "models/outer1_F14_e14_s42.tflite": "045129e32dee3b8a79ba705b4aba776ca33b803e944afccc3bc30c7befeb477c",
+  "models/outer1_FE7_e27_s42.tflite": "af40bfb7aa286e95797981bbe8e4af774f37007e07203f35741970910c399e99",
+  "models/outer2_F14_e19_s42.tflite": "15298a0b330849169710c55a5361063caabe5fda9db7becb665cd97bbe4f25e1",
+  "models/outer2_T6_e32_s42.tflite": "52774addea1efea1c71b531cec29e6729bab78162fc70dc9b0216c8aa7728ad6",
+  "models/outer3_F14_e9_s42.tflite": "a706ebb726e7fba4795498f72600e2918d2856c7bbd63560e26dc1af1f3cd404",
+  "models/outer3_NF12_e47_s42.tflite": "9e2e760024197681aee58b7102906e84b5ba4ee7fb461b31947ce70511d9f4da"
+}

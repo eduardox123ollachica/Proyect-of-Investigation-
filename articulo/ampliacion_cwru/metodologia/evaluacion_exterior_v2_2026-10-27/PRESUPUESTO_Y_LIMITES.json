@@ -1,0 +1,35 @@
+{
+  "status": "FIXED_OPERATIONAL_BUDGET_FOR_OUTER_EVALUATION_ONLY",
+  "limits": {
+    "worker_seconds": 300,
+    "campaign_execution_verification_seconds": 1800,
+    "workers": 4,
+    "concurrent_workers": 1,
+    "automatic_retry": false,
+    "training_enabled": false
+  },
+  "expected_counts": {
+    "DNN_FP32_invocations": 27600,
+    "DNN_INT8_invocations": 27600,
+    "RF_predicted_rows": 13800,
+    "SVM_predicted_rows": 1380,
+    "detector_scored_rows": 2354
+  },
+  "heldout_windows_by_outer": [
+    175,
+    393,
+    406,
+    406
+  ],
+  "expected_wall_minutes_orientation": [
+    5,
+    15
+  ],
+  "orientation_is_not_a_guarantee": true,
+  "worker_timeout_is_not_expected_duration": true,
+  "shared_preflight_excluded_from_campaign_counter": true,
+  "parent_verification_and_termination_can_add_wall_time": true,
+  "basis": "Four fresh processes; prior synthetic TensorFlow cold import 50.371 s. No full evaluation runtime measured. Fixed batch1 invocations and saved-output checks; no model fitting.",
+  "automatic_budget_increase": false,
+  "outer_predictions_during_preparation": 0
+}

@@ -1,0 +1,693 @@
+200044e1 00000001 B __lock___atexit_recursive_mutex
+200044e0 00000001 B __lock___malloc_recursive_mutex
+200044e2 00000001 B __lock___sfp_recursive_mutex
+200001e0 00000001 b completed.1
+20000004 00000001 D uwTickFreq
+0800107c 00000002 W __aeabi_idiv0
+0800107c 00000002 W __aeabi_ldiv0
+080110e6 00000002 T __retarget_lock_acquire_recursive
+080110e4 00000002 T __retarget_lock_init_recursive
+080110e8 00000002 T __retarget_lock_release_recursive
+0800a702 00000002 t tflite::(anonymous namespace)::MicroBuiltinDataAllocator::Deallocate(void*)
+0800a82c 00000002 t tflite::(anonymous namespace)::MicroBuiltinDataAllocator::~MicroBuiltinDataAllocator()
+0800a82c 00000002 t tflite::(anonymous namespace)::MicroBuiltinDataAllocator::~MicroBuiltinDataAllocator()
+0800a704 00000002 T tflite::MicroAllocator::~MicroAllocator()
+0800a704 00000002 T tflite::MicroAllocator::~MicroAllocator()
+0800a704 00000002 T tflite::MicroAllocator::~MicroAllocator()
+08007bf4 00000002 W tflite::MicroErrorReporter::~MicroErrorReporter()
+08007bf4 00000002 W tflite::MicroErrorReporter::~MicroErrorReporter()
+08007bf4 00000002 W tflite::MicroErrorReporter::~MicroErrorReporter()
+0800b5ea 00000002 W tflite::MicroMemoryPlanner::PrintMemoryPlan()
+0800b320 00000002 T tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
+0800b320 00000002 T tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
+0800b320 00000002 T tflite::GreedyMemoryPlanner::~GreedyMemoryPlanner()
+0800b5f0 00000002 T tflite::LinearMemoryPlanner::~LinearMemoryPlanner()
+0800b5f0 00000002 T tflite::LinearMemoryPlanner::~LinearMemoryPlanner()
+0800b5f0 00000002 T tflite::LinearMemoryPlanner::~LinearMemoryPlanner()
+0800767c 00000002 T tflite::MicroInterpreterGraph::~MicroInterpreterGraph()
+0800767c 00000002 T tflite::MicroInterpreterGraph::~MicroInterpreterGraph()
+0800767c 00000002 T tflite::MicroInterpreterGraph::~MicroInterpreterGraph()
+080075b6 00000002 T tflite::MicroInterpreterContext::~MicroInterpreterContext()
+080075b6 00000002 T tflite::MicroInterpreterContext::~MicroInterpreterContext()
+080075b6 00000002 T tflite::MicroInterpreterContext::~MicroInterpreterContext()
+0800b0fc 00000002 T tflite::SingleArenaBufferAllocator::~SingleArenaBufferAllocator()
+0800b0fc 00000002 T tflite::SingleArenaBufferAllocator::~SingleArenaBufferAllocator()
+0800b0fc 00000002 T tflite::SingleArenaBufferAllocator::~SingleArenaBufferAllocator()
+0800a5c4 00000002 T tflite::FlatBufferVectorToTfLiteTypeArray(flatbuffers::Vector<float, unsigned long> const*)
+0800a5c2 00000002 T tflite::FlatBufferVectorToTfLiteTypeArray(flatbuffers::Vector<long, unsigned long> const*)
+08007068 00000002 W ADC_IRQHandler
+08007068 00000002 W BusFault_Handler
+08007068 00000002 W CAN1_RX0_IRQHandler
+08007068 00000002 W CAN1_RX1_IRQHandler
+08007068 00000002 W CAN1_SCE_IRQHandler
+08007068 00000002 W CAN1_TX_IRQHandler
+08007068 00000002 W CAN2_RX0_IRQHandler
+08007068 00000002 W CAN2_RX1_IRQHandler
+08007068 00000002 W CAN2_SCE_IRQHandler
+08007068 00000002 W CAN2_TX_IRQHandler
+08007068 00000002 W DCMI_IRQHandler
+08007068 00000002 W DebugMon_Handler
+08007068 00000002 T Default_Handler
+08007068 00000002 W DMA1_Stream0_IRQHandler
+08007068 00000002 W DMA1_Stream1_IRQHandler
+08007068 00000002 W DMA1_Stream2_IRQHandler
+08007068 00000002 W DMA1_Stream3_IRQHandler
+08007068 00000002 W DMA1_Stream4_IRQHandler
+08007068 00000002 W DMA1_Stream5_IRQHandler
+08007068 00000002 W DMA1_Stream6_IRQHandler
+08007068 00000002 W DMA1_Stream7_IRQHandler
+08007068 00000002 W DMA2_Stream0_IRQHandler
+08007068 00000002 W DMA2_Stream1_IRQHandler
+08007068 00000002 W DMA2_Stream2_IRQHandler
+08007068 00000002 W DMA2_Stream3_IRQHandler
+08007068 00000002 W DMA2_Stream4_IRQHandler
+08007068 00000002 W DMA2_Stream5_IRQHandler
+08007068 00000002 W DMA2_Stream6_IRQHandler
+08007068 00000002 W DMA2_Stream7_IRQHandler
+08007068 00000002 W EXTI0_IRQHandler
+08007068 00000002 W EXTI1_IRQHandler
+08007068 00000002 W EXTI15_10_IRQHandler
+08007068 00000002 W EXTI2_IRQHandler
+08007068 00000002 W EXTI3_IRQHandler
+08007068 00000002 W EXTI4_IRQHandler
+08007068 00000002 W EXTI9_5_IRQHandler
+08007068 00000002 W FLASH_IRQHandler
+08007068 00000002 W FMC_IRQHandler
+08007068 00000002 W FMPI2C1_error_IRQHandler
+08007068 00000002 W FMPI2C1_IRQHandler
+08007068 00000002 W HardFault_Handler
+08007068 00000002 W HDMI_CEC_IRQHandler
+08007068 00000002 W I2C1_ER_IRQHandler
+08007068 00000002 W I2C1_EV_IRQHandler
+08007068 00000002 W I2C2_ER_IRQHandler
+08007068 00000002 W I2C2_EV_IRQHandler
+08007068 00000002 W I2C3_ER_IRQHandler
+08007068 00000002 W I2C3_EV_IRQHandler
+08007068 00000002 W MemManage_Handler
+08007068 00000002 W NMI_Handler
+08007068 00000002 W OTG_FS_IRQHandler
+08007068 00000002 W OTG_FS_WKUP_IRQHandler
+08007068 00000002 W OTG_HS_EP1_IN_IRQHandler
+08007068 00000002 W OTG_HS_EP1_OUT_IRQHandler
+08007068 00000002 W OTG_HS_IRQHandler
+08007068 00000002 W OTG_HS_WKUP_IRQHandler
+08007068 00000002 W PendSV_Handler
+08007068 00000002 W PVD_IRQHandler
+08007068 00000002 W QuadSPI_IRQHandler
+08007068 00000002 W RCC_IRQHandler
+08007068 00000002 W RTC_Alarm_IRQHandler
+08007068 00000002 W RTC_WKUP_IRQHandler
+08007068 00000002 W SAI1_IRQHandler
+08007068 00000002 W SAI2_IRQHandler
+08007068 00000002 W SDIO_IRQHandler
+08007068 00000002 W SPDIF_Rx_IRQHandler
+08007068 00000002 W SPI1_IRQHandler
+08007068 00000002 W SPI2_IRQHandler
+08007068 00000002 W SPI3_IRQHandler
+08007068 00000002 W SPI4_IRQHandler
+08007068 00000002 W SVC_Handler
+08007068 00000002 W TAMP_STAMP_IRQHandler
+08007068 00000002 W TIM1_BRK_TIM9_IRQHandler
+08007068 00000002 W TIM1_CC_IRQHandler
+08007068 00000002 W TIM1_TRG_COM_TIM11_IRQHandler
+08007068 00000002 W TIM1_UP_TIM10_IRQHandler
+08007068 00000002 W TIM2_IRQHandler
+08007068 00000002 W TIM3_IRQHandler
+08007068 00000002 W TIM4_IRQHandler
+08007068 00000002 W TIM5_IRQHandler
+08007068 00000002 W TIM6_DAC_IRQHandler
+08007068 00000002 W TIM7_IRQHandler
+08007068 00000002 W TIM8_BRK_TIM12_IRQHandler
+08007068 00000002 W TIM8_CC_IRQHandler
+08007068 00000002 W TIM8_TRG_COM_TIM14_IRQHandler
+08007068 00000002 W TIM8_UP_TIM13_IRQHandler
+08007068 00000002 W UART4_IRQHandler
+08007068 00000002 W UART5_IRQHandler
+08007068 00000002 W UsageFault_Handler
+08007068 00000002 W USART1_IRQHandler
+08007068 00000002 W USART2_IRQHandler
+08007068 00000002 W USART3_IRQHandler
+08007068 00000002 W USART6_IRQHandler
+08007068 00000002 W WWDG_IRQHandler
+20004570 00000004 B __atexit
+200001d4 00000004 D __atexit_recursive_mutex
+2000439c 00000004 B __malloc_free_list
+20004398 00000004 B __malloc_sbrk_start
+20000248 00000004 b __sbrk_heap_end
+200044d8 00000004 B __stdio_exit_handler
+08011048 00000004 T _getpid_r
+20000184 00000004 D _impure_ptr
+0800eb3e 00000004 T operator delete(void*)
+0800eb1c 00000004 T operator delete(void*, unsigned int)
+2000438c 00000004 b guard variable for TinyML_Init::static_interpreter
+200042b0 00000004 b (anonymous namespace)::interpreter
+20004390 00000004 b (anonymous namespace)::error_reporter_
+20004394 00000004 b (anonymous namespace)::micro_error_reporter_buffer
+200042b4 00000004 b (anonymous namespace)::input
+2000024c 00000004 b (anonymous namespace)::model
+200042b8 00000004 b (anonymous namespace)::output
+08015ecc 00000004 r tflite::(anonymous namespace)::kZeroLengthIntArray
+0800affc 00000004 T tflite::MicroAllocator::GetBuiltinDataAllocator()
+08007bf6 00000004 T tflite::MicroErrorReporter::Report(char const*, std::__va_list)
+0800b5e6 00000004 W tflite::MicroMemoryPlanner::Init(unsigned char*, int)
+0800b5e2 00000004 W tflite::MicroMemoryPlanner::AddBuffer(int, int, int, int)
+0800b36e 00000004 T tflite::GreedyMemoryPlanner::GetBufferCount()
+0800b5b8 00000004 T tflite::GreedyMemoryPlanner::PrintMemoryPlan()
+08007678 00000004 W tflite::MicroInterpreterGraph::GetResourceVariables()
+08007a92 00000004 T tflite::MicroInterpreterGraph::SetSubgraphAllocations(tflite::SubgraphAllocations*)
+080075ae 00000004 W tflite::MicroInterpreterContext::external_context()
+08007674 00000004 T tflite::MicroInterpreterContext::SetInterpreterState(tflite::MicroInterpreterContext::InterpreterState)
+08007670 00000004 T tflite::MicroInterpreterContext::SetScratchBufferHandles(tflite::ScratchBufferHandle*)
+08007636 00000004 T tflite::MicroInterpreterContext::AllocateDecompressionMemory(unsigned int, unsigned int)
+080075b2 00000004 W tflite::MicroInterpreterContext::graph()
+08015e5c 00000004 R tflite::kFullyConnectedBiasTensor
+08015e64 00000004 R tflite::kFullyConnectedInputTensor
+08015e58 00000004 R tflite::kFullyConnectedOutputTensor
+08015e60 00000004 R tflite::kFullyConnectedWeightsTensor
+0800b2e8 00000004 W tflite::GreedyMemoryPlanner::preserves_all_tensors() const
+0800b5ec 00000004 W tflite::LinearMemoryPlanner::preserves_all_tensors() const
+08007626 00000004 T tflite::MicroInterpreterContext::GetAlternateProfiler() const
+0800b148 00000004 T tflite::SingleArenaBufferAllocator::GetOverlayMemoryAddress() const
+0800b26c 00000004 T non-virtual thunk to tflite::SingleArenaBufferAllocator::~SingleArenaBufferAllocator()
+0800b268 00000004 T non-virtual thunk to tflite::SingleArenaBufferAllocator::~SingleArenaBufferAllocator()
+08008ee0 00000004 T arm_convolve_1x1_s8_fast_get_buffer_size
+08008ee4 00000004 T arm_fully_connected_s16_get_buffer_size
+08008ee8 00000004 T arm_fully_connected_s8_get_buffer_size
+200044dc 00000004 B errno
+08014be8 00000004 R kmeans_threshold_d2
+20000008 00000004 D SystemCoreClock
+20000244 00000004 B uwTick
+20000000 00000004 D uwTickPrio
+0800eb38 00000006 T __cxa_guard_release
+0800ecf8 00000006 T __ieee754_sqrtf
+08007c44 00000006 t tflite::(anonymous namespace)::SafeBuiltinDataAllocator::BuiltinDataDeleter::operator()(void*) [clone .isra.0]
+0800880c 00000006 t tflite::(anonymous namespace)::Init(TfLiteContext*, char const*, unsigned int)
+08007e44 00000006 t tflite::(anonymous namespace)::Init(TfLiteContext*, char const*, unsigned int)
+08007620 00000006 T tflite::MicroInterpreterContext::SetAlternateProfiler(tflite::MicroProfilerInterface*)
+0800b65c 00000006 T TfLiteIntArrayGetSizeInBytes
+08010e18 00000008 T __sclose
+08010fb4 00000008 T _localeconv_r
+0800a6fa 00000008 t tflite::(anonymous namespace)::MicroBuiltinDataAllocator::Allocate(unsigned int, unsigned int)
+0800a800 00000008 T tflite::MicroAllocator::AllocateTempBuffer(unsigned int, unsigned int)
+0800a808 00000008 T tflite::MicroAllocator::DeallocateTempBuffer(unsigned char*)
+0800a818 00000008 T tflite::MicroAllocator::IsAllTempDeallocated()
+0800a810 00000008 T tflite::MicroAllocator::ResetTempAllocations()
+0800ada8 00000008 T tflite::MicroAllocator::GetScratchBufferRequests()
+0800a5d2 00000008 T tflite::AlignPointerDown(unsigned char*, unsigned int)
+0800b620 00000008 T tflite::LinearMemoryPlanner::GetBufferCount()
+0800b618 00000008 T tflite::LinearMemoryPlanner::GetMaximumMemorySize()
+08007082 00000008 W tflite::MicroContextGetTensor(TfLiteContext const*, int)
+080075c0 00000008 T tflite::MicroInterpreterContext::GetScratchBuffer(int)
+080075ec 00000008 T tflite::MicroInterpreterContext::AllocateTempBuffer(unsigned int, unsigned int)
+080075f4 00000008 T tflite::MicroInterpreterContext::DeallocateTempBuffer(unsigned char*)
+080075b8 00000008 T tflite::MicroInterpreterContext::AllocatePersistentBuffer(unsigned int)
+080075e4 00000008 T tflite::MicroInterpreterContext::DeallocateTempTfLiteTensor(TfLiteTensor*)
+0800708a 00000008 W tflite::MicroContextGetEvalTensor(TfLiteContext const*, int)
+0800707a 00000008 W tflite::MicroContextGetScratchBuffer(TfLiteContext*, int)
+08007092 00000008 W tflite::MicroContextGetExternalContext(TfLiteContext*, TfLiteExternalContextType)
+0800706a 00000008 W tflite::MicroContextAllocatePersistentBuffer(TfLiteContext*, unsigned int)
+08007072 00000008 W tflite::MicroContextRequestScratchBufferInArena(TfLiteContext*, unsigned int, int*)
+0800b15c 00000008 T tflite::SingleArenaBufferAllocator::GetPersistentUsedBytes() const
+0800b246 00000008 T non-virtual thunk to tflite::SingleArenaBufferAllocator::AllocatePersistentBuffer(unsigned int, unsigned int)
+0800b164 00000008 T non-virtual thunk to tflite::SingleArenaBufferAllocator::GetPersistentUsedBytes() const
+08015d70 00000008 R APBPrescTable
+0800f37c 00000008 T atoi
+08003edc 00000008 t Error_Handler
+080162e4 00000008 r halF
+080162dc 00000008 r ln2HI
+080162d4 00000008 r ln2LO
+08005ad2 0000000a t _GLOBAL__sub_D_TinyML_Init
+08005ac8 0000000a t _GLOBAL__sub_I_TinyML_Init
+0800a706 0000000a T tflite::MicroAllocator::AllocatePersistentBuffer(unsigned int)
+08011090 0000000c T __errno
+0800f4e8 0000000c T __malloc_lock
+0800f4f4 0000000c T __malloc_unlock
+0800f318 0000000c T __math_oflowf
+0800f30c 0000000c T __math_uflowf
+08010c84 0000000c T __sfp_lock_acquire
+08010c90 0000000c T __sfp_lock_release
+2000000c 0000000c D __sglue
+0800a5c6 0000000c T tflite::AlignPointerUp(unsigned char*, unsigned int)
+0800a820 0000000c T tflite::MicroAllocator::AllocatePersistentTfLiteTensorInternal()
+0800b3ac 0000000c T tflite::GreedyMemoryPlanner::GreedyMemoryPlanner()
+0800b3ac 0000000c T tflite::GreedyMemoryPlanner::GreedyMemoryPlanner()
+08007910 0000000c T tflite::MicroInterpreterGraph::NumSubgraphs()
+0800762a 0000000c T tflite::MicroInterpreterContext::SetDecompressionMemory(tflite::MicroContext::AlternateMemoryRegion const*, unsigned int)
+080087dc 0000000c T tflite::micro::GetEvalOutput(TfLiteContext const*, TfLiteNode const*, int)
+08007d08 0000000c W tflite::Operator::builtin_options_type() const
+0800f370 0000000c T atexit
+0800ecec 0000000c T nanf
+08016444 0000000c r p05.0
+08003ee4 0000000c T SysTick_Handler
+0800a5da 0000000e T tflite::AlignSizeUp(unsigned int, unsigned int)
+0800b0ee 0000000e T tflite::MicroContextReportOpError(TfLiteContext*, char const*, ...)
+0800b110 0000000e T tflite::SingleArenaBufferAllocator::DeallocateTemp(unsigned char*)
+0800b290 0000000e T tflite::SingleArenaBufferAllocator::SingleArenaBufferAllocator(unsigned char*, unsigned int)
+0800b290 0000000e T tflite::SingleArenaBufferAllocator::SingleArenaBufferAllocator(unsigned char*, unsigned int)
+0800f324 0000000e T abort
+080041cc 0000000e W HAL_MspInit
+08000b18 00000010 T __aeabi_cdcmpeq
+08000b18 00000010 T __aeabi_cdcmple
+08005320 00000010 t __tcf_0
+08005130 00000010 T _getpid
+0801387c 00000010 T _malloc_usable_size_r
+08007610 00000010 T tflite::MicroInterpreterContext::set_external_context(void*)
+0800b14c 00000010 T tflite::SingleArenaBufferAllocator::GetNonPersistentUsedBytes() const
+0800a872 00000010 W tflite::Tensor::type() const
+080140b0 00000010 R arm_cfft_sR_f32_len16
+0800f394 00000010 T free
+0800f384 00000010 T malloc
+08010e52 00000010 T memset
+08011108 00000010 T nan
+08010fa4 00000010 T raise
+080002d0 00000010 T strlen
+08000b28 00000012 T __aeabi_dcmpeq
+08000b64 00000012 T __aeabi_dcmpge
+08000b78 00000012 T __aeabi_dcmpgt
+08000b50 00000012 T __aeabi_dcmple
+08000b3c 00000012 T __aeabi_dcmplt
+08007172 00000012 W flatbuffers::Vector<long, unsigned long> const* flatbuffers::Table::GetPointer<flatbuffers::Vector<long, unsigned long> const*, unsigned long>(unsigned short)
+0800763a 00000012 T tflite::MicroInterpreterContext::RequestScratchBufferInArena(unsigned int, int*)
+0800b11e 00000012 T tflite::SingleArenaBufferAllocator::IsAllTempDeallocated()
+0800b0fe 00000012 T tflite::SingleArenaBufferAllocator::DeallocateResizableBuffer(unsigned char*)
+08007d14 00000012 W signed char flatbuffers::Table::GetField<signed char>(unsigned short, signed char) const
+08007cf6 00000012 W unsigned char flatbuffers::Table::GetField<unsigned char>(unsigned short, unsigned char) const
+08007ce4 00000012 W long flatbuffers::Table::GetField<long>(unsigned short, long) const
+080059e0 00000014 t __static_initialization_and_destruction_0()
+080059f4 00000014 t __static_initialization_and_destruction_1()
+0800b648 00000014 T tflite::LinearMemoryPlanner::LinearMemoryPlanner()
+0800b648 00000014 T tflite::LinearMemoryPlanner::LinearMemoryPlanner()
+08005ab4 00000014 W tflite::MicroMutableOpResolver<2u>::operator delete(void*)
+080075fc 00000014 T tflite::MicroInterpreterContext::GetEvalTensor(int)
+0800a85e 00000014 W tflite::QuantizationParameters::zero_point() const
+0800a84a 00000014 W tflite::QuantizationParameters::scale() const
+0800709a 00000014 W tflite::Model::subgraphs() const
+08007c4a 00000014 W tflite::Operator::builtin_options() const
+0800a882 00000014 W tflite::SubGraph::tensors() const
+08015e44 00000014 R vtable for tflite::MicroErrorReporter
+08003384 00000014 T DebugLog
+0800ecd8 00000014 T finitef
+08016300 00000014 r fpi.1
+080162ec 00000014 r fpinan.0
+08004878 00000014 W HAL_UART_MspInit
+0800ecc4 00000014 T log2f
+08000210 00000014 T strcmp
+080102b4 00000014 T strtol
+08005160 00000016 T _exit
+08005220 00000016 T _isatty
+0800412a 00000016 W long flatbuffers::EndianScalar<long>(long)
+0800406c 00000016 W unsigned long flatbuffers::EndianScalar<unsigned long>(unsigned long)
+08008794 00000016 T tflite::micro::RegisterOp(void* (*)(TfLiteContext*, char const*, unsigned int), TfLiteStatus (*)(TfLiteContext*, TfLiteNode*), TfLiteStatus (*)(TfLiteContext*, TfLiteNode*), void (*)(TfLiteContext*, void*), void (*)(TfLiteContext*, void*))
+08007184 00000016 t tflite::MicroInterpreter::inputs_size() const [clone .isra.0]
+080071b6 00000016 t tflite::MicroInterpreter::outputs_size() const [clone .isra.0]
+080078fa 00000016 W tflite::Tensor::is_variable() const
+080043e0 00000016 T HAL_NVIC_SetPriorityGrouping
+0800eb20 00000018 T __cxa_guard_acquire
+080051e8 00000018 T _close
+08004140 00000018 W unsigned short flatbuffers::EndianScalar<unsigned short>(unsigned short)
+08004112 00000018 W tflite::Model const* flatbuffers::GetRoot<tflite::Model>(void const*)
+080162b8 00000018 r tflite::(anonymous namespace)::kOfflineMemAllocMetadata
+08007bbc 00000018 T tflite::ConvertTensorType(tflite::TensorType, TfLiteType*)
+0800b130 00000018 T tflite::SingleArenaBufferAllocator::ResetTempAllocations()
+0800400e 00000018 W tflite::GetModel(void const*)
+08015eb4 00000018 r vtable for tflite::(anonymous namespace)::MicroBuiltinDataAllocator
+08004264 00000018 W HAL_GetTick
+08004770 00000018 T HAL_RCC_GetHCLKFreq
+0800442e 00000018 T HAL_SYSTICK_Config
+200001e4 00000018 b object.0
+08010bec 00000018 t stdio_exit_handler
+0800b664 00000018 T TfLiteTypeGetName
+08012f38 0000001a T __ascii_wctomb
+08005236 0000001a T _lseek
+080073bc 0000001a T tflite::MicroInterpreter::Reset()
+0800a580 0000001a T tflite::NumSubgraphOperators(tflite::SubGraph const*)
+0800b24e 0000001a T tflite::SingleArenaBufferAllocator::GetAvailableMemory(unsigned int) const
+080042c4 0000001c t __NVIC_GetPriorityGrouping
+08004082 0000001c W long flatbuffers::ReadScalar<long>(void const*)
+080040ba 0000001c W unsigned long flatbuffers::ReadScalar<unsigned long>(void const*)
+0800409e 0000001c W unsigned short flatbuffers::ReadScalar<unsigned short>(void const*)
+0800b07e 0000001c T tflite::MicroContext::ResetDecompressionMemoryAllocations()
+0800a82e 0000001c T tflite::MicroAllocator::AllocateScratchBufferHandles(tflite::ScratchBufferHandle**, unsigned int)
+0800719a 0000001c T tflite::MicroInterpreter::input(unsigned int)
+080071cc 0000001c T tflite::MicroInterpreter::output(unsigned int)
+0800b352 0000001c T tflite::GreedyMemoryPlanner::AddBuffer(int, int, int, int)
+0800e5de 0000001c T tflite::AllocationInfoBuilder::FreeAllocationInfo()
+08007bfc 0000001c T tflite::GetMicroErrorReporter()
+080075c8 0000001c T tflite::MicroInterpreterContext::AllocateTempTfLiteTensor(int)
+0800b22a 0000001c T tflite::SingleArenaBufferAllocator::AllocatePersistentBuffer(unsigned int, unsigned int)
+08015d94 0000001c V vtable for tflite::MicroOpResolver
+08015d78 0000001c V vtable for tflite::MicroMutableOpResolver<2u>
+0800a548 0000001c T arm_softmax_s8
+0800a564 0000001c T arm_softmax_s8_s16
+080110ea 0000001c T memcpy
+0800f2d0 0000001c t with_errnof
+08000564 0000001e T __aeabi_ui2d
+08000564 0000001e T __floatunsidf
+0800b83a 0000001e T tflite::GetTensorShape(TfLiteTensor const*)
+0800ad12 0000001e T tflite::MicroAllocator::InitScratchBufferData()
+0800b628 0000001e T tflite::LinearMemoryPlanner::GetOffsetForBuffer(int, int*)
+080059c0 0000001e W tflite::MicroMutableOpResolver<2u>::~MicroMutableOpResolver()
+08003ff0 0000001e W tflite::Model::version() const
+0800f2ec 0000001e t xflowf
+08000b08 00000020 T __aeabi_cdrcmple
+08010fbc 00000020 T _close_r
+08005200 00000020 T _fstat
+0801385c 00000020 T _isatty_r
+08005140 00000020 T _kill
+0801104c 00000020 T _sbrk_r
+080057b4 00000020 W tflite::MicroOpResolver::MicroOpResolver()
+080057b4 00000020 W tflite::MicroOpResolver::MicroOpResolver()
+08005300 00000020 W tflite::MicroOpResolver::~MicroOpResolver()
+080052e0 00000020 W tflite::MicroOpResolver::~MicroOpResolver()
+080052e0 00000020 W tflite::MicroOpResolver::~MicroOpResolver()
+08007b02 00000020 T tflite::MicroInterpreterGraph::NumSubgraphInputs(int)
+08007bd4 00000020 T tflite::CallBuiltinParseFunction(TfLiteStatus (*)(tflite::Operator const*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**), tflite::Operator const*, tflite::BuiltinDataAllocator*, void**)
+0800b270 00000020 T tflite::SingleArenaBufferAllocator::SingleArenaBufferAllocator(unsigned char*, unsigned char*)
+0800b270 00000020 T tflite::SingleArenaBufferAllocator::SingleArenaBufferAllocator(unsigned char*, unsigned char*)
+08003f90 00000020 W flatbuffers::Table::GetVTable() const
+0800b3b8 00000020 T tflite::GreedyMemoryPlanner::DoesEntryOverlapInTime(tflite::GreedyMemoryPlanner::ListEntry const*, int, int) const
+08000584 00000022 T __aeabi_i2d
+08000584 00000022 T __floatsidf
+08010d98 00000022 T __sread
+08007b22 00000022 T tflite::MicroInterpreterGraph::NumSubgraphOutputs(int)
+08007dd0 00000022 W float flatbuffers::Table::GetField<float>(unsigned short, float) const
+080125a2 00000024 T __ascii_mbtowc
+08013232 00000024 T __sfputs_r
+08013838 00000024 T _fstat_r
+08011024 00000024 T _kill_r
+08010fdc 00000024 T _lseek_r
+08011000 00000024 T _read_r
+0801106c 00000024 T _write_r
+08003f38 00000024 T MicroPrintf(char const*, ...)
+08003f14 00000024 T VMicroPrintf(char const*, std::__va_list)
+08003ef0 00000024 t (anonymous namespace)::VDebugLog(char const*, ...)
+08005828 00000024 W tflite::MicroMutableOpResolver<2u>::AddSoftmax(TFLMRegistration const&)
+08005804 00000024 W tflite::MicroMutableOpResolver<2u>::AddFullyConnected(TFLMRegistration const&)
+0800599c 00000024 W tflite::MicroMutableOpResolver<2u>::~MicroMutableOpResolver()
+0800599c 00000024 W tflite::MicroMutableOpResolver<2u>::~MicroMutableOpResolver()
+0800764c 00000024 T tflite::MicroInterpreterContext::MicroInterpreterContext(tflite::MicroAllocator*, tflite::Model const*, tflite::MicroInterpreterGraph*)
+0800764c 00000024 T tflite::MicroInterpreterContext::MicroInterpreterContext(tflite::MicroAllocator*, tflite::Model const*, tflite::MicroInterpreterGraph*)
+080087e8 00000024 T tflite::micro::GetTensorShape(TfLiteEvalTensor const*)
+08010ccc 00000024 T fiprintf
+08010ccc 00000024 T fprintf
+0801241c 00000024 t L_shift
+08010e62 00000024 T strncmp
+080052bc 00000024 T SystemInit
+080055c0 00000024 T TinyML_InputZeroPoint
+08005610 00000024 T TinyML_OutputZeroPoint
+08010df2 00000026 T __sseek
+080071e8 00000026 T tflite::MicroInterpreter::~MicroInterpreter()
+080071e8 00000026 T tflite::MicroInterpreter::~MicroInterpreter()
+0800b5bc 00000026 T tflite::GreedyMemoryPlanner::GetOffsetForBuffer(int, int*)
+0800b5f2 00000026 T tflite::LinearMemoryPlanner::AddBuffer(int, int, int)
+0800b19c 00000026 T tflite::SingleArenaBufferAllocator::ReserveNonPersistentOverlayMemory(unsigned int, unsigned int)
+08012440 00000028 T __match
+08016450 00000028 R __mprec_bigtens
+080136f8 00000028 T _calloc_r
+08008ac4 00000028 T tflite::Register_SOFTMAX()
+0800a59a 00000028 T tflite::NumSubgraphOperators(tflite::Model const*, int)
+08007b94 00000028 T tflite::MicroResourceVariables::ResetAll()
+080085d0 00000028 T tflite::Register_FULLY_CONNECTED()
+08014088 00000028 R armBitRevIndexTable16
+0800423c 00000028 W HAL_IncTick
+08004788 00000028 T HAL_RCC_GetPCLK1Freq
+080047b0 00000028 T HAL_RCC_GetPCLK2Freq
+08005544 00000028 T TinyML_InputBytes
+080054f4 00000028 T TinyML_InputType
+0800556c 00000028 T TinyML_OutputBytes
+0800551c 00000028 T TinyML_OutputType
+08016318 00000028 r tinytens
+08011fd0 0000002a T __hexdig_fun
+0800b054 0000002a T tflite::MicroContext::SetDecompressionMemory(tflite::MicroContext::AlternateMemoryRegion const*, unsigned int)
+0800b09a 0000002a T tflite::MicroContext::AllocateTempInputTensor(TfLiteNode const*, int)
+0800b0c4 0000002a T tflite::MicroContext::AllocateTempOutputTensor(TfLiteNode const*, int)
+08000b8c 0000002c T __aeabi_dcmpun
+08012840 0000002c T __i2b
+08000b8c 0000002c T __unorddf2
+08007c18 0000002c T tflite::GetBuiltinCode(tflite::OperatorCode const*)
+08007582 0000002c T tflite::MicroInterpreter::Invoke()
+0800b1fe 0000002c T tflite::SingleArenaBufferAllocator::AllocateTemp(unsigned int, unsigned int)
+08005594 0000002c T TinyML_InputScale
+080055e4 0000002c T TinyML_OutputScale
+08000d18 0000002e T __aeabi_d2lz
+08000d18 0000002e T __fixdfdi
+08013204 0000002e t __sfputc_r
+08004158 0000002e W tflite::Model* flatbuffers::GetMutableRoot<tflite::Model>(void*)
+08010c9c 00000030 T __sinit
+0800ac54 00000030 T tflite::MicroAllocator::Create(tflite::SingleArenaBufferAllocator*, tflite::MicroMemoryPlanner*)
+0800b322 00000030 T tflite::GreedyMemoryPlanner::AddBuffer(int, int, int)
+0800791c 00000030 T tflite::MicroInterpreterGraph::MicroInterpreterGraph(TfLiteContext*, tflite::Model const*, tflite::MicroAllocator*, tflite::MicroResourceVariables*)
+0800791c 00000030 T tflite::MicroInterpreterGraph::MicroInterpreterGraph(TfLiteContext*, tflite::Model const*, tflite::MicroAllocator*, tflite::MicroResourceVariables*)
+080057d4 00000030 W tflite::MicroMutableOpResolver<2u>::MicroMutableOpResolver()
+080057d4 00000030 W tflite::MicroMutableOpResolver<2u>::MicroMutableOpResolver()
+0800b16c 00000030 T tflite::SingleArenaBufferAllocator::AllocateResizableBuffer(unsigned int, unsigned int)
+080087ac 00000030 T tflite::micro::GetEvalInput(TfLiteContext const*, TfLiteNode const*, int)
+08015f2c 00000030 R vtable for tflite::GreedyMemoryPlanner
+08015f5c 00000030 R vtable for tflite::LinearMemoryPlanner
+08010e20 00000032 T memmove
+08003f5c 00000034 W flatbuffers::EndianCheck()
+080033e0 00000034 t (anonymous namespace)::finite_or_zero(float)
+0800b2ec 00000034 T tflite::GreedyMemoryPlanner::Init(unsigned char*, int)
+0800a6c6 00000034 T tflite::TfLiteEvalTensorByteLength(TfLiteEvalTensor const*, unsigned int*)
+0800a948 00000034 T tflite::internal::GetFlatbufferTensorBuffer(tflite::Tensor const&, flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer>, unsigned long> const*)
+08012b54 00000036 T __mcmp
+08007a96 00000036 T tflite::MicroInterpreterGraph::GetSubgraphInput(int, int)
+08007acc 00000036 T tflite::MicroInterpreterGraph::GetSubgraphOutput(int, int)
+08010dba 00000038 T __swrite
+080051b0 00000038 W _write
+0800acda 00000038 T tflite::MicroAllocator::FinishModelAllocation(tflite::Model const*, tflite::SubgraphAllocations*, tflite::ScratchBufferHandle**)
+080043f6 00000038 T HAL_NVIC_SetPriority
+08007018 00000038 W Reset_Handler
+08005176 0000003a W _read
+0800a768 0000003a T tflite::MicroAllocator::DeallocateTempTfLiteTensor(TfLiteTensor*)
+0800b372 0000003a T tflite::ReverseSortInPlace(int*, int*, int)
+0800b57e 0000003a T tflite::GreedyMemoryPlanner::GetMaximumMemorySize()
+0800b3d8 0000003a T tflite::GreedyMemoryPlanner::NextSimultaneouslyActiveBuffer(tflite::GreedyMemoryPlanner::ListEntry const*, int, int)
+08000d48 0000003c T __aeabi_d2ulz
+0800f334 0000003c T __assert_func
+08000d48 0000003c T __fixunsdfdi
+08010cf0 0000003c T _fwalk_sglue
+0800b1c2 0000003c T tflite::SingleArenaBufferAllocator::ResizeBuffer(unsigned char*, unsigned int, unsigned int)
+080040d6 0000003c W unsigned long flatbuffers::Table::GetField<unsigned long>(unsigned short, unsigned long) const
+0800f500 0000003c t sulp
+080127a8 0000003e T __hi0bits
+08000c08 00000040 T __aeabi_d2uiz
+08000c08 00000040 T __fixunsdfsi
+08003fb0 00000040 W flatbuffers::Table::GetOptionalFieldOffset(unsigned short) const
+08010c04 00000040 t cleanup_stdio
+08003dc4 00000040 t DWT_Init
+08010c44 00000040 t global_stdio_init.part.0
+080005a8 00000042 T __aeabi_f2d
+08012ef6 00000042 T __any_on
+080005a8 00000042 T __extendsfdf2
+0800adb0 00000042 T tflite::MicroAllocator::FinishPrepareNodeAllocations(int)
+08012644 00000044 T _Bfree
+080085f8 00000044 T tflite::FullyConnectedParamsFloat(TfLiteFusedActivation)
+0800b70c 00000044 T tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*)
+08015e00 00000044 R vtable for tflite::MicroInterpreterGraph
+08004188 00000044 T HAL_Init
+0800f3a4 00000044 t sbrk_aligned
+0800ec80 00000044 T sqrtf
+0800439c 00000044 t SysTick_Config
+08004028 00000044 T verificar_modelo_tflm
+08012eb0 00000046 T __copybits
+0801109c 00000048 T __libc_init_array
+0800427c 00000048 t __NVIC_SetPriorityGrouping
+0801377c 00000048 T __swhatbuf_r
+0800b858 00000048 t tflite::(anonymous namespace)::Quantize(TfLiteContext*, float, long, float, long&) [clone .isra.0]
+0800b2a0 00000048 T tflite::SingleArenaBufferAllocator::Create(unsigned char*, unsigned int)
+08003398 00000048 W std::isfinite(float)
+200001fc 00000048 B huart2
+08012cbc 0000004c T __ulp
+20000188 0000004c D _impure_data
+0800a8fc 0000004c T tflite::MicroAllocator::AllocateNodeAndRegistrations(tflite::Model const*, tflite::SubgraphAllocations*)
+08015e68 0000004c R vtable for tflite::MicroAllocator
+0800eea8 0000004c T roundf
+08000bb8 0000004e T __aeabi_d2iz
+08000bb8 0000004e T __fixdfsi
+08010f04 00000050 T __strtok_r
+08013584 00000050 T _fflush_r
+08010f54 00000050 T _raise_r
+08007df4 00000050 T tflite::ParseSoftmax(tflite::Operator const*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**)
+0800adf2 00000050 T tflite::MicroAllocator::RequestScratchBufferInArena(unsigned int, int, int*)
+08007b44 00000050 T tflite::GetRegistrationFromOpCode(tflite::OperatorCode const*, tflite::MicroOpResolver const&, TFLMRegistration const**)
+0800ab64 00000050 T tflite::internal::InitializeTfLiteEvalTensorFromFlatbuffer(tflite::Tensor const&, flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer>, unsigned long> const*, TfLiteEvalTensor*)
+08015db0 00000050 R vtable for tflite::MicroInterpreterContext
+08005a62 00000052 W tflite::MicroMutableOpResolver<2u>::GetOpDataParser(tflite::BuiltinOperator) const
+080042e0 00000054 t __NVIC_SetPriority
+20000250 00000054 b (anonymous namespace)::resolver
+0800b000 00000054 T tflite::MicroContext::AllocateDecompressionMemory(unsigned int, unsigned int)
+080140c0 00000054 R kmeans_scaler_mean
+08014114 00000054 R kmeans_scaler_scale
+0800ac84 00000056 T tflite::MicroAllocator::Create(unsigned char*, unsigned int, tflite::MemoryPlannerType)
+0800a710 00000058 T tflite::MicroAllocator::AllocatePersistentTfLiteTensor(tflite::Model const*, tflite::SubgraphAllocations const*, int, int)
+080070b0 00000058 T tflite::MicroInterpreter::Init(tflite::MicroProfilerInterface*)
+0800773c 00000058 T tflite::MicroInterpreterGraph::FreeSubgraphs()
+080076e4 00000058 T tflite::MicroInterpreterGraph::ResetSubgraphs()
+08005944 00000058 W tflite::MicroMutableOpResolver<2u>::FindOp(tflite::BuiltinOperator) const
+080005fc 0000005a T __aeabi_l2d
+080005fc 0000005a T __floatdidf
+080127e6 0000005a T __lo0bits
+0800794c 0000005a T tflite::MicroInterpreterGraph::ResetTensorData(tflite::Tensor const*, TfLiteEvalTensor*)
+08005a08 0000005a W tflite::MicroMutableOpResolver<2u>::FindOp(char const*) const
+08013720 0000005c T _realloc_r
+08015ed0 0000005c R vtable for tflite::SingleArenaBufferAllocator
+0800a7a2 0000005e T tflite::MicroAllocator::AllocateTempTfLiteTensor(tflite::Model const*, tflite::SubgraphAllocations const*, int, int)
+0800ab04 0000005e T tflite::MicroAllocator::PopulateTfLiteTensorFromFlatbuffer(tflite::Model const*, TfLiteTensor*, int, int, bool)
+08007794 00000060 T tflite::MicroInterpreterGraph::InvokeSubgraph(int)
+08016258 00000060 r CSWTCH.11
+080041dc 00000060 W HAL_InitTick
+0800ec20 00000060 T logf
+08003e04 00000060 t MX_GPIO_Init
+08012e4c 00000064 T __ratio
+08007a2e 00000064 T tflite::MicroInterpreterGraph::ResetVariableTensor(int, int)
+08008f70 00000064 T arm_fully_connected_s4
+08008fd4 00000064 T arm_fully_connected_wrapper_s8
+0800eb44 00000064 T frexp
+0800a896 00000066 T tflite::MicroAllocator::AllocateVariables(tflite::SubGraph const*, TfLiteEvalTensor*, long const*)
+0800767e 00000066 T tflite::MicroInterpreterGraph::InitSubgraphs()
+0800a660 00000066 T tflite::BytesRequiredForTensor(tflite::Tensor const&, unsigned int*, unsigned int*)
+08004334 00000066 t NVIC_EncodePriority
+0800b750 00000068 T tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*)
+080005ec 0000006a T __aeabi_ul2d
+080005ec 0000006a T __floatundidf
+08007108 0000006a T tflite::MicroInterpreter::MicroInterpreter(tflite::Model const*, tflite::MicroOpResolver const&, unsigned char*, unsigned int, tflite::MicroResourceVariables*, tflite::MicroProfilerInterface*, bool)
+08007108 0000006a T tflite::MicroInterpreter::MicroInterpreter(tflite::Model const*, tflite::MicroOpResolver const&, unsigned char*, unsigned int, tflite::MicroResourceVariables*, tflite::MicroProfilerInterface*, bool)
+08005250 0000006c T _sbrk
+08010d2c 0000006c T sniprintf
+08010d2c 0000006c T snprintf
+08010b80 0000006c t std
+08008e70 0000006e T arm_convolve_1x1_s8_fast
+08009038 0000006e T arm_vector_sum_s8
+080137c4 00000072 T __smakebuf_r
+08010392 00000074 T __exponent
+0800a5e8 00000076 T tflite::TfLiteTypeSizeOf(TfLiteType, unsigned int*)
+0800ba40 00000076 T arm_fully_connected_per_channel_s8
+0800bab8 00000076 T arm_fully_connected_s8
+0800ad30 00000078 T tflite::MicroAllocator::StartModelAllocation(tflite::Model const*)
+0800eba8 00000078 T expf
+08003e64 00000078 t MX_USART2_UART_Init
+08000a8c 0000007a T __cmpdf2
+08000a8c 0000007a T __eqdf2
+08000a8c 0000007a T __nedf2
+0800e6d4 0000007a T tflite::AllocationInfoBuilder::ValidateSubgraph(tflite::SubGraph const*, TfLiteEvalTensor*)
+080135d4 0000007c T __swbuf_r
+080125c8 0000007c T _Balloc
+08010e88 0000007c T strtok
+08014008 00000080 R twiddleCoef_16
+08000a84 00000082 T __ledf2
+08000a84 00000082 T __ltdf2
+0800b7b8 00000082 T tflite::CalculateInputRadius(int, int, int)
+0800e55c 00000082 T tflite::AllocationInfoBuilder::CreateAllocationInfo(int)
+08008eec 00000084 T arm_fully_connected_s16
+08007c5e 00000086 T tflite::ConvertTensorType(tflite::TensorType, TfLiteType*, tflite::ErrorReporter*)
+080079a6 00000088 T tflite::MicroInterpreterGraph::ResetVariableTensors()
+08001080 00000088 T arm_cmplx_mag_f32
+08000a7c 0000008a T __gedf2
+08000a7c 0000008a T __gtdf2
+200044e4 0000008c B __atexit0
+08012688 0000008c T __multadd
+08003a7c 0000008c T FeatureExtraction_Extract
+0800b67c 00000090 T tflite::QuantizeMultiplier(double, long*, int*)
+08012d08 00000094 T __b2d
+08012714 00000094 T __s2b
+08011e98 00000094 T _free_r
+08000c48 0000009e T __aeabi_d2f
+08000c48 0000009e T __truncdfsf2
+0800abb4 0000009e T tflite::MicroAllocator::AllocateTfLiteEvalTensors(tflite::Model const*, tflite::SubgraphAllocations*)
+08008248 000000a0 t tflite::(anonymous namespace)::EvalQuantizedInt16(TfLiteContext*, TfLiteNode*, tflite::(anonymous namespace)::OpData const&, TfLiteEvalTensor const*, TfLiteEvalTensor const*, TfLiteEvalTensor const*, TfLiteEvalTensor*) [clone .isra.0]
+080047d8 000000a0 T HAL_UART_Init
+0800ee08 000000a0 T round
+08011f2c 000000a4 t rshift
+08013650 000000a8 T __swsetup_r
+08007d26 000000aa T tflite::ParseFullyConnected(tflite::Operator const*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**)
+08012d9c 000000b0 T __d2b
+080082e8 000000b0 t tflite::(anonymous namespace)::EvalQuantizedInt4(TfLiteContext*, TfLiteNode*, tflite::(anonymous namespace)::OpData const&, TfLiteEvalTensor const*, TfLiteEvalTensor const*, TfLiteEvalTensor const*, TfLiteEvalTensor*) [clone .isra.0]
+08001108 000000b2 T arm_bitreversal_32
+08004ad0 000000b2 t UART_WaitOnFlagUntilTimeout
+08011118 000000b4 T __register_exitproc
+080129c0 000000b8 T __pow5mult
+0800b8a0 000000b8 T tflite::GetQuantizedConvolutionMultipler(TfLiteContext*, TfLiteTensor const*, TfLiteTensor const*, TfLiteTensor const*, TfLiteTensor*, double*)
+08012f52 000000c0 T __ssputs_r
+08004b82 000000c6 t UART_EndRxTransfer
+08016478 000000c8 R __mprec_tens
+080100f8 000000c8 T strtof
+080102c8 000000ca T __cvt
+200042bc 000000d0 b TinyML_Init::static_interpreter
+0800e5fc 000000d8 T tflite::AllocationInfoBuilder::GetOfflinePlannedOffsets(long const**)
+08010858 000000da T _printf_common
+08012a78 000000dc T __lshift
+0800b958 000000e8 T tflite::CalculateActivationRangeQuantized(TfLiteContext*, TfLiteFusedActivation, TfLiteTensor*, long*, long*)
+0800ea2e 000000ee T tflite::AllocationInfoBuilder::MarkSubgraphLifetimesIfNecessary(tflite::Operator const*, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)
+080101c0 000000f4 t _strtol_l.isra.0
+0800584c 000000f8 W tflite::MicroMutableOpResolver<2u>::AddBuiltin(tflite::BuiltinOperator, TFLMRegistration const&, TfLiteStatus (*)(tflite::Operator const*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**))
+08008814 000000fa t tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*)
+0800f3e8 00000100 T _malloc_r
+08016340 00000101 R _ctype_
+08013480 00000104 T __sflush_r
+080077f4 00000106 T tflite::MicroInterpreterGraph::PrepareSubgraphs()
+0800ed00 00000108 T floor
+080111cc 00000110 t quorem
+0800488c 00000116 T HAL_UART_Transmit
+0800e74e 00000126 T tflite::AllocationInfoBuilder::InitializeAllocationInfo(long const*, tflite::SubgraphAllocations*)
+080049a2 0000012e T HAL_UART_Receive
+08012b8c 00000130 T __mdiff
+200043a0 00000138 B __sf
+08003c8c 00000138 T main
+08012468 0000013a T __hexnan
+0801286c 00000154 T __multiply
+0800863c 00000158 T tflite::CalculateOpDataFullyConnected(TfLiteContext*, TfLiteFusedActivation, TfLiteType, TfLiteTensor const*, TfLiteTensor const*, TfLiteTensor const*, TfLiteTensor*, tflite::OpDataFullyConnected*)
+20000018 0000016c D __global_locale
+0800b412 0000016c T tflite::GreedyMemoryPlanner::CalculateOffsetsIfNeeded()
+08002202 00000174 T arm_cfft_f32
+08005634 00000180 T TinyML_Predict
+08003b08 00000184 T KMeans_Compute
+0800a97c 00000188 T tflite::internal::InitializeTfLiteTensorFromFlatbuffer(tflite::IPersistentBufferAllocator*, tflite::INonPersistentBufferAllocator*, bool, tflite::Tensor const&, flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer>, unsigned long> const*, TfLiteTensor*)
+080080bc 0000018c t tflite::(anonymous namespace)::EvalQuantizedInt8(TfLiteContext*, TfLiteNode*, tflite::(anonymous namespace)::OpData const&, TfLiteEvalTensor const*, TfLiteEvalTensor const*, TfLiteEvalTensor const*, TfLiteEvalTensor*) [clone .isra.0]
+080073d6 000001ac T tflite::MicroInterpreter::AllocateTensors()
+0800720e 000001ae T tflite::MicroInterpreter::PrepareNodeAndRegistrationDataFromFlatbuffer()
+08008910 000001b4 t tflite::(anonymous namespace)::SoftmaxEval(TfLiteContext*, TfLiteNode*)
+0800ae42 000001ba T tflite::MicroAllocator::CommitStaticMemoryPlan(tflite::Model const*, tflite::SubgraphAllocations*, tflite::ScratchBufferHandle*)
+0800e874 000001ba T tflite::AllocationInfoBuilder::MarkAllocationLifetimes(int, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)
+08000000 000001c4 R g_pfnVectors
+08005330 000001c4 T TinyML_Init
+0800a37c 000001cc T arm_softmax_s16
+080008ac 000001d0 T __aeabi_ddiv
+080008ac 000001d0 T __divdf3
+0800eef4 000001e8 T __ieee754_expf
+08013014 000001f0 T _svfiprintf_r
+08013014 000001f0 T _svfprintf_r
+0800f0dc 000001f4 T __ieee754_logf
+08013258 00000228 T _vfiprintf_r
+08013258 00000228 T _vfprintf_r
+08008398 00000238 t tflite::(anonymous namespace)::Eval(TfLiteContext*, TfLiteNode*)
+08010934 0000024c T _printf_i
+08000658 00000254 T __aeabi_dmul
+08000658 00000254 T __muldf3
+08007e4c 00000270 t tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*)
+080002ec 00000276 T __adddf3
+080002ec 00000276 T __aeabi_dadd
+080002e8 0000027a T __aeabi_dsub
+080002e8 0000027a T __subdf3
+08000d84 000002f8 T __udivmoddi4
+08004448 00000328 T HAL_GPIO_Init
+080099b4 00000338 T arm_nn_vec_mat_mult_t_s16
+08008af0 00000380 T tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*)
+080011ba 000003e8 t arm_cfft_radix8by2_f32
+08011ffc 00000420 T __gethex
+08010408 00000450 W _printf_float
+08004c48 000004e8 t UART_SetConfig
+08003414 00000668 t (anonymous namespace)::extract_axis_features(float const*, float*)
+08009cec 00000690 T arm_nn_vec_mat_mult_t_s4
+080090a8 0000090a T arm_nn_mat_mult_nt_t_s8
+08014168 00000a80 R kmeans_centroids
+080112e0 00000bb8 T _dtoa_r
+0800f540 00000bb8 T _strtod_l
+080015a2 00000c60 t arm_cfft_radix8by4_f32
+0800d7ec 00000d70 T arm_nn_softmax_common_s8
+0800c9dc 00000e10 T arm_nn_vec_mat_mult_t_s8
+0800bb30 00000eac T arm_nn_vec_mat_mult_t_per_ch_s8
+08002378 0000100a T arm_radix8_butterfly_f32
+08014bf0 00001180 R g_model
+08005adc 0000153c T ProcesarComandoUART
+200002b0 00004000 b (anonymous namespace)::tensor_arena

@@ -1,0 +1,11 @@
+{
+  "job_id": "RF_06",
+  "family": "RF",
+  "status": "PASS",
+  "return_code": 0,
+  "process_elapsed_seconds": 6.5238689000107115,
+  "timeout_seconds": 60,
+  "process_launch_error": null,
+  "result_error": null,
+  "automatic_retry": false
+}

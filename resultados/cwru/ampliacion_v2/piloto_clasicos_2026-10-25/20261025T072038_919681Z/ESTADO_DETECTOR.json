@@ -1,0 +1,11 @@
+{
+  "job_id": "DETECTOR",
+  "family": "DETECTOR",
+  "status": "PASS",
+  "return_code": 0,
+  "process_elapsed_seconds": 3.294754299990018,
+  "timeout_seconds": 60,
+  "process_launch_error": null,
+  "result_error": null,
+  "automatic_retry": false
+}

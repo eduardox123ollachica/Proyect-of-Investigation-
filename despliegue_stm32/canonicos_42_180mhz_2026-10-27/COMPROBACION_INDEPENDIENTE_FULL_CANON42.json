@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_INTEGRITY_PENDING_PROTOCOL_AUDIT",
+  "date_local": "2026-10-28",
+  "timezone": "America/Lima",
+  "evidence_manifest_sha256": "16cfee268cc576bd4ed98f6dfc4205876c540ec21b08d88905fd5c4b240d80b3",
+  "full_report_sha256": "5027540d78148ae4a809732ed03bd9683eecdaf190306e4ee617841666604578",
+  "files_verified": 30,
+  "gate_snapshot_exact": true,
+  "original_client_seal_preserved": true,
+  "executed_client_exact": true,
+  "attempt_count": 1,
+  "wall_seconds": 1005.0160000000033,
+  "event_count": 7315,
+  "event_origins": {
+    "AUDITED_GATE_IMPORT": 93,
+    "FULL_NEW_UART": 7222
+  },
+  "new_UART_pairs": 28836,
+  "UTC_monotonic": true,
+  "serial_port_opened": false,
+  "classifier_invocations": 0,
+  "hardware_flashed": false
+}

@@ -1,0 +1,4 @@
+modelo,parametros,bytes_parametros_teoricos,archivo_bytes,archivo_KiB,accuracy,accuracy_percent,delta_accuracy_pp_vs_keras,memoria_tensores_estimada_bytes,memoria_tensores_estimada_KiB
+Keras_FP32,683,2732,34126,33.326171875,0.9459459459459459,94.5945945945946,0.0,,
+TFLite_FP32,683,2732,5308,5.18359375,0.9459459459459459,94.5945945945946,0.0,2960.0,2.890625
+TFLite_INT8,683,683,4480,4.375,0.9459459459459459,94.5945945945946,0.0,839.0,0.8193359375

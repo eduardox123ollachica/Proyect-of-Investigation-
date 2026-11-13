@@ -1,0 +1,192 @@
+{
+  "status": "INNER_DNN_MATRIX_COMPLETE_AUDITED_PENDING_DETECTOR_CLASSICAL_AND_SELECTION",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "campaign": "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z",
+  "controller_receipt": "resultados/cwru/ampliacion_v2/control_continuacion_interna_v2_2026-10-26/20261027T011412_141104Z",
+  "cells": 288,
+  "new_fits": 240,
+  "reused_fits": 48,
+  "reused_representatives": 32,
+  "reused_supplement_P0": 16,
+  "new_fits_remaining": 0,
+  "inner_seeds": [
+    11,
+    22,
+    33
+  ],
+  "outer_scenarios": 4,
+  "internal_loads_per_scenario": 3,
+  "masks": 8,
+  "batches_total": 16,
+  "batches_in_continuation": 14,
+  "worker_controller_budget_seconds_consumed": 2483.0290000000023,
+  "worker_controller_budget_minutes_consumed": 41.383816666666704,
+  "budget_seconds_remaining": 4716.970999999998,
+  "budget_limit_seconds": 7200,
+  "automatic_retries": 0,
+  "failures": 0,
+  "timing_scope": "New240 only; controller subprocess execution plus verification, excluding repeated shared audits and reused48.",
+  "epochs": {
+    "minimum": 11,
+    "mean": 32.197916666666664,
+    "maximum": 50,
+    "cells_reaching_maximum50": 120,
+    "cells_stopping_before50": 168
+  },
+  "quantization": {
+    "cells_with_class_changes": 151,
+    "summed_class_changes_over_repeated_validation_passes": 1873,
+    "cells_with_training_clipping": 0,
+    "cells_with_validation_clipping": 180,
+    "counts_are_not_unique_windows_or_independent_samples": true
+  },
+  "per_mask_descriptive": [
+    {
+      "candidate": "F14",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.8414377807392451,
+      "minimum_cell_macro_f1_INT8": 0.25126209717649406,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "T6",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.9041327932220227,
+      "minimum_cell_macro_f1_INT8": 0.5298087490542384,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "S8",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.8444984982486846,
+      "minimum_cell_macro_f1_INT8": 0.46730158730158733,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "NF12",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.8035382889870439,
+      "minimum_cell_macro_f1_INT8": 0.48695393836058803,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "NM10",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.815206760664989,
+      "minimum_cell_macro_f1_INT8": 0.26175820707070707,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "NE12",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.8633142841142222,
+      "minimum_cell_macro_f1_INT8": 0.25320512820512825,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "DE7",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.8318699626200955,
+      "minimum_cell_macro_f1_INT8": 0.2924041297935103,
+      "maximum_cell_macro_f1_INT8": 1.0
+    },
+    {
+      "candidate": "FE7",
+      "cells": 36,
+      "mean_macro_f1_INT8": 0.8602185281810404,
+      "minimum_cell_macro_f1_INT8": 0.5346084184597552,
+      "maximum_cell_macro_f1_INT8": 0.9961903823575294
+    }
+  ],
+  "detector_inventory": {
+    "logical_rows_planned": 96,
+    "logical_rows_available": 36,
+    "logical_rows_remaining": 60,
+    "source_representative_rows": 32,
+    "extra_CONTROL12_alias_rows": 4,
+    "distinct_training_parameter_scopes_planned": 42,
+    "parameter_payloads_available": 23,
+    "distinct_training_parameter_scopes_remaining": 19,
+    "derivation": "Six possible two-load training pairs times seven unique detector index sets; F14/NF12 alias.",
+    "extra_source_links": [
+      {
+        "source_directory": "resultados/cwru/ampliacion_v2/suplemento_preprocesamiento_normalidad_2026-10-25/20261025T215652_507777Z/detector/detector_o3_i1_CONTROL12",
+        "outer_load_hp": 3,
+        "inner_validation_load_hp": 1,
+        "aliases": [
+          "F14",
+          "NF12"
+        ],
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "source_result_sha256": "bfc4a43a7f10dd8c5cb90add9c80cbf418675993be7788bd22cc40e757ea57fa",
+        "source_parameters_sha256": "ed1c31e9e0a39350d216a561c2cda243b134c4ac2f634f7bc2257b76a4a0627b",
+        "semantic_equivalence": "Raw float32 CONTROL12 equals both F14 and NF12 detector indices; dominant frequencies excluded",
+        "new_detector_fits": 0
+      },
+      {
+        "source_directory": "resultados/cwru/ampliacion_v2/suplemento_preprocesamiento_normalidad_2026-10-25/20261025T215652_507777Z/detector/detector_o3_i2_CONTROL12",
+        "outer_load_hp": 3,
+        "inner_validation_load_hp": 2,
+        "aliases": [
+          "F14",
+          "NF12"
+        ],
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "source_result_sha256": "3d29fb2bbb894fcff20202897862a2106c1f8d46a681b3fe8945729ff904a7b6",
+        "source_parameters_sha256": "4acb9220e315f80c67c165d7a90261f27bf68948cb0977b56b602883e099136c",
+        "semantic_equivalence": "Raw float32 CONTROL12 equals both F14 and NF12 detector indices; dominant frequencies excluded",
+        "new_detector_fits": 0
+      }
+    ],
+    "counts_not_independent_experimental_repetitions": true
+  },
+  "numeric_reconstruction_of_all240_new_jobs": true,
+  "original48_signatures_and_manifests_preserved": true,
+  "metadata_plan_snapshot_verified_before_and_after": true,
+  "original_source_result_schema_preserved": true,
+  "preparation_manifest_sha256": "011cffef5862a3cbd5277a96dfc0ea2c696762ddd53b90fed7fad718d7488295",
+  "continuation_manifest_sha256": "9972418e30126673beae232f445fec7b56553b540e31e31eb6c0bd25f9bca1ef",
+  "new_training_fits_by_auditor": 0,
+  "new_TFLite_invocations_by_auditor": 0,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "outer_predictive_evaluation_executed": false,
+  "feature_selection_executed": false,
+  "manuscript_modified": false,
+  "old_artifacts_modified": false,
+  "next_stage": "Complete19 unique normality parameter scopes and60 remaining logical inner rows; classical grids and frozen selection precede outer evaluation.",
+  "qualifications": [
+    "No mask is selected by the global descriptive table.",
+    "Each outer selection must use its nine internal scores and detector/cost guards.",
+    "Seeds/folds and repeated validation windows are dependent; no IID confidence interval is claimed.",
+    "The corpus remains retrospectively explored; this does not create a virgin test."
+  ],
+  "audit_seconds": 76.2235671999988
+}

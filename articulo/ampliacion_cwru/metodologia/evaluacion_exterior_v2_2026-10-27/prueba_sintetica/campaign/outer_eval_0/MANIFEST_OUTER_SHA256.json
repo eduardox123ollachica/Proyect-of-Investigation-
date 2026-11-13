@@ -1,0 +1,9 @@
+{
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/entrada_evaluacion.npz": "d119979dbc6f92a9f0826a811279eda13e1f4b1a98b66b24f7cf452335cf60cf",
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/procedencia.json": "a47d4ff4765b7eccdf1e9b093a4b34322e85b22c43de66e0146d6223b3f21822",
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/RESULTADO.json": "18a6775a53eeeb72d7d56ca624f25eeef5afc406d67366909de05e2cad77a6a3",
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/synthetic_detector_predicciones.npz": "61064b3ccbf8426f2bd077e7d311dc1c0a156ca09ca86db433e8c6c9b182aaa9",
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/synthetic_DNN_predicciones.npz": "f33762e411ef22d3dbbf9620233ebd7004882ca287df4416158ebf5fd70024fa",
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/synthetic_RF_predicciones.npz": "dd52baebb472e0526ac1ded689fc7cafbfe1634fde121bceaca1498197045043",
+  "articulo/ampliacion_cwru/metodologia/evaluacion_exterior_v2_2026-10-27/prueba_sintetica/campaign/outer_eval_0/synthetic_SVM_predicciones.npz": "206c2eed88a0ee22b2b310a9b79ea4bf3b2aecc33df5b006a01e426a99cee721"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "job_id": "outer1_RF_c05_s99",
+  "family": "RF",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 4.922000000005937,
+  "timeout_seconds": 90,
+  "automatic_retry": false
+}

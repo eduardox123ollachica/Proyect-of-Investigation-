@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_AUDIT_AND_CLIENT_TESTS_PASS_PHYSICAL_PENDING",
+  "date_local": "2026-10-27",
+  "checks": {
+    "ELF_audit_tamper_tests": 5,
+    "programmer_mock_tests": 9,
+    "UART_gate_offline_tests": 12,
+    "total_new_unit_tests": 26,
+    "ELF_audit": "PASS_ELF_CANON42_VERIFIED_PENDING_ARM",
+    "kernel_audit": "PASS_INDEPENDENT_LINKED_KERNEL_MEMORY_PENDING_ARM",
+    "metadata_audit": "PASS_GENERATED_METADATA_ONLY"
+  },
+  "serial_opened": false,
+  "hardware_contacted": false,
+  "hardware_flashed": false,
+  "classifier_invocations": 0,
+  "manuscript_modified": false,
+  "physical_gate_executed": false,
+  "full_validation_enabled": false
+}

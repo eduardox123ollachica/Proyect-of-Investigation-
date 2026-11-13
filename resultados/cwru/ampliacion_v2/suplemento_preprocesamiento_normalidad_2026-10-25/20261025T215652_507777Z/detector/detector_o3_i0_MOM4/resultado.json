@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "detector_id": "detector_o3_i0_MOM4",
+  "representation": "MOM4",
+  "inner": 0,
+  "outer_load_hp": 3,
+  "indices": [
+    1,
+    2,
+    8,
+    9
+  ],
+  "data_job_id": "supp_o3_i0_F14_P0_s11",
+  "metrics": {
+    "normal_spec": 0.42857142857142855,
+    "ir_recall": 1.0,
+    "or_recall": 0.8333333333333334,
+    "fault_sensitivity": 0.9166666666666667,
+    "balanced_accuracy": 0.6726190476190477,
+    "BA": 0.6726190476190477,
+    "per_record": [
+      {
+        "record_id": "109",
+        "label": 1,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "135",
+        "label": 2,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "174",
+        "label": 1,
+        "windows": 6,
+        "rejected_windows": 6,
+        "rate": 1.0
+      },
+      {
+        "record_id": "201",
+        "label": 2,
+        "windows": 28,
+        "rejected_windows": 14,
+        "rate": 0.5
+      },
+      {
+        "record_id": "213",
+        "label": 1,
+        "windows": 28,
+        "rejected_windows": 28,
+        "rate": 1.0
+      },
+      {
+        "record_id": "238",
+        "label": 2,
+        "windows": 29,
+        "rejected_windows": 29,
+        "rate": 1.0
+      },
+      {
+        "record_id": "97",
+        "label": 0,
+        "windows": 28,
+        "rejected_windows": 16,
+        "rate": 0.42857142857142855
+      }
+    ]
+  },
+  "descriptive_guards": {
+    "minimum_each_rate": 0.95,
+    "checks": {
+      "normal_spec": false,
+      "ir_recall": true,
+      "or_recall": false
+    },
+    "passed": false,
+    "scope": "one_internal_validation_load_descriptive_engineering_only",
+    "statistical_guarantee": false,
+    "automatic_detector_selection": false
+  },
+  "reference_link": {
+    "imported_from_reference": false,
+    "new_fit_calls": 1,
+    "numeric_source_sha256": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b"
+  },
+  "imported_from_reference": false,
+  "new_fit_calls": 1,
+  "fit_windows": 58,
+  "calibration_windows": 58,
+  "validation_windows": 175,
+  "threshold": 20.094039916992188,
+  "selected_as_primary": false,
+  "source_parameters_sha256": "cda294d137340d1a2f5deb23ff9ee722161cac067a7fe8df36f39f4aa3ac99ba",
+  "outer_predictive_evaluation_executed": false,
+  "refit_after_calibration": false
+}

@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "tests_run": 22,
+  "test_names": [
+    "test_clasicos_internos.ClassicalBudgetGuards.test_budget_uses_audited_timing_only_and_preserves_scope_and_limits",
+    "test_clasicos_internos.ClassicalDataGuards.test_every_job_excludes_outer_and_has_disjoint_MAT_and_window_roles",
+    "test_clasicos_internos.ClassicalDataGuards.test_grid_params_and_order_preserve_original_pilot_catalogue",
+    "test_clasicos_internos.ClassicalDataGuards.test_importing_data_and_building_jobs_does_not_import_TensorFlow",
+    "test_clasicos_internos.ClassicalDataGuards.test_loader_requests_only_authorized_training_and_validation_rows",
+    "test_clasicos_internos.ClassicalDataGuards.test_matrix_has_288_RF_and_96_single_fit_SVM_cells",
+    "test_clasicos_internos.ClassicalDataGuards.test_tampered_seed_params_or_role_is_rejected",
+    "test_clasicos_internos.ClassicalDataGuards.test_training_signature_binds_roles_params_versions_sources_and_inputs",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_budget_needs_whole_family_timeout_and_does_not_reset_consumed_time",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_failed_or_interrupted_step_blocks_resume",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_hole_or_unclosed_job_cannot_be_silently_skipped",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_preflight_cannot_fit_or_predict_a_classifier",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_resume_checks_complete_prefix_and_preserves_accumulated_budget",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_timeout_kills_only_the_launched_worker_without_retry",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_unique_marker_rejects_copied_contract_and_budget_reset",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_worker_rejects_missing_parent_or_wrong_request_before_loading_data",
+    "test_clasicos_internos.ClassicalExecutionGuards.test_zero_exit_does_not_accept_missing_or_invalid_model_artifacts",
+    "test_clasicos_internos.ClassicalNumericalGuards.test_RF_receives_raw_float32_without_scaler_or_inplace_changes",
+    "test_clasicos_internos.ClassicalNumericalGuards.test_SVM_predictions_preserve_native_vote_even_if_decision_argmax_differs",
+    "test_clasicos_internos.ClassicalNumericalGuards.test_SVM_scaler_uses_only_train_and_materializes_float32_operations",
+    "test_clasicos_internos.ClassicalNumericalGuards.test_invalid_nonfinite_or_wrong_input_representation_is_rejected",
+    "test_clasicos_internos.ClassicalNumericalGuards.test_tiny_synthetic_estimators_roundtrip_joblib_and_native_predictions"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "seconds": 11.885074700003315,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/datos_clasicos.py": "070b807c4ac4cb63c909280dba676fdcc672ecdbe7632e6d5c431b430433d005",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/ejecutar_clasicos.py": "9714d52a9fb6eae7cc1102d48b8bedc9ebff4fba1784367f9ec77db9bc1d7c79",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/presupuesto_clasicos_internos.py": "5553815efdc1163500a369ab4369219b603001c7e4d6601283d9e2aae055cc9f",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/test_clasicos_internos.py": "ca58b64b84554ca896d18b1a080e690b1be57f614b19bc0ac1033c36231bb93f",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "source_sha256_before": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/datos_clasicos.py": "070b807c4ac4cb63c909280dba676fdcc672ecdbe7632e6d5c431b430433d005",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/ejecutar_clasicos.py": "9714d52a9fb6eae7cc1102d48b8bedc9ebff4fba1784367f9ec77db9bc1d7c79",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/presupuesto_clasicos_internos.py": "5553815efdc1163500a369ab4369219b603001c7e4d6601283d9e2aae055cc9f",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/test_clasicos_internos.py": "ca58b64b84554ca896d18b1a080e690b1be57f614b19bc0ac1033c36231bb93f",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "source_sha256_after": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/datos_clasicos.py": "070b807c4ac4cb63c909280dba676fdcc672ecdbe7632e6d5c431b430433d005",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/ejecutar_clasicos.py": "9714d52a9fb6eae7cc1102d48b8bedc9ebff4fba1784367f9ec77db9bc1d7c79",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/presupuesto_clasicos_internos.py": "5553815efdc1163500a369ab4369219b603001c7e4d6601283d9e2aae055cc9f",
+    "codigo/cwru/ampliacion_v2/clasicos_internos/test_clasicos_internos.py": "ca58b64b84554ca896d18b1a080e690b1be57f614b19bc0ac1033c36231bb93f",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63"
+  },
+  "sources_unchanged_during_tests": true,
+  "real_training_fits": 0,
+  "real_model_predictions": 0,
+  "synthetic_training_fits": 2,
+  "synthetic_model_predictions": 4,
+  "synthetic_shapes": {
+    "training": [
+      36,
+      14
+    ],
+    "prediction": [
+      6,
+      14
+    ]
+  },
+  "native_estimator_fit_and_predict_guarded_against_corpus_arrays": true,
+  "TensorFlow_imported": false,
+  "hardware_connected": false,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0"
+  },
+  "python_executable": "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "test_output": "test_budget_uses_audited_timing_only_and_preserves_scope_and_limits (test_clasicos_internos.ClassicalBudgetGuards.test_budget_uses_audited_timing_only_and_preserves_scope_and_limits) ... ok\ntest_every_job_excludes_outer_and_has_disjoint_MAT_and_window_roles (test_clasicos_internos.ClassicalDataGuards.test_every_job_excludes_outer_and_has_disjoint_MAT_and_window_roles) ... ok\ntest_grid_params_and_order_preserve_original_pilot_catalogue (test_clasicos_internos.ClassicalDataGuards.test_grid_params_and_order_preserve_original_pilot_catalogue) ... ok\ntest_importing_data_and_building_jobs_does_not_import_TensorFlow (test_clasicos_internos.ClassicalDataGuards.test_importing_data_and_building_jobs_does_not_import_TensorFlow) ... ok\ntest_loader_requests_only_authorized_training_and_validation_rows (test_clasicos_internos.ClassicalDataGuards.test_loader_requests_only_authorized_training_and_validation_rows) ... ok\ntest_matrix_has_288_RF_and_96_single_fit_SVM_cells (test_clasicos_internos.ClassicalDataGuards.test_matrix_has_288_RF_and_96_single_fit_SVM_cells) ... ok\ntest_tampered_seed_params_or_role_is_rejected (test_clasicos_internos.ClassicalDataGuards.test_tampered_seed_params_or_role_is_rejected) ... ok\ntest_training_signature_binds_roles_params_versions_sources_and_inputs (test_clasicos_internos.ClassicalDataGuards.test_training_signature_binds_roles_params_versions_sources_and_inputs) ... ok\ntest_budget_needs_whole_family_timeout_and_does_not_reset_consumed_time (test_clasicos_internos.ClassicalExecutionGuards.test_budget_needs_whole_family_timeout_and_does_not_reset_consumed_time) ... ok\ntest_failed_or_interrupted_step_blocks_resume (test_clasicos_internos.ClassicalExecutionGuards.test_failed_or_interrupted_step_blocks_resume) ... ok\ntest_hole_or_unclosed_job_cannot_be_silently_skipped (test_clasicos_internos.ClassicalExecutionGuards.test_hole_or_unclosed_job_cannot_be_silently_skipped) ... ok\ntest_preflight_cannot_fit_or_predict_a_classifier (test_clasicos_internos.ClassicalExecutionGuards.test_preflight_cannot_fit_or_predict_a_classifier) ... ok\ntest_resume_checks_complete_prefix_and_preserves_accumulated_budget (test_clasicos_internos.ClassicalExecutionGuards.test_resume_checks_complete_prefix_and_preserves_accumulated_budget) ... ok\ntest_timeout_kills_only_the_launched_worker_without_retry (test_clasicos_internos.ClassicalExecutionGuards.test_timeout_kills_only_the_launched_worker_without_retry) ... ok\ntest_unique_marker_rejects_copied_contract_and_budget_reset (test_clasicos_internos.ClassicalExecutionGuards.test_unique_marker_rejects_copied_contract_and_budget_reset) ... ok\ntest_worker_rejects_missing_parent_or_wrong_request_before_loading_data (test_clasicos_internos.ClassicalExecutionGuards.test_worker_rejects_missing_parent_or_wrong_request_before_loading_data) ... ok\ntest_zero_exit_does_not_accept_missing_or_invalid_model_artifacts (test_clasicos_internos.ClassicalExecutionGuards.test_zero_exit_does_not_accept_missing_or_invalid_model_artifacts) ... ok\ntest_RF_receives_raw_float32_without_scaler_or_inplace_changes (test_clasicos_internos.ClassicalNumericalGuards.test_RF_receives_raw_float32_without_scaler_or_inplace_changes) ... ok\ntest_SVM_predictions_preserve_native_vote_even_if_decision_argmax_differs (test_clasicos_internos.ClassicalNumericalGuards.test_SVM_predictions_preserve_native_vote_even_if_decision_argmax_differs) ... ok\ntest_SVM_scaler_uses_only_train_and_materializes_float32_operations (test_clasicos_internos.ClassicalNumericalGuards.test_SVM_scaler_uses_only_train_and_materializes_float32_operations) ... ok\ntest_invalid_nonfinite_or_wrong_input_representation_is_rejected (test_clasicos_internos.ClassicalNumericalGuards.test_invalid_nonfinite_or_wrong_input_representation_is_rejected) ... ok\ntest_tiny_synthetic_estimators_roundtrip_joblib_and_native_predictions (test_clasicos_internos.ClassicalNumericalGuards.test_tiny_synthetic_estimators_roundtrip_joblib_and_native_predictions) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 11.885s\n\nOK\n",
+  "date_local": "2026-10-27",
+  "timezone": "America/Lima"
+}

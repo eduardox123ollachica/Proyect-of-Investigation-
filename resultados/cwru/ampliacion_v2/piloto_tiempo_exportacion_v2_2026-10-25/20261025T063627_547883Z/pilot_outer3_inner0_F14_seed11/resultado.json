@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "job_id": "pilot_outer3_inner0_F14_seed11",
+  "mask": "F14",
+  "seed": 11,
+  "purpose": "runtime_and_conversion_only",
+  "confirmatory_fit": false,
+  "reused_for_selection": false,
+  "early_stopping": false,
+  "training_windows": 799,
+  "validation_windows": 175,
+  "epochs": 50,
+  "batches_per_epoch": 25,
+  "optimizer_updates": 1250,
+  "architecture": [
+    14,
+    20,
+    10,
+    3
+  ],
+  "parameters": 543,
+  "class_counts": [
+    116,
+    335,
+    348
+  ],
+  "class_weights": [
+    2.295977011494253,
+    0.7950248756218905,
+    0.7653256704980843
+  ],
+  "tracing_changed_model_weights": false,
+  "optimizer_iterations_before_after_trace": [
+    0,
+    0
+  ],
+  "representative_calibration_rows": 799,
+  "export_method": "frozen_concrete_function_from_identical_trained_weights",
+  "freeze_tensorflow_internal_API_version": "2.21.0",
+  "freeze_model_weights_unchanged": true,
+  "freeze_validation_class_changes": 0,
+  "freeze_validation_probability_max_error": 2.086162567138672e-07,
+  "freeze_resource_variable_ops_remaining": 0,
+  "timing_nonoverlapping_seconds": {
+    "imports": 13.43892460000643,
+    "data_and_scaler": 0.29403910000110045,
+    "graph_compile": 1.112292299992987,
+    "training_updates": 3.84800209995592,
+    "epoch_training_diagnostics": 0.9038678999204421,
+    "epoch_validation": 0.6796140000078594,
+    "FP32_conversion": 0.6791880999953719,
+    "INT8_conversion": 0.27413039999373723,
+    "inference": 0.09627239999826998,
+    "artifact_IO": 0.0681829000095604
+  },
+  "derived_training_epochs_seconds": 5.431483999884222,
+  "worker_elapsed_to_result_seconds": 21.536531000005198,
+  "worker_unattributed_before_result_seconds": 0.1420172001235187,
+  "final_result_write_and_process_exit_included_in_stage_times": false,
+  "versions": {
+    "python": "3.12.10",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1"
+  },
+  "python_executable": "C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "worker_environment": {
+    "PYTHONHASHSEED": "11",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "TF_DETERMINISTIC_OPS": "1",
+    "TF_ENABLE_ONEDNN_OPTS": "0",
+    "TF_NUM_INTRAOP_THREADS": "1",
+    "TF_NUM_INTEROP_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "TF_CPP_MIN_LOG_LEVEL": "2"
+  },
+  "keras_FP32_class_changes": 0,
+  "FP32_INT8_class_changes": 15,
+  "fp32_details": {
+    "input_dtype": "float32",
+    "output_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_quantization": [
+      0.0,
+      0
+    ],
+    "tensor_dtypes": [
+      "float32"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "threads": 1,
+    "default_delegates_disabled": true,
+    "validation_saturated_input_values": 0
+  },
+  "int8_details": {
+    "input_dtype": "int8",
+    "output_dtype": "int8",
+    "input_quantization": [
+      0.03658764064311981,
+      -10
+    ],
+    "output_quantization": [
+      0.00390625,
+      -128
+    ],
+    "tensor_dtypes": [
+      "int32",
+      "int8"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "threads": 1,
+    "default_delegates_disabled": true,
+    "validation_saturated_input_values": 221
+  },
+  "model_bytes": {
+    "FP32": 4312,
+    "INT8": 3904
+  },
+  "model_sha256": {
+    "FP32": "5cf32982be2eb9ec3202968df9e34d3c8518b0ec88bf0b9f50413668dc1c1e72",
+    "INT8": "30bfcb1b0d7df365bae2a2d64da244ae01362da30d423b0a080de5a5543a9db6"
+  },
+  "scaler_fit_scope": "training_only_float64_fit_export_float32",
+  "normalization": "explicit_float32_subtract_then_divide",
+  "no_load3_arrays_opened": true,
+  "no_detector_fitted": true,
+  "no_STM32_latency_measured": true,
+  "validation_used_to_select_checkpoint_or_mask": false
+}

@@ -1,0 +1,2 @@
+version,samples,accuracy,mean_P_true,mean_confidence,mean_margin,correct_conf_gt_090,correct_conf_gt_095,num_errors
+sin_class_weight,1332,0.9436936936936937,0.9434473648143394,0.9864062781081082,0.9308003701481872,0.9256756756756757,0.9196696696696697,75

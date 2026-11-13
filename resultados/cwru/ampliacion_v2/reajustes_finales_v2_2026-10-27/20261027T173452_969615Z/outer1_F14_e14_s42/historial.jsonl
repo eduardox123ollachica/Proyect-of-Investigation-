@@ -1,0 +1,14 @@
+{"epoch": 1, "loss": 0.39398401975631714, "optimizer_updates": 31}
+{"epoch": 2, "loss": 0.09826990216970444, "optimizer_updates": 62}
+{"epoch": 3, "loss": 0.058854974806308746, "optimizer_updates": 93}
+{"epoch": 4, "loss": 0.051784828305244446, "optimizer_updates": 124}
+{"epoch": 5, "loss": 0.04800191894173622, "optimizer_updates": 155}
+{"epoch": 6, "loss": 0.0453595370054245, "optimizer_updates": 186}
+{"epoch": 7, "loss": 0.04296710342168808, "optimizer_updates": 217}
+{"epoch": 8, "loss": 0.040736064314842224, "optimizer_updates": 248}
+{"epoch": 9, "loss": 0.03886698931455612, "optimizer_updates": 279}
+{"epoch": 10, "loss": 0.036989759653806686, "optimizer_updates": 310}
+{"epoch": 11, "loss": 0.03522621467709541, "optimizer_updates": 341}
+{"epoch": 12, "loss": 0.03369394689798355, "optimizer_updates": 372}
+{"epoch": 13, "loss": 0.0321338064968586, "optimizer_updates": 403}
+{"epoch": 14, "loss": 0.030755363404750824, "optimizer_updates": 434}

@@ -1,0 +1,333 @@
+{
+  "best_epoch": 24,
+  "best_validation_loss": 0.05148189142346382,
+  "epochs_executed": 34,
+  "optimizer_updates": 850,
+  "weights_restored": true,
+  "model_weights_sha256": "86d05c3814bef0b242f0b57545afb845412866e5c825f71af85babaa608f702f",
+  "class_counts": [
+    116,
+    335,
+    348
+  ],
+  "class_weights": [
+    2.295977011494253,
+    0.7950248756218905,
+    0.7653256704980843
+  ],
+  "training_timing_seconds": {
+    "training_updates": 0.9340004999939993,
+    "epoch_training_diagnostics": 0.21711379999032943,
+    "epoch_validation": 0.14728849999664817
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.4397617280483246,
+      "val_loss": 0.6460164785385132,
+      "optimizer_updates": 25,
+      "improved": true,
+      "best_epoch": 1,
+      "patience_used": 0
+    },
+    {
+      "epoch": 2,
+      "loss": 0.15679340064525604,
+      "val_loss": 0.36224889755249023,
+      "optimizer_updates": 50,
+      "improved": true,
+      "best_epoch": 2,
+      "patience_used": 0
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0563887357711792,
+      "val_loss": 0.1671113222837448,
+      "optimizer_updates": 75,
+      "improved": true,
+      "best_epoch": 3,
+      "patience_used": 0
+    },
+    {
+      "epoch": 4,
+      "loss": 0.045302215963602066,
+      "val_loss": 0.11337403953075409,
+      "optimizer_updates": 100,
+      "improved": true,
+      "best_epoch": 4,
+      "patience_used": 0
+    },
+    {
+      "epoch": 5,
+      "loss": 0.04186951369047165,
+      "val_loss": 0.11302627623081207,
+      "optimizer_updates": 125,
+      "improved": true,
+      "best_epoch": 5,
+      "patience_used": 0
+    },
+    {
+      "epoch": 6,
+      "loss": 0.03934401646256447,
+      "val_loss": 0.10056351870298386,
+      "optimizer_updates": 150,
+      "improved": true,
+      "best_epoch": 6,
+      "patience_used": 0
+    },
+    {
+      "epoch": 7,
+      "loss": 0.03713279962539673,
+      "val_loss": 0.09910382330417633,
+      "optimizer_updates": 175,
+      "improved": true,
+      "best_epoch": 7,
+      "patience_used": 0
+    },
+    {
+      "epoch": 8,
+      "loss": 0.035085830837488174,
+      "val_loss": 0.09239478409290314,
+      "optimizer_updates": 200,
+      "improved": true,
+      "best_epoch": 8,
+      "patience_used": 0
+    },
+    {
+      "epoch": 9,
+      "loss": 0.033171623945236206,
+      "val_loss": 0.09294439852237701,
+      "optimizer_updates": 225,
+      "improved": false,
+      "best_epoch": 8,
+      "patience_used": 1
+    },
+    {
+      "epoch": 10,
+      "loss": 0.03138245269656181,
+      "val_loss": 0.08379340916872025,
+      "optimizer_updates": 250,
+      "improved": true,
+      "best_epoch": 10,
+      "patience_used": 0
+    },
+    {
+      "epoch": 11,
+      "loss": 0.02973359450697899,
+      "val_loss": 0.0859447568655014,
+      "optimizer_updates": 275,
+      "improved": false,
+      "best_epoch": 10,
+      "patience_used": 1
+    },
+    {
+      "epoch": 12,
+      "loss": 0.028198713436722755,
+      "val_loss": 0.07839518040418625,
+      "optimizer_updates": 300,
+      "improved": true,
+      "best_epoch": 12,
+      "patience_used": 0
+    },
+    {
+      "epoch": 13,
+      "loss": 0.026775863021612167,
+      "val_loss": 0.08411835879087448,
+      "optimizer_updates": 325,
+      "improved": false,
+      "best_epoch": 12,
+      "patience_used": 1
+    },
+    {
+      "epoch": 14,
+      "loss": 0.025424551218748093,
+      "val_loss": 0.0742063969373703,
+      "optimizer_updates": 350,
+      "improved": true,
+      "best_epoch": 14,
+      "patience_used": 0
+    },
+    {
+      "epoch": 15,
+      "loss": 0.024169964715838432,
+      "val_loss": 0.07713854312896729,
+      "optimizer_updates": 375,
+      "improved": false,
+      "best_epoch": 14,
+      "patience_used": 1
+    },
+    {
+      "epoch": 16,
+      "loss": 0.022984091192483902,
+      "val_loss": 0.07949990034103394,
+      "optimizer_updates": 400,
+      "improved": false,
+      "best_epoch": 14,
+      "patience_used": 2
+    },
+    {
+      "epoch": 17,
+      "loss": 0.021836422383785248,
+      "val_loss": 0.06687282025814056,
+      "optimizer_updates": 425,
+      "improved": true,
+      "best_epoch": 17,
+      "patience_used": 0
+    },
+    {
+      "epoch": 18,
+      "loss": 0.020737335085868835,
+      "val_loss": 0.07743510603904724,
+      "optimizer_updates": 450,
+      "improved": false,
+      "best_epoch": 17,
+      "patience_used": 1
+    },
+    {
+      "epoch": 19,
+      "loss": 0.019714364781975746,
+      "val_loss": 0.07789576053619385,
+      "optimizer_updates": 475,
+      "improved": false,
+      "best_epoch": 17,
+      "patience_used": 2
+    },
+    {
+      "epoch": 20,
+      "loss": 0.018766701221466064,
+      "val_loss": 0.08502981066703796,
+      "optimizer_updates": 500,
+      "improved": false,
+      "best_epoch": 17,
+      "patience_used": 3
+    },
+    {
+      "epoch": 21,
+      "loss": 0.017878908663988113,
+      "val_loss": 0.08406434953212738,
+      "optimizer_updates": 525,
+      "improved": false,
+      "best_epoch": 17,
+      "patience_used": 4
+    },
+    {
+      "epoch": 22,
+      "loss": 0.017244622111320496,
+      "val_loss": 0.05554268881678581,
+      "optimizer_updates": 550,
+      "improved": true,
+      "best_epoch": 22,
+      "patience_used": 0
+    },
+    {
+      "epoch": 23,
+      "loss": 0.01637461967766285,
+      "val_loss": 0.09166617691516876,
+      "optimizer_updates": 575,
+      "improved": false,
+      "best_epoch": 22,
+      "patience_used": 1
+    },
+    {
+      "epoch": 24,
+      "loss": 0.015834912657737732,
+      "val_loss": 0.05148189142346382,
+      "optimizer_updates": 600,
+      "improved": true,
+      "best_epoch": 24,
+      "patience_used": 0
+    },
+    {
+      "epoch": 25,
+      "loss": 0.015055593103170395,
+      "val_loss": 0.08633013814687729,
+      "optimizer_updates": 625,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 1
+    },
+    {
+      "epoch": 26,
+      "loss": 0.014524593949317932,
+      "val_loss": 0.05356203019618988,
+      "optimizer_updates": 650,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 2
+    },
+    {
+      "epoch": 27,
+      "loss": 0.013916006311774254,
+      "val_loss": 0.06461648643016815,
+      "optimizer_updates": 675,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 3
+    },
+    {
+      "epoch": 28,
+      "loss": 0.013426109217107296,
+      "val_loss": 0.07062950730323792,
+      "optimizer_updates": 700,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 4
+    },
+    {
+      "epoch": 29,
+      "loss": 0.013069001957774162,
+      "val_loss": 0.05410626158118248,
+      "optimizer_updates": 725,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 5
+    },
+    {
+      "epoch": 30,
+      "loss": 0.012578698806464672,
+      "val_loss": 0.07335527241230011,
+      "optimizer_updates": 750,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 6
+    },
+    {
+      "epoch": 31,
+      "loss": 0.012224318459630013,
+      "val_loss": 0.059578701853752136,
+      "optimizer_updates": 775,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 7
+    },
+    {
+      "epoch": 32,
+      "loss": 0.011838615871965885,
+      "val_loss": 0.0686291977763176,
+      "optimizer_updates": 800,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 8
+    },
+    {
+      "epoch": 33,
+      "loss": 0.011508790776133537,
+      "val_loss": 0.06818344444036484,
+      "optimizer_updates": 825,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 9
+    },
+    {
+      "epoch": 34,
+      "loss": 0.01121486909687519,
+      "val_loss": 0.06500385701656342,
+      "optimizer_updates": 850,
+      "improved": false,
+      "best_epoch": 24,
+      "patience_used": 10
+    }
+  ],
+  "validation_loss": "unweighted_sparse_crossentropy_plus_L2",
+  "tracing_updates": 0
+}

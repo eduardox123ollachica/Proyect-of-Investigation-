@@ -1,0 +1,2188 @@
+{
+  "status": "PASS_SR_ELF_CATALOG_PARAMETERS_VERIFIED_PENDING_ARM",
+  "schema_version": 1,
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "elf_path": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\copia_aislada\\Prueba_2_CWRU_Extraccion\\Release_180MHz_TotalV2_SR\\Prueba_2_CWRU_Extraccion.elf",
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "archive_path": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\\intentos\\1\\compilacion\\Release_180MHz_TotalV2_SR\\Prueba_2_CWRU_Extraccion.elf",
+  "archive_identical": true,
+  "build_report_sha256": "94ca669647e4b9924730febe6513c338277ae401f5cfabf008f4f3b69af7f974",
+  "build_seconds": 100.14000000001397,
+  "zero_errors_and_warnings": true,
+  "preparation_resources_verified": 1992,
+  "preparation_manifest_sha256": "75d8773bd38aa37b796f3c8008723eaa5f555e1c046db00714779900bfb2c697",
+  "exported_resources_verified": 39,
+  "resource_manifest_sha256": "1bad5ef5cb6aec115ee5ac91edcb77639534d4e2d395a57db49fba11f5b4d5e1",
+  "preparation_resource_mutation": {
+    "path": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/.settings/language.settings.xml",
+    "before_sha256": "87860c0410d01852da4d2b3b71a61a86c712e035f8733a4e5950b0c834928ef1",
+    "after_sha256": "b3d06815ef8e78b4eaeb613cf3d8c5f6949861226f9c2bb277e0ec87e3aad77f",
+    "previous_sixteen_configurations_semantically_equal_ignoring_env_hash": true,
+    "new_configuration_providers_equal_TotalV2_except_id_name_env_hash": true,
+    "previous_manifest_preserved": true
+  },
+  "old_D_source_files_verified": 1877,
+  "old_D_ELFs_verified": 16,
+  "old_configurations_preserved": 16,
+  "isolated_configurations": 17,
+  "control_EntM_and_TotalV2_ELF_and_Flash_identical": true,
+  "compiler_flags_verified": true,
+  "descriptor_stride_bytes": 328,
+  "descriptor_abi_padding_bytes": 3,
+  "descriptor_parameter_serialization_bytes": 297,
+  "catalog_sha256": "1807ea8de795d8c100f2a81f6685b6bd5784dbb986aef7ce4a16fca6837072f0",
+  "catalog_fnv": "989029c9",
+  "model_count": 32,
+  "model_payload_bytes": 113888,
+  "models": [
+    {
+      "id": 0,
+      "representative_id": "cost_outer0_inner1_F14_seed11",
+      "descriptor_address": "0801b928",
+      "model_address": "08039170",
+      "model_bytes": 3648,
+      "model_sha256": "73fe0c1984c54b56aec896ea80a83aaba412d3cb694d643dfbabc21d0461fc69",
+      "model_fnv": "65b9864c",
+      "params_fnv": "9bd3cadb",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "8dc86b1360e177f455566e1a94760644692de0a08d814a9281444401d49a89a2",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 1,
+      "representative_id": "cost_outer0_inner1_T6_seed11",
+      "descriptor_address": "0801ba70",
+      "model_address": "080383d0",
+      "model_bytes": 3488,
+      "model_sha256": "caca606fd72cc229c6c5cee6ebe9133985262d225a118a4a75ea51a857184f12",
+      "model_fnv": "4255538b",
+      "params_fnv": "cf872905",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "5bbcce9215bf582c114934d9c995216f3555a1d0dc6561dc7f0fd3dfb358d2f4",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 2,
+      "representative_id": "cost_outer0_inner1_S8_seed11",
+      "descriptor_address": "0801bbb8",
+      "model_address": "08037600",
+      "model_bytes": 3528,
+      "model_sha256": "bb04306d8e20dc0b35b8a43b45d13fd7ca0a9e1a94512558dfb19855c1045004",
+      "model_fnv": "e13845f5",
+      "params_fnv": "9a07175d",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b0d36f73b91addac15f0729cb483f9f701de7d34286ae32401e2168945fdd424",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            8
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cc449b2"
+          ],
+          "zero_points": [
+            -2
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            8
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 3,
+      "representative_id": "cost_outer0_inner1_NF12_seed11",
+      "descriptor_address": "0801bd00",
+      "model_address": "080367e0",
+      "model_bytes": 3608,
+      "model_sha256": "3d0cf745e209d2647ec1bdb17d8ddd051b79b65bd75d9a97e2c123d09e49f515",
+      "model_fnv": "7c2c2070",
+      "params_fnv": "e8111442",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "40ab862623d49cabc90b794bd67afe25384bba6734e28b5cc71136a3fa8e4800",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 4,
+      "representative_id": "cost_outer0_inner1_NM10_seed11",
+      "descriptor_address": "0801be48",
+      "model_address": "080359f0",
+      "model_bytes": 3568,
+      "model_sha256": "b5d8d48df18e2c4265647dbc0c5278adab5ce4a958cace0d0a124cebc52b0d13",
+      "model_fnv": "89821cc6",
+      "params_fnv": "2517d40c",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "f3eee1f8bf785dd9e5ec5c351f21834b9d6ab9990293c3f8865747baffbfe856",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            10
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cc449b2"
+          ],
+          "zero_points": [
+            -2
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            10
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 5,
+      "representative_id": "cost_outer0_inner1_NE12_seed11",
+      "descriptor_address": "0801bf90",
+      "model_address": "08034bd0",
+      "model_bytes": 3608,
+      "model_sha256": "765c61415b26c4bdb5cfff55ad6e8b3dda6cbad325cd65def3d62851e2cadf1b",
+      "model_fnv": "8c82c92f",
+      "params_fnv": "dd2ff900",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b7bffc86cc4fee3aa6207b71b80779987019d3d3d7d51ceb52069dd1609a4a8d",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 6,
+      "representative_id": "cost_outer0_inner1_DE7_seed11",
+      "descriptor_address": "0801c0d8",
+      "model_address": "08033e10",
+      "model_bytes": 3512,
+      "model_sha256": "9229e96340620db4c159b9e295dfe87e1cd4b74585c4fa39ef6f17a36e731693",
+      "model_fnv": "cf51e6a2",
+      "params_fnv": "af3acd59",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "689a0d8153912641e53324ebefb8485e739cd6022ff2c55c999a1bb0666e33a6",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 7,
+      "representative_id": "cost_outer0_inner1_FE7_seed11",
+      "descriptor_address": "0801c220",
+      "model_address": "08033050",
+      "model_bytes": 3512,
+      "model_sha256": "6867eab3f6dbf28b7dadd2ae85492dcc46470e1fb4940a1f4ab4428691abaeed",
+      "model_fnv": "c11fe6f2",
+      "params_fnv": "d4ae0faf",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "fd31d3914eb57b12c8eb6f1504a22415fdf8749a6479f6866d6d0c29286b2329",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cec2229"
+          ],
+          "zero_points": [
+            -31
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 8,
+      "representative_id": "cost_outer1_inner0_F14_seed11",
+      "descriptor_address": "0801c368",
+      "model_address": "08032210",
+      "model_bytes": 3648,
+      "model_sha256": "db1227f06f85296aa3153660ab740b671c5de9068d8d12a440492927f4488600",
+      "model_fnv": "bdf386d0",
+      "params_fnv": "9bd3cadb",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "8dc86b1360e177f455566e1a94760644692de0a08d814a9281444401d49a89a2",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 9,
+      "representative_id": "cost_outer1_inner0_T6_seed11",
+      "descriptor_address": "0801c4b0",
+      "model_address": "08031470",
+      "model_bytes": 3488,
+      "model_sha256": "877a56532236bfabf720fcc316eef32ba8f38147f4df4c7af35e4c4e6cbd0422",
+      "model_fnv": "c7d72e0c",
+      "params_fnv": "cf872905",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "5bbcce9215bf582c114934d9c995216f3555a1d0dc6561dc7f0fd3dfb358d2f4",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 10,
+      "representative_id": "cost_outer1_inner0_S8_seed11",
+      "descriptor_address": "0801c5f8",
+      "model_address": "080306a0",
+      "model_bytes": 3528,
+      "model_sha256": "43b0510ff00c00140ddede2e80c99f2b3cff6f4c689d8e2a47975af891183a42",
+      "model_fnv": "0d3c3d35",
+      "params_fnv": "9a07175d",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b0d36f73b91addac15f0729cb483f9f701de7d34286ae32401e2168945fdd424",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            8
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cc449b2"
+          ],
+          "zero_points": [
+            -2
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            8
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 11,
+      "representative_id": "cost_outer1_inner0_NF12_seed11",
+      "descriptor_address": "0801c740",
+      "model_address": "0802f880",
+      "model_bytes": 3608,
+      "model_sha256": "246b8abc9a736fd19e31b4604c53784afac245d2d9721de91108c70d910b304a",
+      "model_fnv": "ac60b677",
+      "params_fnv": "e8111442",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "40ab862623d49cabc90b794bd67afe25384bba6734e28b5cc71136a3fa8e4800",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 12,
+      "representative_id": "cost_outer1_inner0_NM10_seed11",
+      "descriptor_address": "0801c888",
+      "model_address": "0802ea90",
+      "model_bytes": 3568,
+      "model_sha256": "815223450ecc3b267fce5994a3a4c7e4afdda114cf681a2122c7880e68f22aec",
+      "model_fnv": "4476ce27",
+      "params_fnv": "2517d40c",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "f3eee1f8bf785dd9e5ec5c351f21834b9d6ab9990293c3f8865747baffbfe856",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            10
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cc449b2"
+          ],
+          "zero_points": [
+            -2
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            10
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 13,
+      "representative_id": "cost_outer1_inner0_NE12_seed11",
+      "descriptor_address": "0801c9d0",
+      "model_address": "0802dc70",
+      "model_bytes": 3608,
+      "model_sha256": "b2ada12ed2bc6dd7c4f3aab8c502b306874aee271a9bf79dc8ccfad05eadad56",
+      "model_fnv": "0b5051fe",
+      "params_fnv": "dd2ff900",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b7bffc86cc4fee3aa6207b71b80779987019d3d3d7d51ceb52069dd1609a4a8d",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 14,
+      "representative_id": "cost_outer1_inner0_DE7_seed11",
+      "descriptor_address": "0801cb18",
+      "model_address": "0802ceb0",
+      "model_bytes": 3512,
+      "model_sha256": "609d7890967b8ca5efa326ce59299f478797f8d90ba1163c379311ba62e36cbd",
+      "model_fnv": "0d59fe0d",
+      "params_fnv": "af3acd59",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "689a0d8153912641e53324ebefb8485e739cd6022ff2c55c999a1bb0666e33a6",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d2be023"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 15,
+      "representative_id": "cost_outer1_inner0_FE7_seed11",
+      "descriptor_address": "0801cc60",
+      "model_address": "0802c0f0",
+      "model_bytes": 3512,
+      "model_sha256": "743f1fc24de377aeb819144b485e14f18383c87a70be0f7a9b10058c40de3b3f",
+      "model_fnv": "447d5016",
+      "params_fnv": "d4ae0faf",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "fd31d3914eb57b12c8eb6f1504a22415fdf8749a6479f6866d6d0c29286b2329",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cec2229"
+          ],
+          "zero_points": [
+            -31
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 16,
+      "representative_id": "cost_outer2_inner0_F14_seed11",
+      "descriptor_address": "0801cda8",
+      "model_address": "0802b2b0",
+      "model_bytes": 3648,
+      "model_sha256": "82e04cf8b9c398be7572d7db0cc5a9eac8907200fad40dc09e330e28f290f0e6",
+      "model_fnv": "28962529",
+      "params_fnv": "892f9c64",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "61052b749db1bcc027976547316bfe1768a4f2ec5b5d04db4364b43e008f76b9",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d30c95b"
+          ],
+          "zero_points": [
+            -19
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 17,
+      "representative_id": "cost_outer2_inner0_T6_seed11",
+      "descriptor_address": "0801cef0",
+      "model_address": "0802a510",
+      "model_bytes": 3488,
+      "model_sha256": "86c34e53855c72cd4569341e8b49e3a6119384c79045d4d3a9bcf7737fc668ba",
+      "model_fnv": "d4703a25",
+      "params_fnv": "3210bd4b",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "2c14278be5f5b045599c3822d4ed8ca5a045e64c02f645ffd37e1d3e1143091a",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d30c95b"
+          ],
+          "zero_points": [
+            -19
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 18,
+      "representative_id": "cost_outer2_inner0_S8_seed11",
+      "descriptor_address": "0801d038",
+      "model_address": "08029740",
+      "model_bytes": 3528,
+      "model_sha256": "6facf345449ab2fc0fb30a8907636f32c0bb70a0fa2964a03f5b0d7d13a10417",
+      "model_fnv": "549d01ef",
+      "params_fnv": "96e471be",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "bd6fae94853ccba7883f97def358f3665e1f5c5eca05175db7fddb1fbbd62a63",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            8
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cba6d63"
+          ],
+          "zero_points": [
+            -8
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            8
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 19,
+      "representative_id": "cost_outer2_inner0_NF12_seed11",
+      "descriptor_address": "0801d180",
+      "model_address": "08028920",
+      "model_bytes": 3608,
+      "model_sha256": "c663b2c8ebe8096781407cde635d54c99971d45b41e2021d78d63ff1a7f14bbb",
+      "model_fnv": "9e60aaf1",
+      "params_fnv": "8edce455",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "8bf9f513af8e460d88feba2c948127e1959a61e53d437c87ebbb60eb796d198c",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d30c95b"
+          ],
+          "zero_points": [
+            -19
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 20,
+      "representative_id": "cost_outer2_inner0_NM10_seed11",
+      "descriptor_address": "0801d2c8",
+      "model_address": "08027b30",
+      "model_bytes": 3568,
+      "model_sha256": "b012e17f64aac4a705649ecd0f4a076cc69570cc3d1a056667322f5b7222408b",
+      "model_fnv": "54837140",
+      "params_fnv": "91446f38",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "9d4e52bdc7a2df8a9e5e00a6b70f8440da038695d3da3072acba5383bd61d35b",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            10
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cba6d63"
+          ],
+          "zero_points": [
+            -8
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            10
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 21,
+      "representative_id": "cost_outer2_inner0_NE12_seed11",
+      "descriptor_address": "0801d410",
+      "model_address": "08026d10",
+      "model_bytes": 3608,
+      "model_sha256": "67c244d2f89cb10af3453223864de3ff1209cd69e5340e01c09be2f90bd218d7",
+      "model_fnv": "92c625fb",
+      "params_fnv": "b6e9b2a4",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "0cd7b6e7b8910951afadcfa516c4cb1f62e0cfbd138dc86d22ba1dc08a060fdf",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d30c95b"
+          ],
+          "zero_points": [
+            -19
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 22,
+      "representative_id": "cost_outer2_inner0_DE7_seed11",
+      "descriptor_address": "0801d558",
+      "model_address": "08025f50",
+      "model_bytes": 3512,
+      "model_sha256": "b55aaa42f97a41ff1a8450780f86ad35f9d70ac685b134ca719525f06fb54784",
+      "model_fnv": "e1703e58",
+      "params_fnv": "aebadd7b",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b4a543cd21fe0dc9a8c1868960f0b50debf154527b6a34965d2cff8eb637c491",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d30c95b"
+          ],
+          "zero_points": [
+            -19
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 23,
+      "representative_id": "cost_outer2_inner0_FE7_seed11",
+      "descriptor_address": "0801d6a0",
+      "model_address": "08025190",
+      "model_bytes": 3512,
+      "model_sha256": "c16a5b7b8b0ab18983bdc4e60588f1a61dac172a02fa563d0f87f87b10f7dc0f",
+      "model_fnv": "82f37cf6",
+      "params_fnv": "b7c87858",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "cf0dc48f82c2d1e05f70e1110ab1516cbd9adca380877449d83607e5fdcace03",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d02b50f"
+          ],
+          "zero_points": [
+            -18
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 24,
+      "representative_id": "cost_outer3_inner0_F14_seed11",
+      "descriptor_address": "0801d7e8",
+      "model_address": "08024350",
+      "model_bytes": 3648,
+      "model_sha256": "98847eae2eda476edcebca50289b503861f099576990b6d77a97155cd0f350ed",
+      "model_fnv": "85ac83f4",
+      "params_fnv": "83633173",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "de2d0acfb18ad3866bb5faca3154666cf1497acf6b837d26216434979b8679b9",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            14
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d15dcec"
+          ],
+          "zero_points": [
+            -10
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            14
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 25,
+      "representative_id": "cost_outer3_inner0_T6_seed11",
+      "descriptor_address": "0801d930",
+      "model_address": "080235b0",
+      "model_bytes": 3488,
+      "model_sha256": "b2b351ab57bedc139e0300f20abd412cfcc954fe6115088386f1332d19a95764",
+      "model_fnv": "3765b44f",
+      "params_fnv": "421e11c2",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "9c4390dbdf6fbb1b5827a9a304e46f7b5486b97fc3e8c2e117bda968a409872d",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            6
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d15dcec"
+          ],
+          "zero_points": [
+            -10
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            6
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 26,
+      "representative_id": "cost_outer3_inner0_S8_seed11",
+      "descriptor_address": "0801da78",
+      "model_address": "080227e0",
+      "model_bytes": 3528,
+      "model_sha256": "9c379055fa9f4bd79042da3ae2e1d0c167b7a832290f9d2f7dac45bbfcc6ed66",
+      "model_fnv": "c843bc84",
+      "params_fnv": "97da9718",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "6902947593a8688651eec4146576d3761d4d55052cf27a9a01daf6a04737e373",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            8
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cbb1391"
+          ],
+          "zero_points": [
+            10
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            8
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 27,
+      "representative_id": "cost_outer3_inner0_NF12_seed11",
+      "descriptor_address": "0801dbc0",
+      "model_address": "080219c0",
+      "model_bytes": 3608,
+      "model_sha256": "ca998d9b5488dc3ed6b4f9baa8fdfb6e0da41f6d17d98933e693094bad91e44c",
+      "model_fnv": "79278b2f",
+      "params_fnv": "1875e5d8",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "885b4763c450934c182b043de0b0a5a7fd0f9eec4fa43e1fd5dd42b80637403a",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d15dcec"
+          ],
+          "zero_points": [
+            -10
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 28,
+      "representative_id": "cost_outer3_inner0_NM10_seed11",
+      "descriptor_address": "0801dd08",
+      "model_address": "08020bd0",
+      "model_bytes": 3568,
+      "model_sha256": "17ee1a2d9da94fc2a9fc73364aec2f53f5f6930051c41da0bb6651fa537ea1ce",
+      "model_fnv": "fe15b91d",
+      "params_fnv": "e92e0fb5",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b8f4313b39aed44203dbd79ba140965b2c57bc365b8df3759483980e074bacc3",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            10
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3cbb1391"
+          ],
+          "zero_points": [
+            10
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            10
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 29,
+      "representative_id": "cost_outer3_inner0_NE12_seed11",
+      "descriptor_address": "0801de50",
+      "model_address": "0801fdb0",
+      "model_bytes": 3608,
+      "model_sha256": "d211f2e3895d8491ed9861f840176290da170f89c8d34661097d14bc4ed64068",
+      "model_fnv": "de6b4bbc",
+      "params_fnv": "28a79b6c",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "b4c1411f0f7c4fc7539a421e503f8dc46b578eabe3fecd6b4dd9f680a1ad7f82",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            12
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d15dcec"
+          ],
+          "zero_points": [
+            -10
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            12
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 30,
+      "representative_id": "cost_outer3_inner0_DE7_seed11",
+      "descriptor_address": "0801df98",
+      "model_address": "0801eff0",
+      "model_bytes": 3512,
+      "model_sha256": "968f185b3ed54f800401c2878695a9fe2cf81c6dde91e284af12be5710999602",
+      "model_fnv": "2cc61135",
+      "params_fnv": "78dbc6de",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "8a474e4923f78ac534382496da0368bc849c7c0048d6d0760771c057d00ddb48",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3ce8dcf3"
+          ],
+          "zero_points": [
+            24
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    },
+    {
+      "id": 31,
+      "representative_id": "cost_outer3_inner0_FE7_seed11",
+      "descriptor_address": "0801e0e0",
+      "model_address": "0801e230",
+      "model_bytes": 3512,
+      "model_sha256": "e4572c813422129e2bbc3bce69939f5cff0acdb570922c516646905453a36462",
+      "model_fnv": "cbf8f103",
+      "params_fnv": "40f7c20d",
+      "serialized_parameter_bytes": 297,
+      "params_sha256": "a0dbcdbc81a240a893a575c62d08369ae88c3deb9d866f270b9a6d0cad47b611",
+      "bytes_exact_exported_and_original_TotalV2": true,
+      "topology": {
+        "schema": 3,
+        "subgraphs": 1,
+        "input": {
+          "shape": [
+            1,
+            7
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3d12df9e"
+          ],
+          "zero_points": [
+            -13
+          ]
+        },
+        "output": {
+          "shape": [
+            1,
+            3
+          ],
+          "type": 9,
+          "scale_bits": [
+            "3b800000"
+          ],
+          "zero_points": [
+            -128
+          ]
+        },
+        "operator_builtin_codes": [
+          9,
+          9,
+          9,
+          25
+        ],
+        "dense_weight_shapes": [
+          [
+            20,
+            7
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            3,
+            10
+          ]
+        ],
+        "tensors": 11,
+        "executed": false
+      }
+    }
+  ],
+  "all_model_bytes_and_parameters_exact_to_original_TotalV2": true,
+  "buffers": [
+    {
+      "name": "g_window",
+      "address": 536921568,
+      "bytes": 32768
+    },
+    {
+      "name": "g_fft_input",
+      "address": 536905184,
+      "bytes": 16384
+    },
+    {
+      "name": "g_fft_output",
+      "address": 536888800,
+      "bytes": 16384
+    },
+    {
+      "name": "_ZN12_GLOBAL__N_15arenaE",
+      "address": 536871904,
+      "bytes": 16384
+    }
+  ],
+  "one_reused_arena": true,
+  "original_archive_unchanged": true,
+  "original_archive_sha256": "84cd3fae745ce78530e49f353725f845588ca0298cc35bd01da98403eabbe974",
+  "memory": {
+    "flash_load_bytes": 280276,
+    "flash_capacity_bytes": 524288,
+    "flash_percent": 53.458404541015625,
+    "flash_program_segment_bytes": 280288,
+    "flash_program_address_span_bytes": 280288,
+    "flash_alignment_padding_bytes": 12,
+    "ram_static_including_linker_reservations_bytes": 88460,
+    "ram_capacity_bytes": 131072,
+    "ram_percent": 67.4896240234375,
+    "ram_address_span_bytes": 88464,
+    "ram_address_alignment_gap_bytes": 4,
+    "ram_unreserved_address_bytes": 42608,
+    "heap_reservation_bytes": 512,
+    "stack_reservation_bytes": 4096,
+    "linker_symbols": {
+      "_Min_Heap_Size": 512,
+      "_Min_Stack_Size": 4096,
+      "_estack": 537001984,
+      "_end": 536954768
+    },
+    "runtime_arena_use_pending": true,
+    "stack_runtime_measurement_pending": true,
+    "flash_is_32_model_harness_not_final_one_model_deployment": true
+  },
+  "sources_modified": false,
+  "D_files_modified": false,
+  "new_builds_executed": 0,
+  "TFLite_invocations": 0,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "selector_costs_enabled": false,
+  "audit_script_sha256": "fdd3fd3c414151b87b775e010ccf35bf594b86a86a914f06254d4901be50c341",
+  "reader_source_sha256": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b",
+  "seconds": 6.313815200002864,
+  "limitations": [
+    "Static ELF audit does not prove the image programmed on the board.",
+    "Machine-code Single Rounding confirmation is a separate audit.",
+    "Both physical control and regression cases remain pending.",
+    "Arena actual use, stack high-water and total timing remain pending.",
+    "No WCET or predictive model improvement is established by this audit."
+  ]
+}

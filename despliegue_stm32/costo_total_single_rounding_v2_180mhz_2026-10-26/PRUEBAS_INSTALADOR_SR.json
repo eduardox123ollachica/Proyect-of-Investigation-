@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SR_INSTALLER_GUARD_TESTS",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "test_script": "codigo/cwru/ampliacion_v2/stm32/test_instalar_total_sr_v2.py",
+  "test_script_sha256": "26d19090bee1cbafe872dbfd3140d7d69dae86024cf6da6fd0efa3518e068e5f",
+  "installer_script": "codigo/cwru/ampliacion_v2/stm32/instalar_total_sr_v2.py",
+  "installer_script_sha256": "c56c474e31063ceba389fe9e19458474f4015eb1759cbb21a4b3994ce2d739fa",
+  "python": "C:/Users/LENOVO/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_options": ["-B"],
+  "tests_run": 5,
+  "failures": 0,
+  "errors": 0,
+  "unittest_seconds": 0.232,
+  "tests": [
+    "test_confines_targets_and_rejects_traversal_and_absolute",
+    "test_copy_validates_hash_and_replaces_config_last",
+    "test_existing_new_target_stops_before_config_replacement",
+    "test_launch_rejects_either_build_switch_or_wrong_elf",
+    "test_metadata_accepts_only_sr_append_and_detector_cache"
+  ],
+  "fixture_scope": "ROOT/tmp/sr_install_test_*; resolved absolute target checked before fixture cleanup",
+  "initial_infrastructure_attempt": {
+    "result": "4 PermissionError errors using sandbox default TEMP, 1 test passed",
+    "resolution": "Placed fixtures in writable project tmp and checked resolved paths before cleanup",
+    "firmware_or_D_failure": false
+  },
+  "D_files_modified": false,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "training_fits": 0,
+  "builds_executed": 0
+}

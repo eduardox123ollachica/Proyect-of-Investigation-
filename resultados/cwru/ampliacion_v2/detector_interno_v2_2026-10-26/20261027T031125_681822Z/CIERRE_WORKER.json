@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "new_parameter_fits": 19,
+  "new_unique_evaluations": 54,
+  "DNN_fits": 0,
+  "TensorFlow_imported": false
+}

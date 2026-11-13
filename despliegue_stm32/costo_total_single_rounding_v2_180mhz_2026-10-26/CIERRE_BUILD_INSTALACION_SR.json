@@ -1,0 +1,109 @@
+{
+  "status": "PASS_SR_BUILD_AUDITED_AND_INSTALLED_PENDING_PHYSICAL_GATE",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "configuration": "Release_180MHz_TotalV2_SR",
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "build_seconds": 100.14000000001397,
+  "zero_errors_and_warnings": true,
+  "control_builds_EntM_and_TotalV2_unchanged": true,
+  "model_count": 32,
+  "models_and_parameters_unchanged": true,
+  "source_inventory_before": 1877,
+  "old_configurations_and_ELF_preserved": 16,
+  "current_configurations": 17,
+  "installed_files": 5,
+  "overwritten_files": [
+    ".cproject"
+  ],
+  "new_files": [
+    "CWRU_TotalSR/arm_nn_vec_mat_mult_t_per_ch_s8.c",
+    "Prueba_2_CWRU_Extraccion_TotalV2_SR_180MHz_SinRecompilar.launch",
+    "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.elf",
+    "Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.map"
+  ],
+  "metadata_in_D_overwritten": false,
+  "original_preparation_seal_preserved": true,
+  "preparation_seal_exception": {
+    "path": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/.settings/language.settings.xml",
+    "sealed_sha256": "87860c0410d01852da4d2b3b71a61a86c712e035f8733a4e5950b0c834928ef1",
+    "current_sha256": "b3d06815ef8e78b4eaeb613cf3d8c5f6949861226f9c2bb277e0ec87e3aad77f",
+    "cause": "CubeIDE anadio metadatos SR y actualizo solo env-hash del detector",
+    "prior_sixteen_semantically_preserved": true,
+    "original_seal_not_rewritten": true,
+    "copied_to_D": false
+  },
+  "memory": {
+    "flash_load_bytes": 280276,
+    "flash_capacity_bytes": 524288,
+    "flash_percent": 53.458404541015625,
+    "flash_program_segment_bytes": 280288,
+    "flash_program_address_span_bytes": 280288,
+    "flash_alignment_padding_bytes": 12,
+    "ram_static_including_linker_reservations_bytes": 88460,
+    "ram_capacity_bytes": 131072,
+    "ram_percent": 67.4896240234375,
+    "ram_address_span_bytes": 88464,
+    "ram_address_alignment_gap_bytes": 4,
+    "ram_unreserved_address_bytes": 42608,
+    "heap_reservation_bytes": 512,
+    "stack_reservation_bytes": 4096,
+    "linker_symbols": {
+      "_Min_Heap_Size": 512,
+      "_Min_Stack_Size": 4096,
+      "_estack": 537001984,
+      "_end": 536954768
+    },
+    "runtime_arena_use_pending": true,
+    "stack_runtime_measurement_pending": true,
+    "flash_is_32_model_harness_not_final_one_model_deployment": true
+  },
+  "causal_diagnosis_preserved": true,
+  "rounding_verified_in_ELF": true,
+  "whole_precompiled_archive_rebuilt": false,
+  "whole_precompiled_archive_rounding_changed": false,
+  "static_audit_status": "PASS_SR_ELF_CATALOG_PARAMETERS_VERIFIED_PENDING_ARM",
+  "machine_audit_status": "PASS_SR_MACHINE_ROUNDING_REVIEW_PENDING_ARM",
+  "installation_status": "PASS_SR_INSTALLED_PENDING_ARM",
+  "physical_gate_plan": {
+    "cases": [
+      [
+        568,
+        [
+          0
+        ]
+      ],
+      [
+        232,
+        [
+          22
+        ]
+      ]
+    ],
+    "primary_RUN": 6,
+    "PROFILE": 2,
+    "BASE": 2,
+    "negative_rejections": 17,
+    "required_status": "SR_GATE_PASS_NOT_TOTAL_COST_VALIDATED",
+    "comparison": "exact_INT8_for_the_same_input",
+    "max_seconds_argument": 600
+  },
+  "gate_physically_passed": false,
+  "full_campaign_passed": false,
+  "old_partial_timings_imported": false,
+  "selector_costs_enabled": false,
+  "closure_new_training_fits": 0,
+  "closure_new_TFLite_invocations": 0,
+  "closure_new_builds": 0,
+  "closure_serial_opened": false,
+  "closure_hardware_flashed": false,
+  "manuscript_modified": false,
+  "manifest_entries_including_closure": 136,
+  "seconds_before_write": 11.615666099998634,
+  "limitations": [
+    "Static instruction review does not replace physical equivalence tests.",
+    "Board full-image identity has not been verified by programmer log or readback here.",
+    "Memory is the 32-model benchmark; runtime arena and stack must be checked separately.",
+    "Timing and selection require the complete audited campaign on one firmware."
+  ]
+}

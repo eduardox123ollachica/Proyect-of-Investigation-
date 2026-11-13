@@ -1,0 +1,19 @@
+{
+  "articulo/ampliacion_cwru/metodologia/cierre_gate_y_validacion_completa_2026-10-28/CIERRE_GATE_Y_ALCANCE_FULL.md": "a6f8c89dc46c48bc6defcde16b0c848c31841e68dc158a09abe380021b60f520",
+  "codigo/cwru/ampliacion_v2/analisis/auditar_gate_canonicos_v2.py": "342f88595872ea615263886c7643764e061cf401756f823eeece1a6076725816",
+  "codigo/cwru/ampliacion_v2/analisis/test_auditar_gate_canonicos_v2.py": "ee3f7723d050c9aff02c87415d969c60ff0b1d13da5ea70ef15645fd388da162",
+  "codigo/cwru/ampliacion_v2/canonicos_validacion_completa/test_validar_canonicos_full.py": "978a99d6dcf9093150d59fb9c1135169c7668f03e052a2a2d3d03396f9907520",
+  "codigo/cwru/ampliacion_v2/canonicos_validacion_completa/validar_canonicos_full.py": "5f11e6cf3b8a236eeb03521077bc060c97f5fc848e34ae11b354cb83d75b915d",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/AUDITORIA_GATE_CANON42.json": "c5249315671343feeda58e7e5fb1b049b7b9fef93abaaf48f0701e4e631ee805",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/COMPROBACIONES_GATE_Y_CLIENTE_FULL.json": "1d181cfa7db3cee9f9813fa62e46e855296edf2f80f49b0a6a23a1a5afacc0bd",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/GUIA_VALIDACION_COMPLETA_2026-10-28.md": "1491d9d9b05670d02463417ac1c69eee0606b3249d0cf6d067cf1a6d487cb41a",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_CLIENTES_CANON42_SHA256.json": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/MANIFEST_CLIENTES_CANON42_SHA256.sha256": "9a5a80bb79ebedeb59631a8150a11826dbd53bb5fb5fec290d125ec8070a553f",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/gate_canonicos_congelado.py": "24e02e37c2d7f3ac855f674543ed7c60af4bf87a91ea1f16ee087253054dbe9c",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/MANIFEST_CLIENTE_FULL_SHA256.json": "5dc27ee495451a612ef668a7000995b40ba8a463c72a69661f6c8bb48015510e",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/MANIFEST_CLIENTE_FULL_SHA256.sha256": "1550e15f51680c307b845b381ed526b6b7c3104e2c4013bd3b8a51dcf784dc04",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/PLAN_COMPLETO.json": "b15652a1276e0b9e533705c3e39b1abc1a04a92fb2dec871178e3999cb655f9b",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/PROCEDENCIA_FULL.json": "7e028f7b815b948b5ae4d8168169c93f66bd2c610ca22532fe86a5974ee612cd",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/protocolo_total_sr_legacy.py": "631303e144b432a7144054150ed6466d8a8b10d1f179484329bc2e2b666d91fb",
+  "despliegue_stm32/canonicos_42_180mhz_2026-10-27/Validacion_Completa_PC/validar_canonicos_full.py": "5f11e6cf3b8a236eeb03521077bc060c97f5fc848e34ae11b354cb83d75b915d"
+}

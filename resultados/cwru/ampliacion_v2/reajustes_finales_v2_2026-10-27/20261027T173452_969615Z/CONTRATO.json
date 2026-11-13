@@ -1,0 +1,8 @@
+{
+  "preparation_manifest_sha256": "a72aa056e3ec7cf09d205e09fbf57d411f1f4f04afe16e58e1fad8c580e56839",
+  "plan_sha256": "88ca35c1f941d67a3f3f4c4e73ead49a6d37551327ae2e15cb59b90dbe8e214c",
+  "selection_signature": "c577339ac0c9450f99d40044850063e7090b19d5e81502eca0378c46e1b2c32f",
+  "scope": "final_refits_only_no_outer_predictions",
+  "execution_owner": "user_CLI",
+  "automatic_retry": false
+}

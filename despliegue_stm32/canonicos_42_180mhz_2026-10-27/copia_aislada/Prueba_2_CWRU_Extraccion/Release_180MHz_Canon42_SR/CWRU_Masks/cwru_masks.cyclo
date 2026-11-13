@@ -1,0 +1,13 @@
+../CWRU_Masks/cwru_masks.c:42:22:CWRUMASK_GetSpec	2
+../CWRU_Masks/cwru_masks.c:47:10:CWRUMASK_CatalogFNV	1
+../CWRU_Masks/cwru_masks.c:266:1:CWRUMASK_F14	65
+../CWRU_Masks/cwru_masks.c:267:1:CWRUMASK_T6	23
+../CWRU_Masks/cwru_masks.c:268:1:CWRUMASK_S8	51
+../CWRU_Masks/cwru_masks.c:269:1:CWRUMASK_NF12	61
+../CWRU_Masks/cwru_masks.c:270:1:CWRUMASK_NM10	55
+../CWRU_Masks/cwru_masks.c:271:1:CWRUMASK_NE12	39
+../CWRU_Masks/cwru_masks.c:272:1:CWRUMASK_DE7	33
+../CWRU_Masks/cwru_masks.c:273:1:CWRUMASK_FE7	33
+../CWRU_Masks/cwru_masks.c:274:1:CWRUMASK_FIX_DE13	63
+../CWRU_Masks/cwru_masks.c:275:1:CWRUMASK_FIX_FE13	63
+../CWRU_Masks/cwru_masks.c:279:5:CWRUMASK_Extract	17

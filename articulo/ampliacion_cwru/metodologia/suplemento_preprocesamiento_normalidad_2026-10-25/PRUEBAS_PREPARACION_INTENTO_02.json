@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "tests_run": 44,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/suplemento/contrato_datos.py": "d8ccd5fce3f9b9e7cf1319d39a7e98ae0ea71e931959fa474a8ae0d4c32447a7",
+    "codigo/cwru/ampliacion_v2/suplemento/detector_suplemento.py": "54d67396912e021e3a0c4217ddd1a53f3e23a9f7bb03d29d104035c7c1726c8e",
+    "codigo/cwru/ampliacion_v2/suplemento/ejecutar_suplemento.py": "ddfa2dc8322e05a614edca42281a536789185a3eb17cbb8fdc2ff3c8046f5b91",
+    "codigo/cwru/ampliacion_v2/suplemento/preprocesamiento.py": "ae55d7f415374500ab1a3184025800ca63b73d77c367ed022fea54a4d8f4e738",
+    "codigo/cwru/ampliacion_v2/suplemento/test_contrato_datos.py": "95105d20468459c7c0797734f88385728e47978d494c2096bbb7c715e57cd17c",
+    "codigo/cwru/ampliacion_v2/suplemento/test_detector_suplemento.py": "1e702350de3a1906f10156879c0f9ff55a91c5acdf5f2d87db07d9103440100c",
+    "codigo/cwru/ampliacion_v2/suplemento/test_ejecucion_suplemento.py": "092484e4dfb81a5578eef3922ea56682227a62ff3f5f54e818821955c4cf8fc7",
+    "codigo/cwru/ampliacion_v2/suplemento/test_preprocesamiento.py": "083416235d42dac0e721a4fb7775376d5adf161bb9eed597a68c47cfbfe1e45f",
+    "codigo/cwru/ampliacion_v2/suplemento/verificar_preparacion.py": "1582a2bf55fa8bbc3b5f971490822307c3dcbd54977083a7c870f1b04a0eb408",
+    "codigo/cwru/ampliacion_v2/suplemento/worker_suplemento.py": "71742cf1f2839396d61f6575cbc117bea217503641556c7afc300d4b59a9898d"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "real_training_fits": 0,
+  "TensorFlow_imported": false,
+  "original_import_reference_checks": true,
+  "source_AST_passed": true
+}

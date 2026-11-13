@@ -1,0 +1,9 @@
+{"epoch": 1, "loss": 0.4242883324623108, "optimizer_updates": 31}
+{"epoch": 2, "loss": 0.1565842628479004, "optimizer_updates": 62}
+{"epoch": 3, "loss": 0.07963649928569794, "optimizer_updates": 93}
+{"epoch": 4, "loss": 0.06277009844779968, "optimizer_updates": 124}
+{"epoch": 5, "loss": 0.05736953392624855, "optimizer_updates": 155}
+{"epoch": 6, "loss": 0.05392022430896759, "optimizer_updates": 186}
+{"epoch": 7, "loss": 0.05095896124839783, "optimizer_updates": 217}
+{"epoch": 8, "loss": 0.04853786528110504, "optimizer_updates": 248}
+{"epoch": 9, "loss": 0.04637553542852402, "optimizer_updates": 279}

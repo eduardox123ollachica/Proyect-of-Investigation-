@@ -1,0 +1,21 @@
+{
+  "status": "PASS_FULL_INTERNAL_DNN_CLOSURE_AND_VARIABILITY_DOCUMENTED",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "cells": 288,
+  "new_fits": 240,
+  "reused_fits": 48,
+  "tests": 7,
+  "core_manifest_sha256": "0856eb2a024650dd27ad7babb2ef381fdf85f1d71607bc3286d9899902c589b7",
+  "analysis_manifest_sha256": "d0d2a7c4d8d748cbb68c343b8788020c36a8b5ad128f29286eaaf2f77504e382",
+  "test_report_sha256": "996e3e0bc9ccb9052f838f33d97b9588e0abb4db0c8524483c7c89fe7265d04f",
+  "global_study_complete": false,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "new_training_fits_by_auditor": 0,
+  "new_TFLite_invocations_by_auditor": 0,
+  "TensorFlow_imported": false,
+  "historical_schema_adaptation": "Explicit read-only16P0 adapter; original result files and signatures preserved",
+  "metadata_cache": "Verified context and plan snapshots before/after; all240 numerical result validations executed",
+  "next_stage": "Remaining19 unique detector scopes and60 logical inner rows before selection; classical grids and outer evaluation remain pending"
+}

@@ -1,0 +1,11 @@
+../CWRU_Masks/cwru_masks_commands.inc:58:12:mask_ready	6
+../CWRU_Masks/cwru_masks_commands.inc:18:12:mask_format	3
+../CWRU_Canon8/cwru_total_commands.inc:14:12:total_format	3
+../CWRU_Masks/cwru_masks_commands.inc:67:13:mask_base	30
+../CWRU_Canon8/cwru_total_commands.inc:53:13:total_run	35
+../CWRU_Masks/cwru_masks_commands.inc:89:13:mask_run	41
+../Src/cmd_cwru_feat.c:196:6:CmdCwruFeat_Execute	37
+../CWRU_Masks/cwru_masks_commands.inc:11:6:CWRUMASK_Invalidate	1
+../CWRU_Masks/cwru_masks_commands.inc:126:6:CWRUMASK_Command	10
+../CWRU_Canon8/cwru_total_commands.inc:9:6:CWRUTOTAL_Invalidate	1
+../CWRU_Canon8/cwru_total_commands.inc:81:6:CWRUTOTAL_Command	101

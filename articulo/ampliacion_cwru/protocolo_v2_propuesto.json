@@ -1,0 +1,119 @@
+{
+  "protocol_id": "CWRU_AMPLIACION_V2_PROPUESTA_2026-10-22",
+  "status": "draft_not_frozen_not_executed",
+  "execution_enabled": false,
+  "purpose": "Planificar selección de características con costo embebido, conservando referencias Arciniegas y CWRU V1.",
+  "historical_artifacts_policy": "preserve_do_not_overwrite",
+  "prior_test_exposure": {
+    "cwru_load3_already_evaluated": true,
+    "historical_cnn_experiments_also_used_load3_records": true,
+    "new_nested_evaluation_is_retrospective": true,
+    "new_partition_does_not_restore_untouched_data": true
+  },
+  "primary_scope": {
+    "classes": ["N", "IR", "OR"],
+    "outer_race_position": "6_oclock",
+    "fault_diameters_in": [0.007, 0.014, 0.021],
+    "loads_hp": [0, 1, 2, 3],
+    "channels": ["DE", "FE"],
+    "channels_are_sensor_positions_not_orthogonal_axes": true,
+    "claim": "comparación entre cargas excluidas dentro del subconjunto/banco CWRU",
+    "new_motor_or_bearing_generalization_demonstrated": false,
+    "full_mat_audit_pending": true
+  },
+  "reference_preprocessing_subject_to_audit": {
+    "input_rate_hz": 48000,
+    "output_rate_hz": 12000,
+    "decimation_factor": 4,
+    "fir_taps": 177,
+    "fir_precision": "float32",
+    "invalid_output_edge_samples_each_side": 22,
+    "window_samples": 4096,
+    "hop_samples": 2048,
+    "overlap_fraction": 0.5,
+    "embedded_timing_includes_offline_48_to_12_filter": false,
+    "historical_filter_design_exposure_loads_hp": [0, 1]
+  },
+  "proposed_evaluation": {
+    "outer_split": "leave_one_load_out_four_folds",
+    "inner_split": "leave_one_of_three_development_loads_out",
+    "keep_mat_and_all_derived_channels_windows_together": true,
+    "scalers_class_weights_representative_quantization_data": "fit_on_corresponding_training_only",
+    "outer_final_training": "all_three_development_loads_after_inner_selection",
+    "outer_epochs_rule_proposed": "median_best_epoch_from_inner_folds_without_outer_early_stopping",
+    "physical_bearing_grouping": "audit_and_document_before_freeze",
+    "groupwise_external_physical_independence_claimed": false
+  },
+  "feature_order": [
+    "de_rms", "de_skewness", "de_kurtosis", "de_spectral_energy",
+    "de_dominant_frequency", "de_dominant_amplitude", "de_spectral_entropy",
+    "fe_rms", "fe_skewness", "fe_kurtosis", "fe_spectral_energy",
+    "fe_dominant_frequency", "fe_dominant_amplitude", "fe_spectral_entropy"
+  ],
+  "proposed_candidates": {
+    "F14": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "T6": [0, 1, 2, 7, 8, 9],
+    "S8": [3, 4, 5, 6, 10, 11, 12, 13],
+    "NF12": [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13],
+    "NM10": [0, 3, 4, 5, 6, 7, 10, 11, 12, 13],
+    "NE12": [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12],
+    "DE7": [0, 1, 2, 3, 4, 5, 6],
+    "FE7": [7, 8, 9, 10, 11, 12, 13]
+  },
+  "proposed_comparators": [
+    "DNN_complete_F14",
+    "DNN_representation_selected_by_inner_macro_f1_only",
+    "DNN_representation_selected_by_inner_performance_and_measured_total_cost",
+    "RandomForest_F14_same_nested_splits",
+    "SVM_F14_same_nested_splits"
+  ],
+  "proposed_selection_targets_not_confirmatory_claims": {
+    "macro_f1_loss_margin_percentage_points": 1.0,
+    "target_total_latency_reduction_fraction": 0.2,
+    "detector_performance_constraints": "pending_pre_execution_justification_and_freeze",
+    "formal_statistical_noninferiority_already_supported": false,
+    "cost_includes_shared_feature_operations_dnn_and_detector": true
+  },
+  "proposed_detector_policy": {
+    "prototype_fit_classes": ["N"],
+    "k": 1,
+    "reference_feature_indices": [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13],
+    "shared_representation_policy": "selected_dnn_mask_minus_dominant_frequency_indices_4_11",
+    "threshold_rule_proposed": "P95_inner_out_of_load_normal_scores_equal_record_weights",
+    "refit_prototype": "normal_records_of_outer_development_loads_only",
+    "dnn_class_override": false,
+    "normal_only_fitting_does_not_imply_label_free_method_selection": true,
+    "performance_interpretation": "N versus selected induced IR/OR faults, not independent verification"
+  },
+  "proposed_seeds_and_budget": {
+    "inner_selection_seeds": [11, 22, 33],
+    "outer_evaluation_seeds": [11, 22, 33, 42, 44, 55, 66, 77, 88, 99],
+    "canonical_hardware_seed": 42,
+    "maximum_inner_dnn_fits": 288,
+    "maximum_outer_dnn_fits": 120,
+    "maximum_total_dnn_fits_before_identical_artifact_reuse": 408,
+    "benchmark_pilot_required_before_budget_freeze": true,
+    "runtime_estimate_available": false,
+    "classical_baseline_grid_max_candidates_each": 8
+  },
+  "hardware_scope": {
+    "target": "STM32F446RE",
+    "start_of_timing": "window_at_12khz_fully_received",
+    "end_of_timing": "classification_and_normality_score_computed_before_uart_response",
+    "uart_115200_replay_is_offline": true,
+    "window_binary_payload_bytes": 32768,
+    "window_hop_ms": 170.66666666666666,
+    "cwru_stm32_compiled_measurements_currently_available_in_project_results": false,
+    "do_not_reuse_arciniegas_latency_or_memory_as_cwru_measurements": true
+  },
+  "pending_before_freeze": [
+    "MAT provenance, variables, sampling, duplicates and physical grouping audit",
+    "Literature gap and contribution beyond a fixed candidate ablation",
+    "Final candidate masks and predictive margins",
+    "Detector constraints and calibration weighting",
+    "Inner INT8 selection implementation and outer epoch rule",
+    "RF/SVM exact hyperparameter grids",
+    "Hardware base compilation, measurement configuration and shared-cost profile",
+    "Training/replay time budget from a development-only pilot"
+  ]
+}

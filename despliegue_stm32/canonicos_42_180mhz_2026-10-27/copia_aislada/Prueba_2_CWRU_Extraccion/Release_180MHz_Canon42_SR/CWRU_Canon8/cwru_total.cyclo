@@ -1,0 +1,7 @@
+../CWRU_Canon8/cwru_total.c:96:12:normality	8
+../CWRU_Canon8/cwru_total.c:74:12:input_transform	13
+../CWRU_Canon8/cwru_total.c:21:10:CWRUTOTAL_ParamsFNV	7
+../CWRU_Canon8/cwru_total.c:33:5:CWRUTOTAL_ValidateDescriptor	31
+../CWRU_Canon8/cwru_total.c:59:10:CWRUTOTAL_ReadOverhead	6
+../CWRU_Canon8/cwru_total.c:111:5:CWRUTOTAL_Execute	20
+../CWRU_Canon8/cwru_canon_post_math.inc:4:5:CWRUCANON_PostExecute	37

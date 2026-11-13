@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "job_id": "clasico_outer1_inner2_RF_c03_s22",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 5.936999999998079,
+  "timeout_seconds": 60,
+  "automatic_retry": false
+}

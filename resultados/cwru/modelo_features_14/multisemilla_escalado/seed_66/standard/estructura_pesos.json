@@ -1,0 +1,47 @@
+{
+  "architecture": [
+    14,
+    20,
+    10,
+    3
+  ],
+  "weight_order": [
+    "weight_00",
+    "weight_01",
+    "weight_02",
+    "weight_03",
+    "weight_04",
+    "weight_05"
+  ],
+  "weight_shapes": [
+    [
+      14,
+      20
+    ],
+    [
+      20
+    ],
+    [
+      20,
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      3
+    ]
+  ],
+  "weight_dtypes": [
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32",
+    "float32"
+  ]
+}

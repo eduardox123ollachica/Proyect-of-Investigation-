@@ -1,0 +1,32 @@
+{"stage": "start", "elapsed_seconds": 1.160064900002908, "job_id": "inner_outer0_inner1_FE7_seed33"}
+{"stage": "imports_complete", "elapsed_seconds": 5.852151800001593, "versions": {"python": "3.12.10", "numpy": "2.4.4", "sklearn": "1.9.1", "tensorflow": "2.21.0", "keras": "3.15.0"}}
+{"stage": "data_ready", "elapsed_seconds": 6.131851900001493, "training": 812, "validation": 393}
+{"stage": "epoch", "elapsed_seconds": 6.55394200000228, "epoch": 1, "loss": 0.6934691667556763, "val_loss": 0.7739225625991821, "optimizer_updates": 26, "improved": true, "best_epoch": 1, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.5854790000012144, "epoch": 2, "loss": 0.4671761095523834, "val_loss": 0.5620876550674438, "optimizer_updates": 52, "improved": true, "best_epoch": 2, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.617266299999756, "epoch": 3, "loss": 0.37604063749313354, "val_loss": 0.44288307428359985, "optimizer_updates": 78, "improved": true, "best_epoch": 3, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.6472822000032465, "epoch": 4, "loss": 0.22361630201339722, "val_loss": 0.3454130291938782, "optimizer_updates": 104, "improved": true, "best_epoch": 4, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.678497400000197, "epoch": 5, "loss": 0.13969282805919647, "val_loss": 0.2900369167327881, "optimizer_updates": 130, "improved": true, "best_epoch": 5, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.708988600003067, "epoch": 6, "loss": 0.10073935985565186, "val_loss": 0.24868367612361908, "optimizer_updates": 156, "improved": true, "best_epoch": 6, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.7387253000015335, "epoch": 7, "loss": 0.08088657259941101, "val_loss": 0.1904408484697342, "optimizer_updates": 182, "improved": true, "best_epoch": 7, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.770230000001902, "epoch": 8, "loss": 0.07118882238864899, "val_loss": 0.20967307686805725, "optimizer_updates": 208, "improved": false, "best_epoch": 7, "patience_used": 1}
+{"stage": "epoch", "elapsed_seconds": 6.815117400001327, "epoch": 9, "loss": 0.06494290381669998, "val_loss": 0.15226444602012634, "optimizer_updates": 234, "improved": true, "best_epoch": 9, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 6.852611800000886, "epoch": 10, "loss": 0.06002192199230194, "val_loss": 0.16712133586406708, "optimizer_updates": 260, "improved": false, "best_epoch": 9, "patience_used": 1}
+{"stage": "epoch", "elapsed_seconds": 6.882036599999992, "epoch": 11, "loss": 0.05749412626028061, "val_loss": 0.20546431839466095, "optimizer_updates": 286, "improved": false, "best_epoch": 9, "patience_used": 2}
+{"stage": "epoch", "elapsed_seconds": 6.912690700002713, "epoch": 12, "loss": 0.05506286770105362, "val_loss": 0.2059648633003235, "optimizer_updates": 312, "improved": false, "best_epoch": 9, "patience_used": 3}
+{"stage": "epoch", "elapsed_seconds": 6.941654900001595, "epoch": 13, "loss": 0.052907027304172516, "val_loss": 0.2079368233680725, "optimizer_updates": 338, "improved": false, "best_epoch": 9, "patience_used": 4}
+{"stage": "epoch", "elapsed_seconds": 6.971044200003234, "epoch": 14, "loss": 0.05075529217720032, "val_loss": 0.15958267450332642, "optimizer_updates": 364, "improved": false, "best_epoch": 9, "patience_used": 5}
+{"stage": "epoch", "elapsed_seconds": 7.0019048000031034, "epoch": 15, "loss": 0.049558281898498535, "val_loss": 0.1475982367992401, "optimizer_updates": 390, "improved": true, "best_epoch": 15, "patience_used": 0}
+{"stage": "epoch", "elapsed_seconds": 7.030895100000635, "epoch": 16, "loss": 0.047774117439985275, "val_loss": 0.17485535144805908, "optimizer_updates": 416, "improved": false, "best_epoch": 15, "patience_used": 1}
+{"stage": "epoch", "elapsed_seconds": 7.059381700000813, "epoch": 17, "loss": 0.04657478630542755, "val_loss": 0.18683364987373352, "optimizer_updates": 442, "improved": false, "best_epoch": 15, "patience_used": 2}
+{"stage": "epoch", "elapsed_seconds": 7.087790800000221, "epoch": 18, "loss": 0.04542391747236252, "val_loss": 0.17706254124641418, "optimizer_updates": 468, "improved": false, "best_epoch": 15, "patience_used": 3}
+{"stage": "epoch", "elapsed_seconds": 7.1168674000000465, "epoch": 19, "loss": 0.04479903727769852, "val_loss": 0.21214301884174347, "optimizer_updates": 494, "improved": false, "best_epoch": 15, "patience_used": 4}
+{"stage": "epoch", "elapsed_seconds": 7.146114099999977, "epoch": 20, "loss": 0.04357456415891647, "val_loss": 0.19094325602054596, "optimizer_updates": 520, "improved": false, "best_epoch": 15, "patience_used": 5}
+{"stage": "epoch", "elapsed_seconds": 7.174694500001351, "epoch": 21, "loss": 0.04221618175506592, "val_loss": 0.17307144403457642, "optimizer_updates": 546, "improved": false, "best_epoch": 15, "patience_used": 6}
+{"stage": "epoch", "elapsed_seconds": 7.2030881000027875, "epoch": 22, "loss": 0.04173662140965462, "val_loss": 0.17986918985843658, "optimizer_updates": 572, "improved": false, "best_epoch": 15, "patience_used": 7}
+{"stage": "epoch", "elapsed_seconds": 7.231180100003257, "epoch": 23, "loss": 0.040645014494657516, "val_loss": 0.17556625604629517, "optimizer_updates": 598, "improved": false, "best_epoch": 15, "patience_used": 8}
+{"stage": "epoch", "elapsed_seconds": 7.259888200002024, "epoch": 24, "loss": 0.03960105776786804, "val_loss": 0.1737796664237976, "optimizer_updates": 624, "improved": false, "best_epoch": 15, "patience_used": 9}
+{"stage": "epoch", "elapsed_seconds": 7.288452600001619, "epoch": 25, "loss": 0.039240919053554535, "val_loss": 0.20244815945625305, "optimizer_updates": 650, "improved": false, "best_epoch": 15, "patience_used": 10}
+{"stage": "best_checkpoint_restored", "elapsed_seconds": 7.29831760000161, "best_epoch": 15}
+{"stage": "FP32_exported", "elapsed_seconds": 7.7372444000029645, "bytes": 3504}
+{"stage": "INT8_exported", "elapsed_seconds": 7.814621299999999, "bytes": 3512, "calibration_rows": 812}
+{"stage": "PASS", "elapsed_seconds": 7.867497400002321, "best_epoch": 15, "macro_f1_int8": 0.9739725740855288}

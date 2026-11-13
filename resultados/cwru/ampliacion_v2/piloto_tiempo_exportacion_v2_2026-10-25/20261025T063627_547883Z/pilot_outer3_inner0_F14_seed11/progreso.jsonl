@@ -1,0 +1,13 @@
+{"stage": "worker_started", "elapsed_seconds": 0.11061079999490175}
+{"stage": "imports_complete", "elapsed_seconds": 13.550486199994339, "tensorflow_version": "2.21.0"}
+{"stage": "data_ready", "elapsed_seconds": 13.85398030000215, "train": 799, "validation": 175, "mask": "F14"}
+{"stage": "graph_ready_without_updates", "elapsed_seconds": 14.967877999995835, "optimizer_iterations": 0}
+{"stage": "epoch", "elapsed_seconds": 16.27069219999248, "epoch": 10, "optimizer_updates": 250}
+{"stage": "epoch", "elapsed_seconds": 17.299821099994006, "epoch": 20, "optimizer_updates": 500}
+{"stage": "epoch", "elapsed_seconds": 18.31125389999943, "epoch": 30, "optimizer_updates": 750}
+{"stage": "epoch", "elapsed_seconds": 19.31651150000107, "epoch": 40, "optimizer_updates": 1000}
+{"stage": "epoch", "elapsed_seconds": 20.443561599997338, "epoch": 50, "optimizer_updates": 1250}
+{"stage": "FP32_conversion_complete", "elapsed_seconds": 21.145775500001037, "model_bytes": 4312}
+{"stage": "INT8_conversion_complete", "elapsed_seconds": 21.423927099996945, "representative_rows": 799, "model_bytes": 3904}
+{"stage": "inference_diagnostics_complete", "elapsed_seconds": 21.52234500000486, "validation_windows": 175}
+{"stage": "PASS", "elapsed_seconds": 21.541589799991925, "updates": 1250}

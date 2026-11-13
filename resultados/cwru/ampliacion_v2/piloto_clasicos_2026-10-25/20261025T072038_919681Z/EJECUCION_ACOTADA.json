@@ -1,0 +1,507 @@
+{
+  "status": "READY_FOR_USER_EXECUTION_NOT_RUN_BY_AGENT",
+  "scope": "classical_runtime_pilot_only",
+  "execution_owner": "user",
+  "agent_may_start_real_pilot": false,
+  "source_data_job_id": "pilot_outer3_inner0_F14_seed11",
+  "source_plan_sha256": "33fc1baef8608d5d9d00e5f691026f18bf01e997e2b1df6c3bfa27e297c97d04",
+  "training_loads": [
+    1,
+    2
+  ],
+  "validation_loads": [
+    0
+  ],
+  "training_windows": 799,
+  "validation_windows": 175,
+  "source_feature_arrays": [
+    "X_features_train.npy",
+    "X_features_validation.npy"
+  ],
+  "load3_arrays_authorized": false,
+  "normal_detector_fit_loads": [
+    1
+  ],
+  "normal_detector_calibration_loads": [
+    2
+  ],
+  "normal_detector_fit_windows": 58,
+  "normal_detector_calibration_windows": 58,
+  "jobs": [
+    {
+      "job_id": "RF_00",
+      "family": "RF",
+      "config_index": 0,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_01",
+      "family": "RF",
+      "config_index": 1,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_02",
+      "family": "RF",
+      "config_index": 2,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 12,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_03",
+      "family": "RF",
+      "config_index": 3,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 12,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_04",
+      "family": "RF",
+      "config_index": 4,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_05",
+      "family": "RF",
+      "config_index": 5,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_06",
+      "family": "RF",
+      "config_index": 6,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 12,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "RF_07",
+      "family": "RF",
+      "config_index": 7,
+      "timeout_seconds": 60,
+      "feature_mask": "F14",
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 12,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "criterion": "gini",
+        "bootstrap": true,
+        "class_weight": "balanced",
+        "n_jobs": 1,
+        "random_state": 11
+      }
+    },
+    {
+      "job_id": "SVM_00",
+      "family": "SVM",
+      "config_index": 0,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 0.1,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_01",
+      "family": "SVM",
+      "config_index": 1,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 0.1,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_02",
+      "family": "SVM",
+      "config_index": 2,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 1,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_03",
+      "family": "SVM",
+      "config_index": 3,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 1,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_04",
+      "family": "SVM",
+      "config_index": 4,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_05",
+      "family": "SVM",
+      "config_index": 5,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 10,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_06",
+      "family": "SVM",
+      "config_index": 6,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 100,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "SVM_07",
+      "family": "SVM",
+      "config_index": 7,
+      "timeout_seconds": 30,
+      "feature_mask": "F14",
+      "params": {
+        "C": 100,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "class_weight": "balanced",
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "shrinking": true,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false
+      }
+    },
+    {
+      "job_id": "DETECTOR",
+      "family": "DETECTOR",
+      "timeout_seconds": 60,
+      "candidate_order": [
+        "F14",
+        "T6",
+        "S8",
+        "NF12",
+        "NM10",
+        "NE12",
+        "DE7",
+        "FE7"
+      ],
+      "indices_by_candidate": {
+        "F14": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "T6": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "S8": [
+          3,
+          5,
+          6,
+          10,
+          12,
+          13
+        ],
+        "NF12": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "NM10": [
+          0,
+          3,
+          5,
+          6,
+          7,
+          10,
+          12,
+          13
+        ],
+        "NE12": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "DE7": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "FE7": [
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ]
+      },
+      "unique_candidates": [
+        "F14",
+        "T6",
+        "S8",
+        "NM10",
+        "NE12",
+        "DE7",
+        "FE7"
+      ],
+      "aliases": {
+        "NF12": "F14"
+      },
+      "repetitions": 3,
+      "maximum_unique_fit_calls": 21,
+      "normal_fit_loads": [
+        1
+      ],
+      "normal_calibration_loads": [
+        2
+      ],
+      "normal_fit_windows": 58,
+      "normal_calibration_windows": 58,
+      "refit_after_calibration": false
+    }
+  ],
+  "maximum_processes": 17,
+  "maximum_worker_seconds": 780,
+  "timeout_sum_is_not_duration_estimate": true,
+  "workers_sequential": true,
+  "pilot_additional_RF_fits": 8,
+  "pilot_additional_SVM_fits": 8,
+  "pilot_unique_detector_fits": 21,
+  "detector_aliases": {
+    "NF12": "F14"
+  },
+  "detector_repetitions_are_not_seeds": true,
+  "metrics_used_for_selection": false,
+  "confirmatory_reuse": false,
+  "mass_training_enabled": false,
+  "outer_predictive_evaluation_enabled": false,
+  "manuscript_edits_enabled": false,
+  "automatic_retry": false,
+  "overwrite_allowed": false,
+  "tested_environment": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1"
+  },
+  "worker_environment": {
+    "PYTHONHASHSEED": "11",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "limits_are_project_engineering_choices": true,
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/piloto/datos_piloto.py": "8404e4c4176f324ed243ad4564f5380950a0872ee6769503ed67bee6470455a7",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/contrato_piloto.py": "3f088cb3adf9f6b51b27cab35cc03a2c0fe6c608e163edef668f15d7592c93e3",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/ejecutar_piloto_clasicos.py": "6a0c31f41193a66cf1f4118e4081b31699acccd87a41ac2fe07af2044d818d6f",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/presupuesto_clasicos.py": "f9110827285909dd57e2bc63ffbbb6a52e04604e21a9884558094a7ac6b3196a",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_contrato_piloto.py": "56b51b4fb024e1f7b8a841e3f3798275362acb34f28fdf225fd6bc811ea872a7",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_detector_numerico.py": "1a5baaa13fbb536896b9f1f072689f10fb5e3bbcc3450726337736f4f299a089",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_ejecucion.py": "d3d2c095e61edd7f53bdb3e0412bac1784687b119a6a8bd4ac0619ea83e603f2",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_estimator_api.py": "b732d45c08b1688b7b633de6d2933ccf6bd82debfaec4fac891a51d9f84d92e7",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/test_presupuesto_clasicos.py": "e09819d6c719ad4fdda620bcef73ad0fd384a53c07f9625ec15702ab032abe54",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/verificar_preparacion.py": "657482dfa8d9578ef3a5d083ba0753b31e2e97caf4fc929ba77b8e39ad2bf867",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/worker_tiempos.py": "2a2a4f17348a119e38a4920c5379e9c770864365e4d0c91a38a79031fb9c7232",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a"
+  },
+  "run_id": "20261025T072038_919681Z",
+  "execution_initiated_by": "user_CLI"
+}

@@ -1,0 +1,162 @@
+{
+  "status": "PASS_ALL_PROGRAMMABLE_SECTIONS_EXACT_ONLY_INTER_SECTION_PADDING_DIFFERS",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "capture": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/lectura_flash/20261026T151832_154874Z",
+  "capture_manifest_sha256": "1d886565e1cde57e1252b74d92cf7bf45258e654573ef01bf01398d81fd8d0f3",
+  "original_failed_status_preserved": true,
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "dump_sha256": "3eb018130ace014447f6d1e197bacb864b61c9a3930fc24d8d5c6e6c6cb62252",
+  "comparison": {
+    "match": true,
+    "compared_bytes": 280276,
+    "mismatch_count": 0,
+    "first_mismatches": [],
+    "sections": [
+      {
+        "name": ".isr_vector",
+        "address": "0x08000000",
+        "virtual_address": "0x08000000",
+        "bytes": 452,
+        "expected_sha256": "23912b9e5bb06491df40bd1bd350d098c23b5f3c7e56abde98f4956ed8e94887",
+        "actual_sha256": "23912b9e5bb06491df40bd1bd350d098c23b5f3c7e56abde98f4956ed8e94887",
+        "mismatches": 0
+      },
+      {
+        "name": ".text",
+        "address": "0x080001d0",
+        "virtual_address": "0x080001d0",
+        "bytes": 104784,
+        "expected_sha256": "c06943e17e00338bb107a4964950f7035a63c2da2cb39de9fe22b4355afc23b2",
+        "actual_sha256": "c06943e17e00338bb107a4964950f7035a63c2da2cb39de9fe22b4355afc23b2",
+        "mismatches": 0
+      },
+      {
+        "name": ".rodata",
+        "address": "0x08019b20",
+        "virtual_address": "0x08019b20",
+        "bytes": 174544,
+        "expected_sha256": "2514914d7ce81afb087ef10339a7fa7793aa7732c031586dfc0a10f96b365145",
+        "actual_sha256": "2514914d7ce81afb087ef10339a7fa7793aa7732c031586dfc0a10f96b365145",
+        "mismatches": 0
+      },
+      {
+        "name": ".ARM",
+        "address": "0x080444f0",
+        "virtual_address": "0x080444f0",
+        "bytes": 8,
+        "expected_sha256": "291fce8b5621b8af6ee8c94298b6f0a38301a050d1d8a241b751591b69dfff84",
+        "actual_sha256": "291fce8b5621b8af6ee8c94298b6f0a38301a050d1d8a241b751591b69dfff84",
+        "mismatches": 0
+      },
+      {
+        "name": ".init_array",
+        "address": "0x080444f8",
+        "virtual_address": "0x080444f8",
+        "bytes": 8,
+        "expected_sha256": "d035cb4bd2a26af2b357d3fd977c4649f1b31d312436c636a9021b5f158878e3",
+        "actual_sha256": "d035cb4bd2a26af2b357d3fd977c4649f1b31d312436c636a9021b5f158878e3",
+        "mismatches": 0
+      },
+      {
+        "name": ".fini_array",
+        "address": "0x08044500",
+        "virtual_address": "0x08044500",
+        "bytes": 4,
+        "expected_sha256": "09cb2d19034a63d1421db55e5e90c0823b4e7957c24110e7d2b35cd5fcc83cc1",
+        "actual_sha256": "09cb2d19034a63d1421db55e5e90c0823b4e7957c24110e7d2b35cd5fcc83cc1",
+        "mismatches": 0
+      },
+      {
+        "name": ".data",
+        "address": "0x08044504",
+        "virtual_address": "0x20000000",
+        "bytes": 476,
+        "expected_sha256": "7218cbb6bc137677502e2680c93f7770b35367405f1559a971f71c48a69c1d5a",
+        "actual_sha256": "7218cbb6bc137677502e2680c93f7770b35367405f1559a971f71c48a69c1d5a",
+        "mismatches": 0
+      }
+    ],
+    "numeric_tolerance": 0,
+    "excluded_file_backed_section_bytes": 0,
+    "inter_section_bytes_not_asserted_from_ELF": true
+  },
+  "PT_LOAD_file_bytes": 280288,
+  "programmable_section_bytes": 280276,
+  "section_count": 7,
+  "inter_section_gap": {
+    "start": "0x080001c4",
+    "end_exclusive": "0x080001d0",
+    "bytes": 12,
+    "ELF_file_byte": 0,
+    "readback_byte": 255,
+    "previous_section": ".isr_vector",
+    "next_section": ".text",
+    "next_section_alignment": 16,
+    "covered_by_any_SHF_ALLOC_file_backed_section": false,
+    "covered_by_any_ELF_section": false,
+    "symbols_defined_in_gap": [],
+    "explicit_disassembly_targets_in_gap": []
+  },
+  "vector_table": {
+    "bytes": 452,
+    "entries_32bit": 113,
+    "whole_section_exact": true
+  },
+  "map_evidence": [
+    {
+      "line": 2582,
+      "text": ".isr_vector     0x08000000      0x1c4"
+    },
+    {
+      "line": 2589,
+      "text": ".text           0x080001d0    0x19950"
+    },
+    {
+      "line": 4329,
+      "text": ".data           0x20000000      0x1dc load address 0x08044504"
+    }
+  ],
+  "original_comparator_scope": "All PT_LOAD file bytes, including inter-section padding",
+  "corrected_comparator_scope": "All SHF_ALLOC file-backed sections mapped to physical Flash LMA, including initialized RAM load image",
+  "any_payload_tolerance_added": false,
+  "hardcoded_ignored_address_exception": false,
+  "inference": "Original failure arises from requiring ELF inter-section padding zeros in a region that has no programmable section.",
+  "limitations": [
+    "No claim that arbitrary dynamic code can never read the gap; section membership and explicit references do not prove universal unreachability.",
+    "This report classifies the existing capture and is not a new physical readback.",
+    "Readback occurred after the timing campaign and does not by itself establish historical image identity at every earlier instant.",
+    "Independent S-record conversion evidence is produced separately."
+  ],
+  "primary_sources": [
+    {
+      "title": "ELF gABI, Sections",
+      "url": "https://gabi.xinuos.com/elf/03-sheader.html",
+      "support": "Sections may leave inactive file space; alignment padding between sections is an example and its contents are unspecified."
+    },
+    {
+      "title": "GNU binutils objcopy",
+      "url": "https://www.sourceware.org/binutils/docs/binutils/objcopy.html",
+      "support": "objcopy supports S-record output and exposes gap filling as an explicit operation on section load addresses."
+    }
+  ],
+  "script_sha256": "3b870cabd36af7bf90430d2781930e998b68c71c5ccb8b1f2175b4a1043da10d",
+  "reader_sha256": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b",
+  "evidence_sha256": {
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/lectura_flash/20261026T151832_154874Z/firmware_auditado_sr.elf": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/lectura_flash/20261026T151832_154874Z/flash_512KiB.bin": "3eb018130ace014447f6d1e197bacb864b61c9a3930fc24d8d5c6e6c6cb62252",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/lectura_flash/20261026T151832_154874Z/MANIFEST_LECTURA_FLASH_SHA256.json": "1d886565e1cde57e1252b74d92cf7bf45258e654573ef01bf01398d81fd8d0f3",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/lectura_flash/20261026T151832_154874Z/MANIFEST_LECTURA_FLASH_SHA256.sha256": "831675bafdf7c1370a91c054619dcadca07ff33dd320d6554d0a8693897abc97",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.map": "074c3796581e6c1eaaec0854722cd0085c0c22371e054d7af284a507a0413c3e",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/STM32F446RETX_FLASH.ld": "4b463965f815d0aa62957adde9fb1f21765b884d981709f6d505ff88238de8a2",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/Startup/startup_stm32f446retx.s": "fb86491f7d13bf08d9114e068b7db6e8ddbe2c465609d5dc42e16817de02956b",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/copia_aislada/Prueba_2_CWRU_Extraccion/Release_180MHz_TotalV2_SR/Prueba_2_CWRU_Extraccion.list": "1b3c51db5b99ce6bd8c49ac3b767251e22517e31f88b8dae15518373a442c206"
+  },
+  "new_hardware_connections": 0,
+  "new_builds": 0,
+  "new_training_fits": 0,
+  "new_TFLite_invocations": 0,
+  "D_files_modified": false,
+  "original_capture_or_old_seals_modified": false,
+  "seconds": 0.4489084999950137
+}

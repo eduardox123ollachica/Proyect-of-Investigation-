@@ -1,0 +1,13 @@
+{"epoch": 1, "loss": 0.48931097984313965, "val_loss": 1.0280965566635132, "optimizer_updates": 26, "improved": true, "best_epoch": 1, "patience_used": 0}
+{"epoch": 2, "loss": 0.1733032912015915, "val_loss": 1.3564101457595825, "optimizer_updates": 52, "improved": false, "best_epoch": 1, "patience_used": 1}
+{"epoch": 3, "loss": 0.07345017790794373, "val_loss": 1.0162944793701172, "optimizer_updates": 78, "improved": true, "best_epoch": 3, "patience_used": 0}
+{"epoch": 4, "loss": 0.049013812094926834, "val_loss": 2.303323745727539, "optimizer_updates": 104, "improved": false, "best_epoch": 3, "patience_used": 1}
+{"epoch": 5, "loss": 0.044019415974617004, "val_loss": 2.4350874423980713, "optimizer_updates": 130, "improved": false, "best_epoch": 3, "patience_used": 2}
+{"epoch": 6, "loss": 0.041294194757938385, "val_loss": 2.3781399726867676, "optimizer_updates": 156, "improved": false, "best_epoch": 3, "patience_used": 3}
+{"epoch": 7, "loss": 0.03905759006738663, "val_loss": 2.3196299076080322, "optimizer_updates": 182, "improved": false, "best_epoch": 3, "patience_used": 4}
+{"epoch": 8, "loss": 0.037081990391016006, "val_loss": 2.3769705295562744, "optimizer_updates": 208, "improved": false, "best_epoch": 3, "patience_used": 5}
+{"epoch": 9, "loss": 0.03526563197374344, "val_loss": 2.3134818077087402, "optimizer_updates": 234, "improved": false, "best_epoch": 3, "patience_used": 6}
+{"epoch": 10, "loss": 0.033574000000953674, "val_loss": 2.3105459213256836, "optimizer_updates": 260, "improved": false, "best_epoch": 3, "patience_used": 7}
+{"epoch": 11, "loss": 0.03198365494608879, "val_loss": 2.3812131881713867, "optimizer_updates": 286, "improved": false, "best_epoch": 3, "patience_used": 8}
+{"epoch": 12, "loss": 0.0304721686989069, "val_loss": 2.3723926544189453, "optimizer_updates": 312, "improved": false, "best_epoch": 3, "patience_used": 9}
+{"epoch": 13, "loss": 0.02904115803539753, "val_loss": 2.4381489753723145, "optimizer_updates": 338, "improved": false, "best_epoch": 3, "patience_used": 10}

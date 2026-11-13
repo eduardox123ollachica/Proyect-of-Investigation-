@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "job_id": "pilot_outer3_inner0_T6_seed11",
+  "error_type": "ValueError",
+  "error": "Congelar el grafo cambio pesos o predicciones",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\codigo\\cwru\\ampliacion_v2\\piloto\\worker_piloto_tiempo_v2.py\", line 340, in <module>\n    run(args.job_id, args.run_dir)\n  File \"C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\codigo\\cwru\\ampliacion_v2\\piloto\\worker_piloto_tiempo_v2.py\", line 208, in run\n    require(weight_digest() == trained_weight_digest\n  File \"C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\codigo\\cwru\\ampliacion_v2\\piloto\\worker_piloto_tiempo_v2.py\", line 23, in require\n    raise ValueError(message)\nValueError: Congelar el grafo cambio pesos o predicciones\n",
+  "elapsed_seconds": 21.153774899998098,
+  "automatic_retry": false
+}

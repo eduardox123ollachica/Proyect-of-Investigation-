@@ -1,0 +1,13 @@
+{
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42/diagnostico_entrenamiento.npz": "9140bfba6c085889c66ccc98bb111c0d7ca972e347de7ee9a5a175abb14d3b5f",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42/MANIFEST_JOB_SHA256.json": "fa5e6ba6e1e3cc023e590058111896f6f4aa6452a8d084804fd0a176e4c1550b",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42/MANIFEST_JOB_SHA256.sha256": "bfd66dfe533901a3272d894ad493cadd52f5a504e590150a0af8d87a3e9cc043",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42/modelo.joblib": "ac5e7b1e16dad6c642d5b7cc44f1c41db9507803c624ffaf42573aa7c8fe047e",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42/procedencia.json": "ea9d906aec6c867aa8031044bb2abfc648533a2a60cc1008f3b4eaa948124169",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42/RESULTADO.json": "ebeb1840d9219a3f3b53c8c4296949ee6ed68152768ffde2a903396fbbbeb3f6",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer1_RF_c05_s42_stdout.log": "45c629ac22bf8a5f1b252b1b93399914dc8f38a1168acda720d3a16d94d6d9c6",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/pasos/093.json": "4f06f80b838351fd3308934bcadb42644811764669beeade2cc2454681f85fb4",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer1_RF_c05_s42/datos.npz": "d0389b83495df49161260f5bbad495d9eddd695e0e566b6ade75ba5c82c6f385",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer1_RF_c05_s42/payload.json": "a37225d18eb25c37d93b71bc29ff2198572f84391a8b194a0646be0766a413c9"
+}

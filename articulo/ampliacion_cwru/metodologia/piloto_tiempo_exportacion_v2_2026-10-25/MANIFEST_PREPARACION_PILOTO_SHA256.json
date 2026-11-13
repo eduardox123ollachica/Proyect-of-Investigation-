@@ -1,0 +1,19 @@
+{
+  "articulo/ampliacion_cwru/metodologia/piloto_tiempo_exportacion_v2_2026-10-25/EJECUCION_PILOTO_ACOTADO.json": "a3beafda3807bbcd30297c0ac168b453cabd22158949ec7834bec058275716ab",
+  "articulo/ampliacion_cwru/metodologia/piloto_tiempo_exportacion_v2_2026-10-25/PRUEBAS_PREPARACION.json": "b2a1de7c8fe8b656e93b3047e2e88c46c83a7dc9c6f0141d93f62de25ee35698",
+  "articulo/ampliacion_cwru/metodologia/piloto_tiempo_exportacion_v2_2026-10-25/README.md": "5665d740eda8c7cb4519ce15917bee1f14c25b5a02429c1acfd786d066af03bc",
+  "articulo/ampliacion_cwru/metodologia/protocolo_v2_2026-10-25/MANIFEST_PROTOCOLO_SHA256.json": "ce556659026f9eaa06b7619e6f3409b244ddeafc9fe534f40619b65911af68e0",
+  "articulo/ampliacion_cwru/metodologia/protocolo_v2_2026-10-25/MANIFEST_PROTOCOLO_SHA256.sha256": "e92a79df676334aa0e08632f62524bf85248f44860ee24e91d20b54db607411c",
+  "codigo/cwru/ampliacion_v2/piloto/datos_piloto.py": "8404e4c4176f324ed243ad4564f5380950a0872ee6769503ed67bee6470455a7",
+  "codigo/cwru/ampliacion_v2/piloto/ejecutar_piloto_tiempo.py": "77287ad4755e87968e43755c9d9b2039bbce24f72d7900d5d9ae0212cf1b8772",
+  "codigo/cwru/ampliacion_v2/piloto/ejecutar_piloto_tiempo_v2.py": "f3176a9f47a69f93042154776ffb00bf6375c959e9d35f4b993091a0201d6054",
+  "codigo/cwru/ampliacion_v2/piloto/presupuesto_piloto.py": "5faf429b925dab3ec1455eefa3b031adb29b11657f58d6b6da6502c85c766a09",
+  "codigo/cwru/ampliacion_v2/piloto/test_datos_piloto.py": "1d2a856722d574008fcbad276029065d35cfd23ebf395af47a02e5bed1c931f8",
+  "codigo/cwru/ampliacion_v2/piloto/test_ejecutor_piloto.py": "50de4ba43a507e9666460a9977c159f885e35b944b8293560a766159767bd1d4",
+  "codigo/cwru/ampliacion_v2/piloto/test_ejecutor_piloto_v2.py": "b3fcebe7f5428d0834e2124b4b58985e574a00d9d518af053c5c3a440a85d923",
+  "codigo/cwru/ampliacion_v2/piloto/test_presupuesto_piloto.py": "49327181df2c046738d069ca5a439d95c3ded1216707fb457e3e92fd705abf4d",
+  "codigo/cwru/ampliacion_v2/piloto/worker_piloto_tiempo.py": "6fa8939b3d823c1f89dadc82b9f86d26414449265bcd59d2404ad47ef5516a70",
+  "codigo/cwru/ampliacion_v2/piloto/worker_piloto_tiempo_v2.py": "75cf329013f2b69759d1b33364a0468c293dc0153e3d8eb80d6540021d1861eb",
+  "resultados/cwru/ampliacion_v2/piloto_tiempo_2026-10-25/20261025T063025_963041Z/MANIFEST_RESULTADOS_PILOTO_SHA256.json": "92aafec2c481bc2b766669ca68b424a84061538343dffc3e09812731dfd5f0d1",
+  "resultados/cwru/ampliacion_v2/piloto_tiempo_2026-10-25/20261025T063025_963041Z/MANIFEST_RESULTADOS_PILOTO_SHA256.sha256": "986bb5c154822b8dec15ea4da7f6d4ef39119d61093f273dd2b8f1b2a4be472c"
+}

@@ -1,0 +1,7 @@
+{
+  "resultados/cwru/ampliacion_v2/clasicos_internos_v2_2026-10-27/20261027T060928_938422Z/clasico_outer2_inner0_SVM_c07_snone/modelo.joblib": "eed1d75db627b8e604117e66c18edb17fee64a7db4f70c1248a74cff0564cd78",
+  "resultados/cwru/ampliacion_v2/clasicos_internos_v2_2026-10-27/20261027T060928_938422Z/clasico_outer2_inner0_SVM_c07_snone/predicciones_validacion.npz": "bba7186c62869c58680df3839e0b2d8b8704bf8549aba01268f5dd1e5460729b",
+  "resultados/cwru/ampliacion_v2/clasicos_internos_v2_2026-10-27/20261027T060928_938422Z/clasico_outer2_inner0_SVM_c07_snone/procedencia.json": "f4e74311eb49070ef6cfd9c46fb0cea92ea3fd20ebad970f0dedbe4af433aae7",
+  "resultados/cwru/ampliacion_v2/clasicos_internos_v2_2026-10-27/20261027T060928_938422Z/clasico_outer2_inner0_SVM_c07_snone/resultado.json": "982d2847720c7365ad53150559839e7c4cbd0970fee8216d58051a6a24b0867a",
+  "resultados/cwru/ampliacion_v2/clasicos_internos_v2_2026-10-27/20261027T060928_938422Z/clasico_outer2_inner0_SVM_c07_snone/scaler_train_only.npz": "828f98dd12502207c842492971f19b7bebddfe1985b7814aa6567e33c43f453c"
+}

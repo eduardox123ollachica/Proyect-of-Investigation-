@@ -1,0 +1,2 @@
+indice_test,file,clase,window,start_sample,cluster_pc,cluster_stm32,cluster_igual,score_pc,score_stm32,error_abs_score,anomaly_pc,anomaly_stm32,anomaly_igual
+0,DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s53.json,DETENIDO,0,0,14,14,1,8.268695129178074,8.26884079,0.0001456608219267963,0,0,1

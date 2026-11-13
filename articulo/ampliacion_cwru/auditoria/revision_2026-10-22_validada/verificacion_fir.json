@@ -1,0 +1,15 @@
+{
+  "num_taps": 177,
+  "dtype": "float32",
+  "coefficients_sha256": "f4e6d23b976a6f448674496182853f706e88b604fed47a3fa2b01218047befbb",
+  "passband_ripple_db": 0.015459710924240488,
+  "stopband_max_db": -60.020102951720425,
+  "input_fs_hz": 48000,
+  "output_fs_hz": 12000,
+  "group_delay_raw_samples": 88,
+  "group_delay_output_samples": 22,
+  "edge_trim_each_side_output": 22,
+  "response_grid_points": 262144,
+  "passband_edge_hz": 5000,
+  "stopband_edge_hz": 6000
+}

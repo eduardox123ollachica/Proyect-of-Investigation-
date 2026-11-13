@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "float32_reload_scores_exact": true,
+  "threshold_observed_P95_verified": true,
+  "synthetic_parameter_fits": 1,
+  "refit_after_calibration": false,
+  "TensorFlow_imported": false,
+  "family": "detector",
+  "model_artifact_manifest_entries": 4,
+  "result_status": "PASS",
+  "authorization_patch_scope": "this_child_synthetic_fixture_only",
+  "production_authorization_modified": false,
+  "CWRU_arrays_opened": false,
+  "blocked_CWRU_guard_probe_requests": 1,
+  "outer_evaluation_executed": false
+}

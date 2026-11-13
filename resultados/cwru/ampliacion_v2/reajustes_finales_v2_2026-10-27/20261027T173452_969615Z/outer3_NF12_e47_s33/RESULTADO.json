@@ -1,0 +1,289 @@
+{
+  "status": "PASS",
+  "family": "DNN",
+  "job_id": "outer3_NF12_e47_s33",
+  "fit_signature": "2072aef10b96802765325c7289b611db4bb8713114c2ffc10bbc820fbe028a68",
+  "selection_signature": "c577339ac0c9450f99d40044850063e7090b19d5e81502eca0378c46e1b2c32f",
+  "purpose": "final_fixed_epoch_refit_training_only",
+  "candidate": "NF12",
+  "outer_load_hp": 3,
+  "seed": 33,
+  "roles": {
+    "outer_load_hp": 3,
+    "inner_validation_load_hp": null,
+    "development_loads": [
+      0,
+      1,
+      2
+    ],
+    "training_loads": [
+      0,
+      1,
+      2
+    ],
+    "dnn_fit_loads": [
+      0,
+      1,
+      2
+    ],
+    "int8_calibration_loads": [
+      0,
+      1,
+      2
+    ],
+    "detector_fit_normal_loads": [
+      0,
+      1
+    ],
+    "detector_calibration_normal_loads": [
+      2
+    ],
+    "evaluation_loads": [
+      3
+    ],
+    "outer_excluded_loads": [
+      3
+    ],
+    "detector_refit_after_calibration": false
+  },
+  "procedures": [
+    "performance_only"
+  ],
+  "training_windows": 974,
+  "training_records": 21,
+  "final_epoch": 47,
+  "fixed_epochs": 47,
+  "epochs_executed": 47,
+  "optimizer_updates": 1457,
+  "early_stopping_used": false,
+  "validation_used": false,
+  "weights_restored": false,
+  "final_weights_sha256": "c660684d97953d109edd599e4c8bd3d5808bbc090bd61d2b801af04175729ba2",
+  "architecture": [
+    12,
+    20,
+    10,
+    3
+  ],
+  "parameters": 503,
+  "class_counts": [
+    144,
+    397,
+    433
+  ],
+  "class_weights": [
+    2.2546296296296298,
+    0.8178001679261125,
+    0.7498075442648191
+  ],
+  "representative_calibration_rows": 974,
+  "freeze": {
+    "comparison_batch_size": 1,
+    "rtol": 1e-06,
+    "atol": 1e-07,
+    "model_weights_sha256": "c660684d97953d109edd599e4c8bd3d5808bbc090bd61d2b801af04175729ba2",
+    "maximum_absolute_error": 0.0,
+    "class_changes": 0,
+    "weights_unchanged": true,
+    "resource_variable_ops_remaining": 0,
+    "tensorflow_internal_API_version": "2.21.0"
+  },
+  "model_sha256": {
+    "Keras": "384e1b7a84a939c54c4706e33f1b98625fcd7ca6393f817cb6ee7ea142d65f1b",
+    "FP32": "7de954fa00517b34db24481ffa0516bd30c573e4f6cf4da3a914d55ef181fae9",
+    "INT8": "2a3e260317b32b2f81d897dcd7e0970d0a36b4982f0c7e6f6680681846abce71"
+  },
+  "model_bytes": {
+    "Keras": 20783,
+    "FP32": 3904,
+    "INT8": 3608
+  },
+  "training_only_diagnostics": {
+    "FP32": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          144,
+          0,
+          0
+        ],
+        [
+          0,
+          397,
+          0
+        ],
+        [
+          0,
+          0,
+          433
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 144
+        },
+        {
+          "label": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 397
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 433
+        }
+      ]
+    },
+    "INT8": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          144,
+          0,
+          0
+        ],
+        [
+          0,
+          397,
+          0
+        ],
+        [
+          0,
+          0,
+          433
+        ]
+      ],
+      "per_class": [
+        {
+          "label": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 144
+        },
+        {
+          "label": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 397
+        },
+        {
+          "label": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 433
+        }
+      ]
+    }
+  },
+  "fp32_details": {
+    "input_dtype": "float32",
+    "output_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_quantization": [
+      0.0,
+      0
+    ],
+    "tensor_dtypes": [
+      "float32"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "int8_details": {
+    "input_dtype": "int8",
+    "output_dtype": "int8",
+    "input_quantization": [
+      0.03857814520597458,
+      -11
+    ],
+    "output_quantization": [
+      0.00390625,
+      -128
+    ],
+    "tensor_dtypes": [
+      "int32",
+      "int8"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "training_saturated_input_values": 0,
+  "training_FP32_INT8_class_changes": 0,
+  "training_keras_batch1_FP32_class_changes": 0,
+  "outer_rows_selected_or_materialized": false,
+  "outer_prediction_files_read": false,
+  "outer_evaluation_executed": false,
+  "predictive_selection_executed": false,
+  "detector_fit_executed": false,
+  "STM32_cost_measured": false,
+  "retrospective_evaluation": true,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "original_training_core_source_sha256": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719",
+  "worker_source_sha256": "44367fbc4901ec9575c2fc472c30a0383ab3fb887306b1a29680754336a55d2b",
+  "payload_sha256": "49a49b6ce290f92e446e3ae56f871056cf03eee52657acfcfb8d8e49e2708e54",
+  "array_sha256": "79870db01833d33ef0a62f85451be71e50d26bf63e1fd112bae1d4d782f1a879",
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/busqueda_interna/datos_busqueda.py": "352b1753f7f92e1ba08bad8c6ad5e162b9129bb31a471fa96e835404d6f5eb05",
+    "codigo/cwru/ampliacion_v2/busqueda_interna/ejecutar_busqueda_interna.py": "9424b3b40e9e5229d08c550c21a850b6b01ed80c89bc393b37191e864735b825",
+    "codigo/cwru/ampliacion_v2/detector_interno/datos_detector.py": "917fdfe9380ed77d703a54cbbc50c4d4c0b8cb2463acb8ea0bd7bb41da5aa495",
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/contrato.py": "ef256260d581572fb429565e243ae154e8bc08b524d9d51ffdd33c9aa51af915",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/ejecutar_reajustes.py": "32a856ab8c6c805476170027b8a720b0ea3a856abac7a2cd920ffba7a711b2b7",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/presupuesto.py": "eba0dbe6f38cab5e2cf38195769a6cf66ad82afe8897def47136d708ccc128a1",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/prueba_sintetica.py": "d21287844ae371f35936e525a179b97334e4e15f1efa22b584adb6e72e5c18cc",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/test_reajustes.py": "c557344eb5d299cc2acf396dcb0cf8a37945a1b83e81f6c9cd7c40c519ed1b36",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/worker_clasicos.py": "0aaae3aaeb69f9ae280d3e868a24cb471158b0f3b156ca1dd77b69916280af54",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/worker_detector.py": "bb0e8a154fd0c0d6c068aadfda43f5d5a6fd84a1e5219219d8684975b0e57f6c",
+    "codigo/cwru/ampliacion_v2/reajustes_finales/worker_dnn.py": "44367fbc4901ec9575c2fc472c30a0383ab3fb887306b1a29680754336a55d2b",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "5b571005766482024c50713a9ca3066101ca822b9f4ddd6ccd29398453492a34",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+    "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "7d4a4c141794e8699bcd6fd27e6233041a981f76aef91b67e57670faac6f7719"
+  },
+  "timings_seconds": {
+    "imports_and_payload_arrays": 4.559209200000623,
+    "data_and_scaler": 0.01569079999171663,
+    "fit_and_checkpoint_IO": 2.100417399997241,
+    "FP32_conversion": 1.1006048999988707,
+    "INT8_conversion": 0.1522050999919884,
+    "training_only_inference_and_IO": 0.11357280000811443
+  },
+  "elapsed_worker_seconds": 8.115315000002738
+}

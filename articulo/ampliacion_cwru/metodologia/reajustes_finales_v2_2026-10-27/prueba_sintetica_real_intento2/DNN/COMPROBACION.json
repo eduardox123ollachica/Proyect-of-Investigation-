@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "fixed_epochs": 2,
+  "optimizer_updates": 4,
+  "full_INT8_conversion_verified": true,
+  "training_calibration_rows": 42,
+  "native_Keras_reload_weights_exact": true,
+  "native_Keras_reload_max_abs_error": 0.0,
+  "repeated_fit_weights_exact": true,
+  "final_weights_sha256": "f2a3c502b6552ad8439bd8e2417e950e730c8ad952b2fac84aa680550fe2a9b5",
+  "synthetic_model_fits": 2,
+  "validation_used": false,
+  "TensorFlow_imported": true,
+  "family": "DNN",
+  "model_artifact_manifest_entries": 12,
+  "result_status": "PASS",
+  "authorization_patch_scope": "this_child_synthetic_fixture_only",
+  "production_authorization_modified": false,
+  "CWRU_arrays_opened": false,
+  "blocked_CWRU_guard_probe_requests": 1,
+  "outer_evaluation_executed": false
+}

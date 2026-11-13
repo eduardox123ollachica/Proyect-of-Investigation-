@@ -1,0 +1,14 @@
+{"epoch": 1, "loss": 0.5267393589019775, "val_loss": 0.7192996740341187, "optimizer_updates": 25, "improved": true, "best_epoch": 1, "patience_used": 0}
+{"epoch": 2, "loss": 0.2540900707244873, "val_loss": 0.4787422716617584, "optimizer_updates": 50, "improved": true, "best_epoch": 2, "patience_used": 0}
+{"epoch": 3, "loss": 0.09373393654823303, "val_loss": 0.2676437497138977, "optimizer_updates": 75, "improved": true, "best_epoch": 3, "patience_used": 0}
+{"epoch": 4, "loss": 0.053712621331214905, "val_loss": 0.2595587968826294, "optimizer_updates": 100, "improved": true, "best_epoch": 4, "patience_used": 0}
+{"epoch": 5, "loss": 0.046045757830142975, "val_loss": 0.27772870659828186, "optimizer_updates": 125, "improved": false, "best_epoch": 4, "patience_used": 1}
+{"epoch": 6, "loss": 0.04295036941766739, "val_loss": 0.2750948369503021, "optimizer_updates": 150, "improved": false, "best_epoch": 4, "patience_used": 2}
+{"epoch": 7, "loss": 0.04090380296111107, "val_loss": 0.298110693693161, "optimizer_updates": 175, "improved": false, "best_epoch": 4, "patience_used": 3}
+{"epoch": 8, "loss": 0.03920607268810272, "val_loss": 0.29322487115859985, "optimizer_updates": 200, "improved": false, "best_epoch": 4, "patience_used": 4}
+{"epoch": 9, "loss": 0.03765543922781944, "val_loss": 0.2969418168067932, "optimizer_updates": 225, "improved": false, "best_epoch": 4, "patience_used": 5}
+{"epoch": 10, "loss": 0.03618190810084343, "val_loss": 0.3122442364692688, "optimizer_updates": 250, "improved": false, "best_epoch": 4, "patience_used": 6}
+{"epoch": 11, "loss": 0.03482251986861229, "val_loss": 0.3195975720882416, "optimizer_updates": 275, "improved": false, "best_epoch": 4, "patience_used": 7}
+{"epoch": 12, "loss": 0.03354640677571297, "val_loss": 0.3226988613605499, "optimizer_updates": 300, "improved": false, "best_epoch": 4, "patience_used": 8}
+{"epoch": 13, "loss": 0.032330676913261414, "val_loss": 0.3128986954689026, "optimizer_updates": 325, "improved": false, "best_epoch": 4, "patience_used": 9}
+{"epoch": 14, "loss": 0.031037339940667152, "val_loss": 0.3252439498901367, "optimizer_updates": 350, "improved": false, "best_epoch": 4, "patience_used": 10}

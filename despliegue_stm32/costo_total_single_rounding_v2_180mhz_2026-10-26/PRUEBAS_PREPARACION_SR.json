@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tests": 6,
+  "errors": 0,
+  "failures": 0,
+  "output": "test_all_models_use_only_supported_branch_and_shifts (__main__.T.test_all_models_use_only_supported_branch_and_shifts) ... ok\ntest_bad_archive_rejected (__main__.T.test_bad_archive_rejected) ... ok\ntest_both_compilers_get_both_macros_and_only_new_source_entry (__main__.T.test_both_compilers_get_both_macros_and_only_new_source_entry) ... ok\ntest_library_member_has_only_the_overridden_global (__main__.T.test_library_member_has_only_the_overridden_global) ... ok\ntest_old_sixteen_nodes_unchanged_and_unique_new_ids (__main__.T.test_old_sixteen_nodes_unchanged_and_unique_new_ids) ... ok\ntest_unexpected_original_count_rejected (__main__.T.test_unexpected_original_count_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.211s\n\nOK\n",
+  "preparer_sha256": "8df1603ef0157c00ed658b0188319c85d0ae6ea0582c9cca69988c8dfc766363",
+  "D_files_modified": false,
+  "builds_executed": 0,
+  "hardware_flashed": false,
+  "serial_port_opened": false,
+  "scope": "Read-only tests of actual16configuration CDT and all32exported models; no prepare/copy executed"
+}

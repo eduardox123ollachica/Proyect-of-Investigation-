@@ -1,0 +1,10 @@
+ANALISIS P99 - KMEANS STANDARD
+============================================================
+Umbral P99: 21.850406448
+Ventanas test: 1332
+Ventanas rechazadas: 12
+False anomaly rate sobre dominio conocido: 0.900901 %
+Archivos afectados: 7
+Score mínimo rechazado: 22.165017945
+Score máximo rechazado: 68.297604560
+Score medio rechazado: 30.031686837

@@ -1,0 +1,8 @@
+{
+  "all_28_records_previously_used": true,
+  "load3_test_previously_evaluated": true,
+  "primary_evidence": "documentacion/cwru/evaluacion_final_test_cwru.md",
+  "additional_legacy_evidence": "resultados/cwru/generalizacion_carga_diametro.csv",
+  "v2_design_status": "Evaluación retrospectiva, con reglas futuras congeladas antes de ejecutar; no test virgen",
+  "no_new_training_in_this_audit": true
+}

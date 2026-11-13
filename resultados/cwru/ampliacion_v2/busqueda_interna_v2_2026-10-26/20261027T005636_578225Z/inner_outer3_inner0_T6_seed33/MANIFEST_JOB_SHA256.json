@@ -1,0 +1,15 @@
+{
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/checkpoint_antes_conversion.npz": "b42873491175bd080dab285c455b274252ca23d717ca6d18a872a21c08bbd86b",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/checkpoint_epoca_01.npz": "b42873491175bd080dab285c455b274252ca23d717ca6d18a872a21c08bbd86b",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/cuantizacion_train.npz": "c19c17603b9451d8e04f6658db879c5e081f8b04baf90b5b78cd9dcdc297c89b",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/DIAGNOSTICO_FREEZE.json": "857d3424f67b3128382766852275bd5e8c8016460047bd07b6e7af7334d2ea45",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/estado_antes_conversion.json": "a7c138d0ef8769f82145189d4f6d73dfbf0eaa3efefde51a6e4864c18788c06a",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/historial.jsonl": "9b5bfe6e9271c9fba68b73cefc0088379c1ba6b41077a2f250f9808772139d47",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/modelo_fp32.tflite": "28bf925a99675412bc0f650dac5d0f289dd49c37e2a725660fbb0b3defec778e",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/modelo_int8.tflite": "2fe76dd1c85f9259416c7edbaea694c80ebcb5cf42e8dc3e2210b0fe6fc76ecc",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/predicciones_validacion.npz": "96d5b32da83b5355b93f32fbffa56e5622ccd4eec8450a0c3089566b6d2b400a",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/procedencia.json": "52da3ad5a02278e8daad9d8f18941c713b502d87a5d36ae300eeedd9d5e9c8fd",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/progreso.jsonl": "fa9e5bd10ea930bd4f12c96181a63fbd95a46f797e688187890371546634cb7b",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/resultado.json": "20a69a827722f79b1ae43f4431b44b77c83915e22c9c657b8a06d445929d8c60",
+  "resultados/cwru/ampliacion_v2/busqueda_interna_v2_2026-10-26/20261027T005636_578225Z/inner_outer3_inner0_T6_seed33/scaler_train_only.npz": "96a70ce3ab22da9f28563c00274272e8304bab53ed2b63a5e612118ff796f6da"
+}

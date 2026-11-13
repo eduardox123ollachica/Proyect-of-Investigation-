@@ -1,0 +1,21 @@
+{
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/checkpoint_antes_conversion.npz": "67a6860c811c34fd00abd02e80a5973679c7c5f94df18c0daa60d3567c828276",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/DIAGNOSTICO_FREEZE.json": "575f20c5cd475ccdf6b750bc52a5b755eeb6a87d97f526018fb109b305c442ac",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/diagnosticos_train_only.npz": "8f05cc68968b8bef172f536b55e7a1c5595c495f8e6e337286e33714e7eb89c0",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/estado_antes_conversion.json": "5470a60d897ad5adb2b5f15adc95c4e50b5af65ebfdc76a75e4dc42fbd1c5f96",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/historial.jsonl": "e8a974d167aeccf5a98138336d67dcb82e25676ff2475e42218c90977e0f1af0",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/MANIFEST_JOB_SHA256.json": "f4038315815741e1a2e1db5e06ea91ce130cfa10ebc2efcd4e735cf5d9245125",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/MANIFEST_JOB_SHA256.sha256": "82f8a81298afca5aba55ff38c21564cbe05cf635f4a95971f22a4631aa71e5a2",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/modelo.keras": "93c2a7a6ee3551fc6da545751ba10613d9fb04ddb5fa1f8a00fe91b471e7bdd5",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/modelo_fp32.tflite": "16a843623f39dbe668f1578be4320cba22b26429a9edab3093305e39f8ce6dab",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/modelo_int8.tflite": "77c251f32ae70a4f963a18f1485fe8c7840c86dfac2ffaacc517c0ffd1bfde45",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/procedencia.json": "6172cc3c1281780b66deb13e7f14167b1fba6e36b5b3cf4ef7ef62aa0f3fd72b",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/progreso.jsonl": "c91f926afbce511736af2a5b6cddbecee2099a52de7a0bce171547cdaf8d5574",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/RESULTADO.json": "cebed5a4bd22d705765a6db30fdb571a001d7098168ccfb31d14113a15f4883c",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42/scaler_train_only.npz": "65e7a6fe484ee27393c2e1900b4c4034e34b8dcd364c837af35672c0f1eafbb9",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42_stderr.log": "f3b3bcf2c500d63cb8d929be514c0522355eb52f9a6a61aa523198d68d688562",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer0_F14_e45_s42_stdout.log": "c91f926afbce511736af2a5b6cddbecee2099a52de7a0bce171547cdaf8d5574",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/pasos/003.json": "957b0fe6c5d8015a9001a5bc58b4648a964873fc0c5e5d84b7a743fd644f154b",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer0_F14_e45_s42/datos.npz": "c004ccc3fa859e0fb3455d28429b667960de4f46d97a14ad0a625952bef82c10",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer0_F14_e45_s42/payload.json": "5e0b382a39f6906894582cdf301cc67ebbf1e694a99bde904a8fe9acf186f6e9"
+}

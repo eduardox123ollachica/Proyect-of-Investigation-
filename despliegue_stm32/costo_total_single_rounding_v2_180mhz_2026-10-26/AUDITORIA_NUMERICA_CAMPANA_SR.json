@@ -1,0 +1,3099 @@
+{
+  "status": "PASS_SR_FULL_NUMERIC_AUDIT_NOT_PREDICTIVE_EVALUATION",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "run": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z",
+  "capture_manifest_sha256": "df72445555afa114ec4974fe931de60970164308e07c24b3935cf47ed12439b2",
+  "capture_resources": 12,
+  "resource_manifest_sha256": "1bad5ef5cb6aec115ee5ac91edcb77639534d4e2d395a57db49fba11f5b4d5e1",
+  "resource_count": 39,
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "client_sha256": "631303e144b432a7144054150ed6466d8a8b10d1f179484329bc2e2b666d91fb",
+  "script_sha256": "1184be0631017040f304d02971548127fbc4471bc107a3926134ab7f228e2177",
+  "helper_sha256": {
+    "codigo/cwru/ampliacion_v2/analisis/auditar_numerica_gate_total_v2.py": "ef33c9d4035d1b38539f7c66eeb7c673ff4a1bdd49719eddd1d791eef3272c87",
+    "codigo/cwru/ampliacion_v2/analisis/auditar_numerica_gate_total_sr_v2.py": "e94fc3e08573366f7ecd436790c1311b7f0a4f76199fe5efa18043359ef460fe",
+    "codigo/cwru/ampliacion_v2/analisis/reproducir_fc_entera_total_v2.py": "ce6bfe1fe43876603aac2187d76c8bf47d12e13b4ced8aacde0750f1e276b6a7",
+    "codigo/cwru/ampliacion_v2/analisis/auditar_elf_total_v2.py": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b"
+  },
+  "data_sha256": {
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/MEDICIONES.jsonl": "00e62cf299f37650674d409933091297917b6b31b0c40ae60b13efaf2a28b00d",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/TRAZA_UART.jsonl": "76ec24b0a8d3c7cc711294c728151b02c065b49dd01b65fa0beb239639614154",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/RESULTADO_TOTAL.json": "4426ea52cb2a177d7072f193b37dae3d17a7ef97381633c1449a2ec1a72c2845",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/PLAN_EJECUTADO.json": "6a794d2565adc52d4ceec8706e2f88d50c764f8d31fbe56393e5b74d9f43de86",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/BANCO_TOTAL.json": "ceb6acae562786debef54fd3aef8d3acf9752cbc082a1486f072004c148c8ba2",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/CATALOGO_TOTAL.json": "06b17aba8be1fc9b208dbfe55040785fc65637ee7dd2d77b9a4b6626e8a65a64",
+    "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/REPLAY_FC_CAMPANA_SR.jsonl": "5d464986ad0d5c1af4ea09083e3de455870907e99d639f67a3f8daf2b0ffd203"
+  },
+  "primary_RUN": 2688,
+  "PROFILE": 896,
+  "BASE": 42,
+  "model_window_pairs": 896,
+  "representatives": [
+    {
+      "rep_id": 0,
+      "representative_id": "cost_outer0_inner1_F14_seed11",
+      "candidate": "F14",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15117851,
+        "max_cycles": 15184336,
+        "mean_cycles": 15143486.833333334,
+        "mean_ms": 84.13048240740741,
+        "median_ms": 84.13120833333333,
+        "p95_ms": 84.25928194444444,
+        "sample_std_ms": 0.08429187303242108
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15144150.535714285,
+          "min_cycles": 15120170,
+          "max_cycles": 15179979
+        },
+        "extract_cycles": {
+          "mean_cycles": 15129943.892857144,
+          "min_cycles": 15105973,
+          "max_cycles": 15165790
+        },
+        "input_cycles": {
+          "mean_cycles": 2378.8571428571427,
+          "min_cycles": 2350,
+          "max_cycles": 2398
+        },
+        "nn_cycles": {
+          "mean_cycles": 10437.785714285714,
+          "min_cycles": 10401,
+          "max_cycles": 10481
+        },
+        "detector_cycles": {
+          "mean_cycles": 1326.0,
+          "min_cycles": 1326,
+          "max_cycles": 1326
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "73fe0c1984c54b56aec896ea80a83aaba412d3cb694d643dfbabc21d0461fc69",
+      "params_fnv": "9bd3cadb"
+    },
+    {
+      "rep_id": 1,
+      "representative_id": "cost_outer0_inner1_T6_seed11",
+      "candidate": "T6",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7099728,
+        "max_cycles": 7160714,
+        "mean_cycles": 7122656.892857143,
+        "mean_ms": 39.57031607142857,
+        "median_ms": 39.573433333333334,
+        "p95_ms": 39.697001666666665,
+        "sample_std_ms": 0.0837901621774101
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7122686.285714285,
+          "min_cycles": 7099737,
+          "max_cycles": 7160727
+        },
+        "extract_cycles": {
+          "mean_cycles": 7111023.535714285,
+          "min_cycles": 7088370,
+          "max_cycles": 7148846
+        },
+        "input_cycles": {
+          "mean_cycles": 1134.2142857142858,
+          "min_cycles": 1123,
+          "max_cycles": 1145
+        },
+        "nn_cycles": {
+          "mean_cycles": 9729.535714285714,
+          "min_cycles": 9424,
+          "max_cycles": 9970
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "caca606fd72cc229c6c5cee6ebe9133985262d225a118a4a75ea51a857184f12",
+      "params_fnv": "cf872905"
+    },
+    {
+      "rep_id": 2,
+      "representative_id": "cost_outer0_inner1_S8_seed11",
+      "candidate": "S8",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9757029,
+        "max_cycles": 9798585,
+        "mean_cycles": 9772612.214285715,
+        "mean_ms": 54.29229007936508,
+        "median_ms": 54.272622222222225,
+        "p95_ms": 54.42066555555556,
+        "sample_std_ms": 0.06621634357679099
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9772866.785714285,
+          "min_cycles": 9758753,
+          "max_cycles": 9797735
+        },
+        "extract_cycles": {
+          "mean_cycles": 9760811.714285715,
+          "min_cycles": 9746710,
+          "max_cycles": 9785678
+        },
+        "input_cycles": {
+          "mean_cycles": 1437.4285714285713,
+          "min_cycles": 1418,
+          "max_cycles": 1452
+        },
+        "nn_cycles": {
+          "mean_cycles": 9845.642857142857,
+          "min_cycles": 9812,
+          "max_cycles": 9863
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "bb04306d8e20dc0b35b8a43b45d13fd7ca0a9e1a94512558dfb19855c1045004",
+      "params_fnv": "9a07175d"
+    },
+    {
+      "rep_id": 3,
+      "representative_id": "cost_outer0_inner1_NF12_seed11",
+      "candidate": "NF12",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15182861,
+        "max_cycles": 15252259,
+        "mean_cycles": 15214563.916666666,
+        "mean_ms": 84.52535509259259,
+        "median_ms": 84.5228361111111,
+        "p95_ms": 84.65948805555556,
+        "sample_std_ms": 0.08746905944199392
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15215164.75,
+          "min_cycles": 15186541,
+          "max_cycles": 15252273
+        },
+        "extract_cycles": {
+          "mean_cycles": 15201629.17857143,
+          "min_cycles": 15173017,
+          "max_cycles": 15238733
+        },
+        "input_cycles": {
+          "mean_cycles": 2064.3571428571427,
+          "min_cycles": 2040,
+          "max_cycles": 2084
+        },
+        "nn_cycles": {
+          "mean_cycles": 10081.214285714286,
+          "min_cycles": 10063,
+          "max_cycles": 10149
+        },
+        "detector_cycles": {
+          "mean_cycles": 1326.0,
+          "min_cycles": 1326,
+          "max_cycles": 1326
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "3d0cf745e209d2647ec1bdb17d8ddd051b79b65bd75d9a97e2c123d09e49f515",
+      "params_fnv": "e8111442"
+    },
+    {
+      "rep_id": 4,
+      "representative_id": "cost_outer0_inner1_NM10_seed11",
+      "candidate": "NM10",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 11088859,
+        "max_cycles": 11137261,
+        "mean_cycles": 11110078.952380951,
+        "mean_ms": 61.72266084656084,
+        "median_ms": 61.70484722222222,
+        "p95_ms": 61.852874166666666,
+        "sample_std_ms": 0.06652482293636587
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 11110015.82142857,
+          "min_cycles": 11091268,
+          "max_cycles": 11137366
+        },
+        "extract_cycles": {
+          "mean_cycles": 11097095.142857144,
+          "min_cycles": 11078353,
+          "max_cycles": 11124432
+        },
+        "input_cycles": {
+          "mean_cycles": 1749.142857142857,
+          "min_cycles": 1726,
+          "max_cycles": 1771
+        },
+        "nn_cycles": {
+          "mean_cycles": 10190.535714285714,
+          "min_cycles": 10160,
+          "max_cycles": 10245
+        },
+        "detector_cycles": {
+          "mean_cycles": 924.0,
+          "min_cycles": 924,
+          "max_cycles": 924
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "b5d8d48df18e2c4265647dbc0c5278adab5ce4a958cace0d0a124cebc52b0d13",
+      "params_fnv": "2517d40c"
+    },
+    {
+      "rep_id": 5,
+      "representative_id": "cost_outer0_inner1_NE12_seed11",
+      "candidate": "NE12",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9876133,
+        "max_cycles": 9946830,
+        "mean_cycles": 9904488.488095239,
+        "mean_ms": 55.02493604497355,
+        "median_ms": 55.03098055555556,
+        "p95_ms": 55.17509694444444,
+        "sample_std_ms": 0.08718568270649434
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9904683.107142856,
+          "min_cycles": 9878367,
+          "max_cycles": 9946440
+        },
+        "extract_cycles": {
+          "mean_cycles": 9891340.25,
+          "min_cycles": 9864985,
+          "max_cycles": 9933115
+        },
+        "input_cycles": {
+          "mean_cycles": 2064.6785714285716,
+          "min_cycles": 2032,
+          "max_cycles": 2121
+        },
+        "nn_cycles": {
+          "mean_cycles": 10080.32142857143,
+          "min_cycles": 10046,
+          "max_cycles": 10127
+        },
+        "detector_cycles": {
+          "mean_cycles": 1133.857142857143,
+          "min_cycles": 1132,
+          "max_cycles": 1184
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "765c61415b26c4bdb5cfff55ad6e8b3dda6cbad325cd65def3d62851e2cadf1b",
+      "params_fnv": "dd2ff900"
+    },
+    {
+      "rep_id": 6,
+      "representative_id": "cost_outer0_inner1_DE7_seed11",
+      "candidate": "DE7",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7551856,
+        "max_cycles": 7583288,
+        "mean_cycles": 7565987.535714285,
+        "mean_ms": 42.03326408730159,
+        "median_ms": 42.04674166666667,
+        "p95_ms": 42.081408333333336,
+        "sample_std_ms": 0.04234098496983037
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7566069.464285715,
+          "min_cycles": 7553996,
+          "max_cycles": 7583158
+        },
+        "extract_cycles": {
+          "mean_cycles": 7553967.857142857,
+          "min_cycles": 7541920,
+          "max_cycles": 7571051
+        },
+        "input_cycles": {
+          "mean_cycles": 1288.357142857143,
+          "min_cycles": 1271,
+          "max_cycles": 1300
+        },
+        "nn_cycles": {
+          "mean_cycles": 10041.25,
+          "min_cycles": 10011,
+          "max_cycles": 10099
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "9229e96340620db4c159b9e295dfe87e1cd4b74585c4fa39ef6f17a36e731693",
+      "params_fnv": "af3acd59"
+    },
+    {
+      "rep_id": 7,
+      "representative_id": "cost_outer0_inner1_FE7_seed11",
+      "candidate": "FE7",
+      "outer_load_hp": 0,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7550811,
+        "max_cycles": 7584933,
+        "mean_cycles": 7563420.083333333,
+        "mean_ms": 42.019000462962964,
+        "median_ms": 42.00766111111111,
+        "p95_ms": 42.104042500000006,
+        "sample_std_ms": 0.052321294763905464
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7563314.428571428,
+          "min_cycles": 7550022,
+          "max_cycles": 7584861
+        },
+        "extract_cycles": {
+          "mean_cycles": 7551179.678571428,
+          "min_cycles": 7537894,
+          "max_cycles": 7572736
+        },
+        "input_cycles": {
+          "mean_cycles": 1287.4285714285713,
+          "min_cycles": 1265,
+          "max_cycles": 1300
+        },
+        "nn_cycles": {
+          "mean_cycles": 10046.5,
+          "min_cycles": 10028,
+          "max_cycles": 10112
+        },
+        "detector_cycles": {
+          "mean_cycles": 736.8214285714286,
+          "min_cycles": 735,
+          "max_cycles": 786
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "6867eab3f6dbf28b7dadd2ae85492dcc46470e1fb4940a1f4ab4428691abaeed",
+      "params_fnv": "d4ae0faf"
+    },
+    {
+      "rep_id": 8,
+      "representative_id": "cost_outer1_inner0_F14_seed11",
+      "candidate": "F14",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15114419,
+        "max_cycles": 15180397,
+        "mean_cycles": 15143511.095238095,
+        "mean_ms": 84.1306171957672,
+        "median_ms": 84.13367777777778,
+        "p95_ms": 84.25952138888888,
+        "sample_std_ms": 0.08296452803522106
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15143236.17857143,
+          "min_cycles": 15117911,
+          "max_cycles": 15180457
+        },
+        "extract_cycles": {
+          "mean_cycles": 15129030.82142857,
+          "min_cycles": 15103721,
+          "max_cycles": 15166242
+        },
+        "input_cycles": {
+          "mean_cycles": 2378.8571428571427,
+          "min_cycles": 2350,
+          "max_cycles": 2398
+        },
+        "nn_cycles": {
+          "mean_cycles": 10436.5,
+          "min_cycles": 10400,
+          "max_cycles": 10500
+        },
+        "detector_cycles": {
+          "mean_cycles": 1326.0,
+          "min_cycles": 1326,
+          "max_cycles": 1326
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "db1227f06f85296aa3153660ab740b671c5de9068d8d12a440492927f4488600",
+      "params_fnv": "9bd3cadb"
+    },
+    {
+      "rep_id": 9,
+      "representative_id": "cost_outer1_inner0_T6_seed11",
+      "candidate": "T6",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7100219,
+        "max_cycles": 7160696,
+        "mean_cycles": 7122874.261904762,
+        "mean_ms": 39.57152367724868,
+        "median_ms": 39.57496666666667,
+        "p95_ms": 39.69682111111111,
+        "sample_std_ms": 0.08283040050456013
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7122907.5,
+          "min_cycles": 7100293,
+          "max_cycles": 7160719
+        },
+        "extract_cycles": {
+          "mean_cycles": 7111025.607142857,
+          "min_cycles": 7088408,
+          "max_cycles": 7148855
+        },
+        "input_cycles": {
+          "mean_cycles": 1134.2142857142858,
+          "min_cycles": 1123,
+          "max_cycles": 1145
+        },
+        "nn_cycles": {
+          "mean_cycles": 9948.67857142857,
+          "min_cycles": 9917,
+          "max_cycles": 10008
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "877a56532236bfabf720fcc316eef32ba8f38147f4df4c7af35e4c4e6cbd0422",
+      "params_fnv": "cf872905"
+    },
+    {
+      "rep_id": 10,
+      "representative_id": "cost_outer1_inner0_S8_seed11",
+      "candidate": "S8",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9754401,
+        "max_cycles": 9798808,
+        "mean_cycles": 9772569.55952381,
+        "mean_ms": 54.29205310846561,
+        "median_ms": 54.269283333333334,
+        "p95_ms": 54.422016666666664,
+        "sample_std_ms": 0.06627720883486979
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9772293.464285715,
+          "min_cycles": 9759972,
+          "max_cycles": 9797138
+        },
+        "extract_cycles": {
+          "mean_cycles": 9760244.5,
+          "min_cycles": 9747943,
+          "max_cycles": 9785102
+        },
+        "input_cycles": {
+          "mean_cycles": 1437.4285714285713,
+          "min_cycles": 1418,
+          "max_cycles": 1452
+        },
+        "nn_cycles": {
+          "mean_cycles": 9839.535714285714,
+          "min_cycles": 9812,
+          "max_cycles": 9862
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "43b0510ff00c00140ddede2e80c99f2b3cff6f4c689d8e2a47975af891183a42",
+      "params_fnv": "9a07175d"
+    },
+    {
+      "rep_id": 11,
+      "representative_id": "cost_outer1_inner0_NF12_seed11",
+      "candidate": "NF12",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15182893,
+        "max_cycles": 15252196,
+        "mean_cycles": 15215184.535714285,
+        "mean_ms": 84.52880297619048,
+        "median_ms": 84.52341666666666,
+        "p95_ms": 84.6559,
+        "sample_std_ms": 0.08347206639943593
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15214625.42857143,
+          "min_cycles": 15182907,
+          "max_cycles": 15252286
+        },
+        "extract_cycles": {
+          "mean_cycles": 15201095.035714285,
+          "min_cycles": 15169376,
+          "max_cycles": 15238771
+        },
+        "input_cycles": {
+          "mean_cycles": 2068.214285714286,
+          "min_cycles": 2040,
+          "max_cycles": 2127
+        },
+        "nn_cycles": {
+          "mean_cycles": 10072.17857142857,
+          "min_cycles": 10045,
+          "max_cycles": 10096
+        },
+        "detector_cycles": {
+          "mean_cycles": 1326.0,
+          "min_cycles": 1326,
+          "max_cycles": 1326
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "246b8abc9a736fd19e31b4604c53784afac245d2d9721de91108c70d910b304a",
+      "params_fnv": "e8111442"
+    },
+    {
+      "rep_id": 12,
+      "representative_id": "cost_outer1_inner0_NM10_seed11",
+      "candidate": "NM10",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 11091684,
+        "max_cycles": 11135642,
+        "mean_cycles": 11110498.797619049,
+        "mean_ms": 61.724993320105824,
+        "median_ms": 61.70488888888889,
+        "p95_ms": 61.85986583333333,
+        "sample_std_ms": 0.06582195793462983
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 11110700.607142856,
+          "min_cycles": 11095429,
+          "max_cycles": 11133989
+        },
+        "extract_cycles": {
+          "mean_cycles": 11097776.785714285,
+          "min_cycles": 11082468,
+          "max_cycles": 11121073
+        },
+        "input_cycles": {
+          "mean_cycles": 1749.142857142857,
+          "min_cycles": 1726,
+          "max_cycles": 1771
+        },
+        "nn_cycles": {
+          "mean_cycles": 10193.67857142857,
+          "min_cycles": 10164,
+          "max_cycles": 10247
+        },
+        "detector_cycles": {
+          "mean_cycles": 924.0,
+          "min_cycles": 924,
+          "max_cycles": 924
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "815223450ecc3b267fce5994a3a4c7e4afdda114cf681a2122c7880e68f22aec",
+      "params_fnv": "2517d40c"
+    },
+    {
+      "rep_id": 13,
+      "representative_id": "cost_outer1_inner0_NE12_seed11",
+      "candidate": "NE12",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9874458,
+        "max_cycles": 9943186,
+        "mean_cycles": 9904179.261904761,
+        "mean_ms": 55.02321812169312,
+        "median_ms": 55.02240277777778,
+        "p95_ms": 55.15218888888889,
+        "sample_std_ms": 0.0864213530392386
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9905330.142857144,
+          "min_cycles": 9878977,
+          "max_cycles": 9942729
+        },
+        "extract_cycles": {
+          "mean_cycles": 9891998.75,
+          "min_cycles": 9865643,
+          "max_cycles": 9929376
+        },
+        "input_cycles": {
+          "mean_cycles": 2062.8571428571427,
+          "min_cycles": 2032,
+          "max_cycles": 2083
+        },
+        "nn_cycles": {
+          "mean_cycles": 10070.714285714286,
+          "min_cycles": 10046,
+          "max_cycles": 10096
+        },
+        "detector_cycles": {
+          "mean_cycles": 1133.8214285714287,
+          "min_cycles": 1132,
+          "max_cycles": 1183
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "b2ada12ed2bc6dd7c4f3aab8c502b306874aee271a9bf79dc8ccfad05eadad56",
+      "params_fnv": "dd2ff900"
+    },
+    {
+      "rep_id": 14,
+      "representative_id": "cost_outer1_inner0_DE7_seed11",
+      "candidate": "DE7",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7553568,
+        "max_cycles": 7582821,
+        "mean_cycles": 7565996.166666667,
+        "mean_ms": 42.033312037037035,
+        "median_ms": 42.04687777777778,
+        "p95_ms": 42.08084861111111,
+        "sample_std_ms": 0.04133485753686397
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7566108.178571428,
+          "min_cycles": 7553510,
+          "max_cycles": 7582836
+        },
+        "extract_cycles": {
+          "mean_cycles": 7554007.571428572,
+          "min_cycles": 7541457,
+          "max_cycles": 7570709
+        },
+        "input_cycles": {
+          "mean_cycles": 1288.357142857143,
+          "min_cycles": 1271,
+          "max_cycles": 1300
+        },
+        "nn_cycles": {
+          "mean_cycles": 10040.25,
+          "min_cycles": 10010,
+          "max_cycles": 10102
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "609d7890967b8ca5efa326ce59299f478797f8d90ba1163c379311ba62e36cbd",
+      "params_fnv": "af3acd59"
+    },
+    {
+      "rep_id": 15,
+      "representative_id": "cost_outer1_inner0_FE7_seed11",
+      "candidate": "FE7",
+      "outer_load_hp": 1,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7550686,
+        "max_cycles": 7585359,
+        "mean_cycles": 7563488.19047619,
+        "mean_ms": 42.019378835978834,
+        "median_ms": 42.00762777777778,
+        "p95_ms": 42.10664611111111,
+        "sample_std_ms": 0.05266753166301024
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7563425.0,
+          "min_cycles": 7551685,
+          "max_cycles": 7585073
+        },
+        "extract_cycles": {
+          "mean_cycles": 7551296.071428572,
+          "min_cycles": 7539542,
+          "max_cycles": 7572973
+        },
+        "input_cycles": {
+          "mean_cycles": 1287.4285714285713,
+          "min_cycles": 1265,
+          "max_cycles": 1300
+        },
+        "nn_cycles": {
+          "mean_cycles": 10042.5,
+          "min_cycles": 10010,
+          "max_cycles": 10068
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "743f1fc24de377aeb819144b485e14f18383c87a70be0f7a9b10058c40de3b3f",
+      "params_fnv": "d4ae0faf"
+    },
+    {
+      "rep_id": 16,
+      "representative_id": "cost_outer2_inner0_F14_seed11",
+      "candidate": "F14",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15114811,
+        "max_cycles": 15177422,
+        "mean_cycles": 15144030.595238095,
+        "mean_ms": 84.13350330687831,
+        "median_ms": 84.13264444444444,
+        "p95_ms": 84.26072694444444,
+        "sample_std_ms": 0.07790378369785544
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15144115.857142856,
+          "min_cycles": 15114490,
+          "max_cycles": 15177998
+        },
+        "extract_cycles": {
+          "mean_cycles": 15129916.607142856,
+          "min_cycles": 15100309,
+          "max_cycles": 15163832
+        },
+        "input_cycles": {
+          "mean_cycles": 2380.464285714286,
+          "min_cycles": 2358,
+          "max_cycles": 2401
+        },
+        "nn_cycles": {
+          "mean_cycles": 10426.964285714286,
+          "min_cycles": 10329,
+          "max_cycles": 10480
+        },
+        "detector_cycles": {
+          "mean_cycles": 1327.8214285714287,
+          "min_cycles": 1326,
+          "max_cycles": 1377
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "82e04cf8b9c398be7572d7db0cc5a9eac8907200fad40dc09e330e28f290f0e6",
+      "params_fnv": "892f9c64"
+    },
+    {
+      "rep_id": 17,
+      "representative_id": "cost_outer2_inner0_T6_seed11",
+      "candidate": "T6",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7099832,
+        "max_cycles": 7154049,
+        "mean_cycles": 7123282.630952381,
+        "mean_ms": 39.57379239417989,
+        "median_ms": 39.57480833333333,
+        "p95_ms": 39.69713111111111,
+        "sample_std_ms": 0.0772837170457489
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7123315.107142857,
+          "min_cycles": 7099833,
+          "max_cycles": 7154074
+        },
+        "extract_cycles": {
+          "mean_cycles": 7111429.678571428,
+          "min_cycles": 7087960,
+          "max_cycles": 7142173
+        },
+        "input_cycles": {
+          "mean_cycles": 1137.3214285714287,
+          "min_cycles": 1126,
+          "max_cycles": 1174
+        },
+        "nn_cycles": {
+          "mean_cycles": 9949.107142857143,
+          "min_cycles": 9924,
+          "max_cycles": 9972
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "86c34e53855c72cd4569341e8b49e3a6119384c79045d4d3a9bcf7737fc668ba",
+      "params_fnv": "3210bd4b"
+    },
+    {
+      "rep_id": 18,
+      "representative_id": "cost_outer2_inner0_S8_seed11",
+      "candidate": "S8",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9758342,
+        "max_cycles": 9796737,
+        "mean_cycles": 9772369.654761905,
+        "mean_ms": 54.29094252645503,
+        "median_ms": 54.279183333333336,
+        "p95_ms": 54.421,
+        "sample_std_ms": 0.0636118534735918
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9772127.464285715,
+          "min_cycles": 9757392,
+          "max_cycles": 9797024
+        },
+        "extract_cycles": {
+          "mean_cycles": 9760079.964285715,
+          "min_cycles": 9745356,
+          "max_cycles": 9784960
+        },
+        "input_cycles": {
+          "mean_cycles": 1440.357142857143,
+          "min_cycles": 1428,
+          "max_cycles": 1458
+        },
+        "nn_cycles": {
+          "mean_cycles": 9835.142857142857,
+          "min_cycles": 9743,
+          "max_cycles": 9869
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "6facf345449ab2fc0fb30a8907636f32c0bb70a0fa2964a03f5b0d7d13a10417",
+      "params_fnv": "96e471be"
+    },
+    {
+      "rep_id": 19,
+      "representative_id": "cost_outer2_inner0_NF12_seed11",
+      "candidate": "NF12",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15182801,
+        "max_cycles": 15250603,
+        "mean_cycles": 15215305.05952381,
+        "mean_ms": 84.52947255291005,
+        "median_ms": 84.52685555555556,
+        "p95_ms": 84.65883138888888,
+        "sample_std_ms": 0.08167740963932345
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15215439.142857144,
+          "min_cycles": 15186526,
+          "max_cycles": 15246760
+        },
+        "extract_cycles": {
+          "mean_cycles": 15201902.92857143,
+          "min_cycles": 15172994,
+          "max_cycles": 15233221
+        },
+        "input_cycles": {
+          "mean_cycles": 2067.4285714285716,
+          "min_cycles": 2048,
+          "max_cycles": 2125
+        },
+        "nn_cycles": {
+          "mean_cycles": 10076.92857142857,
+          "min_cycles": 9960,
+          "max_cycles": 10135
+        },
+        "detector_cycles": {
+          "mean_cycles": 1327.857142857143,
+          "min_cycles": 1326,
+          "max_cycles": 1378
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "c663b2c8ebe8096781407cde635d54c99971d45b41e2021d78d63ff1a7f14bbb",
+      "params_fnv": "8edce455"
+    },
+    {
+      "rep_id": 20,
+      "representative_id": "cost_outer2_inner0_NM10_seed11",
+      "candidate": "NM10",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 11088940,
+        "max_cycles": 11136562,
+        "mean_cycles": 11109683.44047619,
+        "mean_ms": 61.720463558201054,
+        "median_ms": 61.70526666666667,
+        "p95_ms": 61.85469083333333,
+        "sample_std_ms": 0.06795116141144575
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 11109633.035714285,
+          "min_cycles": 11095284,
+          "max_cycles": 11132803
+        },
+        "extract_cycles": {
+          "mean_cycles": 11096716.42857143,
+          "min_cycles": 11082387,
+          "max_cycles": 11119910
+        },
+        "input_cycles": {
+          "mean_cycles": 1753.5714285714287,
+          "min_cycles": 1735,
+          "max_cycles": 1771
+        },
+        "nn_cycles": {
+          "mean_cycles": 10180.214285714286,
+          "min_cycles": 10145,
+          "max_cycles": 10207
+        },
+        "detector_cycles": {
+          "mean_cycles": 925.8214285714286,
+          "min_cycles": 924,
+          "max_cycles": 975
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "b012e17f64aac4a705649ecd0f4a076cc69570cc3d1a056667322f5b7222408b",
+      "params_fnv": "91446f38"
+    },
+    {
+      "rep_id": 21,
+      "representative_id": "cost_outer2_inner0_NE12_seed11",
+      "candidate": "NE12",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9877817,
+        "max_cycles": 9940773,
+        "mean_cycles": 9905433.273809524,
+        "mean_ms": 55.03018485449736,
+        "median_ms": 55.026922222222225,
+        "p95_ms": 55.15374222222222,
+        "sample_std_ms": 0.08192413406252388
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9905757.92857143,
+          "min_cycles": 9882743,
+          "max_cycles": 9936336
+        },
+        "extract_cycles": {
+          "mean_cycles": 9892420.32142857,
+          "min_cycles": 9869409,
+          "max_cycles": 9922994
+        },
+        "input_cycles": {
+          "mean_cycles": 2064.75,
+          "min_cycles": 2048,
+          "max_cycles": 2083
+        },
+        "nn_cycles": {
+          "mean_cycles": 10076.857142857143,
+          "min_cycles": 9982,
+          "max_cycles": 10109
+        },
+        "detector_cycles": {
+          "mean_cycles": 1132.0,
+          "min_cycles": 1132,
+          "max_cycles": 1132
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "67c244d2f89cb10af3453223864de3ff1209cd69e5340e01c09be2f90bd218d7",
+      "params_fnv": "b6e9b2a4"
+    },
+    {
+      "rep_id": 22,
+      "representative_id": "cost_outer2_inner0_DE7_seed11",
+      "candidate": "DE7",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7552259,
+        "max_cycles": 7583562,
+        "mean_cycles": 7566205.083333333,
+        "mean_ms": 42.034472685185186,
+        "median_ms": 42.047894444444445,
+        "p95_ms": 42.090584444444445,
+        "sample_std_ms": 0.043553003352269255
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7566131.214285715,
+          "min_cycles": 7554331,
+          "max_cycles": 7583692
+        },
+        "extract_cycles": {
+          "mean_cycles": 7554025.607142857,
+          "min_cycles": 7542243,
+          "max_cycles": 7571610
+        },
+        "input_cycles": {
+          "mean_cycles": 1288.607142857143,
+          "min_cycles": 1274,
+          "max_cycles": 1301
+        },
+        "nn_cycles": {
+          "mean_cycles": 10045.0,
+          "min_cycles": 9952,
+          "max_cycles": 10100
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "b55aaa42f97a41ff1a8450780f86ad35f9d70ac685b134ca719525f06fb54784",
+      "params_fnv": "aebadd7b"
+    },
+    {
+      "rep_id": 23,
+      "representative_id": "cost_outer2_inner0_FE7_seed11",
+      "candidate": "FE7",
+      "outer_load_hp": 2,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7550168,
+        "max_cycles": 7578918,
+        "mean_cycles": 7563507.595238095,
+        "mean_ms": 42.01948664021164,
+        "median_ms": 42.01034722222222,
+        "p95_ms": 42.09858527777777,
+        "sample_std_ms": 0.046866919559326724
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7563499.75,
+          "min_cycles": 7551221,
+          "max_cycles": 7578739
+        },
+        "extract_cycles": {
+          "mean_cycles": 7551372.214285715,
+          "min_cycles": 7539084,
+          "max_cycles": 7566632
+        },
+        "input_cycles": {
+          "mean_cycles": 1286.142857142857,
+          "min_cycles": 1270,
+          "max_cycles": 1335
+        },
+        "nn_cycles": {
+          "mean_cycles": 10042.392857142857,
+          "min_cycles": 9947,
+          "max_cycles": 10112
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "c16a5b7b8b0ab18983bdc4e60588f1a61dac172a02fa563d0f87f87b10f7dc0f",
+      "params_fnv": "b7c87858"
+    },
+    {
+      "rep_id": 24,
+      "representative_id": "cost_outer3_inner0_F14_seed11",
+      "candidate": "F14",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15118649,
+        "max_cycles": 15184031,
+        "mean_cycles": 15144983.25,
+        "mean_ms": 84.13879583333333,
+        "median_ms": 84.13733888888889,
+        "p95_ms": 84.29788472222222,
+        "sample_std_ms": 0.08867420757136311
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15144954.92857143,
+          "min_cycles": 15119686,
+          "max_cycles": 15179984
+        },
+        "extract_cycles": {
+          "mean_cycles": 15130766.32142857,
+          "min_cycles": 15105519,
+          "max_cycles": 15165748
+        },
+        "input_cycles": {
+          "mean_cycles": 2371.3928571428573,
+          "min_cycles": 2350,
+          "max_cycles": 2397
+        },
+        "nn_cycles": {
+          "mean_cycles": 10427.214285714286,
+          "min_cycles": 10405,
+          "max_cycles": 10479
+        },
+        "detector_cycles": {
+          "mean_cycles": 1326.0,
+          "min_cycles": 1326,
+          "max_cycles": 1326
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "98847eae2eda476edcebca50289b503861f099576990b6d77a97155cd0f350ed",
+      "params_fnv": "83633173"
+    },
+    {
+      "rep_id": 25,
+      "representative_id": "cost_outer3_inner0_T6_seed11",
+      "candidate": "T6",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7099822,
+        "max_cycles": 7160716,
+        "mean_cycles": 7124320.630952381,
+        "mean_ms": 39.579559060846556,
+        "median_ms": 39.58061111111111,
+        "p95_ms": 39.74465222222222,
+        "sample_std_ms": 0.08937131037218128
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7124357.821428572,
+          "min_cycles": 7099832,
+          "max_cycles": 7160747
+        },
+        "extract_cycles": {
+          "mean_cycles": 7112475.714285715,
+          "min_cycles": 7087949,
+          "max_cycles": 7148843
+        },
+        "input_cycles": {
+          "mean_cycles": 1130.142857142857,
+          "min_cycles": 1111,
+          "max_cycles": 1140
+        },
+        "nn_cycles": {
+          "mean_cycles": 9952.964285714286,
+          "min_cycles": 9921,
+          "max_cycles": 10011
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "b2b351ab57bedc139e0300f20abd412cfcc954fe6115088386f1332d19a95764",
+      "params_fnv": "421e11c2"
+    },
+    {
+      "rep_id": 26,
+      "representative_id": "cost_outer3_inner0_S8_seed11",
+      "candidate": "S8",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9760862,
+        "max_cycles": 9798394,
+        "mean_cycles": 9773529.357142856,
+        "mean_ms": 54.29738531746031,
+        "median_ms": 54.283775,
+        "p95_ms": 54.42386861111111,
+        "sample_std_ms": 0.06349145731668225
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9773671.607142856,
+          "min_cycles": 9760908,
+          "max_cycles": 9798392
+        },
+        "extract_cycles": {
+          "mean_cycles": 9761619.75,
+          "min_cycles": 9748859,
+          "max_cycles": 9786330
+        },
+        "input_cycles": {
+          "mean_cycles": 1437.9642857142858,
+          "min_cycles": 1420,
+          "max_cycles": 1496
+        },
+        "nn_cycles": {
+          "mean_cycles": 9841.892857142857,
+          "min_cycles": 9797,
+          "max_cycles": 9884
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "9c379055fa9f4bd79042da3ae2e1d0c167b7a832290f9d2f7dac45bbfcc6ed66",
+      "params_fnv": "97da9718"
+    },
+    {
+      "rep_id": 27,
+      "representative_id": "cost_outer3_inner0_NF12_seed11",
+      "candidate": "NF12",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 15187902,
+        "max_cycles": 15252255,
+        "mean_cycles": 15216509.285714285,
+        "mean_ms": 84.5361626984127,
+        "median_ms": 84.52824444444444,
+        "p95_ms": 84.70397416666667,
+        "sample_std_ms": 0.09225361353680954
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 15216341.642857144,
+          "min_cycles": 15191608,
+          "max_cycles": 15255820
+        },
+        "extract_cycles": {
+          "mean_cycles": 15202815.607142856,
+          "min_cycles": 15178085,
+          "max_cycles": 15242278
+        },
+        "input_cycles": {
+          "mean_cycles": 2056.6071428571427,
+          "min_cycles": 2040,
+          "max_cycles": 2080
+        },
+        "nn_cycles": {
+          "mean_cycles": 10079.42857142857,
+          "min_cycles": 10053,
+          "max_cycles": 10103
+        },
+        "detector_cycles": {
+          "mean_cycles": 1326.0,
+          "min_cycles": 1326,
+          "max_cycles": 1326
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "ca998d9b5488dc3ed6b4f9baa8fdfb6e0da41f6d17d98933e693094bad91e44c",
+      "params_fnv": "1875e5d8"
+    },
+    {
+      "rep_id": 28,
+      "representative_id": "cost_outer3_inner0_NM10_seed11",
+      "candidate": "NM10",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 11093284,
+        "max_cycles": 11138112,
+        "mean_cycles": 11110653.083333334,
+        "mean_ms": 61.72585046296297,
+        "median_ms": 61.708194444444445,
+        "p95_ms": 61.85339138888889,
+        "sample_std_ms": 0.0639518632665792
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 11111658.5,
+          "min_cycles": 11097786,
+          "max_cycles": 11136324
+        },
+        "extract_cycles": {
+          "mean_cycles": 11098734.785714285,
+          "min_cycles": 11084860,
+          "max_cycles": 11123393
+        },
+        "input_cycles": {
+          "mean_cycles": 1751.2857142857142,
+          "min_cycles": 1730,
+          "max_cycles": 1773
+        },
+        "nn_cycles": {
+          "mean_cycles": 10191.42857142857,
+          "min_cycles": 10176,
+          "max_cycles": 10210
+        },
+        "detector_cycles": {
+          "mean_cycles": 924.0,
+          "min_cycles": 924,
+          "max_cycles": 924
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "17ee1a2d9da94fc2a9fc73364aec2f53f5f6930051c41da0bb6651fa537ea1ce",
+      "params_fnv": "e92e0fb5"
+    },
+    {
+      "rep_id": 29,
+      "representative_id": "cost_outer3_inner0_NE12_seed11",
+      "candidate": "NE12",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 9878870,
+        "max_cycles": 9946470,
+        "mean_cycles": 9906278.05952381,
+        "mean_ms": 55.03487810846561,
+        "median_ms": 55.036458333333336,
+        "p95_ms": 55.19970444444445,
+        "sample_std_ms": 0.09080660082721868
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 9905749.82142857,
+          "min_cycles": 9878390,
+          "max_cycles": 9943269
+        },
+        "extract_cycles": {
+          "mean_cycles": 9892412.07142857,
+          "min_cycles": 9865075,
+          "max_cycles": 9929892
+        },
+        "input_cycles": {
+          "mean_cycles": 2061.5714285714284,
+          "min_cycles": 2034,
+          "max_cycles": 2116
+        },
+        "nn_cycles": {
+          "mean_cycles": 10080.17857142857,
+          "min_cycles": 10046,
+          "max_cycles": 10148
+        },
+        "detector_cycles": {
+          "mean_cycles": 1132.0,
+          "min_cycles": 1132,
+          "max_cycles": 1132
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "d211f2e3895d8491ed9861f840176290da170f89c8d34661097d14bc4ed64068",
+      "params_fnv": "28a79b6c"
+    },
+    {
+      "rep_id": 30,
+      "representative_id": "cost_outer3_inner0_DE7_seed11",
+      "candidate": "DE7",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7551779,
+        "max_cycles": 7583701,
+        "mean_cycles": 7566915.488095238,
+        "mean_ms": 42.03841937830688,
+        "median_ms": 42.04855277777778,
+        "p95_ms": 42.11972,
+        "sample_std_ms": 0.04450216195793832
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7566933.821428572,
+          "min_cycles": 7554191,
+          "max_cycles": 7583156
+        },
+        "extract_cycles": {
+          "mean_cycles": 7554842.071428572,
+          "min_cycles": 7542092,
+          "max_cycles": 7571082
+        },
+        "input_cycles": {
+          "mean_cycles": 1273.0714285714287,
+          "min_cycles": 1252,
+          "max_cycles": 1299
+        },
+        "nn_cycles": {
+          "mean_cycles": 10046.67857142857,
+          "min_cycles": 10011,
+          "max_cycles": 10108
+        },
+        "detector_cycles": {
+          "mean_cycles": 715.0,
+          "min_cycles": 715,
+          "max_cycles": 715
+        },
+        "residual_cycles": {
+          "mean_cycles": 57.0,
+          "min_cycles": 57,
+          "max_cycles": 57
+        }
+      },
+      "model_sha256": "968f185b3ed54f800401c2878695a9fe2cf81c6dde91e284af12be5710999602",
+      "params_fnv": "78dbc6de"
+    },
+    {
+      "rep_id": 31,
+      "representative_id": "cost_outer3_inner0_FE7_seed11",
+      "candidate": "FE7",
+      "outer_load_hp": 3,
+      "primary_statistics": {
+        "count": 84,
+        "min_cycles": 7551610,
+        "max_cycles": 7585092,
+        "mean_cycles": 7564095.5,
+        "mean_ms": 42.022752777777775,
+        "median_ms": 42.01762222222222,
+        "p95_ms": 42.09702083333333,
+        "sample_std_ms": 0.05303785866957167
+      },
+      "unique_windows": 28,
+      "primary_RUN": 84,
+      "PROFILE": 28,
+      "arena_used_bytes": [
+        1188
+      ],
+      "arena_reserved_bytes": 16384,
+      "initializations_or_selects": 28,
+      "reused_selects": 0,
+      "profile_statistics_excluded_from_primary": {
+        "total_cycles": {
+          "mean_cycles": 7564238.0,
+          "min_cycles": 7551637,
+          "max_cycles": 7585284
+        },
+        "extract_cycles": {
+          "mean_cycles": 7552120.142857143,
+          "min_cycles": 7539533,
+          "max_cycles": 7573138
+        },
+        "input_cycles": {
+          "mean_cycles": 1284.8214285714287,
+          "min_cycles": 1269,
+          "max_cycles": 1301
+        },
+        "nn_cycles": {
+          "mean_cycles": 10034.035714285714,
+          "min_cycles": 9937,
+          "max_cycles": 10090
+        },
+        "detector_cycles": {
+          "mean_cycles": 735.0,
+          "min_cycles": 735,
+          "max_cycles": 735
+        },
+        "residual_cycles": {
+          "mean_cycles": 64.0,
+          "min_cycles": 64,
+          "max_cycles": 64
+        }
+      },
+      "model_sha256": "e4572c813422129e2bbc3bce69939f5cff0acdb570922c516646905453a36462",
+      "params_fnv": "40f7c20d"
+    }
+  ],
+  "UART_results_reconstructed": 3584,
+  "UART_pages_reconstructed": 10752,
+  "independent_float32_replays": 896,
+  "all_intermediates_exact_across_3584_publications": true,
+  "same_INT8_input_output_exact_across_3584_publications": true,
+  "quantized_input_differences_to_original_cache": 0,
+  "output_differences_to_original_cache": 0,
+  "class_differences_to_original_cache": 0,
+  "normality_rejection_differences_to_original_cache": 0,
+  "pair_cache_comparison_distribution": [
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": false,
+        "feature_bit_differences": 1,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 130
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": false,
+        "feature_bit_differences": 2,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 118
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": false,
+        "feature_bit_differences": 3,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 69
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": false,
+        "feature_bit_differences": 4,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 39
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": true,
+        "feature_bit_differences": 1,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 86
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": true,
+        "feature_bit_differences": 2,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 178
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": true,
+        "feature_bit_differences": 3,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 147
+    },
+    {
+      "comparison": {
+        "class_differs": false,
+        "detector_rejection_differs": false,
+        "detector_score_bit_differs": true,
+        "feature_bit_differences": 4,
+        "output_value_differences": 0,
+        "quantized_value_differences": 0
+      },
+      "pairs": 129
+    }
+  ],
+  "BASE_feature_error_by_slot": [
+    {
+      "index": 0,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 1,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 2,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 3,
+      "differing_windows": 29,
+      "maximum_absolute_error": 1.0,
+      "maximum_ULP": 2
+    },
+    {
+      "index": 4,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 5,
+      "differing_windows": 24,
+      "maximum_absolute_error": 0.0001220703125,
+      "maximum_ULP": 3
+    },
+    {
+      "index": 6,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 7,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 8,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 9,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 10,
+      "differing_windows": 26,
+      "maximum_absolute_error": 0.03125,
+      "maximum_ULP": 2
+    },
+    {
+      "index": 11,
+      "differing_windows": 0,
+      "maximum_absolute_error": 0.0,
+      "maximum_ULP": 0
+    },
+    {
+      "index": 12,
+      "differing_windows": 20,
+      "maximum_absolute_error": 3.0517578125e-05,
+      "maximum_ULP": 2
+    },
+    {
+      "index": 13,
+      "differing_windows": 2,
+      "maximum_absolute_error": 5.960464477539063e-08,
+      "maximum_ULP": 1
+    }
+  ],
+  "BASE_feature_differences": [
+    {
+      "global_id": 175,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "46e55f6a",
+          "PC_bits": "46e55f6b",
+          "absolute_error": 0.001953125,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "46f667b7",
+          "PC_bits": "46f667b8",
+          "absolute_error": 0.001953125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "4295deba",
+          "PC_bits": "4295debb",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 232,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "46f5ba06",
+          "PC_bits": "46f5ba08",
+          "absolute_error": 0.00390625,
+          "ULP": 2
+        },
+        {
+          "index": 10,
+          "ARM_bits": "46f8eafe",
+          "PC_bits": "46f8eb00",
+          "absolute_error": 0.00390625,
+          "ULP": 2
+        },
+        {
+          "index": 12,
+          "ARM_bits": "429ad4da",
+          "PC_bits": "429ad4db",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 568,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "46c8ed4e",
+          "PC_bits": "46c8ed4f",
+          "absolute_error": 0.001953125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 625,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "46cce2a9",
+          "PC_bits": "46cce2aa",
+          "absolute_error": 0.001953125,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "42834021",
+          "PC_bits": "42834022",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "46d9d096",
+          "PC_bits": "46d9d097",
+          "absolute_error": 0.001953125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "428e0933",
+          "PC_bits": "428e0934",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 974,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "46cb1ba0",
+          "PC_bits": "46cb1ba1",
+          "absolute_error": 0.001953125,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "426ea9c0",
+          "PC_bits": "426ea9c3",
+          "absolute_error": 1.1444091796875e-05,
+          "ULP": 3
+        },
+        {
+          "index": 10,
+          "ARM_bits": "4709a762",
+          "PC_bits": "4709a763",
+          "absolute_error": 0.00390625,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "427ab784",
+          "PC_bits": "427ab785",
+          "absolute_error": 3.814697265625e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1031,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "4267543a",
+          "PC_bits": "4267543b",
+          "absolute_error": 3.814697265625e-06,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "4719ae90",
+          "PC_bits": "4719ae91",
+          "absolute_error": 0.00390625,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 233,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "491e255b",
+          "PC_bits": "491e255c",
+          "absolute_error": 0.0625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "435a6c2f",
+          "PC_bits": "435a6c30",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48d723b7",
+          "PC_bits": "48d723b8",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 290,
+      "differences": [
+        {
+          "index": 10,
+          "ARM_bits": "48d337ea",
+          "PC_bits": "48d337eb",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "438b19ed",
+          "PC_bits": "438b19ee",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 1
+        },
+        {
+          "index": 13,
+          "ARM_bits": "3f1a2197",
+          "PC_bits": "3f1a2196",
+          "absolute_error": 5.960464477539063e-08,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 626,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "491f11f2",
+          "PC_bits": "491f11f3",
+          "absolute_error": 0.0625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "4356a8fb",
+          "PC_bits": "4356a8fc",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48d648e2",
+          "PC_bits": "48d648e3",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "4376c192",
+          "PC_bits": "4376c193",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 683,
+      "differences": [
+        {
+          "index": 12,
+          "ARM_bits": "4374e00a",
+          "PC_bits": "4374e008",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 2
+        }
+      ]
+    },
+    {
+      "global_id": 1032,
+      "differences": [
+        {
+          "index": 10,
+          "ARM_bits": "48cae296",
+          "PC_bits": "48cae297",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "43429456",
+          "PC_bits": "43429457",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1089,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "491ed256",
+          "PC_bits": "491ed257",
+          "absolute_error": 0.0625,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48d1a85f",
+          "PC_bits": "48d1a860",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 394,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4b12425d",
+          "PC_bits": "4b12425e",
+          "absolute_error": 1.0,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48b0184c",
+          "PC_bits": "48b0184d",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 451,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4b19066a",
+          "PC_bits": "4b19066b",
+          "absolute_error": 1.0,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "449b3cd8",
+          "PC_bits": "449b3cd9",
+          "absolute_error": 0.0001220703125,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48bb0566",
+          "PC_bits": "48bb0567",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 800,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4b0acf86",
+          "PC_bits": "4b0acf87",
+          "absolute_error": 1.0,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "44625886",
+          "PC_bits": "44625888",
+          "absolute_error": 0.0001220703125,
+          "ULP": 2
+        },
+        {
+          "index": 10,
+          "ARM_bits": "4899dd9c",
+          "PC_bits": "4899dd9d",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42dd37d5",
+          "PC_bits": "42dd37d6",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 857,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4b0530cc",
+          "PC_bits": "4b0530cd",
+          "absolute_error": 1.0,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42e1fc4a",
+          "PC_bits": "42e1fc4b",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1206,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4b022ae0",
+          "PC_bits": "4b022ae1",
+          "absolute_error": 1.0,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "4465a40f",
+          "PC_bits": "4465a410",
+          "absolute_error": 6.103515625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48b2b243",
+          "PC_bits": "48b2b244",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1263,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "448819d0",
+          "PC_bits": "448819d1",
+          "absolute_error": 0.0001220703125,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48b4fa49",
+          "PC_bits": "48b4fa4a",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "433bc029",
+          "PC_bits": "433bc02b",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 2
+        }
+      ]
+    },
+    {
+      "global_id": 291,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "492982ca",
+          "PC_bits": "492982cb",
+          "absolute_error": 0.0625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "43540c6f",
+          "PC_bits": "43540c6e",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "4783ab61",
+          "PC_bits": "4783ab62",
+          "absolute_error": 0.0078125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42adb2e7",
+          "PC_bits": "42adb2e6",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 335,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "490ff11c",
+          "PC_bits": "490ff11d",
+          "absolute_error": 0.0625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "43479be3",
+          "PC_bits": "43479be4",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "4780614a",
+          "PC_bits": "4780614b",
+          "absolute_error": 0.0078125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42b1f801",
+          "PC_bits": "42b1f802",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 684,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "4316e2bc",
+          "PC_bits": "4316e2bd",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 741,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "4323c4cb",
+          "PC_bits": "4323c4cc",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "4295b39b",
+          "PC_bits": "4295b39c",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1090,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "48bf668f",
+          "PC_bits": "48bf6690",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "477e995c",
+          "PC_bits": "477e995e",
+          "absolute_error": 0.0078125,
+          "ULP": 2
+        },
+        {
+          "index": 12,
+          "ARM_bits": "428f3080",
+          "PC_bits": "428f3081",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1147,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "490553fe",
+          "PC_bits": "490553ff",
+          "absolute_error": 0.0625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "43301d32",
+          "PC_bits": "43301d33",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "478da88b",
+          "PC_bits": "478da88c",
+          "absolute_error": 0.0078125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "427f39ea",
+          "PC_bits": "427f39eb",
+          "absolute_error": 3.814697265625e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 452,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "481670bc",
+          "PC_bits": "481670bd",
+          "absolute_error": 0.015625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "428fee37",
+          "PC_bits": "428fee38",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "47a48423",
+          "PC_bits": "47a48424",
+          "absolute_error": 0.0078125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "43190019",
+          "PC_bits": "4319001b",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 2
+        }
+      ]
+    },
+    {
+      "global_id": 509,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4809a75b",
+          "PC_bits": "4809a75c",
+          "absolute_error": 0.015625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "429a329f",
+          "PC_bits": "429a32a0",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 858,
+      "differences": [
+        {
+          "index": 10,
+          "ARM_bits": "478c4f1c",
+          "PC_bits": "478c4f1d",
+          "absolute_error": 0.0078125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 915,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "482c5113",
+          "PC_bits": "482c5114",
+          "absolute_error": 0.015625,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1264,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "484896d7",
+          "PC_bits": "484896d8",
+          "absolute_error": 0.015625,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "42bb7493",
+          "PC_bits": "42bb7492",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "47a2126e",
+          "PC_bits": "47a2126f",
+          "absolute_error": 0.0078125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1321,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "42d4c113",
+          "PC_bits": "42d4c114",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42b61ac0",
+          "PC_bits": "42b61ac2",
+          "absolute_error": 1.52587890625e-05,
+          "ULP": 2
+        }
+      ]
+    },
+    {
+      "global_id": 336,
+      "differences": [
+        {
+          "index": 13,
+          "ARM_bits": "3f436fbd",
+          "PC_bits": "3f436fbc",
+          "absolute_error": 5.960464477539063e-08,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 393,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a482e9a",
+          "PC_bits": "4a482e9b",
+          "absolute_error": 0.25,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 742,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "4448d67a",
+          "PC_bits": "4448d679",
+          "absolute_error": 6.103515625e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48867e23",
+          "PC_bits": "48867e24",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42b26294",
+          "PC_bits": "42b26295",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 799,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a8c9524",
+          "PC_bits": "4a8c9525",
+          "absolute_error": 0.5,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "445a2d9c",
+          "PC_bits": "445a2d9d",
+          "absolute_error": 6.103515625e-05,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1148,
+      "differences": [
+        {
+          "index": 10,
+          "ARM_bits": "48877b3a",
+          "PC_bits": "48877b3b",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1205,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "49c47443",
+          "PC_bits": "49c47444",
+          "absolute_error": 0.125,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "4438d878",
+          "PC_bits": "4438d879",
+          "absolute_error": 6.103515625e-05,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 510,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a47bf53",
+          "PC_bits": "4a47bf54",
+          "absolute_error": 0.25,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "489c7352",
+          "PC_bits": "489c7353",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        },
+        {
+          "index": 12,
+          "ARM_bits": "42b52771",
+          "PC_bits": "42b52772",
+          "absolute_error": 7.62939453125e-06,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 567,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a5d4ecb",
+          "PC_bits": "4a5d4ecc",
+          "absolute_error": 0.25,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 916,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a3ae422",
+          "PC_bits": "4a3ae423",
+          "absolute_error": 0.25,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 973,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a480a69",
+          "PC_bits": "4a480a6a",
+          "absolute_error": 0.25,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "43947a1a",
+          "PC_bits": "43947a19",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1322,
+      "differences": [
+        {
+          "index": 5,
+          "ARM_bits": "4384aebc",
+          "PC_bits": "4384aebd",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 1
+        },
+        {
+          "index": 10,
+          "ARM_bits": "48b083b6",
+          "PC_bits": "48b083b7",
+          "absolute_error": 0.03125,
+          "ULP": 1
+        }
+      ]
+    },
+    {
+      "global_id": 1379,
+      "differences": [
+        {
+          "index": 3,
+          "ARM_bits": "4a2b2d3e",
+          "PC_bits": "4a2b2d3f",
+          "absolute_error": 0.25,
+          "ULP": 1
+        },
+        {
+          "index": 5,
+          "ARM_bits": "43c9e768",
+          "PC_bits": "43c9e769",
+          "absolute_error": 3.0517578125e-05,
+          "ULP": 1
+        }
+      ]
+    }
+  ],
+  "BASE_historical_ARM_references_exact": 28,
+  "BASE_new_ARM_windows": 14,
+  "FC_models_parsed": 32,
+  "FC_layers_computed": 2688,
+  "FC_neurons_computed": 29568,
+  "FC_replay_file": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/REPLAY_FC_CAMPANA_SR.jsonl",
+  "maximum_absolute_FC_accumulator": 129360,
+  "FC_internal_activations_captured_on_board": false,
+  "Softmax_oracle": "Original sealed PC outputs only after independently recomputing identical INT8 inputs for all896 pairs",
+  "Softmax_independently_replayed_here": false,
+  "regression_DE7_232": {
+    "global_id": 232,
+    "rep_id": 22,
+    "quantized_input_exact_to_cache": true,
+    "output_INT8": [
+      41,
+      -100,
+      -69
+    ],
+    "predicted_class": 0,
+    "rejected": false,
+    "score_bits": "41760402",
+    "threshold_bits": "43e8a9ee",
+    "saturation_low": 0,
+    "saturation_high": 0,
+    "cache_comparison": {
+      "feature_bit_differences": 3,
+      "quantized_value_differences": 0,
+      "output_value_differences": 0,
+      "class_differs": false,
+      "detector_score_bit_differs": true,
+      "detector_rejection_differs": false
+    },
+    "FC_logits": [
+      33,
+      -29,
+      -3
+    ]
+  },
+  "arena_all32_models_bytes": 1188,
+  "arena_reserved_bytes": 16384,
+  "runtime_stack_remeasured": false,
+  "primary_excludes": [
+    "PROFILE",
+    "BASE",
+    "SELECT/initialization",
+    "UART"
+  ],
+  "overhead_subtracted": false,
+  "wall_seconds_recorded": 981.0469999999914,
+  "nominal_HCLK_HAL_Hz": 180000000,
+  "WCET_claimed": false,
+  "predictive_outer_evaluation": false,
+  "motor_or_bearing_independence_claimed": false,
+  "cached_PC_end_to_end_bit_exactness_claimed": false,
+  "full_Flash_identity_verified_by_programmer_report": false,
+  "total_cost_table_emitted_here": false,
+  "selector_enabled": false,
+  "new_TFLite_invocations": 0,
+  "new_training_fits": 0,
+  "new_physical_RUN": 0,
+  "builds_executed": 0,
+  "serial_opened": false,
+  "D_files_modified": false,
+  "original_capture_modified": false,
+  "seconds": 2.976649499993073,
+  "limitations": [
+    "The neural output oracle is the sealed PC cache for independently verified identical quantized inputs.",
+    "Offline FC replays are not internal activation measurements from the board.",
+    "Flash identity has no programmer-report/readback proof attached.",
+    "The32 trained representative models calibrate computational costs and do not complete multiseed predictive evaluation.",
+    "Observed maxima and percentiles are not WCET or independent-acquisition confidence intervals."
+  ]
+}

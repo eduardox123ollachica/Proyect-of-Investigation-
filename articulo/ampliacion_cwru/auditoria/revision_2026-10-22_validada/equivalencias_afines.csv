@@ -1,0 +1,12 @@
+﻿file_a,file_id_a,split_a,variable_a,selected_a,file_b,file_id_b,split_b,variable_b,selected_b,cross_split,samples,affine_match,correlation,scale,intercept,max_abs_residual
+"213_IR_0,021.mat",213,train,X213_DE_time,True,"213_IR_0,021.mat",213,train,X213_FE_time,True,False,244339,True,1.0000000000000002,0.984848484848485,-1.734723475976807e-18,8.881784197001252e-16
+"201_OR_0,014.mat",201,train,X201_DE_time,True,"201_OR_0,014.mat",201,train,X201_FE_time,True,False,245140,True,1.0,0.9848484848484849,0.0,2.220446049250313e-16
+"238_OR_0,021.mat",238,train,X238_DE_time,True,"238_OR_0,021.mat",238,train,X238_FE_time,True,False,246342,True,1.0,0.9848484848484849,-3.469446951953614e-18,8.881784197001252e-16
+"98_N_0,000.mat",98,train,X098_DE_time,True,"99_N_0,000.mat",99,validation,X098_DE_time,False,True,483903,True,1.0,1.0,0.0,0.0
+"98_N_0,000.mat",98,train,X098_FE_time,True,"99_N_0,000.mat",99,validation,X098_FE_time,False,True,483903,True,1.0,1.0,0.0,0.0
+"175_IR_0,014.mat",175,train,"X217[:,0]",False,"217_IR_0,021.mat",217,test,X217_DE_time,True,True,489125,True,0.9999999999999999,5.128205128205128,-8.673617379884035e-19,4.440892098500626e-16
+"175_IR_0,014.mat",175,train,"X217[:,1]",False,"175_IR_0,014.mat",175,train,X217_DE_time,False,False,489125,True,1.0,5.128205128205128,0.0,2.220446049250313e-16
+"175_IR_0,014.mat",175,train,"X217[:,1]",False,"217_IR_0,021.mat",217,test,X217_FE_time,True,True,489125,True,1.0,5.05050505050505,0.0,2.220446049250313e-16
+"175_IR_0,014.mat",175,train,X217_DE_time,False,"217_IR_0,021.mat",217,test,X217_FE_time,True,True,489125,True,0.9999999999999998,0.9848484848484848,3.469446951953614e-18,2.220446049250313e-16
+"215_IR_0,021.mat",215,validation,X215_DE_time,True,"217_IR_0,021.mat",217,test,X215_DE_time,False,True,491446,True,1.0,1.0,0.0,0.0
+"215_IR_0,021.mat",215,validation,X215_FE_time,True,"217_IR_0,021.mat",217,test,X215_FE_time,False,True,491446,True,1.0,1.0,0.0,0.0

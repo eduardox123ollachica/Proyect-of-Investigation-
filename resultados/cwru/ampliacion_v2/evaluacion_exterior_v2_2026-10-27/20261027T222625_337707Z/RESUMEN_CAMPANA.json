@@ -1,0 +1,10 @@
+{
+  "status": "OUTER_EVALUATION_COMPLETED",
+  "completed_loads": 4,
+  "planned_loads": 4,
+  "campaign_execution_verification_seconds": 55.202000000001135,
+  "training_executed": false,
+  "all_models_and_decisions_fixed_before_evaluation": true,
+  "results_released": true,
+  "automatic_retry": false
+}

@@ -1,0 +1,12 @@
+﻿path,window,start_sample,axis,nearly_tied_bins_rtol1e12,scalar_bin,vectorized_bin,scalar_vectorized_disagree,max_magnitude,top_two_magnitude_gap
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s11.json,14,112,ay,4|8,4,4,False,0.14,0.0
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s12.json,12,96,ax,2|6,2,2,False,0.18439088914585774,2.7755575615628914e-17
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s18.json,15,120,ay,4|8,4,4,False,0.12,0.0
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s18.json,15,120,az,2|6,2,2,False,0.2317326045251297,0.0
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s2.json,8,64,ay,4|8,8,8,False,0.22000000000000003,2.7755575615628914e-17
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s24.json,9,72,az,4|8,4,4,False,0.29000000000000137,4.440892098500626e-16
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s25.json,22,176,ay,2|6,2,6,True,0.14832396974191325,0.0
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s41.json,9,72,ax,2|6,2,2,False,0.17916472867168923,5.551115123125783e-17
+training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s47.json,17,136,ax,2|6,2,2,False,0.198997487421324,0.0
+testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s55.json,27,216,ay,4|8,4,4,False,0.1,0.0
+testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s62.json,14,112,ax,2|6,6,6,False,0.16155494421403516,2.7755575615628914e-17

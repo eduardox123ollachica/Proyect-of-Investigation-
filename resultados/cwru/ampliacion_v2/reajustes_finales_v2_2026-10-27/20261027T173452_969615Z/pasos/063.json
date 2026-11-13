@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "job_id": "outer3_F14_e9_s42",
+  "family": "DNN",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 11.828000000008615,
+  "timeout_seconds": 300,
+  "automatic_retry": false
+}

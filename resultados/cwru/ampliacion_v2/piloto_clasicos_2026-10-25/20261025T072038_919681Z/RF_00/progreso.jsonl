@@ -1,0 +1,5 @@
+{"stage": "worker_started", "elapsed_seconds": 0.10658110000076704, "family": "RF"}
+{"stage": "imports_complete", "elapsed_seconds": 2.8862870000011753, "sklearn": "1.9.1"}
+{"stage": "data_ready", "elapsed_seconds": 2.959931300007156, "train": 799, "validation": 175, "load3_arrays_opened": false}
+{"stage": "fit_complete", "elapsed_seconds": 3.1952827000059187}
+{"stage": "PASS", "elapsed_seconds": 3.2380236000026343}

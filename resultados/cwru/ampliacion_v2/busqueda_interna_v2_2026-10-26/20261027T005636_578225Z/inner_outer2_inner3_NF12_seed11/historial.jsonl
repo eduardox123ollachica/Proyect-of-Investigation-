@@ -1,0 +1,15 @@
+{"epoch": 1, "loss": 0.6762468814849854, "val_loss": 0.740298330783844, "optimizer_updates": 18, "improved": true, "best_epoch": 1, "patience_used": 0}
+{"epoch": 2, "loss": 0.3668527901172638, "val_loss": 0.5818295478820801, "optimizer_updates": 36, "improved": true, "best_epoch": 2, "patience_used": 0}
+{"epoch": 3, "loss": 0.19210819900035858, "val_loss": 0.45441901683807373, "optimizer_updates": 54, "improved": true, "best_epoch": 3, "patience_used": 0}
+{"epoch": 4, "loss": 0.12905362248420715, "val_loss": 0.43348821997642517, "optimizer_updates": 72, "improved": true, "best_epoch": 4, "patience_used": 0}
+{"epoch": 5, "loss": 0.0834612026810646, "val_loss": 0.4053848087787628, "optimizer_updates": 90, "improved": true, "best_epoch": 5, "patience_used": 0}
+{"epoch": 6, "loss": 0.06114903837442398, "val_loss": 0.47804248332977295, "optimizer_updates": 108, "improved": false, "best_epoch": 5, "patience_used": 1}
+{"epoch": 7, "loss": 0.05164727941155434, "val_loss": 0.46397531032562256, "optimizer_updates": 126, "improved": false, "best_epoch": 5, "patience_used": 2}
+{"epoch": 8, "loss": 0.04731440544128418, "val_loss": 0.520653486251831, "optimizer_updates": 144, "improved": false, "best_epoch": 5, "patience_used": 3}
+{"epoch": 9, "loss": 0.04463477432727814, "val_loss": 0.5405408143997192, "optimizer_updates": 162, "improved": false, "best_epoch": 5, "patience_used": 4}
+{"epoch": 10, "loss": 0.04261210560798645, "val_loss": 0.5613861680030823, "optimizer_updates": 180, "improved": false, "best_epoch": 5, "patience_used": 5}
+{"epoch": 11, "loss": 0.040884941816329956, "val_loss": 0.5781009793281555, "optimizer_updates": 198, "improved": false, "best_epoch": 5, "patience_used": 6}
+{"epoch": 12, "loss": 0.03935739025473595, "val_loss": 0.5915942192077637, "optimizer_updates": 216, "improved": false, "best_epoch": 5, "patience_used": 7}
+{"epoch": 13, "loss": 0.03793622925877571, "val_loss": 0.5942872762680054, "optimizer_updates": 234, "improved": false, "best_epoch": 5, "patience_used": 8}
+{"epoch": 14, "loss": 0.036617886275053024, "val_loss": 0.6087632179260254, "optimizer_updates": 252, "improved": false, "best_epoch": 5, "patience_used": 9}
+{"epoch": 15, "loss": 0.03539076820015907, "val_loss": 0.6160629987716675, "optimizer_updates": 270, "improved": false, "best_epoch": 5, "patience_used": 10}

@@ -1,0 +1,10 @@
+{
+  "job_id": "inner_outer0_inner2_S8_seed11",
+  "status": "PASS",
+  "return_code": 0,
+  "failure": null,
+  "result_error": null,
+  "automatic_retry": false,
+  "worker_elapsed_seconds": 10.906000000002678,
+  "timeout_seconds": 300
+}

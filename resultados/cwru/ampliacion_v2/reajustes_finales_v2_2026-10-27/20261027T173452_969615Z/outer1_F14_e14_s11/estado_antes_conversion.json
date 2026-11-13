@@ -1,0 +1,98 @@
+{
+  "final_epoch": 14,
+  "fixed_epochs": 14,
+  "epochs_executed": 14,
+  "optimizer_updates": 434,
+  "weights_restored": false,
+  "early_stopping_used": false,
+  "validation_used": false,
+  "model_weights_sha256": "00d4af8f74330ad6edc7dd30649c16224e8fee4fdfb249408b7aea935fa408d7",
+  "class_counts": [
+    144,
+    410,
+    433
+  ],
+  "class_weights": [
+    2.2847222222222223,
+    0.802439024390244,
+    0.7598152424942263
+  ],
+  "training_timing_seconds": {
+    "training_updates": 0.6027794000401627,
+    "epoch_training_diagnostics": 0.10618019998946693
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.4635158181190491,
+      "optimizer_updates": 31
+    },
+    {
+      "epoch": 2,
+      "loss": 0.16907747089862823,
+      "optimizer_updates": 62
+    },
+    {
+      "epoch": 3,
+      "loss": 0.07230235636234283,
+      "optimizer_updates": 93
+    },
+    {
+      "epoch": 4,
+      "loss": 0.05747353285551071,
+      "optimizer_updates": 124
+    },
+    {
+      "epoch": 5,
+      "loss": 0.05225842446088791,
+      "optimizer_updates": 155
+    },
+    {
+      "epoch": 6,
+      "loss": 0.04919028654694557,
+      "optimizer_updates": 186
+    },
+    {
+      "epoch": 7,
+      "loss": 0.04570385813713074,
+      "optimizer_updates": 217
+    },
+    {
+      "epoch": 8,
+      "loss": 0.043256454169750214,
+      "optimizer_updates": 248
+    },
+    {
+      "epoch": 9,
+      "loss": 0.04099012166261673,
+      "optimizer_updates": 279
+    },
+    {
+      "epoch": 10,
+      "loss": 0.03924071416258812,
+      "optimizer_updates": 310
+    },
+    {
+      "epoch": 11,
+      "loss": 0.03680241480469704,
+      "optimizer_updates": 341
+    },
+    {
+      "epoch": 12,
+      "loss": 0.035047631710767746,
+      "optimizer_updates": 372
+    },
+    {
+      "epoch": 13,
+      "loss": 0.0333816260099411,
+      "optimizer_updates": 403
+    },
+    {
+      "epoch": 14,
+      "loss": 0.032003745436668396,
+      "optimizer_updates": 434
+    }
+  ],
+  "training_loss": "mean_class_balanced_weighted_sparse_crossentropy_plus_L2",
+  "tracing_updates": 0
+}

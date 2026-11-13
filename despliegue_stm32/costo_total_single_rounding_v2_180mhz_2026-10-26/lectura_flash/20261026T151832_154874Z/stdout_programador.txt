@@ -1,0 +1,32 @@
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+
+
+Log output file:   C:\Users\LENOVO\Desktop\Proyecto Investigaci髇\despliegue_stm32\costo_total_single_rounding_v2_180mhz_2026-10-26\lectura_flash\20261026T151832_154874Z\programador.log
+ST-LINK SN  : 0672FF505487525067162526
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.24V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+UPLOADING ...
+  File          : C:\Users\LENOVO\Desktop\Proyecto Investigaci贸n\despliegue_stm32\costo_total_single_rounding_v2_180mhz_2026-10-26\lectura_flash\20261026T151832_154874Z\flash_512KiB.bin
+  Size          : 524288 Bytes
+  Address:      : 0x8000000
+Read progress:
+北北北北北北北北北北北北北北北北北北北北北北北北北 0%圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹圹 100%
+
+Data read successfully
+Time elapsed during read operation is: 00:00:04.360

@@ -1,0 +1,132 @@
+{
+  "status": "SR_GATE_AUDITED_READY_FOR_USER_FULL_CAMPAIGN",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "gate": "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T143621_946818Z",
+  "gate_manifest_sha256": "0ab587d5fccfbd901215de8feda60f00d5cb545e7df3081c277ee4ca3b166849",
+  "build_manifest_sha256": "e7d2d215b80db22b0cb8fa8a1ee42fadb18821c6eaca07383eb6be98a69a447a",
+  "numeric_manifest_sha256": "5bdfa78c8506ab76bed7953234002e61c97e917b5918e688c21b9d8ebb40c289",
+  "gate_resources_verified": 12,
+  "build_resources_verified": 136,
+  "exported_resources_verified": 39,
+  "client_sha256": "631303e144b432a7144054150ed6466d8a8b10d1f179484329bc2e2b666d91fb",
+  "elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "four_ELF_copies_identical": true,
+  "trace_rows": 834,
+  "transactions": 417,
+  "measurement_rows": 30,
+  "gate_counts": {
+    "primary_RUN": 6,
+    "PROFILE": 2,
+    "BASE": 2,
+    "negative_rejections": 17
+  },
+  "cases": [
+    {
+      "rep_id": 0,
+      "global_window_id": 568,
+      "input_INT8": [
+        -45,
+        -11,
+        -39,
+        -37,
+        -70,
+        -40,
+        -29,
+        -54,
+        -24,
+        -31,
+        -49,
+        -44,
+        -40,
+        -56
+      ],
+      "output_INT8": [
+        127,
+        -128,
+        -128
+      ],
+      "primary_statistics": {
+        "count": 3,
+        "min_cycles": 15180101,
+        "max_cycles": 15184303,
+        "mean_cycles": 15182796.333333334,
+        "mean_ms": 84.34886851851853,
+        "median_ms": 84.35547222222222,
+        "p95_ms": 84.35706222222221,
+        "sample_std_ms": 0.012997978633605719
+      },
+      "arena_used_bytes": 1188
+    },
+    {
+      "rep_id": 22,
+      "global_window_id": 232,
+      "input_INT8": [
+        -45,
+        -15,
+        -38,
+        -36,
+        -69,
+        -39,
+        -42
+      ],
+      "output_INT8": [
+        41,
+        -100,
+        -69
+      ],
+      "primary_statistics": {
+        "count": 3,
+        "min_cycles": 7582429,
+        "max_cycles": 7583177,
+        "mean_cycles": 7582842.666666667,
+        "mean_ms": 42.126903703703704,
+        "median_ms": 42.12734444444445,
+        "p95_ms": 42.128619444444446,
+        "sample_std_ms": 0.0021125458087905887
+      },
+      "arena_used_bytes": 1188
+    }
+  ],
+  "regression_previous_failure_resolved_for_tested_case": true,
+  "independent_internal_ARM_activations_captured": false,
+  "cached_PC_end_to_end_bit_exactness_claimed": false,
+  "full_image_identity_verified_by_programmer_report": false,
+  "planned_full_campaign": {
+    "unique_RAW_windows": 42,
+    "model_window_pairs": 896,
+    "primary_RUN": 2688,
+    "primary_RUN_per_representative": 84,
+    "PROFILE": 896,
+    "BASE": 42,
+    "negative_rejections": 17,
+    "estimated_minutes": [
+      15,
+      25
+    ],
+    "budget_seconds": 1800,
+    "expected_status": "FULL_ARM_MEASUREMENTS_READY_FOR_AUDIT",
+    "powershell_command_from_guide": "$cwruSR = \"C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\costo_total_single_rounding_v2_180mhz_2026-10-26\"\n\n& \"C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps\\python3.12.exe\" -B \"$cwruSR\\Validacion_PC\\validar_total_sr.py\" --full --port COM4 `\n  --firmware-elf \"D:\\STM32IDE\\Prueba_2_CWRU_Extraccion\\Release_180MHz_TotalV2_SR\\Prueba_2_CWRU_Extraccion.elf\" `\n  --build-report \"$cwruSR\\COMPILACION_SR.json\" `\n  --gate-evidence \"$cwruSR\\Validacion_PC\\resultados\\20261026T143621_946818Z\" --max-seconds 1800",
+    "user_personally_launches": true,
+    "launched_here": false
+  },
+  "old_firmware_or_gate_timings_imported_into_full_table": false,
+  "total_cost_validated": false,
+  "selector_enabled": false,
+  "new_physical_RUN": 0,
+  "TFLite_invocations": 0,
+  "training_fits": 0,
+  "builds": 0,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "D_files_modified": false,
+  "manuscript_modified": false,
+  "original_captures_and_seals_preserved": true,
+  "manifest_entries_including_closure": 80,
+  "seconds_before_write": 4.308142299996689,
+  "limitations": [
+    "Two cases do not establish all32-model equivalence or complete costs.",
+    "Full board Flash identity lacks programmer verification evidence.",
+    "Three principal samples per case do not replace84 per representative or establish WCET."
+  ]
+}

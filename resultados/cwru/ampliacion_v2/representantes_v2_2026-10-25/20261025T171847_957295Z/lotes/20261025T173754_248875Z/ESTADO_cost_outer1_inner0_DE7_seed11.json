@@ -1,0 +1,10 @@
+{
+  "job_id": "cost_outer1_inner0_DE7_seed11",
+  "status": "PASS",
+  "return_code": 0,
+  "failure": null,
+  "result_error": null,
+  "automatic_retry": false,
+  "worker_elapsed_seconds": 16.08530459998292,
+  "timeout_seconds": 300
+}

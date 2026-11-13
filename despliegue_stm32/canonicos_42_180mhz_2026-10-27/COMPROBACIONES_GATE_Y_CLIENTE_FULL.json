@@ -1,0 +1,42 @@
+{
+  "status": "FULL_CLIENT_READY_VERIFIED_PENDING_USER_EXECUTION",
+  "date_local": "2026-10-28",
+  "timezone": "America/Lima",
+  "recorded_UTC": "2026-10-28T16:20:40.417695+00:00",
+  "gate_audit_status": "PASS_GATE_CANON42_AUDITED_PENDING_FULL",
+  "gate_audit_reconstruction_repeated_in_memory": true,
+  "gate_audit_unit_tests": {
+    "passed": 6,
+    "total": 6
+  },
+  "full_client_unit_tests": {
+    "passed": 15,
+    "total": 15,
+    "seconds": 1.768
+  },
+  "delivered_client_offline_check_status": "CANON42_FULL_PREFLIGHT_PASS_NO_SERIAL_OPENED",
+  "old_joint_manifest_sha256": "b1cbbc5d78ee3268cef2b2e412b9f83a4a139ca5756940ff8ff82dddb467c238",
+  "full_client_manifest_sha256": "5dc27ee495451a612ef668a7000995b40ba8a463c72a69661f6c8bb48015510e",
+  "gate_audit_sha256": "c5249315671343feeda58e7e5fb1b049b7b9fef93abaaf48f0701e4e631ee805",
+  "new_counts": {
+    "RAW_transmissions": 55,
+    "RAW_RUN": 984,
+    "RAW_PROFILE": 328,
+    "RAW_BASE": 54,
+    "POST": 2736
+  },
+  "completed_gate_imported_without_reexecution": true,
+  "user_runtime_estimate_minutes": [
+    17,
+    20
+  ],
+  "max_seconds": 1800,
+  "full_execution_started": false,
+  "serial_port_opened": false,
+  "hardware_flashed": false,
+  "new_training_fits": 0,
+  "new_classifier_invocations": 0,
+  "firmware_modified": false,
+  "manuscript_modified": false,
+  "model_parameters_modified": false
+}

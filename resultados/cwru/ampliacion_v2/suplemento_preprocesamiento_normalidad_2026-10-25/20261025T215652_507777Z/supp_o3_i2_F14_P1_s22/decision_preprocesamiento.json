@@ -1,0 +1,8 @@
+{
+  "mode": "P1",
+  "fit_scope": "training_only",
+  "positive_training_median": true,
+  "all_zero_train_columns": [],
+  "all_zero_scale_policy": 1.0,
+  "no_validation_statistics_used": true
+}

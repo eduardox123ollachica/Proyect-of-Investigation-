@@ -1,0 +1,5 @@
+﻿profile,hop_samples,overlap_percent,gap_output_samples,decision_stride_ms,train,validation,test,total
+50pct,2048,50,0,170.66666666666666,568,406,406,1380
+25pct,3072,25,0,256.0,382,273,273,928
+0pct,4096,0,0,341.3333333333333,285,203,203,691
+0pct_gap44,4140,0,44,345.0,284,203,203,690

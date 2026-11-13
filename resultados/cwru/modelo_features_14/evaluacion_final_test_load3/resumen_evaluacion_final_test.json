@@ -1,0 +1,76 @@
+{
+  "status": "final_test_evaluated_once_with_frozen_protocol",
+  "test_load_hp": 3,
+  "test_windows": 406,
+  "dnn_fp32_metrics": {
+    "accuracy": 0.9532019704433498,
+    "macro_precision": 0.9650645233596977,
+    "macro_recall": 0.9406130268199234,
+    "macro_f1": 0.9513499754943773
+  },
+  "dnn_int8_metrics": {
+    "accuracy": 0.9556650246305419,
+    "macro_precision": 0.9670124347658012,
+    "macro_recall": 0.946360153256705,
+    "macro_f1": 0.9554482949627157
+  },
+  "fp32_int8_prediction_disagreements": 1,
+  "quantization": {
+    "input_scale": 0.033691830933094025,
+    "input_zero_point": -9,
+    "output_scale": 0.00390625,
+    "output_zero_point": -128,
+    "input_values_total": 5684,
+    "input_saturated_low": 2,
+    "input_saturated_high": 1,
+    "input_saturation_fraction": 0.0005277973258268825
+  },
+  "normality_detector": {
+    "k": 1,
+    "features": 12,
+    "threshold": 309.9235534667969,
+    "binary_metrics": {
+      "fault_windows_corroborated": 348,
+      "fault_windows_not_corroborated": 0,
+      "normal_windows_rejected": 0,
+      "normal_windows_accepted": 58,
+      "fault_corroboration_sensitivity": 1.0,
+      "normal_specificity": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "per_class": {
+      "N": {
+        "windows": 58,
+        "rejected": 0,
+        "rejection_fraction": 0.0,
+        "score_median": 35.928443908691406,
+        "score_minimum": 26.179031372070312,
+        "score_maximum": 52.601898193359375
+      },
+      "IR": {
+        "windows": 174,
+        "rejected": 174,
+        "rejection_fraction": 1.0,
+        "score_median": 25753.69140625,
+        "score_minimum": 16351.3154296875,
+        "score_maximum": 209993.5625
+      },
+      "OR": {
+        "windows": 174,
+        "rejected": 174,
+        "rejection_fraction": 1.0,
+        "score_median": 299308.1875,
+        "score_minimum": 960.0845336914062,
+        "score_maximum": 2506521.0
+      }
+    }
+  },
+  "joint_descriptive_counts": {
+    "dnn_correct_and_detector_rejected": 335,
+    "dnn_correct_and_detector_accepted": 53,
+    "dnn_incorrect_and_detector_rejected": 13,
+    "dnn_incorrect_and_detector_accepted": 5
+  },
+  "frozen_artifact_hashes_verified": true,
+  "post_test_rule": "No frozen decision may be changed in response to this result; later variants must be labeled exploratory."
+}

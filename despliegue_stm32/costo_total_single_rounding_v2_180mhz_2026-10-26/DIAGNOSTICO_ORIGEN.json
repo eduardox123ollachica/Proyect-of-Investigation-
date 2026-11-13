@@ -1,0 +1,109 @@
+{
+  "status": "CAUSE_ROUNDING_MISMATCH_CONFIRMED_PENDING_ARM_FIX",
+  "date_local": "2026-10-26",
+  "timezone": "America/Lima",
+  "original_run": "20261026T042424_323718Z",
+  "original_run_status": "FAILED_INCOMPLETE",
+  "firmware_elf_sha256": "85e8d7e2d1848833117fd4704493710cda0058fecedef3b379a80e9560171b1c",
+  "model_sha256": "b55aaa42f97a41ff1a8450780f86ad35f9d70ac685b134ca719525f06fb54784",
+  "representative_id": "cost_outer2_inner0_DE7_seed11",
+  "global_window_id": 232,
+  "input_INT8": [
+    -45,
+    -15,
+    -38,
+    -36,
+    -69,
+    -39,
+    -42
+  ],
+  "PC_output_INT8": [
+    41,
+    -100,
+    -69
+  ],
+  "ARM_output_INT8": [
+    42,
+    -101,
+    -69
+  ],
+  "output_delta_ARM_minus_PC": [
+    1,
+    -1,
+    0
+  ],
+  "same_class_for_failed_case": true,
+  "single_PC_layers_exact": true,
+  "PC_backends_checked": 2,
+  "neurons_per_backend": 33,
+  "double_rounding_in_linked_CMSIS_FC_verified_by_assembly": true,
+  "double_softmax_matches_ARM": true,
+  "single_softmax_matches_PC": true,
+  "single_logits": [
+    33,
+    -29,
+    -3
+  ],
+  "double_logits": [
+    33,
+    -30,
+    -3
+  ],
+  "first_divergence": {
+    "layer": 0,
+    "neuron": 0,
+    "accumulator": 6764,
+    "multiplier": 2052107017,
+    "shift": -7,
+    "exact_product": 13880451862988,
+    "exact_scaled": 50.49678971040703,
+    "single_scaled": 50,
+    "double_first_rounded": 6464,
+    "double_second_scaled": 51,
+    "output_zero_point": -128,
+    "single_output": -78,
+    "double_output": -77
+  },
+  "exclusions_confirmed": [
+    "RAW/transport mismatch",
+    "selected feature mismatch",
+    "input scaling mismatch",
+    "input INT8 mismatch"
+  ],
+  "full_campaign_completed": false,
+  "preceding_saved_primary_RUN": 66,
+  "preceding_saved_PROFILE": 22,
+  "old_partial_costs_promoted": false,
+  "acceptance_tolerance_relaxed": false,
+  "proposed_change": "Isolated SR configuration: original CMSIS per-channel matvec source compiled for single rounding, original archive preserved.",
+  "app_macro_alone_changes_precompiled_library": false,
+  "model_weights_or_training_changed": false,
+  "new_training_fits": 0,
+  "diagnostic_TFLite_invocations": 4,
+  "correction_physically_verified": false,
+  "serial_port_opened_by_diagnosis": false,
+  "selector_costs_enabled": false,
+  "sources_sha256": {
+    "despliegue_stm32/costo_total_representantes_v2_180mhz_2026-10-25/diagnostico_divergencia_20261026T042424Z/CASO_FALLO.json": "d479c584352e3c76c42e2c19f201409307a9c8036c918545d8ed681113ed243b",
+    "despliegue_stm32/costo_total_representantes_v2_180mhz_2026-10-25/diagnostico_divergencia_20261026T042424Z/COMPARACION_KERNELS_PC.json": "513d5b49c3ffab28cf2ba666bbe86189de00aaea7015ecfd1d43aca1970b1345",
+    "despliegue_stm32/costo_total_representantes_v2_180mhz_2026-10-25/diagnostico_divergencia_20261026T042424Z/REPLAY_FC_ENTERAS.json": "6a02e7bb11d43a458e6fe3db30b35ee43a8aa8d16892932288cb32d2f37bc38d",
+    "despliegue_stm32/costo_total_representantes_v2_180mhz_2026-10-25/diagnostico_divergencia_20261026T042424Z/COMPARACION_SOFTMAX_AISLADO.json": "6eebb635f2dfac97ebc987b9762bd42657213f853f9f1ce223cb7645007c916c",
+    "despliegue_stm32/costo_total_representantes_v2_180mhz_2026-10-25/diagnostico_divergencia_20261026T042424Z/AUDITORIA_RECUANTIZACION.json": "5b197b219a445f6a8c4756b2e0570cf8590388c39229f03f3f1446b34632afad"
+  },
+  "external_primary_sources": [
+    {
+      "url": "https://github.com/ARM-software/CMSIS-NN/blob/main/README.md",
+      "support": "CMSIS_NN_USE_SINGLE_ROUNDING changes requantization; header-affecting options require corresponding runtime configuration."
+    },
+    {
+      "url": "https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/kernels/internal/common.cc",
+      "support": "Single and double integer multiplier equations; installed local sources and binary were audited separately."
+    }
+  ],
+  "limits": [
+    "No intermediate activation captured on the board; assembly, integer replay and final output reproduce the mechanism.",
+    "Compatibility of the proposed SR binary must pass a new physical regression gate.",
+    "Same class is established for this case only; no global accuracy claim follows.",
+    "Full timing samples must come from one verified firmware; prior partial run is retained as failed evidence."
+  ]
+}

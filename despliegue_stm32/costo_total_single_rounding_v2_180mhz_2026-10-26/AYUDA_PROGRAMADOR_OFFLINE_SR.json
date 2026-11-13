@@ -1,0 +1,17 @@
+{
+  "status": "PASS_LOCAL_OFFLINE_HELP_NO_DEVICE",
+  "command": [
+    "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.500.202603051304\\tools\\bin\\STM32_Programmer_CLI.exe",
+    "--help"
+  ],
+  "returncode": 0,
+  "CLI_sha256": "269db404ed3f2cdd7cfcccc257ab0a907f2364c3d44e39edab6b007cb5f668ed",
+  "CLI_version": "2.23.0",
+  "stdout_sha256": "9cb707177519f388eebe5fec1688df9832e62b74d0fd2a0b677e60addb81dd69",
+  "stderr_bytes": 0,
+  "confirms_connect_mode_HOTPLUG": true,
+  "confirms_upload_address_size_file": true,
+  "confirms_log_path": true,
+  "hardware_connected": false,
+  "Flash_programming_or_erasing": false
+}

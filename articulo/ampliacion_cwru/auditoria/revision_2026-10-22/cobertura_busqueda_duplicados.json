@@ -1,0 +1,29 @@
+{
+  "DE": {
+    "block_length": 16,
+    "starts_checked": 11650891,
+    "verified_matching_position_pairs": 0,
+    "segments": 0,
+    "fingerprint_collisions_rejected": 0,
+    "pathological_groups_skipped": 0,
+    "coverage_complete": true
+  },
+  "FE": {
+    "block_length": 16,
+    "starts_checked": 11650891,
+    "verified_matching_position_pairs": 0,
+    "segments": 0,
+    "fingerprint_collisions_rejected": 0,
+    "pathological_groups_skipped": 0,
+    "coverage_complete": true
+  },
+  "DE_FE": {
+    "block_length": 16,
+    "starts_checked": 11650891,
+    "verified_matching_position_pairs": 0,
+    "segments": 0,
+    "fingerprint_collisions_rejected": 0,
+    "pathological_groups_skipped": 0,
+    "coverage_complete": true
+  }
+}

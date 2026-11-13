@@ -1,0 +1,22 @@
+{
+  "articulo/ampliacion_cwru/metodologia/diagnostico_representantes_v2_2026-10-25/MANIFEST_CIERRE_SHA256.json": "11f71b2b89d26b669070e8b46480d9d6bf512a7e4587d599ebfb1b22f212518e",
+  "articulo/ampliacion_cwru/metodologia/diagnostico_representantes_v2_2026-10-25/MANIFEST_CIERRE_SHA256.sha256": "3708cf8917ed914c1abfa166a3bac29c280bef02e0963ea85582223726973ed1",
+  "articulo/ampliacion_cwru/metodologia/representantes_v2_2026-10-25/MANIFEST_PREPARACION_SHA256.json": "c8d67b95d787557987a98332bbc3b6321f4d3837befe2bf55a3be62e2044469c",
+  "articulo/ampliacion_cwru/metodologia/representantes_v2_2026-10-25/MANIFEST_PREPARACION_SHA256.sha256": "fa58f4070cc2662b4bb7e6af793e00bdca86246f340789d272758a2f9f5c88f3",
+  "articulo/ampliacion_cwru/metodologia/suplemento_preprocesamiento_normalidad_2026-10-25/METODOLOGIA.json": "4f11da926cdd37d1e6dedf511ca80d2119994e89172774e90b210806f7698acf",
+  "articulo/ampliacion_cwru/metodologia/suplemento_preprocesamiento_normalidad_2026-10-25/PLAN_SUPLEMENTO.json": "b108498d56730cf58ebd1abd09e38c9bcaecdb51ca4cda86f2e27f6da2df7ee9",
+  "articulo/ampliacion_cwru/metodologia/suplemento_preprocesamiento_normalidad_2026-10-25/PRUEBAS_PREPARACION.json": "0528d403c5c93a22c87bc3de8df5b36d9734ef6b0b11dfbd91ef071724fd5610",
+  "articulo/ampliacion_cwru/metodologia/suplemento_preprocesamiento_normalidad_2026-10-25/PRUEBAS_PREPARACION_INTENTO_01.json": "965ac04146649bafd836908a1c86504712473f378a9bce090d3cf21c49790588",
+  "articulo/ampliacion_cwru/metodologia/suplemento_preprocesamiento_normalidad_2026-10-25/PRUEBAS_PREPARACION_INTENTO_02.json": "e465804a5c120f0fe723984c965a4f0561c5a640262eb4c7fe40c07fc1af40f5",
+  "articulo/ampliacion_cwru/metodologia/suplemento_preprocesamiento_normalidad_2026-10-25/README.md": "c80198f9188fcef67704fdcb9453c8f19f9780cd2d11c841c420357c6db28c3d",
+  "codigo/cwru/ampliacion_v2/suplemento/contrato_datos.py": "d8ccd5fce3f9b9e7cf1319d39a7e98ae0ea71e931959fa474a8ae0d4c32447a7",
+  "codigo/cwru/ampliacion_v2/suplemento/detector_suplemento.py": "54d67396912e021e3a0c4217ddd1a53f3e23a9f7bb03d29d104035c7c1726c8e",
+  "codigo/cwru/ampliacion_v2/suplemento/ejecutar_suplemento.py": "ddfa2dc8322e05a614edca42281a536789185a3eb17cbb8fdc2ff3c8046f5b91",
+  "codigo/cwru/ampliacion_v2/suplemento/preprocesamiento.py": "ae55d7f415374500ab1a3184025800ca63b73d77c367ed022fea54a4d8f4e738",
+  "codigo/cwru/ampliacion_v2/suplemento/test_contrato_datos.py": "95105d20468459c7c0797734f88385728e47978d494c2096bbb7c715e57cd17c",
+  "codigo/cwru/ampliacion_v2/suplemento/test_detector_suplemento.py": "1e702350de3a1906f10156879c0f9ff55a91c5acdf5f2d87db07d9103440100c",
+  "codigo/cwru/ampliacion_v2/suplemento/test_ejecucion_suplemento.py": "092484e4dfb81a5578eef3922ea56682227a62ff3f5f54e818821955c4cf8fc7",
+  "codigo/cwru/ampliacion_v2/suplemento/test_preprocesamiento.py": "083416235d42dac0e721a4fb7775376d5adf161bb9eed597a68c47cfbfe1e45f",
+  "codigo/cwru/ampliacion_v2/suplemento/verificar_preparacion.py": "1582a2bf55fa8bbc3b5f971490822307c3dcbd54977083a7c870f1b04a0eb408",
+  "codigo/cwru/ampliacion_v2/suplemento/worker_suplemento.py": "35c34d6ca86528af238771c48d854779bf5e4dd0c6b4ad0004857be07df43106"
+}

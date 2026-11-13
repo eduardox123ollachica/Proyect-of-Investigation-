@@ -1,0 +1,83 @@
+
+================================================================================
+K-MEANS - STANDARD
+================================================================================
+
+Naturaleza:
+Detector no supervisado de alejamiento respecto al dominio conocido.
+
+Clusters:
+32
+
+Features:
+21
+
+StandardScaler:
+SI
+
+Random state:
+42
+
+n_init:
+20
+
+IMPORTANTE:
+
+K=32 corresponde al valor reportado por el artículo.
+
+random_state, n_init, el uso/no uso de StandardScaler,
+la definición explícita del score y los criterios de umbral
+son decisiones de implementación de esta réplica.
+
+
+================================================================================
+DATOS
+================================================================================
+
+X_train:
+(7128, 21)
+
+X_test:
+(1332, 21)
+
+Las etiquetas NO fueron utilizadas durante model.fit().
+
+
+================================================================================
+TRAIN - SCORE d²
+================================================================================
+
+{'cantidad': 7128, 'media': 4.75190717524832, 'std': 5.205401008242048, 'min': 0.26544289817281647, 'p50': 3.4634370142384765, 'p90': 9.181549327007984, 'p95': 11.879992382991365, 'p99': 21.85040644767507, 'max': 177.04368009593625}
+
+
+================================================================================
+TEST - SCORE d²
+================================================================================
+
+{'cantidad': 1332, 'media': 6.380453430214834, 'std': 4.787947520507214, 'min': 0.6047030985315297, 'p50': 5.386224992864541, 'p90': 12.360930791014543, 'p95': 16.206983861542877, 'p99': 21.355850023350687, 'max': 68.29760456043525}
+
+
+================================================================================
+UMBRALES CANDIDATOS
+================================================================================
+
+        metodo  umbral_d2  test_rechazadas  test_total  false_anomaly_rate_pct  rechazadas_DETENIDO  total_DETENIDO  rechazadas_VELOCIDAD MEDIA  total_VELOCIDAD MEDIA  rechazadas_VELOCIDAD ALTA  total_VELOCIDAD ALTA
+           P95  11.879992              139        1332               10.435435                   33             540                          97                    360                          9                   432
+           P99  21.850406               12        1332                0.900901                    5             540                           6                    360                          1                   432
+MEDIA_MAS_3STD  20.368110               17        1332                1.276276                    6             540                          10                    360                          1                   432
+     MAX_TRAIN 177.043680                0        1332                0.000000                    0             540                           0                    360                          0                   432
+
+
+================================================================================
+INTERPRETACIÓN
+================================================================================
+
+score_d2 = distancia euclídea cuadrática al centroide
+K-means más cercano.
+
+Un score mayor indica que la ventana se encuentra más alejada
+de los patrones representados por X_train.
+
+En esta etapa NO se interpreta todavía un score elevado como
+una anomalía real confirmada, debido a que no existe ground
+truth explícito de anomalías en el dataset disponible.

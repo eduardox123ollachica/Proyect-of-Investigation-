@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si utiliza este software, los modelos o los resultados experimentales, cite el artículo de investigación asociado."
+title: "Selección de características guiada por el costo de procesamiento en TinyML: evaluación de vibraciones en ARM Cortex-M4F"
+type: software
+version: 2.0.0
+date-released: 2026-11-12
+license: Apache-2.0
+authors:
+  - family-names: "Ollachica Arias"
+    given-names: "Eduardo Andres"
+    affiliation: "Universidad Nacional de San Agustín de Arequipa"
+    email: "eollachica@unsa.edu"
+  - family-names: "Vergara Chaucha"
+    given-names: "Luis Moises"
+    affiliation: "Universidad Nacional de San Agustín de Arequipa"
+    email: "lvergara@unsa.edu.pe"
+keywords:
+  - TinyML
+  - feature selection
+  - processing cost
+  - bearing fault diagnosis
+  - CWRU
+  - STM32F446RE
+  - ARM Cortex-M4F
+  - INT8 quantization
+# repository-code: "<URL_GITHUB_PUBLICO_TRAS_PUBLICACION>"
+# doi: "<DOI_ZENODO_TRAS_PUBLICACION>"

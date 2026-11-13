@@ -1,0 +1,14 @@
+{
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/diagnostico_entrenamiento.npz": "938a3076c7b1f48fe84f6736cdb49f8a20510296f3004b9be5d06e9584f26591",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/MANIFEST_JOB_SHA256.json": "dcefe7650a971c1b82da04a136a0d30ac0e8adeee6a504dae5fff08b97dcaa47",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/MANIFEST_JOB_SHA256.sha256": "0271eb8db88a36d60877dc4e70c31d312848d0776f2b5a1a7cf58b842f8b7b92",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/modelo.joblib": "786284026ae877271fcdc4044e9ff5e2f93ee97a307f6e7cf9b54056e808b4ab",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/procedencia.json": "8e43dcb6c3a86bdc8a075d753545867f87e3711c5f3acfae7fcb5e2f652d1813",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/RESULTADO.json": "e4f713685c9053c27ef1ddf817a5505a50b340f12c91e3f714a2d78179db3439",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone/scaler_train_only.npz": "8344ca64fce8eb60611f277ce17186b2d5d0ac24f10dbffe06d4214ee45831ee",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone_stderr.log": "494e1966666ddfd60b2a97be2c00590356597125c050debb3f724bf553a89aa8",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/outer3_SVM_c05_snone_stdout.log": "003f7295b09b862f89e3d8bb29fb33d5f4b99535efa935ffd61a3bc636d10790",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/pasos/123.json": "0767fa8e4d13a39c282d7fa3fc714ce12c99d6785cdca1317cb58ade0dda9136",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer3_SVM_c05_snone/datos.npz": "79870db01833d33ef0a62f85451be71e50d26bf63e1fd112bae1d4d782f1a879",
+  "resultados/cwru/ampliacion_v2/reajustes_finales_v2_2026-10-27/20261027T173452_969615Z/solicitudes/outer3_SVM_c05_snone/payload.json": "da649966572899899b72debadb76ddc435052efa70728514d3fb90c2455cb771"
+}

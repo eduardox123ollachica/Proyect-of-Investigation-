@@ -1,0 +1,44 @@
+{
+  "status": "CANON42_PHYSICAL_STAGED_VALIDATION_COMPLETE_AUDITED_PENDING_REPORTING",
+  "date_local": "2026-10-28",
+  "timezone": "America/Lima",
+  "physical_audit_status": "PASS_CANON42_STAGED_FULL_AUDITED",
+  "full_folder": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\Validacion_Completa_PC\\resultados\\20261028T162240_469517Z",
+  "audit_report_sha256": "0a17d5b980269f99c392a57619526432709747d839a5005dc21959940a64f690",
+  "full_evidence_manifest_sha256": "16cfee268cc576bd4ed98f6dfc4205876c540ec21b08d88905fd5c4b240d80b3",
+  "verified_events_sha256": "45f371ed6b995beec49590d1ea838148b64c520df484cbf26ee158f203c0fef6",
+  "coverage": {
+    "RAW_RUN": 1008,
+    "RAW_PROFILE": 336,
+    "RAW_BASE": 56,
+    "RAW_pairs": 336,
+    "POST": 2760,
+    "POST_unique": 1380
+  },
+  "new_UART_pairs": 28836,
+  "event_count": 7315,
+  "wall_seconds": 1005.0160000000033,
+  "audit_tests": {
+    "passed": 10,
+    "total": 10,
+    "seconds": 13.674
+  },
+  "independent_integrity_check": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\COMPROBACION_INDEPENDIENTE_FULL_CANON42.json",
+  "saved_outer_INT8_seed42_confusion_matrices_exact": true,
+  "RAW_heldout_extraction_exhaustive": false,
+  "POST_reserved_features_exhaustive": true,
+  "whole_Flash_readback_performed": false,
+  "external_clock_measurement": false,
+  "WCET_established": false,
+  "runtime_stack_maximum_measured": false,
+  "audit_actions": {
+    "serial_opened": false,
+    "hardware_flashed": false,
+    "training_fits": 0,
+    "classifier_invocations": 0,
+    "evidence_originals_modified": false,
+    "manuscript_modified": false
+  },
+  "next_step": "Consolidate outer evaluation, physical cost, baselines and limitations for CWRU reporting; do not repeat the completed campaign.",
+  "historical_pending_reports_preserved": true
+}

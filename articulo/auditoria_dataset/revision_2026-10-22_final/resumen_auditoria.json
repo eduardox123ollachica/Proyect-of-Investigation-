@@ -1,0 +1,280 @@
+{
+  "created_utc": "2026-10-22T15:19:49.501611+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "script_sha256": "0df904698883cfb3bd4f619bf6fd4e0cbc292f98887fac24910322d3d5a9df04",
+  "raw_files": 239,
+  "json_files": 235,
+  "origins": 13,
+  "class_summary": [
+    {
+      "class": "DETENIDO",
+      "files": 67,
+      "origins": 1,
+      "train_files": 52,
+      "test_files": 15
+    },
+    {
+      "class": "VELOCIDAD MEDIA",
+      "files": 42,
+      "origins": 3,
+      "train_files": 32,
+      "test_files": 10
+    },
+    {
+      "class": "VELOCIDAD ALTA",
+      "files": 126,
+      "origins": 9,
+      "train_files": 114,
+      "test_files": 12
+    }
+  ],
+  "metadata": {
+    "root_entries": 235,
+    "split_entries": 235
+  },
+  "issues": [],
+  "shared_origins": 5,
+  "test_files_shared_origin": 37,
+  "renumbered_files": 27,
+  "sensor_units": [
+    "N/A|N/A|N/A"
+  ],
+  "device_types": [
+    "DATA_FORWARDER"
+  ],
+  "device_names_count": 1,
+  "iat_count": 13,
+  "constant_axis_files": 0,
+  "full_duplicate_groups": 0,
+  "exact_blocks": [
+    {
+      "length_samples": 2,
+      "starts_checked": 70265,
+      "cross_file_matching_pairs": 375,
+      "cross_split_matching_pairs": 12
+    },
+    {
+      "length_samples": 4,
+      "starts_checked": 69795,
+      "cross_file_matching_pairs": 308,
+      "cross_split_matching_pairs": 0
+    },
+    {
+      "length_samples": 8,
+      "starts_checked": 68855,
+      "cross_file_matching_pairs": 264,
+      "cross_split_matching_pairs": 0
+    },
+    {
+      "length_samples": 16,
+      "starts_checked": 66975,
+      "cross_file_matching_pairs": 190,
+      "cross_split_matching_pairs": 0
+    },
+    {
+      "length_samples": 32,
+      "starts_checked": 63215,
+      "cross_file_matching_pairs": 74,
+      "cross_split_matching_pairs": 0
+    }
+  ],
+  "repeated_segments_ge8": 10,
+  "repeated_segments_ge8_training": 8,
+  "repeated_segments_ge8_testing": 2,
+  "max_cross_split_exact_segment_samples": 2,
+  "aligned_window_uniqueness": {
+    "training": {
+      "windows": 7128,
+      "unique_raw_windows": 7119,
+      "repeated_excess_windows": 9
+    },
+    "testing": {
+      "windows": 1332,
+      "unique_raw_windows": 1332,
+      "repeated_excess_windows": 0
+    }
+  },
+  "near_tied_spectra": 11,
+  "scalar_vectorized_argmax_disagreements": 1,
+  "candidate_boundaries": 222,
+  "cross_split_candidate_boundaries": 7,
+  "processed": {
+    "training": {
+      "x_shape": [
+        7128,
+        21
+      ],
+      "x_dtype": "float32",
+      "finite": true,
+      "y_shape": [
+        7128
+      ],
+      "label_counts": {
+        "0": 1872,
+        "2": 4104,
+        "1": 1152
+      },
+      "labels_match_raw": true,
+      "order_matches_raw": true,
+      "features_independently_recomputed_match": true,
+      "max_abs_error_npy": 1.5136718843677954e-05
+    },
+    "testing": {
+      "x_shape": [
+        1332,
+        21
+      ],
+      "x_dtype": "float32",
+      "finite": true,
+      "y_shape": [
+        1332
+      ],
+      "label_counts": {
+        "0": 540,
+        "2": 432,
+        "1": 360
+      },
+      "labels_match_raw": true,
+      "order_matches_raw": true,
+      "features_independently_recomputed_match": true,
+      "max_abs_error_npy": 7.5927733860226e-06
+    },
+    "feature_order_matches": true,
+    "metadata_errors": {},
+    "metadata_windows": 8460
+  },
+  "same_class_cross_split_pairs": 2468,
+  "rawall_by_origin": [
+    {
+      "experiment": "E1",
+      "origin_id": "51iirpm7",
+      "class": "DETENIDO",
+      "files": 15,
+      "windows": 540,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 5,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E1",
+      "origin_id": "51iq0ccr",
+      "class": "VELOCIDAD ALTA",
+      "files": 6,
+      "windows": 216,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 0,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E1",
+      "origin_id": "51irbb9k",
+      "class": "VELOCIDAD ALTA",
+      "files": 6,
+      "windows": 216,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 1,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E1",
+      "origin_id": "51irp429",
+      "class": "VELOCIDAD MEDIA",
+      "files": 5,
+      "windows": 180,
+      "stm32_errors": 28,
+      "accuracy_percent": 84.44444444444444,
+      "rejections": 6,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E1",
+      "origin_id": "51is1m87",
+      "class": "VELOCIDAD MEDIA",
+      "files": 5,
+      "windows": 180,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 0,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E4",
+      "origin_id": "51iirpm7",
+      "class": "DETENIDO",
+      "files": 15,
+      "windows": 540,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 5,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E4",
+      "origin_id": "51iq0ccr",
+      "class": "VELOCIDAD ALTA",
+      "files": 6,
+      "windows": 216,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 0,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E4",
+      "origin_id": "51irbb9k",
+      "class": "VELOCIDAD ALTA",
+      "files": 6,
+      "windows": 216,
+      "stm32_errors": 1,
+      "accuracy_percent": 99.53703703703704,
+      "rejections": 1,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E4",
+      "origin_id": "51irp429",
+      "class": "VELOCIDAD MEDIA",
+      "files": 5,
+      "windows": 180,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 6,
+      "pc_stm32_class_disagreements": 0
+    },
+    {
+      "experiment": "E4",
+      "origin_id": "51is1m87",
+      "class": "VELOCIDAD MEDIA",
+      "files": 5,
+      "windows": 180,
+      "stm32_errors": 0,
+      "accuracy_percent": 100.0,
+      "rejections": 0,
+      "pc_stm32_class_disagreements": 0
+    }
+  ],
+  "changed_inputs": 0,
+  "inputs_hashed": 491,
+  "copy_summary": [
+    {
+      "copy": "Eduardo_Andres_Ollachica_Arias_Replication_Evidence/03_Datasets/Arciniegas_Raw",
+      "files_checked": 239,
+      "identical": 239,
+      "missing": 0,
+      "different_bytes": 0,
+      "extra_files": 0
+    },
+    {
+      "copy": "PAQUETE_VALIDACION_REIMPLEMENTACION_STM32/datos/arciniegas/raw",
+      "files_checked": 239,
+      "identical": 4,
+      "missing": 235,
+      "different_bytes": 0,
+      "extra_files": 0
+    }
+  ]
+}

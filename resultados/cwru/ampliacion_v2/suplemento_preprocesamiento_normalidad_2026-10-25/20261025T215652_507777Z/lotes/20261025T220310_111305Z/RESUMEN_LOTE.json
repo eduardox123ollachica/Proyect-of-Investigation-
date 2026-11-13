@@ -1,0 +1,14 @@
+{
+  "status": "SUPPLEMENT_COMPLETED",
+  "new_fits_completed": 34,
+  "imported_cells": 2,
+  "total_DNN_cells_available": 36,
+  "total_DNN_cells_planned": 36,
+  "new_fits_this_batch": 33,
+  "process_seconds": 657.3923841998912,
+  "campaign_process_seconds": 729.976223699894,
+  "detector_complete": true,
+  "outer_evaluation_executed": false,
+  "selection_executed": false,
+  "STM32_cost_measured": false
+}

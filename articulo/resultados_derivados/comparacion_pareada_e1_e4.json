@@ -1,0 +1,14 @@
+{
+  "ventanas": 1332,
+  "archivos_test": 37,
+  "ambos_correctos": 1303,
+  "e1_correcto_e4_incorrecto": 1,
+  "e1_incorrecto_e4_correcto": 28,
+  "ambos_incorrectos": 0,
+  "mcnemar_exacto_p": 1.1175870895385742e-07,
+  "diferencia_accuracy_e4_menos_e1_pp": 2.027027027027027,
+  "bootstrap_archivos_estratificado_iteraciones": 10000,
+  "bootstrap_semilla": 20261011,
+  "bootstrap_ic95_inferior_pp": 0.5255255255255256,
+  "bootstrap_ic95_superior_pp": 3.828828828828829
+}

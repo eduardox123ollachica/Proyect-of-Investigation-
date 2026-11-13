@@ -1,0 +1,14 @@
+{
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/checkpoint_antes_conversion.npz": "a60f66599d85b509636a9145648fb2f346fa97b71b4726dd35afbefacd6c8f9a",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/DIAGNOSTICO_FREEZE.json": "557b2307a00ed8a5f07a083402d3e75c81d60c50d7fa31c995fd0409fb2beee7",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/diagnosticos_train_only.npz": "c453f6a26f47176e861dbd1d9d2eda4d73a48e504fc1a7fd264c9a1d869aa532",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/estado_antes_conversion.json": "38c9cd73d9453ccb73a61da30cdacdadd50b5720841e3383d4e79c1b0d35c0b0",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/historial.jsonl": "62773561edc3deae8c80e8a6d468297b9c05252aba217556dd63f76e89aa45e9",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo.keras": "ef9cf908d7b95909724f2a17607dc2361099a7a7d4553a9d410d6d3b909257a5",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_fp32.tflite": "0cac61d04a02bdc0f43269fbedeed6d08f60e9ea06becc387696f727e94a6c08",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/modelo_int8.tflite": "aef324d639681b28b4e1451284475ef28454f13fc8f4458157586d2565890849",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/procedencia.json": "2560416d0a686dcb2676e6a9f5aa2c0df702f122bacf8981d4cbce26e8a45d87",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/progreso.jsonl": "194a9805598b39e3661339c35a83107d87bcee47a999029b6145e36353194bfc",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/RESULTADO.json": "2ecdb32d4e8a6738fd1fc52181d167a8df7a84087ef12c1291df87db350dabc7",
+  "articulo/ampliacion_cwru/metodologia/reajustes_finales_v2_2026-10-27/prueba_sintetica_real_intento2/DNN/salida/scaler_train_only.npz": "328ba55cabdddc3b38332892dddc1541016eed3cc0284467b380d6a109c29f9f"
+}

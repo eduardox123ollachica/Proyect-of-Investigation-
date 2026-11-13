@@ -1,0 +1,801 @@
+{
+  "status": "CLASSICAL_PLANNING_PROJECTION_ONLY",
+  "units": "seconds",
+  "platform": "PC",
+  "RF": {
+    "family": "RF",
+    "configuration_profiles": {
+      "0": {
+        "source_job_id": "RF_00",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.777877599990461,
+            "data_and_scaler": 0.07252603103411098,
+            "fit": 0.23900346207768783,
+            "inference": 0.029880440012784674,
+            "artifact_IO": 0.03339580001193099
+          },
+          "seconds_per_fit": 3.1526833331269755
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.777877599990461,
+            "data_and_scaler": 0.10762791551244302,
+            "fit": 0.3755764540306871,
+            "inference": 0.029880440012784674,
+            "artifact_IO": 0.03339580001193099
+          },
+          "seconds_per_fit": 3.324358209558307
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.4565255000052275
+      },
+      "1": {
+        "source_job_id": "RF_01",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.317121000000043,
+            "data_and_scaler": 0.060575708129573774,
+            "fit": 0.21100657001860804,
+            "inference": 0.028506768018705768,
+            "artifact_IO": 0.005456899976707064
+          },
+          "seconds_per_fit": 2.6226669461436374
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.317121000000043,
+            "data_and_scaler": 0.08989375405928128,
+            "fit": 0.33158138654496505,
+            "inference": 0.028506768018705768,
+            "artifact_IO": 0.005456899976707064
+          },
+          "seconds_per_fit": 2.772559808599702
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.39886790001764894
+      },
+      "2": {
+        "source_job_id": "RF_02",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.353791400004411,
+            "data_and_scaler": 0.030582420017324894,
+            "fit": 0.11589763661138913,
+            "inference": 0.015207599999848753,
+            "artifact_IO": 0.0032355000148527324
+          },
+          "seconds_per_fit": 2.5187145566478266
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.353791400004411,
+            "data_and_scaler": 0.04538401000107943,
+            "fit": 0.1821246563152035,
+            "inference": 0.015207599999848753,
+            "artifact_IO": 0.0032355000148527324
+          },
+          "seconds_per_fit": 2.5997431663353954
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.3135885999799939
+      },
+      "3": {
+        "source_job_id": "RF_03",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 1.329816799989203,
+            "data_and_scaler": 0.04971503028200265,
+            "fit": 0.33795410743019094,
+            "inference": 0.04056450400385074,
+            "artifact_IO": 0.005751099990447983
+          },
+          "seconds_per_fit": 1.7638015416956954
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 1.329816799989203,
+            "data_and_scaler": 0.07377661513523794,
+            "fit": 0.5310701535046355,
+            "inference": 0.04056450400385074,
+            "artifact_IO": 0.005751099990447983
+          },
+          "seconds_per_fit": 1.9809791726233752
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.40541750003467314
+      },
+      "4": {
+        "source_job_id": "RF_04",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.425808700005291,
+            "data_and_scaler": 0.06442442552118943,
+            "fit": 1.193463755599987,
+            "inference": 0.23808605600264854,
+            "artifact_IO": 0.007840499994927086
+          },
+          "seconds_per_fit": 3.929623437124043
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.425808700005291,
+            "data_and_scaler": 0.09560521275004097,
+            "fit": 1.8754409724688037,
+            "inference": 0.23808605600264854,
+            "artifact_IO": 0.007840499994927086
+          },
+          "seconds_per_fit": 4.642781441221711
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.5653925999940839
+      },
+      "5": {
+        "source_job_id": "RF_05",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.575192300006165,
+            "data_and_scaler": 0.06344768810075753,
+            "fit": 1.487168851686003,
+            "inference": 0.24690924800350328,
+            "artifact_IO": 0.006894100006320514
+          },
+          "seconds_per_fit": 4.379612187802749
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.575192300006165,
+            "data_and_scaler": 0.09415574404114879,
+            "fit": 2.3369770421131526,
+            "inference": 0.24690924800350328,
+            "artifact_IO": 0.006894100006320514
+          },
+          "seconds_per_fit": 5.260128434170291
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 1.2640257999737514
+      },
+      "6": {
+        "source_job_id": "RF_06",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.825466200010851,
+            "data_and_scaler": 0.21862942478638456,
+            "fit": 2.6990163056784633,
+            "inference": 0.15325479199411346,
+            "artifact_IO": 0.010327099997084588
+          },
+          "seconds_per_fit": 5.906693822466897
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.825466200010851,
+            "data_and_scaler": 0.32444391239851406,
+            "fit": 4.24130665156735,
+            "inference": 0.15325479199411346,
+            "artifact_IO": 0.010327099997084588
+          },
+          "seconds_per_fit": 7.554798655967913
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.7574808000063058
+      },
+      "7": {
+        "source_job_id": "RF_07",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.0187244905454884,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.525183699995978,
+            "data_and_scaler": 0.06067225382217755,
+            "fit": 0.927644816222725,
+            "inference": 0.1745222319860477,
+            "artifact_IO": 0.007854099982068874
+          },
+          "seconds_per_fit": 3.695877102008997
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 1.600851002187266,
+            "inference": 2.32,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.525183699995978,
+            "data_and_scaler": 0.0900370269159162,
+            "fit": 1.4577259578090627,
+            "inference": 0.1745222319860477,
+            "artifact_IO": 0.007854099982068874
+          },
+          "seconds_per_fit": 4.255323016689073
+        },
+        "projected_inner_fits": 36,
+        "observed_process_gap_seconds": 0.5796917000261601
+      }
+    },
+    "projected_inner_fits": 288,
+    "projected_outer_fits": 40,
+    "projected_total_fits": 328,
+    "projected_inner_stage_seconds": 1006.9082253726056,
+    "projected_outer_stage_seconds": 302.1919462387165,
+    "outer_sensitivity_source_config_index": 6,
+    "outer_config_rule": "largest projected complete configuration profile, not stagewise mixed minima/maxima",
+    "projected_stage_seconds": 1309.1001716113221,
+    "projected_stage_hours": 0.3636389365587006,
+    "observed_process_gap_scenario_seconds": 221.23668640031246,
+    "projected_with_observed_process_gap_seconds": 1530.3368580116346,
+    "fit_scaling_assumption": "n_log_n",
+    "scaling_is_engineering_sensitivity_not_guaranteed_bound": true
+  },
+  "SVM": {
+    "family": "SVM",
+    "configuration_profiles": {
+      "0": {
+        "source_job_id": "SVM_00",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.6060547000088263,
+            "data_and_scaler": 0.0831033727131552,
+            "fit": 0.03536935044870561,
+            "inference": 0.033401732805199,
+            "artifact_IO": 0.012562999996589497
+          },
+          "seconds_per_fit": 2.770492155972476
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.6060547000088263,
+            "data_and_scaler": 0.1233245863538818,
+            "fit": 0.07789132999660538,
+            "inference": 0.049567842401803945,
+            "artifact_IO": 0.012562999996589497
+          },
+          "seconds_per_fit": 2.869401458757707
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.5456902999867452
+      },
+      "1": {
+        "source_job_id": "SVM_01",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.718477400005213,
+            "data_and_scaler": 0.07994226383277563,
+            "fit": 0.021640991227987242,
+            "inference": 0.06459920776124986,
+            "artifact_IO": 0.00988149999466259
+          },
+          "seconds_per_fit": 2.8945413628218883
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.718477400005213,
+            "data_and_scaler": 0.11863353191932838,
+            "fit": 0.047658369967449744,
+            "inference": 0.09586458787229815,
+            "artifact_IO": 0.00988149999466259
+          },
+          "seconds_per_fit": 2.990515389758952
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.5348341000062646
+      },
+      "2": {
+        "source_job_id": "SVM_02",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.5207385000103386,
+            "data_and_scaler": 0.08767923153740166,
+            "fit": 0.008131586766020774,
+            "inference": 0.01132190196764992,
+            "artifact_IO": 0.009525599962216802
+          },
+          "seconds_per_fit": 2.637396820243628
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.5207385000103386,
+            "data_and_scaler": 0.1301151157667106,
+            "fit": 0.017907597966966133,
+            "inference": 0.016801590974160292,
+            "artifact_IO": 0.009525599962216802
+          },
+          "seconds_per_fit": 2.6950884046803925
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.5156073000252945
+      },
+      "3": {
+        "source_job_id": "SVM_03",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 3.1156923999951687,
+            "data_and_scaler": 0.2644578307855103,
+            "fit": 0.015893119334988492,
+            "inference": 0.037348837365771645,
+            "artifact_IO": 0.015056900010677055
+          },
+          "seconds_per_fit": 3.4484490874921163
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 3.1156923999951687,
+            "data_and_scaler": 0.3924528153898274,
+            "fit": 0.03500025267900621,
+            "inference": 0.05542530668196408,
+            "artifact_IO": 0.015056900010677055
+          },
+          "seconds_per_fit": 3.6136276747566436
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 1.0137186000065412
+      },
+      "4": {
+        "source_job_id": "SVM_04",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.4354364000028,
+            "data_and_scaler": 0.08366669136213456,
+            "fit": 0.0081101044004219,
+            "inference": 0.010590764591143989,
+            "artifact_IO": 0.01596209999115672
+          },
+          "seconds_per_fit": 2.553766060347657
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.4354364000028,
+            "data_and_scaler": 0.12416054567902973,
+            "fit": 0.017860288926603733,
+            "inference": 0.015716590310749394,
+            "artifact_IO": 0.01596209999115672
+          },
+          "seconds_per_fit": 2.6091359249103396
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.4895775000040885
+      },
+      "5": {
+        "source_job_id": "SVM_05",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.6118948999937857,
+            "data_and_scaler": 0.08494810662802031,
+            "fit": 0.005240557865206766,
+            "inference": 0.006828271599791859,
+            "artifact_IO": 0.00859919999493286
+          },
+          "seconds_per_fit": 2.7175110360817376
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.6118948999937857,
+            "data_and_scaler": 0.12606215330882325,
+            "fit": 0.011540896761367141,
+            "inference": 0.0101330877804793,
+            "artifact_IO": 0.00859919999493286
+          },
+          "seconds_per_fit": 2.768230237839388
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.7035676000377862
+      },
+      "6": {
+        "source_job_id": "SVM_06",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.527441500002169,
+            "data_and_scaler": 0.07771490413555117,
+            "fit": 0.006295981714075426,
+            "inference": 0.007218007260615306,
+            "artifact_IO": 0.008542199997464195
+          },
+          "seconds_per_fit": 2.627212593109875
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.527441500002169,
+            "data_and_scaler": 0.1153281520730778,
+            "fit": 0.01386517940313459,
+            "inference": 0.010711451661381089,
+            "artifact_IO": 0.008542199997464195
+          },
+          "seconds_per_fit": 2.6758884831372267
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.5292585999850417
+      },
+      "7": {
+        "source_job_id": "SVM_07",
+        "inner": {
+          "training_windows_assumed": 812,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.016270337922403,
+            "fit": 1.032805399740915,
+            "inference": 2.3577471839799746,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.619670900006895,
+            "data_and_scaler": 0.07632058121834255,
+            "fit": 0.004746050661771576,
+            "inference": 0.004628257693580639,
+            "artifact_IO": 0.019834200022160076
+          },
+          "seconds_per_fit": 2.72519998960275
+        },
+        "outer": {
+          "training_windows_assumed": 1205,
+          "final_inference_windows_assumed": 406,
+          "scale_factors": {
+            "imports": 1.0,
+            "data_and_scaler": 1.5081351689612015,
+            "fit": 2.274471687857632,
+            "inference": 3.4988735919899874,
+            "artifact_IO": 1.0
+          },
+          "stage_seconds_per_fit": {
+            "imports": 2.619670900006895,
+            "data_and_scaler": 0.1132589906011118,
+            "fit": 0.010451879765583481,
+            "inference": 0.006868288818675703,
+            "artifact_IO": 0.019834200022160076
+          },
+          "seconds_per_fit": 2.770084259214426
+        },
+        "projected_inner_fits": 12,
+        "observed_process_gap_seconds": 0.5268334999855142
+      }
+    },
+    "projected_inner_fits": 96,
+    "projected_outer_fits": 4,
+    "projected_total_fits": 100,
+    "projected_inner_stage_seconds": 268.49482926806553,
+    "projected_outer_stage_seconds": 14.454510699026574,
+    "outer_sensitivity_source_config_index": 3,
+    "outer_config_rule": "largest projected complete configuration profile, not stagewise mixed minima/maxima",
+    "projected_stage_seconds": 282.9493399670921,
+    "projected_stage_hours": 0.07859703887974781,
+    "observed_process_gap_scenario_seconds": 62.36392440047348,
+    "projected_with_observed_process_gap_seconds": 345.3132643675656,
+    "fit_scaling_assumption": "quadratic_rows",
+    "scaling_is_engineering_sensitivity_not_guaranteed_bound": true
+  },
+  "detector": {
+    "projected_inner_fits_before_cache": 96,
+    "projected_outer_fits_before_cache": 12,
+    "projected_total_fits_before_cache": 108,
+    "repeated_per_DNN_seed": false,
+    "pilot_unique_representations": 7,
+    "pilot_fit_calibration_repetitions": 21,
+    "candidate_aliases": {
+      "NF12": "F14"
+    },
+    "cache_savings_claimed": false,
+    "grouped_overhead_stage_seconds": {
+      "imports": 2.5857634999993024,
+      "data_and_scaler": 0.0684324000030756,
+      "artifact_IO": 0.037529499968513846
+    },
+    "grouped_overhead_copied_per_fit_seconds": 2.691725399970892,
+    "overhead_divided_by_representations_or_repetitions": false,
+    "maximum_observed_fit_calibration_seconds": 0.025174099995638244,
+    "maximum_observed_inference_seconds": 0.00019350000366102904,
+    "inner_fit_calibration_scale_factor": 1.0,
+    "outer_fit_calibration_scale_factor": 2.0,
+    "outer_fit_windows_assumed": 116,
+    "calibration_windows_assumed": 58,
+    "inference_windows_assumed": 406,
+    "inference_scale_factor": 2.32,
+    "inner_seconds_per_fit": 2.7173484199750235,
+    "outer_seconds_per_fit": 2.7425225199706618,
+    "projected_stage_seconds": 293.77571855725023,
+    "projected_stage_hours": 0.08160436626590284,
+    "observed_grouped_process_gap_seconds": 0.5463680000248132,
+    "observed_process_gap_scenario_seconds": 59.00774400267983,
+    "projected_with_observed_process_gap_seconds": 352.78346255993006,
+    "max_fit_and_inference_are_empirical_component_envelopes_not_one_observation": true,
+    "scaling_is_engineering_sensitivity_not_guaranteed_bound": true
+  },
+  "aggregate": {
+    "projected_stage_seconds": 1885.8252301356645,
+    "projected_stage_hours": 0.5238403417043512,
+    "observed_process_gap_scenario_seconds": 342.6083548034658,
+    "projected_with_observed_process_gap_seconds": 2228.43358493913,
+    "projected_with_observed_process_gap_hours": 0.6190093291497584
+  },
+  "pilot_scope": {
+    "additional_RF_fits": 8,
+    "additional_SVM_fits": 8,
+    "additional_detector_fit_calibration_calls": 21,
+    "grouped_detector_worker_processes": 1,
+    "repeated_measurements_are_not_independent_acquisitions": true,
+    "pilot_models_reused_as_confirmatory_results": false
+  },
+  "assumptions": [
+    "RF fit scales by n log(n); SVM fit scales quadratically with rows, solely as engineering scenarios.",
+    "Classical data/scaler scales by training rows, inference to 406 rows; SVM inference also assumes support-vector work scales with training rows. These are sensitivities, not bounds.",
+    "Imports and artifact I/O stay fixed per fit; RF depth changes and SVM support-vector changes remain data dependent.",
+    "Every inner grid configuration retains its own complete timing profile; the outer unknown selection uses the largest projected profile.",
+    "Seed and load differences can change runtime; one timing per configuration cannot bound those changes.",
+    "The grouped detector overhead and its process gap are conservatively copied to each of 108 naive fits.",
+    "Detector fit/calibration doubles as a combined block for outer fitting; calibration itself remains at most 58 rows.",
+    "Detector fit/calibration and inference maxima can come from different repetitions; this is a component-envelope scenario.",
+    "Actual caching may reduce work; no unmeasured saving is credited."
+  ],
+  "DNN_included": false,
+  "DNN_or_classical_training_launched": false,
+  "future_predictive_metrics_used": false,
+  "STM32_latency_measured": false,
+  "confidence_interval": false,
+  "guaranteed_ETA": false,
+  "WCET": false,
+  "cold_import_strategy_pending": true,
+  "cold_import_sensitivity_available": false,
+  "full_budget_frozen": false
+}

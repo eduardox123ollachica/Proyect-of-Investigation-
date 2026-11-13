@@ -1,0 +1,8 @@
+﻿source_configuration_proxy,splits,physical_bearing_identity,independence_scope
+IR_0.007,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo
+IR_0.014,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo
+IR_0.021,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo
+N_0.000,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo
+OR_0.007_6oclock,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo
+OR_0.014_6oclock,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo
+OR_0.021_6oclock,test;train;validation,NO_VERIFICADA,por registro/carga; no por motor o rodamiento nuevo

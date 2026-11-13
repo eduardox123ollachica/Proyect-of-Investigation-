@@ -1,0 +1,7 @@
+../CWRU_Canon8/cwru_total_debug_log.cc:8:17:void DebugLog(const char*, va_list)	7
+../CWRU_Canon8/cwru_total_debug_log.cc:13:16:int DebugVsnprintf(char*, size_t, const char*, va_list)	1
+../CWRU_Canon8/cwru_total_debug_log.cc:17:24:const char* CWRUTNN_LastLog()	1
+../CWRU_Canon8/cwru_total_debug_log.cc:22:6:void VMicroPrintf(const char*, va_list)	7
+../CWRU_Canon8/cwru_total_debug_log.cc:23:6:)	7
+../CWRU_Canon8/cwru_total_debug_log.cc:30:5:int MicroVsnprintf(char*, size_t, const char*, va_list)	1
+../CWRU_Canon8/cwru_total_debug_log.cc:34:5:)	1

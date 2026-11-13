@@ -1,0 +1,19 @@
+{
+  "AUDITORIA_ELF_CANON42.json": "18b30cfdfa9b53179080a6f824b2c3827faa4e715338437c776fb5a8ae5d09ec",
+  "COMPILACION_CANON42.json": "17044183489abacb3fa5098366e2bdc8cef495e8fc4eb48700f0f71badf3b860",
+  "firmware_declarado.elf": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "MEDICIONES.jsonl": "297aaeb3c58ba464fe1cc1868cfb42bb8638b92f7ab629e84d3c9644f02fe2f1",
+  "PLAN_EJECUTADO.json": "c8f59b0ec61d5c77362b273b6c0d9618b0ae3fa31260c10e918d12709e28ec24",
+  "protocolo_total_sr_legacy.py": "631303e144b432a7144054150ed6466d8a8b10d1f179484329bc2e2b666d91fb",
+  "RESULTADO_GATE.json": "6fe6abddea7ad780361ded0379f2aada33d629c715eeaae5d69e83b10cc35823",
+  "TRAZA_UART.jsonl": "700a77351d9112532ea0be504888db6f40b3cf0708ac10320e64fb3af889247a",
+  "validar_canonicos_gate_ejecutado.py": "24e02e37c2d7f3ac855f674543ed7c60af4bf87a91ea1f16ee087253054dbe9c",
+  "carga_verificada/INTENTO_CARGA_CANON42.json": "08d57c6a8168a3cff9e05cb62e35727693a2bf82f9e7b9cf628537ffb45aaa83",
+  "carga_verificada/MANIFEST_CARGA_SHA256.json": "bff355783f105a189c3dee54b36d97c6cbf91a04d78b778de9c374ce22527b88",
+  "carga_verificada/MANIFEST_CARGA_SHA256.sha256": "0f30d0fdbd49a3d35adb90467a58ae6361411c63a318837ef47b0d9b12db7f25",
+  "carga_verificada/programmer_carga.log": "b3f5594c2ad02f73f2706e10fb5d1a45c24cb306130d514e1b39ff1e68218d4a",
+  "carga_verificada/programmer_identidad.log": "d74e80acf3550d28fe618c355dce88fd6f9b4cd51d92e29c01716bceac80636e",
+  "carga_verificada/RESULTADO_CARGA.json": "d646db5bdccdb99e084327ee25f1641f49fcc7434995e4d49dad5a2b05a382a7",
+  "carga_verificada/stdout_carga.txt": "a8d06297fac811de67b4700bd38933b17ac7c09c6ce013c3e70d0566add288ff",
+  "carga_verificada/stdout_identidad.txt": "b052ff6332cd403a0e6a471d6fdddc18fa3974a48bc34127aa2043ed3eaba5d1"
+}

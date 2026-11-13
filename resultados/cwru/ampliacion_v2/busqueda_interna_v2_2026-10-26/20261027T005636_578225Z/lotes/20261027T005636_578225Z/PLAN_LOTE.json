@@ -1,0 +1,9 @@
+{
+  "job_ids": [
+    "inner_outer0_inner1_F14_seed22"
+  ],
+  "completed_before": [],
+  "consumed_worker_seconds_before": 0.0,
+  "max_new_jobs": 1,
+  "max_seconds": 600
+}

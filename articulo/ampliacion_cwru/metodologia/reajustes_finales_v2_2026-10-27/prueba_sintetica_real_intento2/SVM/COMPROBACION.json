@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "native_reload_predictions_exact": true,
+  "native_values_exact": true,
+  "model_sha256": "5a6ccd8baf1b5ad1a90647b4da69528063c310d0c218e5de6bd8a7aa70a1bec2",
+  "TensorFlow_imported": false,
+  "synthetic_model_fits": 1,
+  "family": "SVM",
+  "model_artifact_manifest_entries": 5,
+  "result_status": "PASS",
+  "authorization_patch_scope": "this_child_synthetic_fixture_only",
+  "production_authorization_modified": false,
+  "CWRU_arrays_opened": false,
+  "blocked_CWRU_guard_probe_requests": 1,
+  "outer_evaluation_executed": false
+}

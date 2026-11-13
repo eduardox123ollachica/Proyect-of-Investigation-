@@ -1,0 +1,103 @@
+{
+  "status": "validated_on_validation_test_not_loaded",
+  "seed": 42,
+  "architecture": [
+    14,
+    20,
+    10,
+    3
+  ],
+  "standard_scaler_fit_scope": "training_only",
+  "representative_dataset_scope": "all_568_training_samples_only",
+  "validation_samples": 406,
+  "metrics": [
+    {
+      "accuracy": 0.9950738916256158,
+      "macro_precision": 0.9962121212121212,
+      "macro_recall": 0.9961685823754789,
+      "macro_f1": 0.9961684558216349,
+      "model": "keras_fp32"
+    },
+    {
+      "accuracy": 0.9950738916256158,
+      "macro_precision": 0.9962121212121212,
+      "macro_recall": 0.9961685823754789,
+      "macro_f1": 0.9961684558216349,
+      "model": "tflite_fp32"
+    },
+    {
+      "accuracy": 0.9950738916256158,
+      "macro_precision": 0.9962121212121212,
+      "macro_recall": 0.9961685823754789,
+      "macro_f1": 0.9961684558216349,
+      "model": "tflite_int8"
+    }
+  ],
+  "prediction_disagreements": {
+    "keras_fp32_vs_tflite_fp32": 0,
+    "keras_fp32_vs_tflite_int8": 0,
+    "tflite_fp32_vs_tflite_int8": 0
+  },
+  "tflite_fp32_vs_int8_probability_absolute_difference": {
+    "mean": 0.0013287535402923822,
+    "maximum": 0.008186284452676773
+  },
+  "fp32_tensor_details": {
+    "input_dtype": "float32",
+    "input_shape": [
+      1,
+      14
+    ],
+    "input_scale": 0.0,
+    "input_zero_point": 0,
+    "output_dtype": "float32",
+    "output_shape": [
+      1,
+      3
+    ],
+    "output_scale": 0.0,
+    "output_zero_point": 0,
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX",
+      "DELEGATE"
+    ]
+  },
+  "int8_tensor_details": {
+    "input_dtype": "int8",
+    "input_shape": [
+      1,
+      14
+    ],
+    "input_scale": 0.033691830933094025,
+    "input_zero_point": -9,
+    "output_dtype": "int8",
+    "output_shape": [
+      1,
+      3
+    ],
+    "output_scale": 0.00390625,
+    "output_zero_point": -128,
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX",
+      "DELEGATE"
+    ]
+  },
+  "files": {
+    "fp32": {
+      "path": "modelo_cwru_de_fe_seed42_fp32.tflite",
+      "bytes": 4480,
+      "sha256": "bccd4de81af78fa2d86d495cf065f0ba5e2692f68c6af899790e8bd313fea78a"
+    },
+    "int8": {
+      "path": "modelo_cwru_de_fe_seed42_int8.tflite",
+      "bytes": 4064,
+      "sha256": "cabc6e967b91691287c0cd8b899958d6784f0712b9bc956f68565273c9652596"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "job_id": "DETECTOR_BLOCK",
+  "status": "PASS",
+  "return_code": 0,
+  "error": null,
+  "process_seconds": 8.274611899978481,
+  "timeout_seconds": 60,
+  "automatic_retry": false
+}

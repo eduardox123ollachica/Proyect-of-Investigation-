@@ -1,0 +1,260 @@
+{
+  "E1": {
+    "accuracy_int8_percent": {
+      "n": 10,
+      "media": 98.44594594594595,
+      "desviacion_estandar": 1.7046616487744026,
+      "mediana": 99.17417417417417,
+      "minimo": 95.4954954954955,
+      "maximo": 100.0,
+      "ic95_media_inferior": 97.22658918354122,
+      "ic95_media_superior": 99.66530270835068
+    },
+    "macro_f1_int8_percent": {
+      "n": 10,
+      "media": 98.36436915088235,
+      "desviacion_estandar": 1.809444579263804,
+      "mediana": 99.14630093305374,
+      "minimo": 95.19382773947932,
+      "maximo": 100.0,
+      "ic95_media_inferior": 97.07006040315626,
+      "ic95_media_superior": 99.65867789860845
+    },
+    "delta_int8_vs_keras_pp": {
+      "n": 10,
+      "media": 0.022522522522522292,
+      "desviacion_estandar": 0.1623736556307162,
+      "mediana": 0.0,
+      "minimo": -0.30030030030030463,
+      "maximo": 0.30030030030030463,
+      "ic95_media_inferior": -0.09362452353323844,
+      "ic95_media_superior": 0.13866956857828303
+    }
+  },
+  "E2": {
+    "accuracy_int8_percent": {
+      "n": 10,
+      "media": 96.02852852852853,
+      "desviacion_estandar": 2.1511188943623893,
+      "mediana": 95.9834834834835,
+      "minimo": 93.24324324324324,
+      "maximo": 99.62462462462463,
+      "ic95_media_inferior": 94.48981768085785,
+      "ic95_media_superior": 97.5672393761992
+    },
+    "macro_f1_int8_percent": {
+      "n": 10,
+      "media": 95.42864468278735,
+      "desviacion_estandar": 2.5146279239101608,
+      "mediana": 95.38088736474492,
+      "minimo": 92.09344115004492,
+      "maximo": 99.57510843586793,
+      "ic95_media_inferior": 93.6299132065697,
+      "ic95_media_superior": 97.227376159005
+    },
+    "delta_int8_vs_keras_pp": {
+      "n": 10,
+      "media": 0.06756756756756799,
+      "desviacion_estandar": 0.1600428123655592,
+      "mediana": 0.037537537537535304,
+      "minimo": -0.15015015015015232,
+      "maximo": 0.37537537537537524,
+      "ic95_media_inferior": -0.04691220950286765,
+      "ic95_media_superior": 0.18204734463800362
+    }
+  },
+  "E3": {
+    "accuracy_int8_percent": {
+      "n": 10,
+      "media": 97.35735735735736,
+      "desviacion_estandar": 2.1360291848981827,
+      "mediana": 97.44744744744744,
+      "minimo": 93.3933933933934,
+      "maximo": 99.92492492492492,
+      "ic95_media_inferior": 95.82944028761389,
+      "ic95_media_superior": 98.88527442710082
+    },
+    "macro_f1_int8_percent": {
+      "n": 10,
+      "media": 96.9645379540612,
+      "desviacion_estandar": 2.49259048202989,
+      "mediana": 97.09697870785972,
+      "minimo": 92.27741729603234,
+      "maximo": 99.9305394022744,
+      "ic95_media_inferior": 95.1815700188384,
+      "ic95_media_superior": 98.747505889284
+    },
+    "delta_int8_vs_keras_pp": {
+      "n": 10,
+      "media": 0.11261261261261146,
+      "desviacion_estandar": 0.1288242009633007,
+      "mediana": 0.11261261261261146,
+      "minimo": -0.07507507507508171,
+      "maximo": 0.37537537537537524,
+      "ic95_media_inferior": 0.020463733262317416,
+      "ic95_media_superior": 0.2047614919629055
+    }
+  },
+  "E4": {
+    "accuracy_int8_percent": {
+      "n": 10,
+      "media": 99.3993993993994,
+      "desviacion_estandar": 1.506082434767876,
+      "mediana": 99.84984984984985,
+      "minimo": 95.12012012012012,
+      "maximo": 100.0,
+      "ic95_media_inferior": 98.32208777988033,
+      "ic95_media_superior": 100.47671101891846
+    },
+    "macro_f1_int8_percent": {
+      "n": 10,
+      "media": 99.36896474959985,
+      "desviacion_estandar": 1.6018531325306509,
+      "mediana": 99.84946763121627,
+      "minimo": 94.81705722955715,
+      "maximo": 100.0,
+      "ic95_media_inferior": 98.22314765977751,
+      "ic95_media_superior": 100.5147818394222
+    },
+    "delta_int8_vs_keras_pp": {
+      "n": 10,
+      "media": -0.015015015015014122,
+      "desviacion_estandar": 0.031654431032714626,
+      "mediana": 0.0,
+      "minimo": -0.07507507507507061,
+      "maximo": 0.0,
+      "ic95_media_inferior": -0.03765765765765541,
+      "ic95_media_superior": 0.007627627627627174
+    }
+  },
+  "contrastes_factoriales_pareados": {
+    "scaler_sin_pesos_E2_menos_E1_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": -2.417417417417417,
+        "desviacion_estandar": 1.3882913160441628,
+        "mediana": -2.177177177177178,
+        "minimo": -5.330330330330327,
+        "maximo": -0.3753753753753699,
+        "ic95_media_inferior": -3.410472200824604,
+        "ic95_media_superior": -1.42436263401023
+      },
+      "positivos": 0,
+      "negativos": 10,
+      "empates": 0,
+      "prueba_signos_exacta_p_bilateral": 0.001953125
+    },
+    "scaler_con_pesos_E3_menos_E4_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": -2.042042042042044,
+        "desviacion_estandar": 2.131626872229686,
+        "mediana": -1.501501501501501,
+        "minimo": -6.381381381381388,
+        "maximo": 0.15015015015015365,
+        "ic95_media_inferior": -3.5668101058074537,
+        "ic95_media_superior": -0.5172739782766345
+      },
+      "positivos": 2,
+      "negativos": 8,
+      "empates": 0,
+      "prueba_signos_exacta_p_bilateral": 0.109375
+    },
+    "pesos_sin_scaler_E4_menos_E1_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": 0.9534534534534529,
+        "desviacion_estandar": 2.5501102174573256,
+        "mediana": 0.7132132132132085,
+        "minimo": -4.804804804804803,
+        "maximo": 4.2792792792792795,
+        "ic95_media_inferior": -0.8706587630498024,
+        "ic95_media_superior": 2.777565669956708
+      },
+      "positivos": 7,
+      "negativos": 1,
+      "empates": 2,
+      "prueba_signos_exacta_p_bilateral": 0.0703125
+    },
+    "pesos_con_scaler_E3_menos_E2_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": 1.3288288288288257,
+        "desviacion_estandar": 2.367491695622345,
+        "mediana": 0.5255255255255236,
+        "minimo": -2.1771771771771853,
+        "maximo": 5.555555555555557,
+        "ic95_media_inferior": -0.36465504292347206,
+        "ic95_media_superior": 3.0223127005811232
+      },
+      "positivos": 8,
+      "negativos": 2,
+      "empates": 0,
+      "prueba_signos_exacta_p_bilateral": 0.109375
+    },
+    "efecto_marginal_scaler_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": -2.2297297297297334,
+        "desviacion_estandar": 1.0774137924399325,
+        "mediana": -2.1584084084084125,
+        "minimo": -4.316816816816825,
+        "maximo": -0.5255255255255236,
+        "ic95_media_inferior": -3.0004115800924116,
+        "ic95_media_superior": -1.4590478793670552
+      },
+      "positivos": 0,
+      "negativos": 10,
+      "empates": 0,
+      "prueba_signos_exacta_p_bilateral": 0.001953125
+    },
+    "efecto_marginal_pesos_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": 1.1411411411411365,
+        "desviacion_estandar": 1.9948100297628912,
+        "mediana": 0.9572072072071975,
+        "minimo": -2.064564564564563,
+        "maximo": 4.166666666666657,
+        "ic95_media_inferior": -0.28576084920571976,
+        "ic95_media_superior": 2.568043131487993
+      },
+      "positivos": 7,
+      "negativos": 3,
+      "empates": 0,
+      "prueba_signos_exacta_p_bilateral": 0.34375
+    },
+    "interaccion_pp": {
+      "descripcion": {
+        "n": 10,
+        "media": 0.37537537537537274,
+        "desviacion_estandar": 2.8808141003319685,
+        "mediana": -0.15015015015015365,
+        "minimo": -4.129129129129126,
+        "maximo": 5.48048048048048,
+        "ic95_media_inferior": -1.6852917118417372,
+        "ic95_media_superior": 2.4360424625924826
+      },
+      "positivos": 4,
+      "negativos": 5,
+      "empates": 1,
+      "prueba_signos_exacta_p_bilateral": 1.0
+    }
+  },
+  "comparacion_pareada": {
+    "diferencia_E4_menos_E1_pp": {
+      "n": 10,
+      "media": 0.9534534534534529,
+      "desviacion_estandar": 2.5501102174573256,
+      "mediana": 0.7132132132132085,
+      "minimo": -4.804804804804803,
+      "maximo": 4.2792792792792795,
+      "ic95_media_inferior": -0.8706587630498024,
+      "ic95_media_superior": 2.777565669956708
+    },
+    "semillas_E4_supera_E1": 7,
+    "semillas_E1_supera_E4": 1,
+    "empates": 2,
+    "prueba_signos_exacta_p_bilateral": 0.0703125
+  }
+}

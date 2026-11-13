@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "four_families_verified": true,
+  "saved_output_verification_without_classifier_replay": true,
+  "clipping_verified": true,
+  "training_guard_verified": true,
+  "inference_counts": {
+    "DNN_models": 1,
+    "DNN_FP32_invocations": 42,
+    "DNN_INT8_invocations": 42,
+    "RF_models": 1,
+    "RF_prediction_batches": 1,
+    "RF_predicted_rows": 42,
+    "SVM_models": 1,
+    "SVM_prediction_batches": 1,
+    "SVM_predicted_rows": 42,
+    "detector_models": 1,
+    "detector_score_batches": 1,
+    "detector_scored_rows": 42
+  },
+  "CWRU_values_opened": false,
+  "blocked_CWRU_requests": 1,
+  "new_training_fits": 0,
+  "production_authorization_modified": false,
+  "fixture_authorization_patch_only": true
+}

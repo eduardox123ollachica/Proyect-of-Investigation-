@@ -1,0 +1,1678 @@
+{
+  "alcance": "Verificación local de integridad de los dos corpus frente a registros anteriores.",
+  "comparacion_byte_a_byte_con_descargas_nuevas": false,
+  "CWRU": {
+    "atribucion": "Case Western Reserve University Bearing Data Center",
+    "fuente_general": "https://engineering.case.edu/bearingdatacenter/download-data-file",
+    "fuente_hashes_locales": "articulo/ampliacion_cwru/auditoria/revision_2026-10-22_validada/inventario_archivos.csv",
+    "fuente_hashes_locales_sha256": "bae37868434a2fb0ada768282b8d55e7e73379a254a9ef840fb032f1aa00873c",
+    "terminos_redistribucion_especificos_acreditados": false,
+    "archivos_mat": [
+      {
+        "id_mat": 97,
+        "ruta_local": "datos/cwru/raw/Normal/97_N_0,000.mat",
+        "carga_hp": 0,
+        "clase": "NORMAL",
+        "diametro_pulg": "0.000",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+        "etiqueta_en_tabla_oficial": "Normal_0",
+        "claves_mat_DE_FE": [
+          "X097_DE_time",
+          "X097_FE_time"
+        ],
+        "bytes": 3903344,
+        "sha256": "16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c"
+      },
+      {
+        "id_mat": 109,
+        "ruta_local": "datos/cwru/raw/IR/109_IR_0,007.mat",
+        "carga_hp": 0,
+        "clase": "IR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR007_0",
+        "claves_mat_DE_FE": [
+          "X109_DE_time",
+          "X109_FE_time"
+        ],
+        "bytes": 3903344,
+        "sha256": "daddef5f784879becdf8fefbe2453f11c3cfc8d061a2a671da2f546d1bb48460"
+      },
+      {
+        "id_mat": 174,
+        "ruta_local": "datos/cwru/raw/IR/174_IR_0,014.mat",
+        "carga_hp": 0,
+        "clase": "IR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR014_0",
+        "claves_mat_DE_FE": [
+          "X173_DE_time",
+          "X173_FE_time"
+        ],
+        "bytes": 1020944,
+        "sha256": "ca7113a900d9217aa5632e0dad4f8791caed4d314321daa011719e1bc99f3026"
+      },
+      {
+        "id_mat": 213,
+        "ruta_local": "datos/cwru/raw/IR/213_IR_0,021.mat",
+        "carga_hp": 0,
+        "clase": "IR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR021_0",
+        "claves_mat_DE_FE": [
+          "X213_DE_time",
+          "X213_FE_time"
+        ],
+        "bytes": 3909760,
+        "sha256": "6afb81f36a9efcdd370a52166d71c13cb42278c7de22752c81d4b2a22fa133f0"
+      },
+      {
+        "id_mat": 135,
+        "ruta_local": "datos/cwru/raw/OR/135_OR_0,007.mat",
+        "carga_hp": 0,
+        "clase": "OR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR007@6_0",
+        "claves_mat_DE_FE": [
+          "X135_DE_time",
+          "X135_FE_time"
+        ],
+        "bytes": 3896944,
+        "sha256": "5a1c3ceec1f2b58af9e01051e425aa9d31dd018f58a8d31cda25bbdb1ac6dca9"
+      },
+      {
+        "id_mat": 201,
+        "ruta_local": "datos/cwru/raw/OR/201_OR_0,014.mat",
+        "carga_hp": 0,
+        "clase": "OR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR014@6_0",
+        "claves_mat_DE_FE": [
+          "X201_DE_time",
+          "X201_FE_time"
+        ],
+        "bytes": 3922576,
+        "sha256": "6c27615a61f19f05f65cf2cc2aa4bca5bda051c9d93a708d0ee8baf5138834fa"
+      },
+      {
+        "id_mat": 238,
+        "ruta_local": "datos/cwru/raw/OR/238_OR_0,021.mat",
+        "carga_hp": 0,
+        "clase": "OR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR021@6_0",
+        "claves_mat_DE_FE": [
+          "X238_DE_time",
+          "X238_FE_time"
+        ],
+        "bytes": 3941808,
+        "sha256": "63209a4057f199beb42beedf5b4481987fdb3ac746c46777dd385d689bc481df"
+      },
+      {
+        "id_mat": 98,
+        "ruta_local": "datos/cwru/raw/Normal/98_N_0,000.mat",
+        "carga_hp": 1,
+        "clase": "NORMAL",
+        "diametro_pulg": "0.000",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+        "etiqueta_en_tabla_oficial": "Normal_1",
+        "claves_mat_DE_FE": [
+          "X098_DE_time",
+          "X098_FE_time"
+        ],
+        "bytes": 7742720,
+        "sha256": "37e6612c05e65c415dcfa2ab27a3fda648a5863160fa898b884a14743044e045"
+      },
+      {
+        "id_mat": 110,
+        "ruta_local": "datos/cwru/raw/IR/110_IR_0,007.mat",
+        "carga_hp": 1,
+        "clase": "IR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR007_1",
+        "claves_mat_DE_FE": [
+          "X110_DE_time",
+          "X110_FE_time"
+        ],
+        "bytes": 7779920,
+        "sha256": "9e2bc579af6f4e6d9d26bf63b7ed84ecba7775740d56a3737cc8f04f73c22d1a"
+      },
+      {
+        "id_mat": 175,
+        "ruta_local": "datos/cwru/raw/IR/175_IR_0,014.mat",
+        "carga_hp": 1,
+        "clase": "IR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR014_1",
+        "claves_mat_DE_FE": [
+          "X175_DE_time",
+          "X175_FE_time"
+        ],
+        "bytes": 17849704,
+        "sha256": "18302e96425ad163db699da3a2ca63d8f6ef4dfc99172e97ab21a8a77a83ac17"
+      },
+      {
+        "id_mat": 214,
+        "ruta_local": "datos/cwru/raw/IR/214_IR_0,021.mat",
+        "carga_hp": 1,
+        "clase": "IR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR021_1",
+        "claves_mat_DE_FE": [
+          "X214_DE_time",
+          "X214_FE_time"
+        ],
+        "bytes": 7761344,
+        "sha256": "a8fe29f358b7f9c140f38e0cd7fbafdd7441c44e30a5b704ecb9be64cbb841ed"
+      },
+      {
+        "id_mat": 136,
+        "ruta_local": "datos/cwru/raw/OR/136_OR_0,007.mat",
+        "carga_hp": 1,
+        "clase": "OR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR007@6_1",
+        "claves_mat_DE_FE": [
+          "X136_DE_time",
+          "X136_FE_time"
+        ],
+        "bytes": 7789200,
+        "sha256": "37f259eebbc92afa8bd1b445d02af14e83608a48cd7a3cf5c323515ddc2d0f24"
+      },
+      {
+        "id_mat": 202,
+        "ruta_local": "datos/cwru/raw/OR/202_OR_0,014.mat",
+        "carga_hp": 1,
+        "clase": "OR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR014@6_1",
+        "claves_mat_DE_FE": [
+          "X202_DE_time",
+          "X202_FE_time"
+        ],
+        "bytes": 7752064,
+        "sha256": "16f1a7eadbd6703a7a1ab1a32f8d7b97b6b85c1b31b1e760c123a9e175d8ae63"
+      },
+      {
+        "id_mat": 239,
+        "ruta_local": "datos/cwru/raw/OR/239_OR_0,021.mat",
+        "carga_hp": 1,
+        "clase": "OR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR021@6_1",
+        "claves_mat_DE_FE": [
+          "X239_DE_time",
+          "X239_FE_time"
+        ],
+        "bytes": 7826336,
+        "sha256": "4ba7dc55258359577a68f6de5c0ff6675776d2b2c30d691dd4d71640e34834af"
+      },
+      {
+        "id_mat": 99,
+        "ruta_local": "datos/cwru/raw/Normal/99_N_0,000.mat",
+        "carga_hp": 2,
+        "clase": "NORMAL",
+        "diametro_pulg": "0.000",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+        "etiqueta_en_tabla_oficial": "Normal_2",
+        "claves_mat_DE_FE": [
+          "X099_DE_time",
+          "X099_FE_time"
+        ],
+        "bytes": 15503928,
+        "sha256": "4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75"
+      },
+      {
+        "id_mat": 111,
+        "ruta_local": "datos/cwru/raw/IR/111_IR_0,007.mat",
+        "carga_hp": 2,
+        "clase": "IR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR007_2",
+        "claves_mat_DE_FE": [
+          "X111_DE_time",
+          "X111_FE_time"
+        ],
+        "bytes": 7770624,
+        "sha256": "a2e64a397a990efb91ba55252a84796f755bda3eb097c4b47cc0730a08dab309"
+      },
+      {
+        "id_mat": 176,
+        "ruta_local": "datos/cwru/raw/IR/176_IR_0,014.mat",
+        "carga_hp": 2,
+        "clase": "IR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR014_2",
+        "claves_mat_DE_FE": [
+          "X176_DE_time",
+          "X176_FE_time"
+        ],
+        "bytes": 7807760,
+        "sha256": "569c7b292018e7e88cf4b375b091433c7566b9503545188979e93f6428427247"
+      },
+      {
+        "id_mat": 215,
+        "ruta_local": "datos/cwru/raw/IR/215_IR_0,021.mat",
+        "carga_hp": 2,
+        "clase": "IR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR021_2",
+        "claves_mat_DE_FE": [
+          "X215_DE_time",
+          "X215_FE_time"
+        ],
+        "bytes": 7863472,
+        "sha256": "1e3d65088782a29aa70004896db4b9836499dd12edd3c58fb496f4befca6f746"
+      },
+      {
+        "id_mat": 137,
+        "ruta_local": "datos/cwru/raw/OR/137_OR_0,007.mat",
+        "carga_hp": 2,
+        "clase": "OR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR007@6_2",
+        "claves_mat_DE_FE": [
+          "X137_DE_time",
+          "X137_FE_time"
+        ],
+        "bytes": 7789200,
+        "sha256": "a81b621153e426aa32848be8157c42bcd81065a28ac7655a9a6597f3889fa3ef"
+      },
+      {
+        "id_mat": 203,
+        "ruta_local": "datos/cwru/raw/OR/203_OR_0,014.mat",
+        "carga_hp": 2,
+        "clase": "OR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR014@6_2",
+        "claves_mat_DE_FE": [
+          "X203_DE_time",
+          "X203_FE_time"
+        ],
+        "bytes": 7789200,
+        "sha256": "3cad2848f4c96cde04fc06ca0f541ad663298ecb50eb7fc74e25b72ab29e1c5a"
+      },
+      {
+        "id_mat": 240,
+        "ruta_local": "datos/cwru/raw/OR/240_OR_0,021.mat",
+        "carga_hp": 2,
+        "clase": "OR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR021@6_2",
+        "claves_mat_DE_FE": [
+          "X240_DE_time",
+          "X240_FE_time"
+        ],
+        "bytes": 7807760,
+        "sha256": "c5d8b4db09880b660da88865fff0e81afef0f5ad68bdf0ad7b75c722ae3e7e1c"
+      },
+      {
+        "id_mat": 100,
+        "ruta_local": "datos/cwru/raw/Normal/100_N_0,000.mat",
+        "carga_hp": 3,
+        "clase": "NORMAL",
+        "diametro_pulg": "0.000",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/normal-baseline-data",
+        "etiqueta_en_tabla_oficial": "Normal_3",
+        "claves_mat_DE_FE": [
+          "X100_DE_time",
+          "X100_FE_time"
+        ],
+        "bytes": 7770624,
+        "sha256": "88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78"
+      },
+      {
+        "id_mat": 112,
+        "ruta_local": "datos/cwru/raw/IR/112_IR_0,007.mat",
+        "carga_hp": 3,
+        "clase": "IR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR007_3",
+        "claves_mat_DE_FE": [
+          "X112_DE_time",
+          "X112_FE_time"
+        ],
+        "bytes": 7770624,
+        "sha256": "1775db11999f268c6ccf04b3ee19857f90a3636f4a582f1abd9a627f991e72d4"
+      },
+      {
+        "id_mat": 177,
+        "ruta_local": "datos/cwru/raw/IR/177_IR_0,014.mat",
+        "carga_hp": 3,
+        "clase": "IR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR014_3",
+        "claves_mat_DE_FE": [
+          "X177_DE_time",
+          "X177_FE_time"
+        ],
+        "bytes": 7761344,
+        "sha256": "5cffc5aa2b1e5cc65a97ebcfaa369b886ad8db8b8840e0e0095e97b8b9be4c16"
+      },
+      {
+        "id_mat": 217,
+        "ruta_local": "datos/cwru/raw/IR/217_IR_0,021.mat",
+        "carga_hp": 3,
+        "clase": "IR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": null,
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "IR021_3",
+        "claves_mat_DE_FE": [
+          "X217_DE_time",
+          "X217_FE_time"
+        ],
+        "bytes": 15689680,
+        "sha256": "fb5b067c04b4c8449cbdd4ac4e376d7eb0804b9203efcab513e42aaf2f6a2cf7"
+      },
+      {
+        "id_mat": 138,
+        "ruta_local": "datos/cwru/raw/OR/138_OR_0,007.mat",
+        "carga_hp": 3,
+        "clase": "OR",
+        "diametro_pulg": "0.007",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR007@6_3",
+        "claves_mat_DE_FE": [
+          "X138_DE_time",
+          "X138_FE_time"
+        ],
+        "bytes": 7807760,
+        "sha256": "b43eeb67badeb129047ddd3658bf673815dc4bd445facb4217eb04653bb2e11d"
+      },
+      {
+        "id_mat": 204,
+        "ruta_local": "datos/cwru/raw/OR/204_OR_0,014.mat",
+        "carga_hp": 3,
+        "clase": "OR",
+        "diametro_pulg": "0.014",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR014@6_3",
+        "claves_mat_DE_FE": [
+          "X204_DE_time",
+          "X204_FE_time"
+        ],
+        "bytes": 7817056,
+        "sha256": "f3b1736698a580c2ea44cce78045833a9e76476d9153da8af5275c2e30e38a10"
+      },
+      {
+        "id_mat": 241,
+        "ruta_local": "datos/cwru/raw/OR/241_OR_0,021.mat",
+        "carga_hp": 3,
+        "clase": "OR",
+        "diametro_pulg": "0.021",
+        "posicion_defecto_or": "6:00",
+        "pagina_oficial": "https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data",
+        "etiqueta_en_tabla_oficial": "OR021@6_3",
+        "claves_mat_DE_FE": [
+          "X241_DE_time",
+          "X241_FE_time"
+        ],
+        "bytes": 7826336,
+        "sha256": "cb64eed96d401837c25df63598b7d1a00868368e1ed503a8dcef1e5226ec9caa"
+      }
+    ]
+  },
+  "Arciniegas": {
+    "fuente_editorial": "https://link.springer.com/article/10.1007/s43926-025-00142-4",
+    "recurso": "Supplementary Material 1, ventilador-prueba-export.zip",
+    "zip_editorial_sha256_cotejo_historico": "c03cf7de1e6ad1de7d5b544844e2a6a42ee66128c3493fded95b41940d54587a",
+    "cotejo_historico_documentado_en": "DATA_POLICY.md",
+    "manifiesto_de_integridad_local": {
+      "zip": "Envio_Revisor_Completo_2026-11-01.zip",
+      "entrada": "Paquete_Revisor_Independiente_2026-10-29/MANIFEST_SHA256.txt",
+      "sha256": "8f387d4256a604596fd4c96eeba5ec42e0883590a6bcaebbf5904cdf526cd102"
+    },
+    "licencia_de_datos_separada_acreditada": false,
+    "raiz_local": "datos/arciniegas/raw",
+    "archivos_exportacion": [
+      {
+        "ruta_relativa_exportacion": "info.labels",
+        "bytes": 48690,
+        "sha256": "aea1a33eb480d3c8f864411d420124e3944696917b1e582e5f69a6aef35bf599"
+      },
+      {
+        "ruta_relativa_exportacion": "README.txt",
+        "bytes": 360,
+        "sha256": "d14df6a0e91ff9c489224985c6fd4842ddf40f7e48cf73caa8c6d165a43aafdc"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s53.json",
+        "bytes": 5311,
+        "sha256": "a8bb23ca1cad12886fcda0879d45a50a1a2c63cf678b46b53a42e5b76c349061"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s54.json",
+        "bytes": 5389,
+        "sha256": "10c7ca0f36a5077f06a583aff569126cb77d779ff075a97dfb1824696a547d72"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s55.json",
+        "bytes": 5359,
+        "sha256": "be9da7d3d78030cdf7f2423dbb96d81f0cbe6a71d3fc8a26e4e4979b1d3352fc"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s56.json",
+        "bytes": 5416,
+        "sha256": "ca9af68218df68beebc91dd73cc3090a845c5ee302ed11e02ebfe4abad53be3c"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s57.json",
+        "bytes": 5387,
+        "sha256": "fe8d35be4e41d61436b8380155170d3b756ea34ec7f2707e177633169f7b68a8"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s58.json",
+        "bytes": 5388,
+        "sha256": "fc65606f8cb5357ed253a7871cf68ba30ea48112711faacc6c3cb7dcb5313f10"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s59.json",
+        "bytes": 5374,
+        "sha256": "e39e82f50601838469d0c8d5f270fedaba09f00a9177cae012d142aceb03030a"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s60.json",
+        "bytes": 5393,
+        "sha256": "1a9c5f4d85a563b37b3dcdf614e30a297c28e107e44e8faaac01af1adef01374"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s61.json",
+        "bytes": 5367,
+        "sha256": "a6b7cdab5d2c6439bad673fc234b40de9c62af1635a9dc2fccd5601dd89c6215"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s62.json",
+        "bytes": 5346,
+        "sha256": "ac3dc44e413a365bcb8d83d02f09dd322e38c49c9ed816a782ad99c986a7eab6"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s63.json",
+        "bytes": 5381,
+        "sha256": "6dedf7fa7c00fc768104449d165c0055d48200a69a61778dc3f0286cd0afc6bb"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s64.json",
+        "bytes": 5359,
+        "sha256": "8960145403b78991c5487a77453999e2ffcc0866c35fb2998f57fa73cf876775"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s65.json",
+        "bytes": 5362,
+        "sha256": "c66b6cfdfb876f788cb83b8ef9ef9dcd4be000bdc66b79653d1d6ab568e12789"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s66.json",
+        "bytes": 5406,
+        "sha256": "54ca953ff585fd6a9417636cb1f16f3c96e7d85f591f8d74ee6e076ef518abad"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s67.json",
+        "bytes": 5352,
+        "sha256": "19a709a0fbd18f139fc546380981513b72c6e939b8ec12a470bf5391d14200d8"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/info.labels",
+        "bytes": 7282,
+        "sha256": "9054d866bf0e9b6dc8debd160ca2c5b53dc775e5225fafcf897c4ae7528ad831"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s10.json",
+        "bytes": 5831,
+        "sha256": "dd4276fa24947030840fde0685090f90d5cb79bbe480ab1cfad0bc606683586b"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s11.json",
+        "bytes": 5798,
+        "sha256": "68818b5d17b5dfe3ca2a1a8f8048d0989090eb0a7e4e100eb4e08fc6020e6acb"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s12.json",
+        "bytes": 5796,
+        "sha256": "db3ffca0d3009aa7d27583f01f861c93e9bb151212e22c75a653296ab40fc8ed"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s13.json",
+        "bytes": 5806,
+        "sha256": "6815f7b27f518bfba1d2a561398f3d7b084abaf2fe9f32aa019fddcda75f4975"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s14.json",
+        "bytes": 5815,
+        "sha256": "d8fd9a1e028dbe6fd46d7de1335e8ec771f461e148cb019b6e368d99723b7b32"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s9.json",
+        "bytes": 5809,
+        "sha256": "5e18573c208a09105c9455380121e0d176530b21753914876753c2aec8b1eac5"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s10.json",
+        "bytes": 5763,
+        "sha256": "1ee6008965c2ece9e3ee4f1a7fbd24d72f3efd2416457c9e43350835bd6f6516"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s11.json",
+        "bytes": 5746,
+        "sha256": "ce563425d53066d7ad0fecd0fcd0444fedaf190541aceb029e42271ea401e982"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s12.json",
+        "bytes": 5763,
+        "sha256": "73750241ea90e2e88d8d03024e991d73d2012ef97dba5c034c3df064ed7a5a77"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s13.json",
+        "bytes": 5761,
+        "sha256": "3c621dbafc875c83ba6a7b080fdfdf6f027d2af17cef4137e5d8d9644a0992ac"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s14.json",
+        "bytes": 5723,
+        "sha256": "ad65e551f508196ff92aa9f7b0f0ce808c890afd1882dd040e10449888b0fbf2"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s9.json",
+        "bytes": 5760,
+        "sha256": "1ee1d0fd798407d23b1842375d269fa5351561fe1c59658d0186d4c948b0a13f"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s10.json",
+        "bytes": 5718,
+        "sha256": "cc9cebfb6e030f87817c407fc1eaf5574fe00e2a5173cb1fa07bdd1abd86a19d"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s11.json",
+        "bytes": 5732,
+        "sha256": "9552171bd3e93184182acb4682894e70f74a53cfd380cb825049c07cec559f7b"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s12.json",
+        "bytes": 5735,
+        "sha256": "3b571489af16243c507a3fd90b24503acc97451e8741967d07f8b8c0da505255"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s13.json",
+        "bytes": 5761,
+        "sha256": "dee3d9f5f634dcd7d96239d50a570cd10a48ce745b0e6f17150e044dba96221c"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s9.json",
+        "bytes": 5753,
+        "sha256": "798399ceeb16f6bc1f16432b33664a25cd31ce1b9863b3b9a8b3425668d5287a"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s10.json",
+        "bytes": 5717,
+        "sha256": "236d45b90c2a0a1d4ef3e4fd301247f112ea68d0f7ee41ccbdfe7ae88be7ca4b"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s11.json",
+        "bytes": 5669,
+        "sha256": "605895c213608e8275939afbee4d4e683e1867d7e2c8578bd38c764591be258a"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s12.json",
+        "bytes": 5672,
+        "sha256": "8615c5b6d7564167de63cc7e78181f82255807e80d60d46d547e864791ab56f8"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s13.json",
+        "bytes": 5714,
+        "sha256": "aceb7d55ebeb1c120113bcf86abd309bdaeae6dccfc207e635250bc0307c2e5a"
+      },
+      {
+        "ruta_relativa_exportacion": "testing/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s14.json",
+        "bytes": 5711,
+        "sha256": "5174b091b2749af575f7d12db5950b4240f2e1a52d68324cd580535ff32d2fbf"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s1.json",
+        "bytes": 5383,
+        "sha256": "63120718ee5b6898731a3a0af876f22cc8298568a86c988b6e3e503aee3ea569"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s10.json",
+        "bytes": 5345,
+        "sha256": "82a07fa5a61bd0c7241c369ad3e8d0f2c58a48442d5803112637ffdd436326f3"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s11.json",
+        "bytes": 5392,
+        "sha256": "989bc179e8199b8908719cdc37736e72da09bee8af3d67de7cbf3c2de766c8a5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s12.json",
+        "bytes": 5416,
+        "sha256": "5d7a5dd5b14d927c60e4a577fe83ed59c1b98b4447401cbab3b3ad0599099c80"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s13.json",
+        "bytes": 5413,
+        "sha256": "27f77f864da71ca95b17a6ccae5e21877dcaa5cae965b4058d49963f19cf5cb7"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s14.json",
+        "bytes": 5383,
+        "sha256": "71299f3a5d45b939b432c80cf9f1517e0c8fec4b218502ba1a81bd7118ca2ac9"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s15.json",
+        "bytes": 5386,
+        "sha256": "8ff0461810144474cd4f42104358a1a9e6a78d5ef79c0a679048da0ca45e23dd"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s16.json",
+        "bytes": 5362,
+        "sha256": "24a15577b58f74b3e53c3d742ca720618250e4b986d546d1e54452027c7d2f35"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s17.json",
+        "bytes": 5370,
+        "sha256": "6aa33d12a34e4e7daaa4179562fceddfea9522a700598b77edb7b08a3ead7a86"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s18.json",
+        "bytes": 5387,
+        "sha256": "a6f4635b02a7b0dfa5d638ebbe924befd4e71e64b2b78898580dd11d52658c7b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s19.json",
+        "bytes": 5389,
+        "sha256": "8e35a5eef99390a4c18d373428cbb984a3f38c58b0ad1d9c02e1bf8ffc840374"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s2.json",
+        "bytes": 5398,
+        "sha256": "94115964c46041e6444e5373dfaa7442ecc3b58b883f3f5d752380b70f1dcaba"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s20.json",
+        "bytes": 5373,
+        "sha256": "2903ad79c0fb79b6470073e8563928e37f7f8afb6893c293a20b8290ebb62d71"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s21.json",
+        "bytes": 5399,
+        "sha256": "a9871294c3860f5d934f1dbb0dc5b49b0985fcd0402f75e9990351c640dc8c90"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s22.json",
+        "bytes": 5343,
+        "sha256": "7f72d0ddd1b50ea4b9e7666589820217ff5fb8e90536b6982a775a94d66c7041"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s23.json",
+        "bytes": 5359,
+        "sha256": "219b49b5c7ee9a79096ecb53ea687a2cc4099478e0edeb98b07af46a4f21ce17"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s24.json",
+        "bytes": 5340,
+        "sha256": "132156fd5d4b39ee48599cf74975dec3a4825757a2c5eee7d143c0d6964c4703"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s25.json",
+        "bytes": 5386,
+        "sha256": "51a6d124f30fa686df8139d33be7e577d128154c0dcb63560be9cf381138a0ad"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s26.json",
+        "bytes": 5381,
+        "sha256": "966d67ac929f9df6642c65cfc750f2840c4bbc6b6bb17e8deda9ecacac3cf452"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s27.json",
+        "bytes": 5353,
+        "sha256": "f743cd66e55a63d894a7e60b429891b251e136eef527215e0eb9863d1e3ec0f9"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s28.json",
+        "bytes": 5375,
+        "sha256": "4621c98b4da06d0b39ca77153df8b65335d221fb0d92be4b52b195281986a99f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s29.json",
+        "bytes": 5382,
+        "sha256": "69462742038471e3ee7d91c9410aaa378c137d07fac16efeaeea3890aa4f1a2d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s3.json",
+        "bytes": 5467,
+        "sha256": "9c3f947ef2e7ea275f4e88aa98dd6a7e722b8c526cc7514d88b4ddc5e2cc47c6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s30.json",
+        "bytes": 5394,
+        "sha256": "dda0bbd28cfeb3ea47f1b0bec9afb03d32ca59cbb071257c5f8347f30d1510aa"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s31.json",
+        "bytes": 5386,
+        "sha256": "e49652c2ac402bcd3afffe0bd506fa8c2536969239bc55e0df31726d0988db6f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s32.json",
+        "bytes": 5387,
+        "sha256": "697ed2a8d530ed72b4890ece87404f34c9fc73374104611e20c4f2529465076f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s33.json",
+        "bytes": 5385,
+        "sha256": "06d126ff4106e4627531baf34b8e99f5113caf88bed5819a1e6c56df5a321aa5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s34.json",
+        "bytes": 5430,
+        "sha256": "4269c00786bb77529bdc33f37e7f6baf4530574a1890c40f22dd2a1c7ac53bb0"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s35.json",
+        "bytes": 5407,
+        "sha256": "6f5aba7951f72059f0bf57fe002d1b0fa64837821898aef5f11245bdb551074b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s36.json",
+        "bytes": 5415,
+        "sha256": "bf9fb3e4cddec103ba92fe2e99ee8cb2b6cae065365fbbaba6b63a94aa554170"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s37.json",
+        "bytes": 5390,
+        "sha256": "68554e82c5988f4fbedbe754549e7327d6a1def5d6f57d85332a0df65fd854d8"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s38.json",
+        "bytes": 5347,
+        "sha256": "c6734829e9024ba5356f31a80d96005faf8d78accf46dbb9d5a86794c215aac3"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s39.json",
+        "bytes": 5423,
+        "sha256": "f4555d01a05d7e57d7b6acf2d1715759898575c496868ca2d9d46396453575d0"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s4.json",
+        "bytes": 5438,
+        "sha256": "4de7e0ea3b120059dc2c118c9786d6c40c108dc6c556dfe4d4c6f6fe17eff5ee"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s40.json",
+        "bytes": 5388,
+        "sha256": "d37c9bfd0019e1c7797e2b276dbf345152e7cd93f37d66d8ac0e366a468f41e1"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s41.json",
+        "bytes": 5368,
+        "sha256": "3a2053211531ae89696aad1c2ecbac4bb2a3b5dee7a3876bcf1bb66a8b302f10"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s42.json",
+        "bytes": 5407,
+        "sha256": "03d56572413ffc0775680ab75f701bf4645388b574046388f68f75ef3b4a18fb"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s43.json",
+        "bytes": 5410,
+        "sha256": "5a8b4b366dae1d31780eeee87b63f40053527f8a56e3451e8a4d21237c19e92c"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s44.json",
+        "bytes": 5323,
+        "sha256": "10d34d1f26c45a0c4c888a9df6228f88b5f1169f12ff8c148c4b6efd505f8b37"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s45.json",
+        "bytes": 5368,
+        "sha256": "543dca4aa71c5be86d330a5304b6c30acd91380a66eb62a1d8c86322a3b2b6f3"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s46.json",
+        "bytes": 5383,
+        "sha256": "97ab47384be02326f415ebeb08970f244291c8b488d882deb8db020eb90dbaad"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s47.json",
+        "bytes": 5381,
+        "sha256": "4c6282f9e0d1f3b875e3d3094ed04d359fc5641b4102ad4360a917705a4ab103"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s48.json",
+        "bytes": 5371,
+        "sha256": "3980b0574bae4223dba0942a1ad9753f3817cc77707f8631a5633d20b708273f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s49.json",
+        "bytes": 5372,
+        "sha256": "8bd75b1da301f3930cd635d145654389836541a70cc7fb216c123d98573462ac"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s5.json",
+        "bytes": 5423,
+        "sha256": "5d6edb092de4df67c898081089344bb1103ce19a589e789f174d9bf270d17150"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s50.json",
+        "bytes": 5373,
+        "sha256": "f827213e161fce0463576c1b45a2c9e9b901fdb0410cad3a7bfeafb53aeaec6b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s51.json",
+        "bytes": 5377,
+        "sha256": "2e640862dd5eec95edb99db2f91a52b44e4055188c783f431c61dc4710a66c7e"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s52.json",
+        "bytes": 5396,
+        "sha256": "ac81d692603c434c0e872fca2c822a8f490f06f1650ce2a76bd4034ec63c6eae"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s6.json",
+        "bytes": 5380,
+        "sha256": "14f4323c3830d07cc199dc4393cb5e177cd734f78031d2bb3552e08565d999a8"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s7.json",
+        "bytes": 5403,
+        "sha256": "7fc91e5bf4b78675d151fe59adb668a2a310940ea893eeabc971a1297a11617f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s8.json",
+        "bytes": 5413,
+        "sha256": "b4810f45b9bb93419a0c271983fbb3822d0bd101eee791602d2c96c676dedefc"
+      },
+      {
+        "ruta_relativa_exportacion": "training/DETENIDO.json.51iirpm7.ingestion-6f998cf944-t6sxf.s9.json",
+        "bytes": 5323,
+        "sha256": "964f32c80bccd14b3aa78945b853796f5ed32b8c489712021899e0e58ef26faa"
+      },
+      {
+        "ruta_relativa_exportacion": "training/info.labels",
+        "bytes": 39353,
+        "sha256": "26fa1508c9bd0d7ff73db380a7622c9293b0a0cd67905a26f62bdaa440c434a6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s1.json",
+        "bytes": 5800,
+        "sha256": "af2962deb3d236bb9407d4b4fab2facdb9cdcb408e41c1a63b829c1ad4be665b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s2.json",
+        "bytes": 5798,
+        "sha256": "55a562ac3b2c6c4ca64572ef18ceb68d2908ea7c4ce4cecaef9626f9cd17c620"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s3.json",
+        "bytes": 5814,
+        "sha256": "2ee1c1bbbc68c11bf47dc08567a66f312bab036877a246f78890201abcf56943"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s4.json",
+        "bytes": 5809,
+        "sha256": "b29b7c16ec7d730d024e5b2f7d875d167b5ca807f4ea066de9c870c66a0c7fbf"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s5.json",
+        "bytes": 5793,
+        "sha256": "0c71b3789f1dbe034a8f1f1235ddd46aafde6c3dcc60e77bc0a26c82f9d1b7d6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s6.json",
+        "bytes": 5780,
+        "sha256": "046683064c9787dbd1164d2d42215e3153b7398d822e2d485288822a397cb903"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s7.json",
+        "bytes": 5797,
+        "sha256": "04aa6ef0d838ca6b6365a66bd3fd420d1abe09b002aac67e5798a3069158e45f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq0ccr.ingestion-6f998cf944-bvwxj.s8.json",
+        "bytes": 5788,
+        "sha256": "3713f84caeb3a0deda636b28b7dba73644b02d740f3b3236986559ec59e875ad"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s1.json",
+        "bytes": 5796,
+        "sha256": "8322e63ff86f8c8b462e6038cb22e9ae73977751be26da43d2b27b999e461a5d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s10.json",
+        "bytes": 5773,
+        "sha256": "333b7d1c6dacf4759b12bc530440470056d5e9d4ef0bd57f7939e55784757fb2"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s11.json",
+        "bytes": 5807,
+        "sha256": "16ed3a374292fab4d4e5259548a129351df047ea5941b63e6777bb67f7393446"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s12.json",
+        "bytes": 5795,
+        "sha256": "29cef63212c84d17ed141f0a13cb8718f041607bbcc6f4c426544088e76e34ef"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s13.json",
+        "bytes": 5786,
+        "sha256": "263ffaec4866929bdebe6e618d8f60d7898117ee492278d091993c4ffe786f6c"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s14.json",
+        "bytes": 5787,
+        "sha256": "5141937c14b3f04b6aca50f75676ad22b1bf0949774c9a22f9ea5f8886783b86"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s2.json",
+        "bytes": 5773,
+        "sha256": "d9c9cedd5ae77d94c6b688b473a418e821f25449146d8de1a80dbce5dd3ad8e2"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s3.json",
+        "bytes": 5799,
+        "sha256": "325595fc343a710e2a25ef702e9b9db721456e6147c95b2d46cfc91d2c5c7d2a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s4.json",
+        "bytes": 5776,
+        "sha256": "0c761652fcc88da844e1d0712424f88ba422760c88f3b1e9c7201549730a959a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s5.json",
+        "bytes": 5812,
+        "sha256": "44f4e038da4609480abee206e8c90bbb45518c7d5a7cdefebc5d6f4c1e5993f5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s6.json",
+        "bytes": 5775,
+        "sha256": "dceaf74e5b9504c14718de69d1a4a679e3949ba1432b8c46372e019c7b9a7f2b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s7.json",
+        "bytes": 5805,
+        "sha256": "06e3123523c0aeb7bc30956c9430f60c0c058cab9bf07fd9ff2b0acd89100ebc"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s8.json",
+        "bytes": 5801,
+        "sha256": "dcc726e918b74ea9f04ecfbc28b6d335f60e850ee879aecc274dbacd6de75d6d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq3k4u.ingestion-6f998cf944-t6sxf.s9.json",
+        "bytes": 5777,
+        "sha256": "5e4f8a0cd7e5a91fa1dcdf1b466bf15aead341b147c03fddd611a12483360e32"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s1.json",
+        "bytes": 5815,
+        "sha256": "de5cabc842edfbbe99c80d204603cee12ccf771d905a52f43a4090107491c6c7"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s10.json",
+        "bytes": 5814,
+        "sha256": "cd2ba07b91db93613dbfa0259563d64bbb4770ff55b0635481ccddb650d7c264"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s11.json",
+        "bytes": 5800,
+        "sha256": "49892dd28c2b5015644adb13fa19557b09d4a43ee8fcc7a4d654dce017f03de7"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s12.json",
+        "bytes": 5804,
+        "sha256": "3bb2182c90811df40722e36022694396d8bb53eb944d31289f7d2f8ec1cc1221"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s13.json",
+        "bytes": 5783,
+        "sha256": "1d6147a7c29cb6b9740d0b90d1816e8484e54f021564a281c874fa4b803c8820"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s14.json",
+        "bytes": 5813,
+        "sha256": "5884deb3503324e91525fe8037b2716a1767c80f8b4bd7e16541e7321962adea"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s2.json",
+        "bytes": 5797,
+        "sha256": "f01f30754e860886e0e11b42d20c730ed268b49a914029a518927f63f948b9aa"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s3.json",
+        "bytes": 5803,
+        "sha256": "97dfaf6bb72cc060999bdf060452e9ce0346806be4813625ad0c2399f9bf73c6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s4.json",
+        "bytes": 5815,
+        "sha256": "3256085ab72d76164d6412622de46a518caf56c1e15fc0aedd532e97b8481689"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s5.json",
+        "bytes": 5801,
+        "sha256": "b314ff8bd850f61112aa7485d3db7a862cfd22b8c6f65748ead4d798933fecc4"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s6.json",
+        "bytes": 5817,
+        "sha256": "bcfa8d50cc68809acabbc3dd17c756dea87af011c58b36880a5b21dc31f538de"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s7.json",
+        "bytes": 5802,
+        "sha256": "33ad1b878be247c9551a81aa18b6555f0a7ea7567d94447d23f4c261f46a6d4d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s8.json",
+        "bytes": 5791,
+        "sha256": "07c832fd49d7fdc757bc922c94ae470cdd409ac44621ebdde7ed3da83644f014"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iq79ju.ingestion-6f998cf944-jwvjl.s9.json",
+        "bytes": 5793,
+        "sha256": "8fa82c0fff40b4ca646cf1a2f5d3a9f4c1e197fed219cb498e70e43ed20535d1"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s1.json",
+        "bytes": 5775,
+        "sha256": "466145fdbc936ef9390c54630982b9cae2ddeb1e90d15218a8220d7c892b0245"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s10.json",
+        "bytes": 5820,
+        "sha256": "fc203be43c4e948ecd8786a727dc48b09b1fe811f70cef1ce27a34801886a61e"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s11.json",
+        "bytes": 5812,
+        "sha256": "b5e9238efe4772c3402e259b07d8d8140adeb9cb65c2eaa3fd13180d39944b14"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s12.json",
+        "bytes": 5794,
+        "sha256": "29860743e8f283ee042e95c753492d62446cc4041c2e7ae0c5183708932d174a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s13.json",
+        "bytes": 5800,
+        "sha256": "7c0f3ca455a1dba090c4bdcfc053a3ba652d9919bffc1c7b81bff7d772b95496"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s14.json",
+        "bytes": 5807,
+        "sha256": "07e72e1690f094ebf8a34a5c8d7ec1092678f8b9d0e7518bed0c120b8af3592b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s2.json",
+        "bytes": 5787,
+        "sha256": "bbbf32783941bbeaa26c82a14389265b4a030a79670ce2b061591715024837f3"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s3.json",
+        "bytes": 5810,
+        "sha256": "46c9ed03f65149b43355e67cac40665af11d4a24595d1b624c7b6ec6de80e71a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s4.json",
+        "bytes": 5778,
+        "sha256": "16a19b4de7f28a2c88ee93d24b20f2bbeaa81fa33f2d721572919d81a6b030dc"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s5.json",
+        "bytes": 5804,
+        "sha256": "8bbde893d50659fcc61d482faa57cbd16c9b2b95bf3f5de8b227050c7263776a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s6.json",
+        "bytes": 5795,
+        "sha256": "a5d5a8f251bff21db812a4bff14a9dbc5d4a1a04ca63e67c2223a70fc90c61b5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s7.json",
+        "bytes": 5803,
+        "sha256": "987e11d806e90b9494225a8e51ebe3654c74da413bee0d9107effa5d4198f141"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s8.json",
+        "bytes": 5800,
+        "sha256": "77b6cfb4d74ba509a6a40edc998d238703fece0381d7662c926a7a9041cd5ea6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqc0is.ingestion-6f998cf944-bvwxj.s9.json",
+        "bytes": 5788,
+        "sha256": "a9f1f162bbbe0b15c3fbda5efe81865658f30e390997c32c285abcff9fa51596"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s1.json",
+        "bytes": 5794,
+        "sha256": "dfd4a7619cc7d3d564945ff65404c18d95bbe039e15a083c8fb494fc9dc3be78"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s10.json",
+        "bytes": 5778,
+        "sha256": "3c1ece78b7af9999b0cc565ee12077b43239c48dc03c530377ad3a00a2d35797"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s11.json",
+        "bytes": 5827,
+        "sha256": "b61e2c002a081195e156490d061cfd308c8200b351a2f813196fe9c240d49241"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s12.json",
+        "bytes": 5778,
+        "sha256": "e59f9dc7befe3dd6f238f8b10ab9cd7627bee1f2e7bd08d02fd3473a494d6eaf"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s13.json",
+        "bytes": 5777,
+        "sha256": "1b34b9b409c3e5e48c3c221dce1e95c3e0fec0465ac45973daa9e0df41cd62fe"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s14.json",
+        "bytes": 5811,
+        "sha256": "229431f7265811ad65cf7f3245f6eb8e30a04cb5d1b26be3af06f8c043d35fac"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s15.json",
+        "bytes": 5805,
+        "sha256": "9589dfcc47c77f097897afc4591784eab0653321f3a78e76a379b941ec5e18bf"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s2.json",
+        "bytes": 5811,
+        "sha256": "754b0ee3f2f65f710b5cf52bfbac5e6aaaef91f6d6c74e5e6e799229b5fc6b77"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s3.json",
+        "bytes": 5793,
+        "sha256": "70f70c3a2c678e8c47a21696aeaf4b017c36b8670f55f88c5ceab7f708998be4"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s4.json",
+        "bytes": 5804,
+        "sha256": "932fc44a6c9f3d0f5d75f92463a63a182b21f08a0f6d88d61d590061ed92d212"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s5.json",
+        "bytes": 5801,
+        "sha256": "afd1001db890c9c9e7bc6ef8460ef7960834eed6bb62c58c28523ea16520a945"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s6.json",
+        "bytes": 5793,
+        "sha256": "c1cdaf42e81b516d9075ad1ede641d482696c93a37c0815bb42761bf30236690"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s7.json",
+        "bytes": 5820,
+        "sha256": "f8c9a044332282531deda6654643204681cd1c4442e345fe9a421efbd7131e3a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s8.json",
+        "bytes": 5797,
+        "sha256": "28ea20b6beb157eab0888151e7724d4c49984cf601725104127352c781af3ded"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51iqgbfk.ingestion-6f998cf944-t6sxf.s9.json",
+        "bytes": 5780,
+        "sha256": "aa70359724d8e143da20ad97d4f220c7ffc0f4b6b60ea0991ff7d6c1b85fd5af"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s1.json",
+        "bytes": 5788,
+        "sha256": "daf2bfd066e4356d0ced29d6f728080e33cf9d8956481fd3f01ec880f9ad594f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s10.json",
+        "bytes": 5797,
+        "sha256": "d119669c91767b20a3bafc0349922916e800378436289745f9842d69899b0e47"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s11.json",
+        "bytes": 5775,
+        "sha256": "37061259aa65079dab49607e92e27c55e8103d55b9fd48659ecab11e50fcda6b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s12.json",
+        "bytes": 5774,
+        "sha256": "753e3b9baa5c0d2c11b5f7542272476ca853fed215b5789c6eafe7ebdf77f411"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s13.json",
+        "bytes": 5780,
+        "sha256": "c1a2517c164be8b5cc19a37a3ab9b91fd2414b9c783af954eba8634d8ced4204"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s14.json",
+        "bytes": 5765,
+        "sha256": "53c46bd75fadba32a6f9a98b60ef4f0505876bc92ca55a328fcf88fcda250d5f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s2.json",
+        "bytes": 5785,
+        "sha256": "e5af2f283c1c0586e5fba24ebb75856f5145f98a66189acd573d3389714b61ba"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s3.json",
+        "bytes": 5782,
+        "sha256": "939fff029ac922d7d44dd96475e73bf7bcb9f3456327924b9b4ca26f37304c9d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s4.json",
+        "bytes": 5808,
+        "sha256": "a2180d7b5858907cd989d03d658855ced148ba2a6c048c01c78260b8dfe8d19b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s5.json",
+        "bytes": 5768,
+        "sha256": "2e72387030202f4e508ebfd9ffa63c1f5ed285e1ab83fb4c891efbef42e774d1"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s6.json",
+        "bytes": 5784,
+        "sha256": "12edd2cb5d1e70eb2f19dcf199369472d2e2cae9449204c5335641dad1b367d2"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s7.json",
+        "bytes": 5751,
+        "sha256": "a54b316b951be7a1482cc4e4fb784f8a18121110703ad1186b11b3a0f4ab385e"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s8.json",
+        "bytes": 5792,
+        "sha256": "99d81a0abc885660320d440357020f444ba6d4293b39b0d29c58abf183dbc984"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir0h7i.ingestion-6f998cf944-jwvjl.s9.json",
+        "bytes": 5754,
+        "sha256": "4a9a225aae57f7afc013a16bdfee0aff6dee02a94d265d8c41d1ab245a9f8ccc"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s1.json",
+        "bytes": 5760,
+        "sha256": "f446273e8edb6a0e6bae70a8d08c7d10f248f598ed0d0c7a0f1d064f659b759c"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s10.json",
+        "bytes": 5785,
+        "sha256": "2d686b047e252c701476903fc0f75b7edf7d6f963e2046e2c14ba85609f53b66"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s11.json",
+        "bytes": 5759,
+        "sha256": "c200fa259e1373c487f57312a251e8e05dbb2ab32d70f6c43d6c80acc05dcb31"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s12.json",
+        "bytes": 5785,
+        "sha256": "ce3bae07042ad1628b67eb0ba5777d0f7c4e66b64fe7f1254748d47150fb8f5b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s13.json",
+        "bytes": 5743,
+        "sha256": "f8a9ff8a0ed8bc30576914fb15839a2aa970c9d3cd354d56877fee3b9af66b16"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s2.json",
+        "bytes": 5775,
+        "sha256": "29535f405603a562143bfdd30005e80b1f8692778505609109f96ea90757b8a3"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s3.json",
+        "bytes": 5756,
+        "sha256": "26b3b7e8bbd17a496be60b807302a6d16cd12b38f72f323a12d9f1398a09958f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s4.json",
+        "bytes": 5799,
+        "sha256": "0d66122ab23b51859796fc3737b80075fc866e45de68e79702264d39c6e3489a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s5.json",
+        "bytes": 5752,
+        "sha256": "6cd229fea5248a59c2e7e678cc13b209aa8698aba960572d3a7ff8d0af5e7119"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s6.json",
+        "bytes": 5751,
+        "sha256": "55a90f6a3413e83bd9e8c23bad7a7ac8b230e2af12cee519d4218a5b1b9e0049"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s7.json",
+        "bytes": 5769,
+        "sha256": "7d58b23e8963e27c1b9bfce93bf21c98f03b8abfbf9531bdd188048d4fd3fbc7"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s8.json",
+        "bytes": 5771,
+        "sha256": "f1a8c9a08d944f35df603970f88989931bf3bbeffa31e90aec1616277345ad54"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir4ph4.ingestion-6f998cf944-jwvjl.s9.json",
+        "bytes": 5785,
+        "sha256": "7aae8a4103d8ee7cef6e14e3f574dde46f0e805d718357bb1e86faf8e3af3409"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s1.json",
+        "bytes": 5737,
+        "sha256": "c21ff96bf84ed73a330b811b3915f46a89e4d089dedbf5b5d1d263e79676c5fa"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s10.json",
+        "bytes": 5752,
+        "sha256": "38a82a327ef22f32db6068f8e76b486b6f1daa3862f0f82a4fc536d92af1a6f6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s11.json",
+        "bytes": 5737,
+        "sha256": "d819c26e47c2c433f1de42d49eebe0af1d03bb459fdb98ffa4d4400cdec78792"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s12.json",
+        "bytes": 5781,
+        "sha256": "ab2908cf058e797bdf0a8df971146bc865409449332a8766b2644d8a03e446eb"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s13.json",
+        "bytes": 5775,
+        "sha256": "6f138b6e48ac954476b0de49a38097784ceee788c8fddab2f3740e201063e520"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s14.json",
+        "bytes": 5744,
+        "sha256": "3ae93a8525c088a3cd81f32d0d967fa392e0d6afe6d22c4533cff1733a32dcfa"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s2.json",
+        "bytes": 5772,
+        "sha256": "0c2db5ceb0f49c3ecfd89a03a1e50fbec0ad99c08b6b59a113530c65e5e0f9b9"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s3.json",
+        "bytes": 5787,
+        "sha256": "1770c0b20bcd8d92f466590671b5b97ea2e7f5a679f180edc86c0ddebd794f13"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s4.json",
+        "bytes": 5784,
+        "sha256": "ebc2f2fcfc9829327799515d1afdb05a7c6cf901b55ba34ea7a5e9db84e7f9b9"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s5.json",
+        "bytes": 5776,
+        "sha256": "a060ac902b2a8692ab06a6d9f7bff6454a0c70aec1840bcf4283dfc65f76826e"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s6.json",
+        "bytes": 5771,
+        "sha256": "f691e9c0f082464926846cd1c28508eb47b11546d95161b7beffedb42aa6054e"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s7.json",
+        "bytes": 5763,
+        "sha256": "3fa678f8d7dc16cce83d36cec4430260108215b2a2274671794897bad40e2071"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s8.json",
+        "bytes": 5748,
+        "sha256": "ccdffaa9e06d24d22d2aae4d343b282f9f769dd5c8f939fe20ee8def3fe0ceb5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51ir832t.ingestion-6f998cf944-t6sxf.s9.json",
+        "bytes": 5766,
+        "sha256": "8b77dd6b138d575877632224a88bc8f48c132a6fe154db791651322ccb902f3b"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s1.json",
+        "bytes": 5762,
+        "sha256": "f407f57f8c2d8e5b1e805c32638b9a294ccaa5471468a0fc28259675a895d405"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s2.json",
+        "bytes": 5761,
+        "sha256": "f60aa36f61052dce50a06a400958dfbfd22ab4de6ded2959b513c964b9d13862"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s3.json",
+        "bytes": 5768,
+        "sha256": "1f1421172c42d4edd135749079d508dbf0259169ab1f9bb58f19d73b3455afda"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s4.json",
+        "bytes": 5775,
+        "sha256": "9111f57e601cc518f4a94cd292e96d861102572f496cb2c394c0d3b0bf661ce4"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s5.json",
+        "bytes": 5746,
+        "sha256": "79112127b031203f6d94ec3e6710091c4777594cc9b54a454e54de34c0b945f1"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s6.json",
+        "bytes": 5763,
+        "sha256": "829688b39ab14d89eeba71b203e17655bba9f53da423cb71df969c590bcf2712"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s7.json",
+        "bytes": 5754,
+        "sha256": "25f89f0dc906c335ace1d87aa1683815ee54e990b8d6ffd92a2002ab90147e1d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD ALTA.json.51irbb9k.ingestion-6f998cf944-jwvjl.s8.json",
+        "bytes": 5766,
+        "sha256": "556e14f052ec4c4cdb41e5fa7a47e8bf02dd01c1aca2b35a8941a8a64f429eec"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s1.json",
+        "bytes": 5745,
+        "sha256": "c47a4f8e2819ffc16675c7884dc2b96a33d02a75d4fb3be629c309846335e4db"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s2.json",
+        "bytes": 5762,
+        "sha256": "78467db3864170f2bd27c55638759df31361e0ea23833adad4cb586305216ef5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s3.json",
+        "bytes": 5720,
+        "sha256": "58fd2787ec53f03d4876018eef0db2e7e9efbebb7395f2cc2d1eacc5c785fe07"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s4.json",
+        "bytes": 5758,
+        "sha256": "b1436ee5ddc142d675f12ecceabaa4fc8043f7d2409130a91ac9a4ee7f1aa391"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s5.json",
+        "bytes": 5729,
+        "sha256": "f36dc002e0d0fdcdd99698f1856d2bb3c826b7ac7d7450b65b41572336c9554a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s6.json",
+        "bytes": 5773,
+        "sha256": "c022ef1d1141504dfbf052026aa65d7b71b53191e6e21d743ba228aadfef8a95"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s7.json",
+        "bytes": 5730,
+        "sha256": "7948ecb741d76c4373d2119530550b50c16d23e4434357592e6f4ae016c52f7d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irp429.ingestion-6f998cf944-jwvjl.s8.json",
+        "bytes": 5752,
+        "sha256": "8941c13ef689d5d96646d9b40f20fd9724b9e246e9ca5c77dfafdc9a04a121af"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s1.json",
+        "bytes": 5766,
+        "sha256": "fe57bcb0347f655eb35e0f195c725c9c54c872c7c8276c722922ee5d21369372"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s10.json",
+        "bytes": 5732,
+        "sha256": "2d4f760d4b39164c0f14b984e65b296b38a813078e4df9e2a2f2b4cc0ed4849d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s11.json",
+        "bytes": 5770,
+        "sha256": "6b14ff1d0dcf6a0e28dab574d415579997f5d5d90e554328dba04eb0a9c6e715"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s12.json",
+        "bytes": 5805,
+        "sha256": "85c6e48e9ba1b7e9df0c043b2e85402d4f3a185887b9e671461c857e0b9c7fc5"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s13.json",
+        "bytes": 5772,
+        "sha256": "4f284e727dc1b466990a1dcb2454929d98e407d5c82a3f032e2c1030d1f90570"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s14.json",
+        "bytes": 5753,
+        "sha256": "096043b4b65b177ad8cf66d6e0528e01328c042853bd410dfc0fedbea9db5e43"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s15.json",
+        "bytes": 5734,
+        "sha256": "2ac10d0efb1ae128ff75933450c887e8c87ef177d8246b136307d60f7b38cfe3"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s2.json",
+        "bytes": 5770,
+        "sha256": "ebc593ff6a89d2901326f6c91eec9e6d36eaf6e606f2f54c9293c960fccf77a0"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s3.json",
+        "bytes": 5758,
+        "sha256": "3996a2f953658fc30d5269e6af55fa4804ea4a5ae6d7398f88458d1a926e7793"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s4.json",
+        "bytes": 5769,
+        "sha256": "2b6aac9fa11440863c02b6049f1e238b5a216841f382c12334dbb9d7a2c3dd60"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s5.json",
+        "bytes": 5777,
+        "sha256": "dcd5f73161db0e3c25ea6f2492adefba871325c8e20d4c6fb07890b10115cfb6"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s6.json",
+        "bytes": 5750,
+        "sha256": "b58a013c55bb78b7dfb0b93b6c5eb8eab730386c8c4579526c251962ec7ab9db"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s7.json",
+        "bytes": 5767,
+        "sha256": "5531f5c164af449877a1c7e9e748bf8c29684e9f175a6598f77a1ae0d1c70f1f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s8.json",
+        "bytes": 5769,
+        "sha256": "992f40aec2ae6458e879a75794fe18553cf919fa0ecce6c1446742de2268a1bc"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51irtdov.ingestion-6f998cf944-bvwxj.s9.json",
+        "bytes": 5742,
+        "sha256": "0ae875ae899acffb69cf2cf225b8de3124bee67f7d3c0883029b8d4fdb43995f"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s1.json",
+        "bytes": 5732,
+        "sha256": "d750c2f68d24a497c9b301e5d852e9b15dac7e50c266ad14e60c804dcf472d63"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s2.json",
+        "bytes": 5764,
+        "sha256": "a6fb5608f0fa03940859e8ff7183a39e940f3d126b560ac85c1695a804a57dc8"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s3.json",
+        "bytes": 5752,
+        "sha256": "44b1c8a3980d1e44859b0480768b67a674404cf112d7faf9b8eaea6613e3852e"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s4.json",
+        "bytes": 5744,
+        "sha256": "fbd627b97cc9c4e5bba0ebd41ea8de3a40f23a4d595e15931a91035229696d4d"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s5.json",
+        "bytes": 5688,
+        "sha256": "738f0fe520c3e4256287ff3b342fd88f0a28749d981d6381d201dd47c8354347"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s6.json",
+        "bytes": 5712,
+        "sha256": "2a1d9af19e03e25a54ee830c958c503e1ddb3c929e3dbcf5ab148141ec25b265"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s7.json",
+        "bytes": 5707,
+        "sha256": "22c5fc7b559b78c825500522dbfee246a0c134a41e2bf284456e16d43299af9a"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s8.json",
+        "bytes": 5708,
+        "sha256": "c21ddc8e426988a6201c7d1af8c374c0d6def60c9e9f9e55ec7ff40fe4b34265"
+      },
+      {
+        "ruta_relativa_exportacion": "training/VELOCIDAD MEDIA.json.51is1m87.ingestion-6f998cf944-t6sxf.s9.json",
+        "bytes": 5700,
+        "sha256": "a806895354fded9d9d4ad307708c8e65d1aaf73411dea9af42c248efdb8c79d2"
+      }
+    ],
+    "cotejo_con_zip_editorial_archivado": {
+      "nombre": "43926_2025_142_MOESM1_ESM.zip",
+      "bytes": 549140,
+      "sha256": "c03cf7de1e6ad1de7d5b544844e2a6a42ee66128c3493fded95b41940d54587a",
+      "rutas_y_hashes_iguales": 239,
+      "descarga_nueva": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "codigo/cwru/ampliacion_v2/analisis/auditar_elf_total_v2.py": "67d6c41c45ab3afb21d568fa7147fe80cc6d62670bcaec6ccf7731710cdfbf0b",
+  "codigo/cwru/ampliacion_v2/analisis/auditar_numerica_full_total_sr_v2.py": "1184be0631017040f304d02971548127fbc4471bc107a3926134ab7f228e2177",
+  "codigo/cwru/ampliacion_v2/analisis/auditar_numerica_gate_total_sr_v2.py": "e94fc3e08573366f7ecd436790c1311b7f0a4f76199fe5efa18043359ef460fe",
+  "codigo/cwru/ampliacion_v2/analisis/auditar_numerica_gate_total_v2.py": "ef33c9d4035d1b38539f7c66eeb7c673ff4a1bdd49719eddd1d791eef3272c87",
+  "codigo/cwru/ampliacion_v2/analisis/reproducir_fc_entera_total_v2.py": "ce6bfe1fe43876603aac2187d76c8bf47d12e13b4ced8aacde0750f1e276b6a7",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/AUDITORIA_NUMERICA_CAMPANA_SR.json": "aa91715b257aa5513d91f1ff2af64c4664db40d3f5484a776577287d1157c503",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/recursos/MANIFEST_RECURSOS_SHA256.json": "1bad5ef5cb6aec115ee5ac91edcb77639534d4e2d395a57db49fba11f5b4d5e1",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/recursos/MANIFEST_RECURSOS_SHA256.sha256": "7f725217342e6a6fb19e93253f37810846f883559c4f8be876120a0a6a6adc4a",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/REPLAY_FC_CAMPANA_SR.jsonl": "5d464986ad0d5c1af4ea09083e3de455870907e99d639f67a3f8daf2b0ffd203",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/BANCO_TOTAL.json": "ceb6acae562786debef54fd3aef8d3acf9752cbc082a1486f072004c148c8ba2",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/CATALOGO_TOTAL.json": "06b17aba8be1fc9b208dbfe55040785fc65637ee7dd2d77b9a4b6626e8a65a64",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/MANIFEST_EVIDENCIAS_SHA256.json": "df72445555afa114ec4974fe931de60970164308e07c24b3935cf47ed12439b2",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/MANIFEST_EVIDENCIAS_SHA256.sha256": "0f1678c4a38f79a8f83b5832246a64812de8accd5c706c9660c389691db6f550",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/MEDICIONES.jsonl": "00e62cf299f37650674d409933091297917b6b31b0c40ae60b13efaf2a28b00d",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/PLAN_EJECUTADO.json": "6a794d2565adc52d4ceec8706e2f88d50c764f8d31fbe56393e5b74d9f43de86",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/RESULTADO_TOTAL.json": "4426ea52cb2a177d7072f193b37dae3d17a7ef97381633c1449a2ec1a72c2845",
+  "despliegue_stm32/costo_total_single_rounding_v2_180mhz_2026-10-26/Validacion_PC/resultados/20261026T144540_396879Z/TRAZA_UART.jsonl": "76ec24b0a8d3c7cc711294c728151b02c065b49dd01b65fa0beb239639614154"
+}

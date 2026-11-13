@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "job_id": "outer2_SVM_c04_snone",
+  "family": "SVM",
+  "return_code": 0,
+  "error": null,
+  "execution_verification_seconds": 4.062000000005355,
+  "timeout_seconds": 60,
+  "automatic_retry": false
+}

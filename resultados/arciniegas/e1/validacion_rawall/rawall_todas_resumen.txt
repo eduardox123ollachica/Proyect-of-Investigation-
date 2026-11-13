@@ -1,0 +1,46 @@
+
+VALIDACION RAWALL PC vs STM32
+========================================
+
+Modo:
+TODAS
+
+Ventanas:
+1332
+
+DNN
+----------------------------------------
+Clases iguales:
+1332/1332
+
+Accuracy PC:
+97.897898 %
+
+Accuracy STM32:
+97.897898 %
+
+MAE probabilidades:
+0.000060702265
+
+Max error probabilidades:
+0.062500250000
+
+KMEANS
+----------------------------------------
+Clusters iguales:
+1332/1332
+
+Flags anomaly iguales:
+1332/1332
+
+Anomalias PC:
+12
+
+Anomalias STM32:
+12
+
+MAE score:
+6.132155597889e-05
+
+Max error score:
+1.650810427734e-03

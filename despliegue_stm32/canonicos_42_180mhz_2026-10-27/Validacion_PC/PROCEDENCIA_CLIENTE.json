@@ -1,0 +1,16 @@
+{
+  "status": "CLIENT_READY_PENDING_USER_FLASH_AND_GATE",
+  "firmware_elf_sha256": "c2de62a6e73a7f0f4cc2f4d25f5cbef718bde28eb93e05d0273871337ce84a46",
+  "build_report_sha256": "17044183489abacb3fa5098366e2bdc8cef495e8fc4eb48700f0f71badf3b860",
+  "elf_audit_sha256": "18b30cfdfa9b53179080a6f824b2c3827faa4e715338437c776fb5a8ae5d09ec",
+  "catalog_sha256": "e7a0c848ccb293c3dd95c9e150e8e6909f6ae6b82c3ec90e6332faebbc2a6fdd",
+  "gate_only": true,
+  "hardware_flashed": false,
+  "serial_opened": false,
+  "training_fits": 0,
+  "physical_gate_requires_verified_programmer_evidence": true,
+  "previous_preparation_archives": [
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\archivo_preparacion_cliente_gate_v1",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\archivo_preparacion_cliente_gate_v2"
+  ]
+}

@@ -1,0 +1,1 @@
+﻿& "C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps\python3.12.exe" -B "C:\Users\LENOVO\Desktop\Proyecto Investigación\codigo\cwru\ampliacion_v2\reajustes_finales\ejecutar_reajustes.py" --run --max-new-jobs 130 --max-seconds 7200

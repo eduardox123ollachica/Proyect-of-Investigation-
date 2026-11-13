@@ -1,0 +1,2 @@
+﻿ventanas_totales;clasificaciones_correctas_pc;clasificaciones_incorrectas_pc;accuracy_pc;clasificaciones_correctas_stm32;clasificaciones_incorrectas_stm32;accuracy_stm32;coincidencia_pc_stm32;precision_macro_stm32;recall_macro_stm32;f1_macro_stm32;precision_weighted_stm32;recall_weighted_stm32;f1_weighted_stm32;error_medio_prob_pc_stm32;error_max_prob_pc_stm32
+1332;1304;28;0.978978978978979;1304;28;0.978978978978979;1.0;0.9835680751173709;0.9740740740740742;0.9780889380438639;0.9800152264940997;0.978978978978979;0.978819306775735;6.07022647647756e-05;0.06250025

@@ -1,0 +1,19 @@
+{
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/banco_costos_referencia.npz": "729d1cbe7e2dfb0d85653828e75994ed00b83148f2a3a201611a7671e29ab89f",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/checkpoint_antes_conversion.npz": "386734e491ea5503cee50e80d712b1de1251b40ccedd682871566f892aa5e908",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/checkpoint_epoca_01.npz": "386734e491ea5503cee50e80d712b1de1251b40ccedd682871566f892aa5e908",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/cuantizacion_train.npz": "a564783c81318c8f8594935c7ffd43adbb16ff95a838be5bfa91c0a0ece110df",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/detector_calibracion.npz": "b73fe767c0d61d5a203a0288b237b60ecdf57cbf525d5015a589c6860bfc4229",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/detector_parametros.npz": "16b10d05ba031507b04115cd83cfe78c6347f5b13d72045c543483d6e5901584",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/detector_validacion.npz": "56ab86b475d86d84828be4cafc6983becd2674af6c2f83151662ec11caa0112b",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/DIAGNOSTICO_FREEZE.json": "3eb63e6f4ae0c446ebc965f38e3bb6ab66682d2fb9fe527154d7a079c76e48b7",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/estado_antes_conversion.json": "328e6f8947b961fb968f26874ed2b5abd561c4b3c24de20ce19a335e51707ad7",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/historial.jsonl": "72899c249c9df09987aab8dd302fca0c3d9c7347bd93a623d4e45094fc7298ec",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/modelo_fp32.tflite": "74d932b971c9fdda69f865b645f44cc54070ba8da53c4593d5a347edbe44274d",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/modelo_int8.tflite": "9c379055fa9f4bd79042da3ae2e1d0c167b7a832290f9d2f7dac45bbfcc6ed66",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/predicciones_validacion.npz": "99289472b94e97d0372874455af2181067b026cf0d24c84e15396611dca5d1a8",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/procedencia.json": "075900808b480fab1f5058b660d54faf0fd17546b96b2c458f7cb7a44dae19e2",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/progreso.jsonl": "d7d9493ac864d5f316ed396af884f83d39ba946ee20cd12014bca8eb5e220ab6",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/resultado.json": "bf11a72a5e7fdf7240e9bb655753158e8bd9d03645463c1b8f016bf94e410822",
+  "resultados/cwru/ampliacion_v2/representantes_v2_2026-10-25/20261025T171847_957295Z/cost_outer3_inner0_S8_seed11/scaler_train_only.npz": "0a93f09ec96da55d8ceb5ce8b70c1ec3f784ca782380beed6a447ae0630f4d63"
+}

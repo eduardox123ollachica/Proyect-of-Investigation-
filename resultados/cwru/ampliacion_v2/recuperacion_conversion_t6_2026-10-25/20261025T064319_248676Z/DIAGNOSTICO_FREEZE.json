@@ -1,0 +1,14 @@
+{
+  "weights_unchanged": true,
+  "original_batch1_vs_frozen_batch1_max_absolute_error": 0.0,
+  "original_batch1_vs_frozen_batch1_allclose": true,
+  "original_batch1_vs_frozen_batch1_class_changes": 0,
+  "original_batch175_vs_frozen_batch1_max_absolute_error": 2.8908252716064453e-06,
+  "original_batch175_vs_frozen_batch1_allclose": false,
+  "original_batch175_vs_frozen_batch1_class_changes": 0,
+  "tolerance_unchanged": {
+    "rtol": 1e-06,
+    "atol": 1e-07
+  },
+  "source_checkpoint_sha256": "00829ca170f386cd947f6e0f0e7bdd530109e2e8d7c9d113a3568b0e74ce960c"
+}

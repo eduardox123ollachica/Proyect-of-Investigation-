@@ -1,0 +1,29 @@
+{"event": "START", "available_logical_cells": 65, "remaining_new_fits": 223, "campaign": "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigaci\u00f3n\\resultados\\cwru\\ampliacion_v2\\busqueda_interna_v2_2026-10-26\\20261027T005636_578225Z", "frozen_budget_remaining_seconds": 6974.1570000000065}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 17, "remaining_new_fits": 223, "budget_remaining_seconds": 6974.1570000000065}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 33, "remaining_new_fits": 207, "available_logical_cells": 81, "batches_launched": 1, "consumed_worker_seconds": 402.3889999999956}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 33, "remaining_new_fits": 207, "budget_remaining_seconds": 6797.611000000004}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 49, "remaining_new_fits": 191, "available_logical_cells": 97, "batches_launched": 2, "consumed_worker_seconds": 567.7009999999937}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 49, "remaining_new_fits": 191, "budget_remaining_seconds": 6632.299000000006}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 65, "remaining_new_fits": 175, "available_logical_cells": 113, "batches_launched": 3, "consumed_worker_seconds": 729.2469999999921}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 65, "remaining_new_fits": 175, "budget_remaining_seconds": 6470.753000000008}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 81, "remaining_new_fits": 159, "available_logical_cells": 129, "batches_launched": 4, "consumed_worker_seconds": 874.3889999999956}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 81, "remaining_new_fits": 159, "budget_remaining_seconds": 6325.611000000004}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 97, "remaining_new_fits": 143, "available_logical_cells": 145, "batches_launched": 5, "consumed_worker_seconds": 1044.0129999999954}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 97, "remaining_new_fits": 143, "budget_remaining_seconds": 6155.987000000005}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 113, "remaining_new_fits": 127, "available_logical_cells": 161, "batches_launched": 6, "consumed_worker_seconds": 1210.6069999999963}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 113, "remaining_new_fits": 127, "budget_remaining_seconds": 5989.393000000004}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 129, "remaining_new_fits": 111, "available_logical_cells": 177, "batches_launched": 7, "consumed_worker_seconds": 1368.7959999999985}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 129, "remaining_new_fits": 111, "budget_remaining_seconds": 5831.2040000000015}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 145, "remaining_new_fits": 95, "available_logical_cells": 193, "batches_launched": 8, "consumed_worker_seconds": 1510.4050000000025}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 145, "remaining_new_fits": 95, "budget_remaining_seconds": 5689.5949999999975}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 161, "remaining_new_fits": 79, "available_logical_cells": 209, "batches_launched": 9, "consumed_worker_seconds": 1677.9209999999985}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 161, "remaining_new_fits": 79, "budget_remaining_seconds": 5522.0790000000015}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 177, "remaining_new_fits": 63, "available_logical_cells": 225, "batches_launched": 10, "consumed_worker_seconds": 1839.7799999999988}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 177, "remaining_new_fits": 63, "budget_remaining_seconds": 5360.220000000001}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 193, "remaining_new_fits": 47, "available_logical_cells": 241, "batches_launched": 11, "consumed_worker_seconds": 1998.4830000000002}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 193, "remaining_new_fits": 47, "budget_remaining_seconds": 5201.517}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 209, "remaining_new_fits": 31, "available_logical_cells": 257, "batches_launched": 12, "consumed_worker_seconds": 2152.952000000001}
+{"event": "NEXT_BATCH", "new_jobs": 16, "completed_new_fits": 209, "remaining_new_fits": 31, "budget_remaining_seconds": 5047.047999999999}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 225, "remaining_new_fits": 15, "available_logical_cells": 273, "batches_launched": 13, "consumed_worker_seconds": 2320.9360000000015}
+{"event": "NEXT_BATCH", "new_jobs": 15, "completed_new_fits": 225, "remaining_new_fits": 15, "budget_remaining_seconds": 4879.0639999999985}
+{"event": "BATCH_VERIFIED", "status": "BATCH_VERIFIED", "completed_new_fits": 240, "remaining_new_fits": 0, "available_logical_cells": 288, "batches_launched": 14, "consumed_worker_seconds": 2483.0290000000023}

@@ -1,0 +1,9 @@
+{"stage": "worker_started", "elapsed_seconds": 0.09766400000080466}
+{"stage": "imports_complete", "elapsed_seconds": 13.995210300010513, "tensorflow_version": "2.21.0"}
+{"stage": "data_ready", "elapsed_seconds": 14.22970740000892, "train": 799, "validation": 175, "mask": "T6"}
+{"stage": "graph_ready_without_updates", "elapsed_seconds": 15.214065000007395, "optimizer_iterations": 0}
+{"stage": "epoch", "elapsed_seconds": 16.71156450000126, "epoch": 10, "optimizer_updates": 250}
+{"stage": "epoch", "elapsed_seconds": 17.671544000011636, "epoch": 20, "optimizer_updates": 500}
+{"stage": "epoch", "elapsed_seconds": 18.667140300007304, "epoch": 30, "optimizer_updates": 750}
+{"stage": "epoch", "elapsed_seconds": 19.7288283000089, "epoch": 40, "optimizer_updates": 1000}
+{"stage": "epoch", "elapsed_seconds": 20.78517699999793, "epoch": 50, "optimizer_updates": 1250}

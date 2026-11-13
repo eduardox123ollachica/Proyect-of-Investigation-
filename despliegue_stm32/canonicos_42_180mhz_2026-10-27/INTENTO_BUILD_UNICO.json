@@ -1,0 +1,21 @@
+{
+  "attempt": 1,
+  "command": [
+    "D:\\STM32CubeIDE_2.2.0\\STM32CubeIDE\\stm32cubeidec.exe",
+    "--launcher.suppressErrors",
+    "-nosplash",
+    "-application",
+    "org.eclipse.cdt.managedbuilder.core.headlessbuild",
+    "-data",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\workspace_aislado",
+    "-import",
+    "C:\\Users\\LENOVO\\Desktop\\Proyecto Investigación\\despliegue_stm32\\canonicos_42_180mhz_2026-10-27\\copia_aislada\\Prueba_2_CWRU_Extraccion",
+    "-no-indexer",
+    "-cleanBuild",
+    "Prueba_2_CWRU_Extraccion/Release_180MHz_Canon42_SR"
+  ],
+  "timeout_seconds": 1800,
+  "preparation_sha256": "514c54360b77343ae3c2dd872941edf0fdad22e2216931ba63d03915472fa369",
+  "automatic_retry": false,
+  "execution_owner": "user_CLI"
+}

@@ -1,0 +1,22 @@
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+
+
+Log output file:   C:\Users\LENOVO\Desktop\Proyecto Investigaci�n\despliegue_stm32\canonicos_42_180mhz_2026-10-27\programacion_flash\20261028T045829_691392Z\programmer_identidad.log
+ST-LINK SN  : 0672FF505487525067162526
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Under Reset
+Reset mode  : Hardware reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+

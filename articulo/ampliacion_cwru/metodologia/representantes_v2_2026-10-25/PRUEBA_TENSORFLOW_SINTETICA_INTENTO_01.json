@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.0"
+  },
+  "source_sha256": {
+    "codigo/cwru/ampliacion_v2/piloto_clasicos/detector_numerico.py": "49d2388b5017968649f394381f74d2356cfbe1c113e6326442d0f46daaf02c2b",
+    "codigo/cwru/ampliacion_v2/protocolo/reglas_v2.py": "7485c2cf7ccab75073c366a2a3243086cbd1b78e3ecc9e310c0e16d9aa5e038a",
+    "codigo/cwru/ampliacion_v2/representantes/datos_representantes.py": "bd58bd7fbc47ce6a3656238df55f38f8e6d900e8f5140b9e70d83eff71090079",
+    "codigo/cwru/ampliacion_v2/representantes/ejecutar_representantes.py": "a807157d21b874c5fe544eee223b1b830c95d1b7dd4229a4c3c8a1307bd053c6",
+    "codigo/cwru/ampliacion_v2/representantes/numerica_representantes.py": "c0101b39c1b9f882e978c4aac5ea065f50a783f76159782f464a0cf8e651fa63",
+    "codigo/cwru/ampliacion_v2/representantes/test_datos_representantes.py": "fd0ddd7191b8a28f6b7a98d32852707755bd54a2b57f14beae0d13dd0e41427c",
+    "codigo/cwru/ampliacion_v2/representantes/test_ejecutar_representantes.py": "af8f5ef27c20b62a6d0b741886ffb4bba1f2812d15307428e849f83ee1883ca4",
+    "codigo/cwru/ampliacion_v2/representantes/test_numerica_representantes.py": "127cf4537d0cb4ee8730cf361ecf20165bbac3e5494eb6134e865efa3d843b59",
+    "codigo/cwru/ampliacion_v2/representantes/verificar_preparacion.py": "541e3f40f1998019ac19149e3ae54c80774c020769646667aea4c85f79df4aa6",
+    "codigo/cwru/ampliacion_v2/representantes/verificar_tensorflow_sintetico.py": "d85cf55e58a1dd5a819c12c25ea57d077661d6f57c04992f9cdf145a4028bf2f",
+    "codigo/cwru/ampliacion_v2/representantes/worker_representantes.py": "f58f484d1b768b7f1f1f753f1a396cf99a33cecbb45a640a331649769f4b8f1f"
+  },
+  "CWRU_arrays_opened": false,
+  "synthetic_training_rows": 12,
+  "synthetic_validation_rows": 6,
+  "epochs": 3,
+  "optimizer_updates": 3,
+  "best_checkpoint_restoration_verified": true,
+  "checkpoint_written_before_conversion": true,
+  "graph_trace_updates": 0,
+  "full_INT8_verified": true,
+  "freeze": {
+    "comparison_batch_size": 1,
+    "rtol": 1e-06,
+    "atol": 1e-07,
+    "model_weights_sha256": "2ccd5ef8661e74de6944b782bff47bf3f86fce454e562ed7c54bf744bc2b0cb4",
+    "maximum_absolute_error": 2.9802322387695312e-08,
+    "class_changes": 0,
+    "weights_unchanged": true,
+    "resource_variable_ops_remaining": 0,
+    "tensorflow_internal_API_version": "2.21.0"
+  },
+  "representative_rows": 12,
+  "fp32_details": {
+    "input_dtype": "float32",
+    "output_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_quantization": [
+      0.0,
+      0
+    ],
+    "tensor_dtypes": [
+      "float32"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "int8_details": {
+    "input_dtype": "int8",
+    "output_dtype": "int8",
+    "input_quantization": [
+      0.01763678900897503,
+      -3
+    ],
+    "output_quantization": [
+      0.00390625,
+      -128
+    ],
+    "tensor_dtypes": [
+      "int32",
+      "int8"
+    ],
+    "operators": [
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "FULLY_CONNECTED",
+      "SOFTMAX"
+    ],
+    "input_clipped_values": 0,
+    "default_delegates_disabled": true,
+    "threads": 1
+  },
+  "synthetic_macro_f1_not_project_result": 0.16666666666666666,
+  "events": [
+    {
+      "stage": "epoch",
+      "epoch": 1,
+      "loss": 1.2476532459259033,
+      "val_loss": 1.2097444534301758,
+      "optimizer_updates": 1,
+      "improved": true,
+      "best_epoch": 1,
+      "patience_used": 0
+    },
+    {
+      "stage": "epoch",
+      "epoch": 2,
+      "loss": 1.2071707248687744,
+      "val_loss": 1.1985348463058472,
+      "optimizer_updates": 2,
+      "improved": true,
+      "best_epoch": 2,
+      "patience_used": 0
+    },
+    {
+      "stage": "epoch",
+      "epoch": 3,
+      "loss": 1.1700314283370972,
+      "val_loss": 1.190372109413147,
+      "optimizer_updates": 3,
+      "improved": true,
+      "best_epoch": 3,
+      "patience_used": 0
+    },
+    {
+      "stage": "FP32_exported",
+      "bytes": 3424
+    },
+    {
+      "stage": "INT8_exported",
+      "bytes": 3488,
+      "calibration_rows": 12
+    }
+  ]
+}

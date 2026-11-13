@@ -1,0 +1,9 @@
+{
+  "job_id": "supp_o3_i0_NF12_P1_s11",
+  "status": "PASS",
+  "return_code": 0,
+  "error": null,
+  "process_seconds": 12.247874299995601,
+  "timeout_seconds": 300,
+  "automatic_retry": false
+}

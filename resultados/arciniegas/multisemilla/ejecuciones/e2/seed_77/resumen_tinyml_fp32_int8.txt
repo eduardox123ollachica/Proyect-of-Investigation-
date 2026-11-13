@@ -1,0 +1,91 @@
+
+ANALISIS DE RECURSOS TINYML
+==============================================
+
+ARQUITECTURA
+------------
+21 -> 20 -> 10 -> 3
+
+Parametros totales:
+683
+
+MEMORIA TEORICA DE PARAMETROS
+-----------------------------
+FP32:
+2732 bytes
+2.6680 KiB
+
+INT8 aproximado:
+683 bytes
+0.6670 KiB
+
+TAMAÑO DE ARCHIVOS
+------------------
+Keras FP32:
+34126 bytes
+33.3262 KiB
+
+TFLite FP32:
+5308 bytes
+5.1836 KiB
+
+TFLite INT8:
+4480 bytes
+4.3750 KiB
+
+Reduccion TFLite FP32 -> INT8:
+15.60 %
+
+ACCURACY
+--------
+Keras FP32:
+96.7718 %
+
+TFLite FP32:
+96.7718 %
+
+TFLite INT8:
+97.0721 %
+
+Cambio TFLite FP32 vs Keras:
++0.0000 pp
+
+Cambio TFLite INT8 vs Keras:
++0.3003 pp
+
+Predicciones distintas entre
+TFLite FP32 y TFLite INT8:
+4
+
+MEMORIA ESTIMADA DE TENSORES
+----------------------------
+TFLite FP32:
+2960 bytes
+2.8906 KiB
+
+TFLite INT8:
+839 bytes
+0.8193 KiB
+
+IMPORTANTE
+----------
+La memoria calculada aqui es una estimacion
+basada en los tensores reportados por el
+interprete TFLite de Python.
+
+NO representa todavia la RAM real requerida
+por TensorFlow Lite Micro.
+
+La RAM real debera medirse posteriormente
+mediante el Tensor Arena durante el
+despliegue en el microcontrolador.
+
+El tamaño del archivo .keras tampoco debe
+interpretarse como memoria Flash requerida
+por el dispositivo.
+
+La comparacion relevante para despliegue es:
+
+TFLite FP32
+vs
+TFLite INT8.

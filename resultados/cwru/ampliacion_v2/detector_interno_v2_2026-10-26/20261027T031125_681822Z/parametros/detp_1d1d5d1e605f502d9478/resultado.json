@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "param_id": "detp_1d1d5d1e605f502d9478",
+  "parameter_signature": "1d1d5d1e605f502d9478d144ddbd8dac0701a9a91e84c9df4416853a3ce33e5b",
+  "new_fit_calls": 1,
+  "parameter_payload_sha256": "3655a52fe4508cc89e00277483cc4f01858803b32559b88d5e796c38b948f659",
+  "threshold_bits": "c5f02143"
+}

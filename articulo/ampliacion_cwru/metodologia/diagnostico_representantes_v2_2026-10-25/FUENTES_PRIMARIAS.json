@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://developers.google.com/edge/litert/conversion/tensorflow/quantization/post_training_integer_quant",
+    "supports": "Representative data estimate dynamic ranges; quantization includes weights and activations, not only inputs."
+  },
+  {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html",
+    "supports": "Train statistics reused to transform new data; sensitive to outliers; zero variance scaling policy."
+  },
+  {
+    "url": "https://engineering.case.edu/bearingdatacenter/apparatus-and-procedures",
+    "supports": "DE and FE sensor positions, acquisition procedure and documented12k/48k configurations."
+  }
+]

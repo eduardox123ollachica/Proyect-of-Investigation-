@@ -1,0 +1,40 @@
+{
+  "status": "PILOT_STOPPED_ON_FIRST_FAILURE",
+  "purpose": "runtime_and_conversion_only",
+  "jobs_requested": 2,
+  "jobs_started": 2,
+  "jobs_passed": 1,
+  "statuses": [
+    {
+      "job_id": "pilot_outer3_inner0_F14_seed11",
+      "status": "PASS",
+      "return_code": 0,
+      "elapsed_process_seconds": 23.275771000000532,
+      "timeout_seconds": 300,
+      "automatic_retry": false,
+      "process_launch_error": null,
+      "result_read_error": null
+    },
+    {
+      "job_id": "pilot_outer3_inner0_T6_seed11",
+      "status": "FAIL",
+      "return_code": 1,
+      "elapsed_process_seconds": 22.61107379999885,
+      "timeout_seconds": 300,
+      "automatic_retry": false,
+      "process_launch_error": null,
+      "result_read_error": "resultado.json ausente"
+    }
+  ],
+  "total_elapsed_orchestrator_seconds": 46.149163599999156,
+  "observed_worker_process_seconds": 45.88684479999938,
+  "maximum_worker_seconds_total": 600,
+  "models_not_reused_for_selection": true,
+  "load3_feature_arrays_opened": false,
+  "mass_training_started": false,
+  "outer_predictive_evaluation_executed": false,
+  "full_runtime_budget_frozen": false,
+  "classical_runtime_pilot_pending": true,
+  "STM32_full_pipeline_cost_pending": true,
+  "projection_error": null
+}

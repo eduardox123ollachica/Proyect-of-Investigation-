@@ -1,0 +1,49 @@
+BENCHMARK FINAL STM32 - BENCHALL
+======================================================================
+
+HCLK: 16000000 Hz
+Ventanas: 1332
+Accuracy STM32: 99.924925%
+Anomalias STM32: 12
+
+FEATURE EXTRACTION
+mean: 2931.952843 us
+median: 2933.625000 us
+min: 2891.750000 us
+max: 2944.437500 us
+std: 7.408435 us
+p95: 2940.687500 us
+
+DNN
+mean: 733.213917 us
+median: 738.500000 us
+min: 673.187500 us
+max: 743.312500 us
+std: 13.112913 us
+p95: 742.375000 us
+
+KMEANS
+mean: 2640.781766 us
+median: 2641.812500 us
+min: 2637.500000 us
+max: 2643.375000 us
+std: 1.783807 us
+p95: 2642.562500 us
+
+PIPELINE TOTAL
+mean: 6308.644097 us
+median: 6315.687500 us
+min: 6241.312500 us
+max: 6329.812500 us
+std: 15.763986 us
+p95: 6323.687500 us
+
+DISTRIBUCION MEDIA
+Features: 46.475%
+DNN: 11.622%
+KMeans: 41.860%
+
+Hop: 80.000 ms
+Ocupacion media: 7.886%
+Ocupacion P95: 7.905%
+Ocupacion maxima: 7.912%

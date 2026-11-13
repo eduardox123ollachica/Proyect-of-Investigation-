@@ -1,0 +1,127 @@
+{
+  "status": "SR_GATE_PASS_NOT_TOTAL_COST_VALIDATED",
+  "mode": "gate",
+  "catalog_sha256": "1807ea8de795d8c100f2a81f6685b6bd5784dbb986aef7ce4a16fca6837072f0",
+  "firmware_elf_sha256": "c0c3853d2b0e90bb20fe00be13bcf107d186088406be131b729a605ded44ecc7",
+  "firmware_loaded_verified_by_programmer_report": false,
+  "gate_cases": [
+    [
+      568,
+      [
+        0
+      ]
+    ],
+    [
+      232,
+      [
+        22
+      ]
+    ]
+  ],
+  "configuration_declared": "Release_180MHz_TotalV2_SR",
+  "new_rounding_mode": "single",
+  "rounding_mode_verified_by_UART": false,
+  "model_weights_unchanged_from_upstream": true,
+  "upstream_client_sha256": "6c88ad0b09226673de3ddc675336153c41ad5ae5a47e7e412a1194325fe5b6d0",
+  "upstream_catalog_sha256": "1807ea8de795d8c100f2a81f6685b6bd5784dbb986aef7ce4a16fca6837072f0",
+  "upstream_resource_manifest_sha256": "1bad5ef5cb6aec115ee5ac91edcb77639534d4e2d395a57db49fba11f5b4d5e1",
+  "resource_manifest_sha256": "1bad5ef5cb6aec115ee5ac91edcb77639534d4e2d395a57db49fba11f5b4d5e1",
+  "client_sha256": "631303e144b432a7144054150ed6466d8a8b10d1f179484329bc2e2b666d91fb",
+  "programmer_report_attached": false,
+  "firmware_identity_limitation": "ELF declarado/copiado; INFO autentica modelos y parámetros, no toda la imagen de Flash. Un log adjunto requiere auditoría de correspondencia y verificación del programador.",
+  "completed_primary_RUN": 6,
+  "completed_PROFILE": 2,
+  "completed_BASE": 2,
+  "negative_rejections": 17,
+  "selector_enabled": false,
+  "total_cost_validated": false,
+  "independent_acquisitions_claimed": false,
+  "cached_PC_end_to_end_bit_exactness_claimed": false,
+  "predictive_outer_evaluation": false,
+  "primary_timing": "outer DWT pair around extraction+scaling/quantization+copy/Invoke/copy/argmax+normality",
+  "excluded_from_primary_cost": [
+    "UART",
+    "parser",
+    "checksums",
+    "SELECT/initialization",
+    "BASE",
+    "PROFILE"
+  ],
+  "overhead_subtracted": false,
+  "nominal_hal_clock_not_externally_measured": true,
+  "WCET_claimed": false,
+  "tensorflow_version": "2.21.0",
+  "firmware_info": {
+    "hclk_hz": 180000000,
+    "selected_id": -1,
+    "result_valid": false,
+    "last_run_id": 0,
+    "fpscr": "00000000",
+    "paired_read_cycles_min": 5,
+    "calibration_samples": 64,
+    "overhead_subtracted": false,
+    "nominal_hal_clock_not_externally_measured": true,
+    "catalog_sha256": "1807ea8de795d8c100f2a81f6685b6bd5784dbb986aef7ce4a16fca6837072f0",
+    "catalog_fnv": "989029c9"
+  },
+  "firmware_info_final": {
+    "hclk_hz": 180000000,
+    "selected_id": 22,
+    "result_valid": false,
+    "last_run_id": 8,
+    "fpscr": "00000000",
+    "paired_read_cycles_min": 5,
+    "calibration_samples": 64,
+    "overhead_subtracted": false,
+    "nominal_hal_clock_not_externally_measured": true,
+    "catalog_sha256": "1807ea8de795d8c100f2a81f6685b6bd5784dbb986aef7ce4a16fca6837072f0",
+    "catalog_fnv": "989029c9"
+  },
+  "wall_seconds": 27.92200000002049,
+  "timing_statistics": [
+    {
+      "rep_id": 0,
+      "candidate": "F14",
+      "outer_load_hp": 0,
+      "count": 3,
+      "min_cycles": 15180101,
+      "max_cycles": 15184303,
+      "mean_cycles": 15182796.333333334,
+      "mean_ms": 84.34886851851853,
+      "median_ms": 84.35547222222222,
+      "p95_ms": 84.35706222222221,
+      "sample_std_ms": 0.012997978633605719,
+      "PROFILE_included": false,
+      "BASE_included": false,
+      "initialization_included": false,
+      "UART_included": false,
+      "WCET_claimed": false,
+      "selector_enabled": false
+    },
+    {
+      "rep_id": 22,
+      "candidate": "DE7",
+      "outer_load_hp": 2,
+      "count": 3,
+      "min_cycles": 7582429,
+      "max_cycles": 7583177,
+      "mean_cycles": 7582842.666666667,
+      "mean_ms": 42.126903703703704,
+      "median_ms": 42.12734444444445,
+      "p95_ms": 42.128619444444446,
+      "sample_std_ms": 0.0021125458087905887,
+      "PROFILE_included": false,
+      "BASE_included": false,
+      "initialization_included": false,
+      "UART_included": false,
+      "WCET_claimed": false,
+      "selector_enabled": false
+    }
+  ],
+  "physical_unique_window_ids": [
+    568,
+    232
+  ],
+  "model_selection_count": 2,
+  "valid_RUN_count": 8
+}

@@ -1,0 +1,10 @@
+{
+  "job_id": "inner_outer3_inner2_DE7_seed33",
+  "status": "PASS",
+  "return_code": 0,
+  "failure": null,
+  "result_error": null,
+  "automatic_retry": false,
+  "worker_elapsed_seconds": 11.657000000002881,
+  "timeout_seconds": 300
+}

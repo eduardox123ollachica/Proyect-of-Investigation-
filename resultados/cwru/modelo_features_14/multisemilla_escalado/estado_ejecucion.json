@@ -1,0 +1,86 @@
+{
+  "protocol": "paired_raw_vs_standard_validation_only",
+  "test_loaded": false,
+  "requested_seeds": [
+    11,
+    22,
+    33,
+    42,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99
+  ],
+  "completed_seeds": [
+    11,
+    22,
+    33,
+    42,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99
+  ],
+  "statuses": [
+    {
+      "seed": 11,
+      "status": "reused"
+    },
+    {
+      "seed": 22,
+      "status": "reused"
+    },
+    {
+      "seed": 33,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 16.460119700001087
+    },
+    {
+      "seed": 42,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 17.77395129999786
+    },
+    {
+      "seed": 44,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 16.248110799999267
+    },
+    {
+      "seed": 55,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 17.037035900000774
+    },
+    {
+      "seed": 66,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 16.26133420000042
+    },
+    {
+      "seed": 77,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 16.741149499997846
+    },
+    {
+      "seed": 88,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 17.223769499996706
+    },
+    {
+      "seed": 99,
+      "status": "completed",
+      "return_code": 0,
+      "duration_seconds": 17.356152999996993
+    }
+  ]
+}
