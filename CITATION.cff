@@ -23,5 +23,5 @@ keywords:
   - STM32F446RE
   - ARM Cortex-M4F
   - INT8 quantization
-# repository-code: "<URL_GITHUB_PUBLICO_TRAS_PUBLICACION>"
-# doi: "<DOI_ZENODO_TRAS_PUBLICACION>"
+repository-code: "https://github.com/eduardox123ollachica/Proyect-of-Investigation-"
+doi: "10.5281/zenodo.24207867"
